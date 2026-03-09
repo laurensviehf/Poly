@@ -544,7 +544,6 @@ INPUT build/Protokoll.toc
 INPUT build/Protokoll.toc
 INPUT build/Protokoll.toc
 OUTPUT build/Protokoll.toc
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecsx1200.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0900.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
@@ -570,6 +569,7 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/euler/eurb10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/euler/eurb7.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/esvect/vect9.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/esvect/vect6.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecsx1200.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
@@ -690,6 +690,7 @@ INPUT build/Protokoll.out
 INPUT build/Protokoll.run.xml
 OUTPUT build/Protokoll.run.xml
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
