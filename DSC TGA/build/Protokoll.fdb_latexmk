@@ -1,13 +1,14 @@
 # Fdb version 4
-["biber build/Protokoll"] 0 "build/Protokoll.bcf" "build/Protokoll.bbl" "build/Protokoll" 1773070560.0357 0
+["biber build/Protokoll"] 0 "build/Protokoll.bcf" "build/Protokoll.bbl" "build/Protokoll" 1773073866.14643 0
   "build/Protokoll.bcf" 0 -1 0 "pdflatex"
   "references.bib" 0 -1 0 ""
   (generated)
   "build/Protokoll.bbl"
   "build/Protokoll.blg"
   (rewritten before read)
-["pdflatex"] 1773070556.49442 "c:/Users/laure/Documents/Uni/Poly/DSC TGA/Protokoll.tex" "build/Protokoll.pdf" "Protokoll" 1773070560.03679 0
-  "Protokoll.tex" 1773070551 5996 e6a320c391579e3b1e8078c1f2242998 ""
+["pdflatex"] 1773073862.49775 "c:/Users/laure/Documents/Uni/Poly/DSC TGA/Protokoll.tex" "build/Protokoll.pdf" "Protokoll" 1773073866.1474 0
+  "Bilder/Teilkristall.png" 1773073349 45749 92b7fd78e621f817e5fc7ba793571363 ""
+  "Protokoll.tex" 1773073861 6700 7be53d04b03828b8702a95ebcf899fe0 ""
   "build/../G7/G7-pet-tga.pdf" 1773063822 14216 7859bd5f8c456020b457ef14de5e9f33 ""
   "build/../G7/PET-1st-cooling.pdf" 1773063822 9400 0602b2eee9d784ec88faff8be2d26de4 ""
   "build/../G7/PET-1st-hc.pdf" 1773063822 9619 a273ea4e8cd71ee9d8b7a13577dff1c5 ""
@@ -16,12 +17,12 @@
   "build/../G7/isops-1st-hc.pdf" 1773063822 9618 f7671ddcf063494dd956602ea0e678c9 ""
   "build/../G7/isops-2nd-hc-peak.pdf" 1773063822 9104 06ef99cb089b7cd3049d067837497c99 ""
   "build/../G7/isops-2nd-hc.pdf" 1773063822 8812 1ee6a653a9b7a6934fef823525da2b2c ""
-  "build/Protokoll.aux" 1773070559 4412 ebf1ceb349ed47c7dfe7786f6c9dc7ee "pdflatex"
+  "build/Protokoll.aux" 1773073865 4681 fb132c9deea07e55514e0029248cb3a8 "pdflatex"
   "build/Protokoll.bbl" 0 -1 0 "biber build/Protokoll"
-  "build/Protokoll.out" 1773070558 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "build/Protokoll.run.xml" 1773070559 2479 081af29f9fb6173d8977bbb8b4ce67c9 "pdflatex"
-  "build/Protokoll.toc" 1773070559 900 662185b05fdda9683d7b4187a03474e9 "pdflatex"
-  "c:/Users/laure/Documents/Uni/Poly/DSC TGA/Protokoll.tex" 1773070551 5996 e6a320c391579e3b1e8078c1f2242998 ""
+  "build/Protokoll.out" 1773073864 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "build/Protokoll.run.xml" 1773073865 2479 081af29f9fb6173d8977bbb8b4ce67c9 "pdflatex"
+  "build/Protokoll.toc" 1773073865 900 a393bf8795465f63cb6904886152e3a9 "pdflatex"
+  "c:/Users/laure/Documents/Uni/Poly/DSC TGA/Protokoll.tex" 1773073861 6700 7be53d04b03828b8702a95ebcf899fe0 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1713295977 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1713295977 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1713296793 3524 cb3e574dea2d1052e39280babc910dc8 ""
