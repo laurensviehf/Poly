@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber build/Protokoll"] 0 "build/Protokoll.bcf" "build/Protokoll.bbl" "build/Protokoll" 1773076949.30921 0
+["biber build/Protokoll"] 0 "build/Protokoll.bcf" "build/Protokoll.bbl" "build/Protokoll" 1773076966.48424 0
   "build/Protokoll.bcf" 0 -1 0 "pdflatex"
   "references.bib" 0 -1 0 ""
   (generated)
   "build/Protokoll.bbl"
   "build/Protokoll.blg"
   (rewritten before read)
-["pdflatex"] 1773076945.46102 "c:/Users/laure/Documents/Uni/Poly/DSC TGA/Protokoll.tex" "build/Protokoll.pdf" "Protokoll" 1773076949.31009 0
+["pdflatex"] 1773076962.76224 "c:/Users/laure/Documents/Uni/Poly/DSC TGA/Protokoll.tex" "build/Protokoll.pdf" "Protokoll" 1773076966.48514 0
   "Bilder/Teilkristall.png" 1773073349 45749 92b7fd78e621f817e5fc7ba793571363 ""
-  "Protokoll.tex" 1773076944 6701 2fdd04e67171d625d0c813a03cf0ce1d ""
+  "Protokoll.tex" 1773076958 6699 d632f023d2b999c06d030de59fbb4e8d ""
   "build/../G7/G7-pet-tga.pdf" 1773063822 14216 7859bd5f8c456020b457ef14de5e9f33 ""
   "build/../G7/PET-1st-cooling.pdf" 1773063822 9400 0602b2eee9d784ec88faff8be2d26de4 ""
   "build/../G7/PET-1st-hc.pdf" 1773063822 9619 a273ea4e8cd71ee9d8b7a13577dff1c5 ""
@@ -17,12 +17,12 @@
   "build/../G7/isops-1st-hc.pdf" 1773063822 9618 f7671ddcf063494dd956602ea0e678c9 ""
   "build/../G7/isops-2nd-hc-peak.pdf" 1773063822 9104 06ef99cb089b7cd3049d067837497c99 ""
   "build/../G7/isops-2nd-hc.pdf" 1773063822 8812 1ee6a653a9b7a6934fef823525da2b2c ""
-  "build/Protokoll.aux" 1773076948 4455 3bc43eac7f22b1e1fe7778bc9d414b34 "pdflatex"
+  "build/Protokoll.aux" 1773076965 4455 23b42426493ebe3f2510f272cdbbe7f3 "pdflatex"
   "build/Protokoll.bbl" 0 -1 0 "biber build/Protokoll"
-  "build/Protokoll.out" 1773076947 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "build/Protokoll.run.xml" 1773076948 2479 081af29f9fb6173d8977bbb8b4ce67c9 "pdflatex"
-  "build/Protokoll.toc" 1773076948 831 c8e93b335926fd06ce69250946298653 "pdflatex"
-  "c:/Users/laure/Documents/Uni/Poly/DSC TGA/Protokoll.tex" 1773076944 6701 2fdd04e67171d625d0c813a03cf0ce1d ""
+  "build/Protokoll.out" 1773076965 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "build/Protokoll.run.xml" 1773076965 2479 081af29f9fb6173d8977bbb8b4ce67c9 "pdflatex"
+  "build/Protokoll.toc" 1773076965 831 c8e93b335926fd06ce69250946298653 "pdflatex"
+  "c:/Users/laure/Documents/Uni/Poly/DSC TGA/Protokoll.tex" 1773076958 6699 d632f023d2b999c06d030de59fbb4e8d ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1713295977 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1713295977 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1713296793 3524 cb3e574dea2d1052e39280babc910dc8 ""
