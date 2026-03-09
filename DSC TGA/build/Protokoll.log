@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.16)  9 MAR 2026 17:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.16)  9 MAR 2026 18:22
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1835,7 +1835,7 @@ File: Bilder/Teilkristall.png Graphic file (type png)
 Package pdftex.def Info: Bilder/Teilkristall.png  used on input line 150.
 (pdftex.def)             Requested size: 82.80916pt x 70.76419pt.
  [2{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Bilder/Teilkristall.png>]
-<../G7/G7-pet-tga.pdf, id=62, 597.23125pt x 845.1575pt>
+<../G7/G7-pet-tga.pdf, id=63, 597.23125pt x 845.1575pt>
 File: ../G7/G7-pet-tga.pdf Graphic file (type pdf)
 <use ../G7/G7-pet-tga.pdf>
 Package pdftex.def Info: ../G7/G7-pet-tga.pdf  used on input line 178.
@@ -1844,7 +1844,7 @@ File: ../G7/G7-pet-tga.pdf Graphic file (type pdf)
 <use ../G7/G7-pet-tga.pdf>
 Package pdftex.def Info: ../G7/G7-pet-tga.pdf  used on input line 178.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<../G7/G7-pet-tga.pdf, id=65, page=1, 597.23125pt x 845.1575pt>
+<../G7/G7-pet-tga.pdf, id=66, page=1, 597.23125pt x 845.1575pt>
 File: ../G7/G7-pet-tga.pdf Graphic file (type pdf)
 <use ../G7/G7-pet-tga.pdf, page 1>
 Package pdftex.def Info: ../G7/G7-pet-tga.pdf , page1 used on input line 178.
@@ -1869,7 +1869,7 @@ Package pdftex.def Info: ../G7/G7-pet-tga.pdf , page1 used on input line 178.
  [4
 
  <build/../G7/G7-pet-tga.pdf>]
-<../G7/isops-1st-hc.pdf, id=77, 597.23125pt x 845.1575pt>
+<../G7/isops-1st-hc.pdf, id=78, 597.23125pt x 845.1575pt>
 File: ../G7/isops-1st-hc.pdf Graphic file (type pdf)
 <use ../G7/isops-1st-hc.pdf>
 Package pdftex.def Info: ../G7/isops-1st-hc.pdf  used on input line 179.
@@ -1878,7 +1878,7 @@ File: ../G7/isops-1st-hc.pdf Graphic file (type pdf)
 <use ../G7/isops-1st-hc.pdf>
 Package pdftex.def Info: ../G7/isops-1st-hc.pdf  used on input line 179.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<../G7/isops-1st-hc.pdf, id=80, page=1, 597.23125pt x 845.1575pt>
+<../G7/isops-1st-hc.pdf, id=81, page=1, 597.23125pt x 845.1575pt>
 File: ../G7/isops-1st-hc.pdf Graphic file (type pdf)
 <use ../G7/isops-1st-hc.pdf, page 1>
 Package pdftex.def Info: ../G7/isops-1st-hc.pdf , page1 used on input line 179.
@@ -1902,7 +1902,7 @@ Package pdftex.def Info: ../G7/isops-1st-hc.pdf , page1 used on input line 179.
  [5
 
  <build/../G7/isops-1st-hc.pdf>]
-<../G7/isops-1st-cooling.pdf, id=88, 597.23125pt x 845.1575pt>
+<../G7/isops-1st-cooling.pdf, id=89, 597.23125pt x 845.1575pt>
 File: ../G7/isops-1st-cooling.pdf Graphic file (type pdf)
 <use ../G7/isops-1st-cooling.pdf>
 Package pdftex.def Info: ../G7/isops-1st-cooling.pdf  used on input line 180.
@@ -1911,7 +1911,7 @@ File: ../G7/isops-1st-cooling.pdf Graphic file (type pdf)
 <use ../G7/isops-1st-cooling.pdf>
 Package pdftex.def Info: ../G7/isops-1st-cooling.pdf  used on input line 180.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<../G7/isops-1st-cooling.pdf, id=91, page=1, 597.23125pt x 845.1575pt>
+<../G7/isops-1st-cooling.pdf, id=92, page=1, 597.23125pt x 845.1575pt>
 File: ../G7/isops-1st-cooling.pdf Graphic file (type pdf)
 <use ../G7/isops-1st-cooling.pdf, page 1>
 Package pdftex.def Info: ../G7/isops-1st-cooling.pdf , page1 used on input line 180.
@@ -1935,7 +1935,7 @@ Package pdftex.def Info: ../G7/isops-1st-cooling.pdf , page1 used on input line 
  [6
 
  <build/../G7/isops-1st-cooling.pdf>]
-<../G7/isops-2nd-hc-peak.pdf, id=100, 597.23125pt x 845.1575pt>
+<../G7/isops-2nd-hc-peak.pdf, id=101, 597.23125pt x 845.1575pt>
 File: ../G7/isops-2nd-hc-peak.pdf Graphic file (type pdf)
 <use ../G7/isops-2nd-hc-peak.pdf>
 Package pdftex.def Info: ../G7/isops-2nd-hc-peak.pdf  used on input line 181.
@@ -1944,7 +1944,7 @@ File: ../G7/isops-2nd-hc-peak.pdf Graphic file (type pdf)
 <use ../G7/isops-2nd-hc-peak.pdf>
 Package pdftex.def Info: ../G7/isops-2nd-hc-peak.pdf  used on input line 181.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<../G7/isops-2nd-hc-peak.pdf, id=103, page=1, 597.23125pt x 845.1575pt>
+<../G7/isops-2nd-hc-peak.pdf, id=104, page=1, 597.23125pt x 845.1575pt>
 File: ../G7/isops-2nd-hc-peak.pdf Graphic file (type pdf)
 <use ../G7/isops-2nd-hc-peak.pdf, page 1>
 Package pdftex.def Info: ../G7/isops-2nd-hc-peak.pdf , page1 used on input line 181.
@@ -1968,7 +1968,7 @@ Package pdftex.def Info: ../G7/isops-2nd-hc-peak.pdf , page1 used on input line 
  [7
 
  <build/../G7/isops-2nd-hc-peak.pdf>]
-<../G7/isops-2nd-hc.pdf, id=111, 597.23125pt x 845.1575pt>
+<../G7/isops-2nd-hc.pdf, id=112, 597.23125pt x 845.1575pt>
 File: ../G7/isops-2nd-hc.pdf Graphic file (type pdf)
 <use ../G7/isops-2nd-hc.pdf>
 Package pdftex.def Info: ../G7/isops-2nd-hc.pdf  used on input line 182.
@@ -1977,7 +1977,7 @@ File: ../G7/isops-2nd-hc.pdf Graphic file (type pdf)
 <use ../G7/isops-2nd-hc.pdf>
 Package pdftex.def Info: ../G7/isops-2nd-hc.pdf  used on input line 182.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<../G7/isops-2nd-hc.pdf, id=114, page=1, 597.23125pt x 845.1575pt>
+<../G7/isops-2nd-hc.pdf, id=115, page=1, 597.23125pt x 845.1575pt>
 File: ../G7/isops-2nd-hc.pdf Graphic file (type pdf)
 <use ../G7/isops-2nd-hc.pdf, page 1>
 Package pdftex.def Info: ../G7/isops-2nd-hc.pdf , page1 used on input line 182.
@@ -2001,7 +2001,7 @@ Package pdftex.def Info: ../G7/isops-2nd-hc.pdf , page1 used on input line 182.
  [8
 
  <build/../G7/isops-2nd-hc.pdf>]
-<../G7/PET-1st-hc.pdf, id=122, 597.23125pt x 845.1575pt>
+<../G7/PET-1st-hc.pdf, id=123, 597.23125pt x 845.1575pt>
 File: ../G7/PET-1st-hc.pdf Graphic file (type pdf)
 <use ../G7/PET-1st-hc.pdf>
 Package pdftex.def Info: ../G7/PET-1st-hc.pdf  used on input line 183.
@@ -2010,7 +2010,7 @@ File: ../G7/PET-1st-hc.pdf Graphic file (type pdf)
 <use ../G7/PET-1st-hc.pdf>
 Package pdftex.def Info: ../G7/PET-1st-hc.pdf  used on input line 183.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<../G7/PET-1st-hc.pdf, id=125, page=1, 597.23125pt x 845.1575pt>
+<../G7/PET-1st-hc.pdf, id=126, page=1, 597.23125pt x 845.1575pt>
 File: ../G7/PET-1st-hc.pdf Graphic file (type pdf)
 <use ../G7/PET-1st-hc.pdf, page 1>
 Package pdftex.def Info: ../G7/PET-1st-hc.pdf , page1 used on input line 183.
@@ -2034,7 +2034,7 @@ Package pdftex.def Info: ../G7/PET-1st-hc.pdf , page1 used on input line 183.
  [9
 
  <build/../G7/PET-1st-hc.pdf>]
-<../G7/PET-1st-cooling.pdf, id=133, 597.23125pt x 845.1575pt>
+<../G7/PET-1st-cooling.pdf, id=134, 597.23125pt x 845.1575pt>
 File: ../G7/PET-1st-cooling.pdf Graphic file (type pdf)
 <use ../G7/PET-1st-cooling.pdf>
 Package pdftex.def Info: ../G7/PET-1st-cooling.pdf  used on input line 184.
@@ -2043,7 +2043,7 @@ File: ../G7/PET-1st-cooling.pdf Graphic file (type pdf)
 <use ../G7/PET-1st-cooling.pdf>
 Package pdftex.def Info: ../G7/PET-1st-cooling.pdf  used on input line 184.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<../G7/PET-1st-cooling.pdf, id=136, page=1, 597.23125pt x 845.1575pt>
+<../G7/PET-1st-cooling.pdf, id=137, page=1, 597.23125pt x 845.1575pt>
 File: ../G7/PET-1st-cooling.pdf Graphic file (type pdf)
 <use ../G7/PET-1st-cooling.pdf, page 1>
 Package pdftex.def Info: ../G7/PET-1st-cooling.pdf , page1 used on input line 184.
@@ -2067,7 +2067,7 @@ Package pdftex.def Info: ../G7/PET-1st-cooling.pdf , page1 used on input line 18
  [10
 
  <build/../G7/PET-1st-cooling.pdf>]
-<../G7/PET-2nd-hc.pdf, id=144, 597.23125pt x 845.1575pt>
+<../G7/PET-2nd-hc.pdf, id=145, 597.23125pt x 845.1575pt>
 File: ../G7/PET-2nd-hc.pdf Graphic file (type pdf)
 <use ../G7/PET-2nd-hc.pdf>
 Package pdftex.def Info: ../G7/PET-2nd-hc.pdf  used on input line 185.
@@ -2076,7 +2076,7 @@ File: ../G7/PET-2nd-hc.pdf Graphic file (type pdf)
 <use ../G7/PET-2nd-hc.pdf>
 Package pdftex.def Info: ../G7/PET-2nd-hc.pdf  used on input line 185.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<../G7/PET-2nd-hc.pdf, id=147, page=1, 597.23125pt x 845.1575pt>
+<../G7/PET-2nd-hc.pdf, id=148, page=1, 597.23125pt x 845.1575pt>
 File: ../G7/PET-2nd-hc.pdf Graphic file (type pdf)
 <use ../G7/PET-2nd-hc.pdf, page 1>
 Package pdftex.def Info: ../G7/PET-2nd-hc.pdf , page1 used on input line 185.
@@ -2122,11 +2122,11 @@ Here is how much of TeX's memory you used:
  581078 words of font info for 100 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,107p,10975b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb>
-Output written on build/Protokoll.pdf (12 pages, 302084 bytes).
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb>
+Output written on build/Protokoll.pdf (12 pages, 310329 bytes).
 PDF statistics:
- 261 PDF objects out of 1000 (max. 8388607)
- 180 compressed objects within 2 object streams
+ 266 PDF objects out of 1000 (max. 8388607)
+ 183 compressed objects within 2 object streams
  25 named destinations out of 1000 (max. 500000)
  258 words of extra memory for PDF output out of 10000 (max. 10000000)
 
