@@ -1,28 +1,26 @@
 # Fdb version 4
-["biber build/Protokoll"] 0 "build/Protokoll.bcf" "build/Protokoll.bbl" "build/Protokoll" 1773077015.7282 0
+["biber build/Protokoll"] 0 "build/Protokoll.bcf" "build/Protokoll.bbl" "build/Protokoll" 1773161273.04551 0
   "build/Protokoll.bcf" 0 -1 0 "pdflatex"
   "references.bib" 0 -1 0 ""
   (generated)
   "build/Protokoll.bbl"
   "build/Protokoll.blg"
   (rewritten before read)
-["pdflatex"] 1773077011.77259 "c:/Users/laure/Documents/Uni/Poly/DSC TGA/Protokoll.tex" "build/Protokoll.pdf" "Protokoll" 1773077015.72933 0
+["pdflatex"] 1773161267.10112 "d:/Dokumente/Uni laptop/Chemie/Poly/DSC TGA/Protokoll.tex" "build/Protokoll.pdf" "Protokoll" 1773161273.04679 0
   "Bilder/Teilkristall.png" 1773073349 45749 92b7fd78e621f817e5fc7ba793571363 ""
-  "Protokoll.tex" 1773077011 6711 487042ba6af73c533342f9abcd37e7ef ""
-  "build/../G7/G7-pet-tga.pdf" 1773063822 14216 7859bd5f8c456020b457ef14de5e9f33 ""
-  "build/../G7/PET-1st-cooling.pdf" 1773063822 9400 0602b2eee9d784ec88faff8be2d26de4 ""
-  "build/../G7/PET-1st-hc.pdf" 1773063822 9619 a273ea4e8cd71ee9d8b7a13577dff1c5 ""
-  "build/../G7/PET-2nd-hc.pdf" 1773063822 9437 4c4e17b0784ab135f5e653db0e5e99d9 ""
-  "build/../G7/isops-1st-cooling.pdf" 1773063822 8496 3f474d38ba924b90db14fbcd53399369 ""
-  "build/../G7/isops-1st-hc.pdf" 1773063822 9618 f7671ddcf063494dd956602ea0e678c9 ""
-  "build/../G7/isops-2nd-hc-peak.pdf" 1773063822 9104 06ef99cb089b7cd3049d067837497c99 ""
-  "build/../G7/isops-2nd-hc.pdf" 1773063822 8812 1ee6a653a9b7a6934fef823525da2b2c ""
-  "build/Protokoll.aux" 1773077014 4455 23b42426493ebe3f2510f272cdbbe7f3 "pdflatex"
+  "Protokoll.tex" 1773161260 6772 010e48910f224a85b42b591f01accfa5 ""
+  "build/../G7/RE__G7_pdf/G8-pet-tga.pdf" 1773160733 8633 b9c196a39eeb765c07509008376c5ba1 ""
+  "build/../G7/RE__G7_pdf/pet-dsc-1st-cooling-g8.pdf" 1773160733 9332 0b4dff972691b8913bc94d480c2728f1 ""
+  "build/../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf" 1773160733 10071 a0f577aeccc5fb13abeed5b18b060283 ""
+  "build/../G7/RE__G7_pdf/pet-dsc-g8-1st-hc2.pdf" 1773160733 8907 ea9af943ed0f6404d301e8978d93d34d ""
+  "build/../G7/RE__G7_pdf/ps-iso-dsc-1st-cooling.pdf" 1773160733 8779 74cf02ec1ba16ab9820c2257f895c2cb ""
+  "build/../G7/RE__G7_pdf/ps-iso-dsc-1st-hc.pdf" 1773160733 9595 93dd73405b37ac1545567b182fa62fdb ""
+  "build/../G7/RE__G7_pdf/ps-iso-dsc-2nd-hc.pdf" 1773160733 9584 f63227abc4652e76527a5b77ff4a0011 ""
+  "build/Protokoll.aux" 1773161271 4455 e77ddeb3780f82cd9dcf2dd547958998 "pdflatex"
   "build/Protokoll.bbl" 0 -1 0 "biber build/Protokoll"
-  "build/Protokoll.out" 1773077014 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "build/Protokoll.run.xml" 1773077014 2479 081af29f9fb6173d8977bbb8b4ce67c9 "pdflatex"
-  "build/Protokoll.toc" 1773077014 831 c8e93b335926fd06ce69250946298653 "pdflatex"
-  "c:/Users/laure/Documents/Uni/Poly/DSC TGA/Protokoll.tex" 1773077011 6711 487042ba6af73c533342f9abcd37e7ef ""
+  "build/Protokoll.out" 1773161271 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "build/Protokoll.run.xml" 1773161271 2479 081af29f9fb6173d8977bbb8b4ce67c9 "pdflatex"
+  "build/Protokoll.toc" 1773161271 831 c8e93b335926fd06ce69250946298653 "pdflatex"
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1713295977 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1713295977 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1713296793 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -352,6 +350,7 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1713300443 5519690 1698f96789543a09b6b0e33aada59581 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1713300629 8222510 1d715446f99c4a441624fedc23e92ee4 ""
   "c:/texlive/2024/texmf.cnf" 1713300414 713 e69b156964470283e0530f5060668171 ""
+  "d:/Dokumente/Uni laptop/Chemie/Poly/DSC TGA/Protokoll.tex" 1773161260 6772 010e48910f224a85b42b591f01accfa5 ""
   (generated)
   "build/Protokoll.aux"
   "build/Protokoll.bcf"
