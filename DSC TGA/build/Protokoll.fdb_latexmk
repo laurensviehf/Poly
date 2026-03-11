@@ -1,15 +1,16 @@
 # Fdb version 4
-["biber build/Protokoll"] 0 "build/Protokoll.bcf" "build/Protokoll.bbl" "build/Protokoll" 1773247112.86226 0
+["biber build/Protokoll"] 0 "build/Protokoll.bcf" "build/Protokoll.bbl" "build/Protokoll" 1773248908.39662 0
   "build/Protokoll.bcf" 0 -1 0 "pdflatex"
   "references.bib" 0 -1 0 ""
   (generated)
   "build/Protokoll.bbl"
   "build/Protokoll.blg"
   (rewritten before read)
-["pdflatex"] 1773247109.22239 "d:/Dokumente/Uni laptop/Chemie/Poly/DSC TGA/Protokoll.tex" "build/Protokoll.pdf" "Protokoll" 1773247112.86309 0
+["pdflatex"] 1773248904.66716 "d:/Dokumente/Uni laptop/Chemie/Poly/DSC TGA/Protokoll.tex" "build/Protokoll.pdf" "Protokoll" 1773248908.39746 0
   "Bilder/Teilkristall.png" 1773073349 45749 92b7fd78e621f817e5fc7ba793571363 ""
-  "Protokoll.tex" 1773247104 10896 3b91c143182f786e40075e541aa372d2 ""
+  "Protokoll.tex" 1773248899 12326 2e76c07011eb417e1a3aa78e90f0b345 ""
   "build/../Bilder/DSC Integral.png" 1773243584 37987 4591d6929f6dc7d08085878002a2e05c ""
+  "build/../Bilder/Thermogramm.png" 1773247720 32170 eb92abb3dd532910b910242891312bf6 ""
   "build/../G7/RE__G7_pdf/G8-pet-tga.pdf" 1773160733 8633 b9c196a39eeb765c07509008376c5ba1 ""
   "build/../G7/RE__G7_pdf/pet-dsc-1st-cooling-g8.pdf" 1773160733 9332 0b4dff972691b8913bc94d480c2728f1 ""
   "build/../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf" 1773160733 10071 a0f577aeccc5fb13abeed5b18b060283 ""
@@ -17,11 +18,11 @@
   "build/../G7/RE__G7_pdf/ps-iso-dsc-1st-cooling.pdf" 1773160733 8779 74cf02ec1ba16ab9820c2257f895c2cb ""
   "build/../G7/RE__G7_pdf/ps-iso-dsc-1st-hc.pdf" 1773160733 9595 93dd73405b37ac1545567b182fa62fdb ""
   "build/../G7/RE__G7_pdf/ps-iso-dsc-2nd-hc.pdf" 1773160733 9584 f63227abc4652e76527a5b77ff4a0011 ""
-  "build/Protokoll.aux" 1773247112 7387 916cca10534503e0586da30a571c8b4c "pdflatex"
+  "build/Protokoll.aux" 1773248907 7691 532988d349d46d9149c6ffaefa8db064 "pdflatex"
   "build/Protokoll.bbl" 0 -1 0 "biber build/Protokoll"
-  "build/Protokoll.out" 1773247111 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "build/Protokoll.run.xml" 1773247112 2479 081af29f9fb6173d8977bbb8b4ce67c9 "pdflatex"
-  "build/Protokoll.toc" 1773247112 1126 4d709c984a80a7420c63b57d74bfcf78 "pdflatex"
+  "build/Protokoll.out" 1773248907 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "build/Protokoll.run.xml" 1773248907 2479 081af29f9fb6173d8977bbb8b4ce67c9 "pdflatex"
+  "build/Protokoll.toc" 1773248907 1127 10308a1d7ad506d491229f6d24e20ce6 "pdflatex"
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1713295977 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1713295977 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1713296793 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -29,6 +30,7 @@
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm" 1713296446 3584 13049b61b922a28b158a38aeff75ee9b ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx1728.tfm" 1713296446 3584 ad49a18d8515beef6d92d4d3f197d0fd ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm" 1713296446 3584 178baad7ffca7f5d3428a83bd7cc64c3 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm" 1713296446 3584 291a5713401683441e0a8c8f4417b17b ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm" 1713296446 3584 cf973739aac7ab6247f9150296af7954 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0900.tfm" 1713296446 3584 d3d8ac8b25ca19c0a40b86a5db1e8ccc ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1713296446 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
@@ -93,6 +95,7 @@
   "c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb" 1713295977 145408 bcd327f112f643a875638eafb48d1d8b ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb" 1713295977 135942 aecb5af344df420d6ec421db27dedf62 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb" 1713295977 139826 3796482349bae544f13f54da58f9706d ""
+  "c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb" 1713295977 162624 077de688981132fb8efe9feeb03a998c ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb" 1713295977 154599 111aa29c1b43dc5b4a8516224bf12bac ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb" 1713295977 149037 59d73c34fca02636f548728608edd111 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb" 1713295977 138258 6525c253f16cededa14c7fd0da7f67b2 ""
@@ -356,7 +359,7 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1713300443 5519690 1698f96789543a09b6b0e33aada59581 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1713300629 8222510 1d715446f99c4a441624fedc23e92ee4 ""
   "c:/texlive/2024/texmf.cnf" 1713300414 713 e69b156964470283e0530f5060668171 ""
-  "d:/Dokumente/Uni laptop/Chemie/Poly/DSC TGA/Protokoll.tex" 1773247104 10896 3b91c143182f786e40075e541aa372d2 ""
+  "d:/Dokumente/Uni laptop/Chemie/Poly/DSC TGA/Protokoll.tex" 1773248899 12326 2e76c07011eb417e1a3aa78e90f0b345 ""
   (generated)
   "build/Protokoll.aux"
   "build/Protokoll.bcf"

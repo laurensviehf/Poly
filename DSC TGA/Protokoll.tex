@@ -114,7 +114,7 @@
 
     \begin{equation}
             \label{Enthalpie}
-            \Delta \text{H}_\text{m} =  \Delta \text{H}_\text{Sample} - \Delta \text{H}_\text{Reference}
+            \Delta H_m =  \Delta H_\text{Sample} - \Delta H_\text{Reference}
     \end{equation}    
 
     \begin{figure}[H]
@@ -125,14 +125,30 @@
         \end{center}
     \end{figure}
 
-    \subsubsection{Glass transition temperature (T$_\text{g}$) and meltingtemperature (T$_\text{m}$)}
+        Via this melting enthalpy the crystallization grade can be determined by using the melting enthalpy and by using $\Delta H_m^0$. 
+        $\Delta H_m^0$ cannot directly be determined, because polymers are not fully crystalline. Therefore, a extrapolation is used to determine the ideal case. Meaning the length of the polymer is imagined to be infinite
+        This all results in following equation.
 
-        The Glass transition temperature is the temperature range where a complete coupled segment movement of chains (10-15 chain links) is possible. 
+    \begin{equation}
+        \alpha = \frac{\Delta H_m}{\Delta H_m^0}
+    \end{equation}
+
+    \subsubsection{Glass transition temperature (T$_\text{g}$) and melting temperature (T$_\text{m}$)}
+
+        The Glass transition temperature (T$_\text{m}$) is the temperature range where a complete coupled segment movement of chains (10-15 chain links) is possible. 
         These chains were frozen before that temperature and can only be defined if the polymer is amorphous. This can also be seen in a change of the heat capacity.\\
         
-        The smelting temperature is only present in semi crystalline polymers. These have a lamellar structure 
+        The melting temperature (T$_\text{g}$) is only present in semi crystalline polymers. These have a lamellar structure(folding crystal) with amorphous parts between the backfolding parts.
+        When reaching the smelting temperature these backfolded parts are moving apart. The smelting temperature can be influenced by the amount of amorphous parts in the polymer, meaning if there are more amorphous parts the smelting temperature gets higher.\\
+        
+        Both of these temperatures can be analyzed and read out of the thermogram. For semi crystalline polymers with a bigger amorphous share the peak is more to the right because of the higher temperature.
 
-
+            \begin{figure}
+                \centering
+                \includegraphics[scale = 0.5]{../Bilder/Thermogramm.png}
+                \caption{This picture shows an example of a thermogram of a polymer, in which T$_\text{g}$ is the Glass transition temperature and T$_\text{m}$ is the melting temperature.}
+            \end{figure}            
+            
 
 
 \section{Results}
