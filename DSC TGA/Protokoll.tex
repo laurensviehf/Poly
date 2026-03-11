@@ -106,21 +106,50 @@
 \section{Results}
 
     Two different samples were prepared, and analyzed, using DSC and TGA. 
-    The Data of the samples (PET and it-PS) are listed in the Table below \ref{Messwerte}
+    The Data of the samples (PET and $it$-PS) are listed in the Tables \ref{Messwertehc} and \ref{Messwertecc} below.
 
     \begin{table}[H]
     \begin{center}
-        \caption{These are the meltingtemperatures($T_m$), glastemperatures($T_g$) and the meltingenthalpie ($\Delta$ H$_m$)}
-        \label{Messwerte}
+        \caption{Listed are the meltingtemperatures($T_m$), glastemperatures($T_g$) and the melting enthalpy ($\Delta$ H$_m$) of the heatingcurves if $it$-PS and PET.}
+        \label{Messwertehc}
             \begin{tabular}{c|c|c|c}
                 \hline
-                Sample & $\Delta$ H$_m$ & T$_m$ & T$_g$ \\
+                Sample & $\Delta$ H$_m$ [$\frac{J}{g}$] & T$_m$ [°C] & T$_g$ [°C]\\
                 \hline  
-                PE &  &  &  \\
-                $it$-PS &  &  &  \\
+                PET 1.hc & 38.368 & 249.85 & - \\
+                PET 2.hc & 32.360 & 246.00 & 84.36 \\
+                $it$-PS 1.hc & 24.194 & 221.61 & 99.69 \\
             \end{tabular}
     \end{center}
     \end{table}
+
+    \begin{table}[H]
+    \begin{center}
+        \caption{Listed is the crystallizationtemperature($T_c$) and the crystallization enthalpy ($\Delta$ H$_c$) of the coolingcurve of PET.}
+        \label{Messwertecc}
+            \begin{tabular}{c|c|c}
+                \hline
+                Sample & $\Delta$ H$_c$ [$\frac{J}{g}$] & T$_c$ [°C]\\
+                \hline  
+                PET cc & -34.563 & 182.73 \\
+            \end{tabular}
+    \end{center}
+    \end{table}
+
+    As can be seen in the attachment on pages \pageref{pdf:ps-1cc} and \pageref{pdf:ps-2hc}, no crystallization enthalpy and no second melting enthalpy were observed. Thus, before the 
+    measurement both polymers are semi-crystalline, however, the chosen cooling conditions of $\SI{20}{\frac{\text{°C}}{min}}$ are too fast for the PS to crystallize 
+    again and is therefore amorphous during the measurement of the second heating curve.\\
+
+    Using the melting enthalpy, the degree of crystallization $\alpha$ were calculated to
+    \begin{align*}
+        \alpha_\text{PET} =& \frac{\SI{38.368}{\frac{J}{g}}}{\SI{140}{\frac{J}{g}}} = 0.274 \\
+        \alpha_{it\text{-PS}} =& \frac{\SI{24.194}{\frac{J}{g}}}{\SI{87}{\frac{J}{g}}} = 0.278 
+    \end{align*}
+
+    As noted previously, the $it$-PS could not crystallize under the cooling rate and therefore became amorphous. As a result, only a glass transition temperature 
+    and no melting temperature can be observed in the second heating curve. 
+
+
 
 \section{Questions}
 
@@ -177,13 +206,13 @@
 
 
 
-\includepdf[pages={1}]{../G7/RE__G7_pdf/G8-pet-tga.pdf}
-\includepdf[pages={1}]{../G7/RE__G7_pdf/ps-iso-dsc-1st-cooling.pdf}
-\includepdf[pages={1}]{../G7/RE__G7_pdf/ps-iso-dsc-1st-hc.pdf}
-\includepdf[pages={1}]{../G7/RE__G7_pdf/ps-iso-dsc-2nd-hc.pdf}
-\includepdf[pages={1}]{../G7/RE__G7_pdf/pet-dsc-g8-1st-hc2.pdf}
-\includepdf[pages={1}]{../G7/RE__G7_pdf/pet-dsc-1st-cooling-g8.pdf}
-\includepdf[pages={1}]{../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf}
+\includepdf[pages={1}, pagecommand={\phantomsection\label{pdf:ps-1cc}}]{../G7/RE__G7_pdf/ps-iso-dsc-1st-cooling.pdf}
+\includepdf[pages={1}, pagecommand={\phantomsection\label{pdf:ps-1hc}}]{../G7/RE__G7_pdf/ps-iso-dsc-1st-hc.pdf}
+\includepdf[pages={1}, pagecommand={\phantomsection\label{pdf:ps-2hc}}]{../G7/RE__G7_pdf/ps-iso-dsc-2nd-hc.pdf}
+\includepdf[pages={1}, pagecommand={\phantomsection\label{pdf:pet-1hc}}]{../G7/RE__G7_pdf/pet-dsc-g8-1st-hc2.pdf}
+\includepdf[pages={1}, pagecommand={\phantomsection\label{pdf:pet-1cc}}]{../G7/RE__G7_pdf/pet-dsc-1st-cooling-g8.pdf}
+\includepdf[pages={1}, pagecommand={\phantomsection\label{pdf:pet-2hc}}]{../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf}
+\includepdf[pages={1}, pagecommand={\phantomsection\label{pdf:pet-tga}}]{../G7/RE__G7_pdf/G8-pet-tga.pdf}
 
 \printbibliography
 
