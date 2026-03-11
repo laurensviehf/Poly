@@ -2,6 +2,7 @@
 \contentsline {section}{\numberline {1}Theory Part}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1}DSC}{2}{subsection.1.1}%
 \contentsline {subsubsection}{\numberline {1.1.1}Glass transition temperature (T$_\text {g}$) and melting temperature (T$_\text {m}$)}{2}{subsubsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.2}TGA}{3}{subsection.1.2}%
 \contentsline {section}{\numberline {2}Results}{3}{section.2}%
 \contentsline {section}{\numberline {3}Questions}{4}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Question 1}{4}{subsection.3.1}%
