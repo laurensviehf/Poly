@@ -99,6 +99,42 @@
 \renewcommand{\thepage}{\arabic{page}}
 \newpage
 
+\section{Theory Part}
+
+    \subsection{DSC}
+
+        The DSC (Differential Scanning Calorimetry) uses the principle of the isotherm calorimetry. The Sample and a references get heated in two separate crucibles. 
+        The absorbed energy is measured, and in case of different absorption the one with less gets more power while this added power is being measured and plotted against time (t).
+        The Integral of dW/dt is the difference between the sample and the reference, also shown in picture (\ref{DSC_Kurve}) is the Integral underneath the curve which defines the smelting 
+        enthalpy which is calculated by using equation (\ref{Enthalpie}). This curve is influenced by the spectrum of lengths the polymer provides, 
+        meaning if the polymer has many chains with different lengths the peak gets wider to the right. 
+        The reference is always a known Sample or something, the heat capacity is known. 
+        In our case the reference was the empty crucible.
+
+
+    \begin{equation}
+            \label{Enthalpie}
+            \Delta \text{H}_\text{m} =  \Delta \text{H}_\text{Sample} - \Delta \text{H}_\text{Reference}
+    \end{equation}    
+
+    \begin{figure}[H]
+        \begin{center}
+            \includegraphics[scale=0.75]{../Bilder/DSC Integral.png}
+            \caption{This picture shows the thermogram of a Polymer, the differential signal in [mV] is plotted against time in [s]. xxx }
+            \label{DSC_Kurve}
+        \end{center}
+    \end{figure}
+
+    \subsubsection{Glass transition temperature (T$_\text{g}$) and meltingtemperature (T$_\text{m}$)}
+
+        The Glass transition temperature is the temperature range where a complete coupled segment movement of chains (10-15 chain links) is possible. 
+        These chains were frozen before that temperature and can only be defined if the polymer is amorphous. This can also be seen in a change of the heat capacity.\\
+        
+        The smelting temperature is only present in semi crystalline polymers. These have a lamellar structure 
+
+
+
+
 \section{Results}
 
     Two different samples were prepared, and analyzed, using DSC and TGA. 
@@ -118,7 +154,6 @@
     \end{center}
     \end{table}
 
-        
 \section{Questions}
 
         \subsection{Question 1}
@@ -138,11 +173,11 @@
         \subsection{Question 3}
         
             Commonly the degree of crystallization decides how stiff a polymer is. The higher the degree of crystallization, the harder and stiffer the polymer. 
-            It also gets less ductile and more dense because crystalline parts can be packed better than amorph parts.
+            It also gets less ductile and more dense because crystalline parts can be packed better than amorphous parts.
 
         \subsection{Question 4}
 
-            The Polymer is divided in different sections a back folding section(black), which would be the PS in our case and a amorph section(red), which in our case would be the PE sections. 
+            The Polymer is divided in different sections a back folding section(black), which would be the PS in our case and a amorphous section(red), which in our case would be the PE sections. 
 
             \begin{figure}[H]
                 \begin{center}
