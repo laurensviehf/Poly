@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber build/Protokoll"] 0 "build/Protokoll.bcf" "build/Protokoll.bbl" "build/Protokoll" 1773246959.6059 0
+["biber build/Protokoll"] 0 "build/Protokoll.bcf" "build/Protokoll.bbl" "build/Protokoll" 1773247112.86226 0
   "build/Protokoll.bcf" 0 -1 0 "pdflatex"
   "references.bib" 0 -1 0 ""
   (generated)
   "build/Protokoll.bbl"
   "build/Protokoll.blg"
   (rewritten before read)
-["pdflatex"] 1773246956.04628 "d:/Dokumente/Uni laptop/Chemie/Poly/DSC TGA/Protokoll.tex" "build/Protokoll.pdf" "Protokoll" 1773246959.60686 0
+["pdflatex"] 1773247109.22239 "d:/Dokumente/Uni laptop/Chemie/Poly/DSC TGA/Protokoll.tex" "build/Protokoll.pdf" "Protokoll" 1773247112.86309 0
   "Bilder/Teilkristall.png" 1773073349 45749 92b7fd78e621f817e5fc7ba793571363 ""
-  "Protokoll.tex" 1773246951 8843 f40b297258a1be8484204b2f954dcf9e ""
+  "Protokoll.tex" 1773247104 10896 3b91c143182f786e40075e541aa372d2 ""
   "build/../Bilder/DSC Integral.png" 1773243584 37987 4591d6929f6dc7d08085878002a2e05c ""
   "build/../G7/RE__G7_pdf/G8-pet-tga.pdf" 1773160733 8633 b9c196a39eeb765c07509008376c5ba1 ""
   "build/../G7/RE__G7_pdf/pet-dsc-1st-cooling-g8.pdf" 1773160733 9332 0b4dff972691b8913bc94d480c2728f1 ""
@@ -17,11 +17,11 @@
   "build/../G7/RE__G7_pdf/ps-iso-dsc-1st-cooling.pdf" 1773160733 8779 74cf02ec1ba16ab9820c2257f895c2cb ""
   "build/../G7/RE__G7_pdf/ps-iso-dsc-1st-hc.pdf" 1773160733 9595 93dd73405b37ac1545567b182fa62fdb ""
   "build/../G7/RE__G7_pdf/ps-iso-dsc-2nd-hc.pdf" 1773160733 9584 f63227abc4652e76527a5b77ff4a0011 ""
-  "build/Protokoll.aux" 1773246958 6467 689a2a14dc08f27136b54ff1289427bb "pdflatex"
+  "build/Protokoll.aux" 1773247112 7387 916cca10534503e0586da30a571c8b4c "pdflatex"
   "build/Protokoll.bbl" 0 -1 0 "biber build/Protokoll"
-  "build/Protokoll.out" 1773246958 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "build/Protokoll.run.xml" 1773246958 2479 081af29f9fb6173d8977bbb8b4ce67c9 "pdflatex"
-  "build/Protokoll.toc" 1773246958 1126 4ef44723208a48cd3b56be21e2e3a865 "pdflatex"
+  "build/Protokoll.out" 1773247111 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "build/Protokoll.run.xml" 1773247112 2479 081af29f9fb6173d8977bbb8b4ce67c9 "pdflatex"
+  "build/Protokoll.toc" 1773247112 1126 4d709c984a80a7420c63b57d74bfcf78 "pdflatex"
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1713295977 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1713295977 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1713296793 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -39,6 +39,8 @@
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecsx1000.tfm" 1713296446 3584 d90cef44d3336212c1284055d79d7513 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecsx1200.tfm" 1713296446 3584 36f697a6b99f29aad1ddddcfadf7a969 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecsx1440.tfm" 1713296446 3584 9bd2baa3a21be3460ad52867ca0084f1 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1713296446 1536 b3387106d9afecbfe14bde2de6eadf47 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm" 1713296446 1536 73da8e8f1d2a4c957d51ca133585586b ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1713296446 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1713295300 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1713295300 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -354,7 +356,7 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1713300443 5519690 1698f96789543a09b6b0e33aada59581 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1713300629 8222510 1d715446f99c4a441624fedc23e92ee4 ""
   "c:/texlive/2024/texmf.cnf" 1713300414 713 e69b156964470283e0530f5060668171 ""
-  "d:/Dokumente/Uni laptop/Chemie/Poly/DSC TGA/Protokoll.tex" 1773246951 8843 f40b297258a1be8484204b2f954dcf9e ""
+  "d:/Dokumente/Uni laptop/Chemie/Poly/DSC TGA/Protokoll.tex" 1773247104 10896 3b91c143182f786e40075e541aa372d2 ""
   (generated)
   "build/Protokoll.aux"
   "build/Protokoll.bcf"
