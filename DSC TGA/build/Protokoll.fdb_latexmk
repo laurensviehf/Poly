@@ -1,15 +1,16 @@
 # Fdb version 4
-["biber build/Protokoll"] 0 "build/Protokoll.bcf" "build/Protokoll.bbl" "build/Protokoll" 1773249349.98812 0
+["biber build/Protokoll"] 0 "build/Protokoll.bcf" "build/Protokoll.bbl" "build/Protokoll" 1773256454.00639 0
   "build/Protokoll.bcf" 0 -1 0 "pdflatex"
   "references.bib" 0 -1 0 ""
   (generated)
   "build/Protokoll.bbl"
   "build/Protokoll.blg"
   (rewritten before read)
-["pdflatex"] 1773249345.97561 "d:/Dokumente/Uni laptop/Chemie/Poly/DSC TGA/Protokoll.tex" "build/Protokoll.pdf" "Protokoll" 1773249349.98905 0
+["pdflatex"] 1773256448.17407 "d:/Dokumente/Uni laptop/Chemie/Poly/DSC TGA/Protokoll.tex" "build/Protokoll.pdf" "Protokoll" 1773256454.00757 0
   "Bilder/Teilkristall.png" 1773073349 45749 92b7fd78e621f817e5fc7ba793571363 ""
-  "Protokoll.tex" 1773249338 12386 2af60de87a289451b5281eae601fb36c ""
+  "Protokoll.tex" 1773256440 13510 2494e58b2ea9d980f2c5b84f1b0f0735 ""
   "build/../Bilder/DSC Integral.png" 1773243584 37987 4591d6929f6dc7d08085878002a2e05c ""
+  "build/../Bilder/TGA-Kurve.png" 1773256145 71155 dfdd74f6b1deea67d186f26cbadc49b7 ""
   "build/../Bilder/Thermogramm.png" 1773247720 32170 eb92abb3dd532910b910242891312bf6 ""
   "build/../G7/RE__G7_pdf/G8-pet-tga.pdf" 1773160733 8633 b9c196a39eeb765c07509008376c5ba1 ""
   "build/../G7/RE__G7_pdf/pet-dsc-1st-cooling-g8.pdf" 1773160733 9332 0b4dff972691b8913bc94d480c2728f1 ""
@@ -18,11 +19,11 @@
   "build/../G7/RE__G7_pdf/ps-iso-dsc-1st-cooling.pdf" 1773160733 8779 74cf02ec1ba16ab9820c2257f895c2cb ""
   "build/../G7/RE__G7_pdf/ps-iso-dsc-1st-hc.pdf" 1773160733 9595 93dd73405b37ac1545567b182fa62fdb ""
   "build/../G7/RE__G7_pdf/ps-iso-dsc-2nd-hc.pdf" 1773160733 9584 f63227abc4652e76527a5b77ff4a0011 ""
-  "build/Protokoll.aux" 1773249349 7917 94c06b23aa2c6b2a4cf7a642ed3b8b8c "pdflatex"
+  "build/Protokoll.aux" 1773256452 8462 fff9907abb77373d7dac099d74078262 "pdflatex"
   "build/Protokoll.bbl" 0 -1 0 "biber build/Protokoll"
-  "build/Protokoll.out" 1773249348 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "build/Protokoll.run.xml" 1773249349 2479 081af29f9fb6173d8977bbb8b4ce67c9 "pdflatex"
-  "build/Protokoll.toc" 1773249349 1196 867df9c7c885697ceb4095e7df3e48dd "pdflatex"
+  "build/Protokoll.out" 1773256451 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "build/Protokoll.run.xml" 1773256452 2479 081af29f9fb6173d8977bbb8b4ce67c9 "pdflatex"
+  "build/Protokoll.toc" 1773256452 1196 42e4499a92ed90267af1ca60937b9386 "pdflatex"
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1713295977 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1713295977 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1713296793 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -359,7 +360,7 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1713300443 5519690 1698f96789543a09b6b0e33aada59581 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1713300629 8222510 1d715446f99c4a441624fedc23e92ee4 ""
   "c:/texlive/2024/texmf.cnf" 1713300414 713 e69b156964470283e0530f5060668171 ""
-  "d:/Dokumente/Uni laptop/Chemie/Poly/DSC TGA/Protokoll.tex" 1773249338 12386 2af60de87a289451b5281eae601fb36c ""
+  "d:/Dokumente/Uni laptop/Chemie/Poly/DSC TGA/Protokoll.tex" 1773256440 13510 2494e58b2ea9d980f2c5b84f1b0f0735 ""
   (generated)
   "build/Protokoll.aux"
   "build/Protokoll.bcf"
