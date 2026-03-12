@@ -83,7 +83,7 @@
       <file>Protokoll.bcf</file>
     </requires>
     <requires type="editable">
-      <file>references.bib</file>
+      <file>DSC.bib</file>
     </requires>
   </external>
 </requests>
