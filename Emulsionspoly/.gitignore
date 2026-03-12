@@ -1,0 +1,4 @@
+*/build/*
+!*/build/*.pdf
+*/out/*
+!*/out/*.pdf
