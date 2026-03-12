@@ -26,13 +26,14 @@
 \usepackage[font=small]{caption}
 %\usepackage[version=4]{mhchem}
 \usepackage[backend=biber, style=chem-angew]{biblatex}
-\addbibresource{references.bib}
+\addbibresource{DSC.bib}
 \usepackage{tabularx, booktabs, multirow}
 \usepackage[pdfborder={0 0 0}]{hyperref}
 \usepackage{scrlayer-scrpage}%Header für die KOMA-script -Klasse
 %\usepackage{hyperref}
 \usepackage{pgfplots}
 \usepackage{textgreek}
+
 
 \newcommand{\tildenu}{{\fontencoding{LGR}\selectfont\accperispomeni\textnu}}
 \captionsetup{format=plain}
@@ -80,7 +81,7 @@
             Author 2:     &Felix Roth\\   
 			E-Mail 1:      &st183688@stud.uni-stuttgart.de\\
             E-Mail 2:      &st188157@stud.uni-stuttgart.de  \\
-			Student ID 1: & 3676761   \\ 
+			Student-ID 1: & 3676761   \\ 
             Student-ID 2: & 3711192 \\ \\
 			Assistentin:  &   \\ \\ 
 		\end{tabular}
@@ -99,41 +100,183 @@
 \renewcommand{\thepage}{\arabic{page}}
 \newpage
 
-\section{Results}
+\section{Theory Part}
 
     \subsection{DSC}
 
-        Two different samples were prepared, and analyzed, using DSC and TGA. 
-        The Data of the samples (PET and it-PS) are listed in the Table below \ref{Messwerte}
+        The DSC (Differential Scanning Calorimetry) uses the principle of the isotherm calorimetry. The Sample and a references get heated in two separate crucibles. 
+        The absorbed energy is measured, and in case of different absorption the one with less gets more power while this added power is being measured and plotted against time (t).
+        The Integral of dW/dt is the difference between the sample and the reference, also shown in picture (\ref{DSC_Kurve}) is the Integral underneath the curve which defines the smelting 
+        enthalpy which is calculated by using equation (\ref{Enthalpie}). This curve is influenced by the spectrum of lengths the polymer provides, 
+        meaning if the polymer has many chains with different lengths the peak gets wider to the right. 
+        The reference is always a known Sample or something, the heat capacity is known. 
+        In our case the reference was the empty crucible.
 
-        \begin{table}[H]
+
+    \begin{equation}
+            \label{Enthalpie}
+            \Delta H_m =  \Delta H_\text{Sample} - \Delta H_\text{Reference}
+    \end{equation}    
+
+    \begin{figure}[H]
         \begin{center}
-            \caption{These are the meltingtemperatures($T_m$), glastemperatures($T_g$) and the meltingenthalpie ($\Delta$ H$_m$)}
-            \label{Messwerte}
-                \begin{tabular}{c|c|c|c}
-                    \hline
-                    penis & pipi & kacka & popo \\  
-                    \hline
-
-                \end{tabular}
+            \includegraphics[scale=0.75]{../Bilder/DSC Integral.png}
+            \caption{This picture shows the thermogram of a Polymer, the differential signal in [mV] is plotted against time in [s]. xxx }
+            \label{DSC_Kurve}
         \end{center}
-        \end{table}
+    \end{figure}
 
+        Via this melting enthalpy the crystallization grade can be determined by using the melting enthalpy and by using $\Delta H_m^0$. 
+        $\Delta H_m^0$ cannot directly be determined, because polymers are not fully crystalline. Therefore, a extrapolation is used to determine the ideal case. Meaning the length of the polymer is imagined to be infinite
+        This all results in following equation.
+
+    \begin{equation}
+        \alpha = \frac{\Delta H_m}{\Delta H_m^0}
+    \end{equation}
+
+    \subsubsection{Glass transition temperature (T$_\text{g}$) and melting temperature (T$_\text{m}$)}
+
+        The Glass transition temperature (T$_\text{m}$) is the temperature range where a complete coupled segment movement of chains (10-15 chain links) is possible. 
+        These chains were frozen before that temperature and can only be defined if the polymer is amorphous. This can also be seen in a change of the heat capacity.\\
         
+        The melting temperature (T$_\text{g}$) is only present in semi crystalline polymers. These have a lamellar structure(folding crystal) with amorphous parts between the backfolding parts.
+        When reaching the smelting temperature these backfolded parts are moving apart. The smelting temperature can be influenced by the amount of amorphous parts in the polymer, meaning if there are more amorphous parts the smelting temperature gets higher.\\
+        
+        Both of these temperatures can be analyzed and read out of the thermogram. For semi crystalline polymers with a bigger amorphous share the peak is more to the right because of the higher temperature.
+
+            \begin{figure}[H]
+                \centering
+                \includegraphics[scale = 0.75]{../Bilder/Thermogramm.png}
+                \caption{This picture shows an example of a thermogram of a polymer, in which T$_\text{g}$ is the Glass transition temperature and T$_\text{m}$ is the melting temperature.}
+            \end{figure}            
+            
+    \subsection{TGA}    
+            
+            The main principle of TGA (Thermo gravimetry) is the heating of a Sample to the point where it gets destroyed.
+            In the process the mass is monitored and plotted against temperature. It is also possible to plot the temperature against the time.
+            If these two graphs are compared a clear corelation can be observed.\\
+            For analytical purposes the m-T-curve ist the more valuable one because from this curve things like the starting temperature and the end temperature of the degrading can be determined by tangent constructions.
+            This can also be observed in picture (\ref{TGA-Kurve}).
+
+            \begin{figure}[H]
+                \centering
+                \includegraphics[scale = 0.5]{../Bilder/TGA-Kurve.png}
+                \caption{The figure shows the m-T-curve for a polymer. Also shown in the picture are the points A (starting point), B (end point) and point C (middle point) and the three correlating temperatures.}
+                \label{TGA-Kurve}
+            \end{figure}
+
+            Via this diagram the material specific properties can be characterized. 
+
+\section{Results}
+
+    Two different samples were prepared, and analyzed, using DSC and TGA. 
+    The Data of the samples (PET and $it$-PS) are listed in the Tables \ref{Messwertehc} and \ref{Messwertecc} below.
+
+    \begin{table}[H]
+    \begin{center}
+        \caption{Listed are the meltingtemperatures($T_m$), glastemperatures($T_g$) and the melting enthalpy ($\Delta$ H$_m$) of the heatingcurves if $it$-PS and PET.}
+        \label{Messwertehc}
+            \begin{tabular}{c|c|c|c}
+                \hline
+                Sample & $\Delta$ H$_m$ [$\frac{J}{g}$] & T$_m$ [°C] & T$_g$ [°C]\\
+                \hline  
+                PET 1.hc & 38.368 & 249.85 & - \\
+                PET 2.hc & 32.360 & 246.00 & 84.36 \\
+                $it$-PS 1.hc & 24.194 & 221.61 & 99.69 \\
+            \end{tabular}
+    \end{center}
+    \end{table}
+
+    \begin{table}[H]
+    \begin{center}
+        \caption{Listed is the crystallizationtemperature($T_c$) and the crystallization enthalpy ($\Delta$ H$_c$) of the coolingcurve of PET.}
+        \label{Messwertecc}
+            \begin{tabular}{c|c|c}
+                \hline
+                Sample & $\Delta$ H$_c$ [$\frac{J}{g}$] & T$_c$ [°C]\\
+                \hline  
+                PET cc & -34.563 & 182.73 \\
+            \end{tabular}
+    \end{center}
+    \end{table}
+
+    As can be seen in the attachment on pages \pageref{pdf:ps-1cc} and \pageref{pdf:ps-2hc}, no crystallization enthalpy and no second melting enthalpy were observed. Thus, before the 
+    measurement both polymers are semi-crystalline, however, the chosen cooling conditions of $\SI{20}{\frac{\text{°C}}{min}}$ are too fast for the PS to crystallize 
+    again and is therefore amorphous during the measurement of the second heating curve.\\
+
+    Using the melting enthalpy, the degree of crystallization $\alpha$ were calculated to
+    \begin{align*}
+        \alpha_\text{PET} =& \frac{\SI{38.368}{\frac{J}{g}}}{\SI{140}{\frac{J}{g}}} = 0.274 \\
+        \alpha_{it\text{-PS}} =& \frac{\SI{24.194}{\frac{J}{g}}}{\SI{87}{\frac{J}{g}}} = 0.278 
+    \end{align*}
+
+    As noted previously, the $it$-PS could not crystallize under the cooling rate and therefore became amorphous. As a result, only a glass transition temperature 
+    and no melting temperature can be observed in the second heating curve. 
+
+
+
 \section{Questions}
 
+        \subsection{Question 1}
+
+            The "Big" number indicates how many monomers are needed to make one full 360° rotation.
+            The small number in the index says how many 360° rotations are needed until the order gets repeated.\\
+            For example in the case of $8_5$ Polybutene. It needs 8 monomers to complete one 360° rotation and 5 full rotation until the order starts from the start.
+
+        \subsection{Question 2}
+
+            i-PP can be made by using the Ziegler-Natta-catalysis. 
+            In this case catalysts like \ch{TiCl3} on \ch{MgCl2}-carrier are used in combination with aluminumalkenes.
+            It can also be done via Metallocene-catalysis, this technique is specially used to control the tacticity and results in high graded i-PP.
+
+            i-PS can also be synthesized using the Metallocene-catalysis. But can also be synthesized via Anionic-Polymerization.
+
+        \subsection{Question 3}
+        
+            Commonly the degree of crystallization decides how stiff a polymer is. The higher the degree of crystallization, the harder and stiffer the polymer. 
+            It also gets less ductile and more dense because crystalline parts can be packed better than amorphous parts.
+
+        \subsection{Question 4}
+
+            The Polymer is divided in different sections a back folding section(black), which would be the PS in our case and a amorphous section(red), which in our case would be the PE sections. 
+
+            \begin{figure}[H]
+                \begin{center}
+                    \includegraphics[scale=0.25]{Bilder/Teilkristall.png}
+                    \label{Teilkristall}
+                    \caption{The picture shows the part-.crystalline}
+                \end{center}
+            \end{figure}
+
+        \subsection{Question 5}
+
+            To get an semi-crystalline polymer out of an polymerglass it has to be reheated. By reheating the polymer the molecular mobility gets high enough to form crystals. 
+            This process is also known as cold crystallization.
+        
+        \subsection{Question 6}
+
+            The increase in mass can be explained by oxidation. While increasing the temperature in the TGA the polymer oxidizes,
+             the added Oxygen increases the mass of the polymer (molecule if the polymer gets destroyed). 
+
+        
+        \subsection{Question 7}
+
+            
+
+        \subsection{Question 8}
+
+            Due to the residual moisture, the PET decomposes to Ethylenglycol and Terephthalic acid. 
+            The Ethylenglycol eliminates water which results in vinylalcohol, which can tautomerize to Ethanal.
 
 
 
-
-\includepdf[pages={1}]{../G7/G7-pet-tga.pdf}
-\includepdf[pages={1}]{../G7/isops-1st-hc.pdf}
-\includepdf[pages={1}]{../G7/isops-1st-cooling.pdf}
-\includepdf[pages={1}]{../G7/isops-2nd-hc-peak.pdf}
-\includepdf[pages={1}]{../G7/isops-2nd-hc.pdf}
-\includepdf[pages={1}]{../G7/PET-1st-hc.pdf}
-\includepdf[pages={1}]{../G7/PET-1st-cooling.pdf}
-\includepdf[pages={1}]{../G7/PET-2nd-hc.pdf}
+\includepdf[pages={1}, pagecommand={\phantomsection\label{pdf:ps-1cc}}]{../G7/RE__G7_pdf/ps-iso-dsc-1st-cooling.pdf}
+\includepdf[pages={1}, pagecommand={\phantomsection\label{pdf:ps-1hc}}]{../G7/RE__G7_pdf/ps-iso-dsc-1st-hc.pdf}
+\includepdf[pages={1}, pagecommand={\phantomsection\label{pdf:ps-2hc}}]{../G7/RE__G7_pdf/ps-iso-dsc-2nd-hc.pdf}
+\includepdf[pages={1}, pagecommand={\phantomsection\label{pdf:pet-1hc}}]{../G7/RE__G7_pdf/pet-dsc-g8-1st-hc2.pdf}
+\includepdf[pages={1}, pagecommand={\phantomsection\label{pdf:pet-1cc}}]{../G7/RE__G7_pdf/pet-dsc-1st-cooling-g8.pdf}
+\includepdf[pages={1}, pagecommand={\phantomsection\label{pdf:pet-2hc}}]{../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf}
+\includepdf[pages={1}, pagecommand={\phantomsection\label{pdf:pet-tga}}]{../G7/RE__G7_pdf/G8-pet-tga.pdf}
 
 \printbibliography
 
