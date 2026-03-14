@@ -16,5 +16,62 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{wunderlich_structure_2005}{incollection}{}{}
+      \name{editor}{1}{}{%
+        {{hash=354a68f302627f18897b268d5e086d40}{%
+           family={Wunderlich},
+           familyi={W\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{354a68f302627f18897b268d5e086d40}
+      \strng{fullhash}{354a68f302627f18897b268d5e086d40}
+      \strng{fullhashraw}{354a68f302627f18897b268d5e086d40}
+      \strng{bibnamehash}{354a68f302627f18897b268d5e086d40}
+      \strng{editorbibnamehash}{354a68f302627f18897b268d5e086d40}
+      \strng{editornamehash}{354a68f302627f18897b268d5e086d40}
+      \strng{editorfullhash}{354a68f302627f18897b268d5e086d40}
+      \strng{editorfullhashraw}{354a68f302627f18897b268d5e086d40}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Thermal Analysis of Polymeric Materials}
+      \field{isbn}{978-3-540-26360-9}
+      \field{langid}{english}
+      \field{title}{Structure and Properties of Materials}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{455\bibrangedash 590}
+      \range{pages}{136}
+      \verb{doi}
+      \verb 10.1007/3-540-26360-8_5
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\rothc\\Zotero\\storage\\F7TKVH5J\\Wunderlich - 2005 - Structure and Properties of Materials.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/3-540-26360-8_5
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/3-540-26360-8_5
+      \endverb
+      \keyw{Crystal Morphology,Ethylene Terephthalate,Gauche Conformation,Polymer Crystal,Screw Axis}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
