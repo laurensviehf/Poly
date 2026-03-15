@@ -19,6 +19,24 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
+    \entry{polyskript}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Vorlesungsskript, Universität Stuttgart}
+      \field{title}{Institut für Polymerchemie - Polymerpraktikum}
+      \field{urlday}{14}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{März 2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://ilias3.uni-stuttgart.de/ilias.php?baseClass=ilrepositorygui&cmdNode=z5:o1&cmdClass=ilObjFileGUI&cmd=sendfile&ref_id=4385586
+      \endverb
+      \verb{url}
+      \verb https://ilias3.uni-stuttgart.de/ilias.php?baseClass=ilrepositorygui&cmdNode=z5:o1&cmdClass=ilObjFileGUI&cmd=sendfile&ref_id=4385586
+      \endverb
+    \endentry
     \entry{patil_influence_2025}{article}{}{}
       \name{author}{5}{}{%
         {{hash=c2d3cd26733fc54fd759511cd1af04f3}{%
@@ -58,8 +76,8 @@
       \strng{authornamehash}{8e521e47518bd15dc702321edb776716}
       \strng{authorfullhash}{d08b3334ad014db0672c56db871f4ae5}
       \strng{authorfullhashraw}{d08b3334ad014db0672c56db871f4ae5}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Isotactic polystyrene (iPS) has not been commercialized because of its slow crystallization rate that limits processing efficiency. To enhance the crystallization rate of iPS, in past, the focus has been on post-polymerization processing steps, whereas crystallization during polymerization (through nascent polymer) has never been addressed. This study explores a novel approach to enhance the crystallization rate of iPS by addressing the polymerization conditions rather than the post-polymerization processing steps. We investigate various polymerization parameters that influence the crystallization kinetics of iPS. Our findings demonstrate that using heptane as a solvent, alongside low catalyst and monomer concentration at ambient temperature enhances the crystallization of growing polymer chains during polymerization. Differential scanning calorimetry (DSC) and polarized optical microscopy (POM) reveal that nascent iPS samples exhibit rapid crystallization, while 13C NMR spectroscopy confirms a fully isotactic microstructure. Gel-permeation chromatography (GPC) shows ultra-high molecular weight and narrow molecular weight distribution, and wide-angle X-ray diffraction (WAXD) complemented by DSC confirms the crystalline structure in the nascent polymer. The morphology of the resulting iPS polymers, analyzed through scanning electron microscopy (SEM), transmission electron microscopy (TEM), electron diffraction (ED), and POM, conclusively demonstrate that the iPS synthesized in heptane exhibit lamellae-like morphology (SEM). In the plate-like crystals, (TEM) chains are packed perpendicular to the crystal thickness. Thus obtained single crystals (ED), on melt crystallization show fast-crystallizing small spherulites (POM). In contrast, using the same catalytic system, while using toluene as a solvent result in a relatively low molecular weight polymer having undefined morphology (SEM), where electron diffraction representing single crystals cannot be obtained successfully. Thus obtained nascent polymer having low crystallinity shows cold crystallization on heating. While cooling from melt, because of low nucleation and growth process, bigger spherulites are formed. These observations are complemented by small-angle X-ray scattering (SAXS), where reorganization of the nascent polymer prior to melting is observed. The rheological study in the linear viscoelastic regime indicates that the relaxation time increases with increasing molecular weight, where all synthesized polymers reach a constant plateau modulus. The zero-shear melt viscosity follows a power law dependence with an exponent of 3.4. Initial processing results show that nascent iPS can be processed in the solid state (compression-rolling-stretching) below their melting temperature. Our findings highlight the potential for optimizing iPS crystallization through tailored polymerization conditions, paving the way for future commercial applications. This study is the first to illustrate the influence of polymerization conditions on the crystallization rate of iPS.}
@@ -110,8 +128,8 @@
       \strng{editornamehash}{354a68f302627f18897b268d5e086d40}
       \strng{editorfullhash}{354a68f302627f18897b268d5e086d40}
       \strng{editorfullhashraw}{354a68f302627f18897b268d5e086d40}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{editor}
       \field{labeltitlesource}{title}
       \field{booktitle}{Thermal Analysis of Polymeric Materials}
@@ -139,24 +157,6 @@
       \verb https://doi.org/10.1007/3-540-26360-8_5
       \endverb
       \keyw{Crystal Morphology,Ethylene Terephthalate,Gauche Conformation,Polymer Crystal,Screw Axis}
-    \endentry
-    \entry{polyskript}{misc}{}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Vorlesungsskript, Universität Stuttgart}
-      \field{title}{Institut für Polymerchemie - Polymerpraktikum}
-      \field{urlday}{14}
-      \field{urlmonth}{3}
-      \field{urlyear}{2026}
-      \field{year}{März 2025}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://ilias3.uni-stuttgart.de/ilias.php?baseClass=ilrepositorygui&cmdNode=z5:o1&cmdClass=ilObjFileGUI&cmd=sendfile&ref_id=4385586
-      \endverb
-      \verb{url}
-      \verb https://ilias3.uni-stuttgart.de/ilias.php?baseClass=ilrepositorygui&cmdNode=z5:o1&cmdClass=ilObjFileGUI&cmd=sendfile&ref_id=4385586
-      \endverb
     \endentry
   \enddatalist
 \endrefsection

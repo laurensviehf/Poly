@@ -1,6 +1,6 @@
 \documentclass[10pt,a4paper,ngerman]{scrartcl}
 \usepackage[utf8]{inputenc}
-\usepackage[ngerman]{babel}
+\usepackage[british]{babel}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -109,7 +109,7 @@
         The Integral of dW/dt is the difference between the sample and the reference, also shown in picture \ref{DSC_Kurve} is the Integral underneath the curve which defines the smelting 
         enthalpy which is calculated by using equation \eqref{Enthalpie}. This curve is influenced by the spectrum of lengths the polymer provides, 
         meaning if the polymer has many chains with different lengths the peak gets wider. 
-        The reference is always a known Sample or something, the heat capacity is known. 
+        The reference is always a known Sample or something, for which the heat capacity is known. 
         In our case the reference was the empty crucible.
 
 
@@ -121,14 +121,15 @@
     \begin{figure}[H]
         \begin{center}
             \includegraphics[scale=0.75]{../Bilder/DSC Integral.png}
-            \caption{This picture shows the thermogram of a Polymer, the differential signal in [mV] is plotted against time in [s]. xxx }
+            \caption{This picture shows the thermogram of a Polymer, the differential signal in [mV] is plotted against time in [s]. \cite{polyskript} }
             \label{DSC_Kurve}
         \end{center}
     \end{figure}
 
         Via this melting enthalpy the crystallization grade can be determined by using the melting enthalpy and by using $\Delta H_\text{m}^0$. 
-        $\Delta H_\text{m}^0$ cannot directly be determined, because polymers are not fully crystalline. Therefore, a extrapolation is used to determine the ideal case. Meaning the length of the polymer is imagined to be infinite
-        This all results in following equation.
+        $\Delta H_\text{m}^0$ cannot directly be determined, because polymers are not fully crystalline. Therefore, a extrapolation is used to determine the ideal case. 
+        Meaning the length of the polymer is imagined to be infinite.
+        All of this results in following equation.
 
     \begin{equation}
         \alpha = \frac{\Delta H_\text{m}}{\Delta H_\text{m}^0}
@@ -174,7 +175,7 @@
             The main principle of TGA (Thermo gravimetry) is the heating of a Sample to the point where it gets destroyed.
             In the process the mass is monitored and plotted against temperature. It is also possible to plot the temperature against the time.
             If these two graphs are compared a clear corelation can be observed.\\
-            For analytical purposes the m-T-curve ist the more valuable one ,because from this curve things like the starting temperature and the end temperature of the degrading can be determined by tangent constructions.
+            For analytical purposes the m-T-curve ist the more valuable one, because from this curve things like the starting temperature and the end temperature of the degrading can be determined by tangent constructions.
             This can also be observed in picture (\ref{TGA-Kurve}).
 
             \begin{figure}[H]
@@ -193,7 +194,7 @@
 
     \begin{table}[H]
     \begin{center}
-        \caption{Listed are the meltingtemperatures ($T_\text{m}$), glastemperatures ($T_\text{g}$) and the melting enthalpy ($\Delta$ H$_\text{m}$) of the heatingcurves if $it$-PS and PET.}
+        \caption{Listed are the meltingtemperatures ($T_\text{m}$), glass temperatures ($T_\text{g}$) and the melting enthalpy ($\Delta$ H$_\text{m}$) from the $it$-PS and PET heating curves.}
         \label{Messwertehc}
             \begin{tabular}{c|c|c|c}
                 \hline
@@ -208,7 +209,7 @@
 
     \begin{table}[H]
     \begin{center}
-        \caption{Listed is the crystallizationtemperature ($T_\text{c}$) and the crystallization enthalpy ($\Delta$ H$_\text{c}$) of the coolingcurve of PET.}
+        \caption{Listed are the crystallizationtemperature ($T_\text{c}$) and the crystallization enthalpy ($\Delta$ H$_\text{c}$) of the coolingcurve of PET.}
         \label{Messwertecc}
             \begin{tabular}{c|c|c}
                 \hline
@@ -219,7 +220,7 @@
     \end{center}
     \end{table}
 
-    As can be seen in the attachment on pages \pageref{pdf:ps-1cc} and \pageref{pdf:ps-2hc}, for $it$-PS were no crystallization enthalpy and no 
+    As shown in the appendix on pages \pageref{pdf:ps-1cc} and \pageref{pdf:ps-2hc}, for $it$-PS were no crystallization enthalpy and no 
     second melting enthalpy observed. Thus, before the measurement both polymers are semi-crystalline, however, the chosen cooling conditions of 
     $\SI{20}{\frac{\text{°C}}{min}}$ are too fast for the PS to crystallize again and is therefore amorphous during the measurement of the second 
     heating curve. In literature the crystallization of $it$-PS is described as challenging and still studied. They also described the influence 
@@ -233,8 +234,9 @@
             \caption{The figure shows possible structural elements of the polymer chains. \cite{wunderlich_structure_2005}} 
             \label{möglichekristalline}
         \end{figure}
-    Upon reaching the glass transition temperature, the chains move and can align in a partially crystalline manner. This alignment triggers a 
-    melting process, which, however, occurs at low temperatures. This is because the length of the crystalline regions is very small, and 
+    Upon reaching the glass transition temperature, the chains move and can align in a partially crystalline manner. 
+    This alignment triggers a melting process, which, occurs at low temperatures. 
+    This is because the length of the crystalline regions is very small, and 
     according to equation \eqref{Schmelztemp}, the melting temperature is very low. \cite{wunderlich_structure_2005}
 
     Using the melting enthalpy, the degree of crystallization $\alpha$ were calculated to
@@ -249,8 +251,8 @@
     For PET the curves can be seen on pages pages \pageref{pdf:pet-1hc} to \pageref{pdf:pet-2hc}. The first curve shows the first heating curve, with
     an intens and sharp peak at the melting temperature. This is due to the fact that the crystalline parts have roughly the same length.
     The second curve shows the first cooling curve, with again an sharp and intense crystallization peak. For the last curve, being the second 
-    heating curve, we can observe an smaller and broader peak than before. This means that the crystalline parts have an broader spectrum of lenghts.
-    An other interesting observation is a little plateau in the melting enthalpy, which is due to an higher amount of same lengths with this 
+    heating curve, we can observe a smaller and broader peak than before. This means that the crystalline parts have a broader spectrum of lenghts.
+    Another interesting observation is a little plateau in the melting enthalpy, which is due to an higher amount of same lengths with this 
     melting temperature. 
     An other interesting part is the fact that the glass transition temperature is only visible in the second heating curve, meaning the pure PET 
     sample we measured wasn't in the glass state but somehow been in the elastic state. This can be due to electromagnetic radiation or thermal 
@@ -317,7 +319,7 @@
             \begin{figure}[H]
                 \centering
                 \includegraphics[scale = 0.5]{Bilder/mT_Diagramme.png}
-                \caption{The diagramm on the left visuallizes the mass plotted against the temperature. The other two show the mass plotted against the time. \cite{polyskript}}
+                \caption{The diagramm on the left visuallizes the mass plotted against the temperature. The other two show the mass plotted against time. \cite{polyskript}}
                 \label{mT-Diagramm}
             \end{figure}
 
@@ -327,7 +329,7 @@
             The Ethylenglycol eliminates water which results in vinylalcohol, which can tautomerize to Ethanal.
 
 
-
+\section{Appendix}
 \includepdf[pages={1}, pagecommand={\phantomsection\label{pdf:ps-1hc}}]{../G7/RE__G7_pdf/ps-iso-dsc-1st-hc.pdf}
 \includepdf[pages={1}, pagecommand={\phantomsection\label{pdf:ps-1cc}}]{../G7/RE__G7_pdf/ps-iso-dsc-1st-cooling.pdf}
 \includepdf[pages={1}, pagecommand={\phantomsection\label{pdf:ps-2hc}}]{../G7/RE__G7_pdf/ps-iso-dsc-2nd-hc.pdf}

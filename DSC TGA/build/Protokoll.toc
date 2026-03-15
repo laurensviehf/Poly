@@ -1,4 +1,4 @@
-\babel@toc {ngerman}{}\relax 
+\babel@toc {british}{}\relax 
 \contentsline {section}{\numberline {1}Theory Part}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1}DSC}{2}{subsection.1.1}%
 \contentsline {subsubsection}{\numberline {1.1.1}Glass transition temperature (T$_\text {g}$) and melting temperature (T$_\text {m}$)}{2}{subsubsection.1.1.1}%
@@ -13,4 +13,5 @@
 \contentsline {subsection}{\numberline {3.6}Question 6}{6}{subsection.3.6}%
 \contentsline {subsection}{\numberline {3.7}Question 7}{7}{subsection.3.7}%
 \contentsline {subsection}{\numberline {3.8}Question 8}{7}{subsection.3.8}%
+\contentsline {section}{\numberline {4}Appendix}{7}{section.4}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
