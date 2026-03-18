@@ -26,7 +26,7 @@
 \usepackage[font=small]{caption}
 %\usepackage[version=4]{mhchem}
 \usepackage[backend=biber, style=chem-angew]{biblatex}
-\addbibresource{DSC.bib}
+\addbibresource{Rheo.bib}
 \usepackage{tabularx, booktabs, multirow}
 \usepackage[pdfborder={0 0 0}]{hyperref}
 \usepackage{scrlayer-scrpage}%Header für die KOMA-script -Klasse
@@ -86,10 +86,6 @@
 			Assistent:    & Semi Kim   \\ \\ 
 		\end{tabular}
 	\end{center}
-
-    \begin{center}
-        \textbf{\Large Abstract}
-    \end{center}
     
 \end{titlepage}
 \thispagestyle{empty}
@@ -101,13 +97,19 @@
 \newpage
 
 \section{Theory}
+		In rheology, the flow behaviour of a substance under different forces is studied. This behaviour can be determined using rotational or oscillatory measurements.
+	
+	\subsection{Basic concepts}
+		To measure rheological properties, the sample is placed between two plates, the upper one of which is capable of moving. When this plate is set in motion, the 
+		sample experiences a force and moves along with it, but exhibits a velocity gradient from the lower to the upper plate. A visual representation of this is shown 
+		in Figure \ref{RheoModell}.
 
-
-
-\section{Task}
-
-
-
+		\begin{figure}[H]
+            \centering
+            \includegraphics[scale = 0.7]{Bilder/RheoModell.png}
+            \caption{The diagram shows two plates with an area $A$, the upper one of which exerts a force $F$ on the specimen, causing it to experience a velocity gradient $\vec{v}$ and to move through an angle $\alpha$. \cite{polyskript}}
+            \label{RheoModell}
+        \end{figure}
 
 \section{Results}
 
