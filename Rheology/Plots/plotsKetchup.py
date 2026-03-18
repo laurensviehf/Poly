@@ -12,13 +12,13 @@ plt.ylabel("shear viscosity $\eta$ [Pa$\cdot$ s]")
 plt.yscale("log")
 
 
-for i in data:
-    dataI = pd.read_csv(allDataPath + "\\" + i + ".csv", sep = ";", decimal = ",")
+for i, file in enumerate(data):
+    dataI = pd.read_csv(allDataPath + "\\" + file + ".csv", sep = ";", decimal = ",")
 
     schubspannung = dataI["Schubspannung [Pa]"].to_numpy(dtype=float)
     viskosität = dataI["Viskosität [Pa·s]"].to_numpy(dtype=float)
     time = dataI["Zeit [s]"]
-    plt.plot(time, viskosität, label = "measurement" + )
+    plt.plot(time, viskosität, label = "measurement " + str(i))
 
 plt.legend()
 

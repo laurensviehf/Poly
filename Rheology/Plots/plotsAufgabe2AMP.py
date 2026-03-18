@@ -34,6 +34,7 @@ g2 = dataAMP["Verlustmodul [Pa]"].to_numpy(dtype=float)
 plt.plot(amplitude, g2)
 plt.savefig(r"D:\Dokumente\Uni laptop\Chemie\Poly\Rheology\Bilder" + "\\" + "20_PVP_amp_G2")
 
+
 plt.clf()
 
 plt.xlabel("deformation [%]")
@@ -45,4 +46,5 @@ amplitude = dataAMP["Deformation [%]"].to_numpy(dtype=float)
 eta = dataAMP["Betrag(Viskosität) [Pa·s]"].to_numpy(dtype=float)
 
 plt.plot(amplitude, eta)
+
 plt.savefig(r"D:\Dokumente\Uni laptop\Chemie\Poly\Rheology\Bilder" + "\\" + "20_PVP_amp_eta")

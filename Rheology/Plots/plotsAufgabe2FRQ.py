@@ -30,7 +30,7 @@ plt.ylabel("G' or G'' [Pa]")
 plt.xscale("log")
 plt.yscale("log")
 
-plt.plot(frequenz, g1)
-plt.plot(frequenz, g2)
-
+plt.plot(frequenz, g1, label = "G'")
+plt.plot(frequenz, g2, label = "G''")
+plt.legend()
 plt.savefig(r"D:\Dokumente\Uni laptop\Chemie\Poly\Rheology\Bilder" + "\\" + "20_PVP_frq_G1_G2")
