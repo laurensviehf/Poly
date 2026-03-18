@@ -17,10 +17,10 @@ for i in data:
     fig, ax1 = plt.subplots(figsize=(10, 6))
 
     color1 = 'tab:blue'
-    ax1.set_xlabel('Scherrate [1/s]')
-    ax1.set_ylabel('Schubspannung [Pa]', color=color1)
-    line1, = ax1.plot(scherrate, schubspannung, color=color1, marker='o', label='Schubspannung')
-    ax1.tick_params(axis='y', labelcolor=color1)
+    ax1.set_xlabel('Deformation velocity [1/s]')
+    ax1.set_ylabel('shear stress [Pa]', color=color1)
+    line1, = ax1.plot(scherrate, schubspannung, color=color1, marker='o', label='shear stress')
+    ax1.tick_params(axis='y')
     ax1.set_xscale('log') # Logarithmische x-Achse ist bei Rheologie üblich
     ax1.set_yscale('log')
 
@@ -30,7 +30,7 @@ for i in data:
     ax2.set_ylim(1e-2, 500) 
     ax2.set_ylabel('viscosity [Pa·s]', color=color2)
     line2, = ax2.plot(scherrate, viskosität, color=color2, marker='s', label='viscosity')
-    ax2.tick_params(axis='y', labelcolor=color2)
+    ax2.tick_params(axis='y')
     ax2.set_yscale('log')
 
     lines = [line1, line2]
