@@ -18,9 +18,9 @@ for i in data:
     schubspannung = dataI["Schubspannung [Pa]"].to_numpy(dtype=float)
     viskosität = dataI["Viskosität [Pa·s]"].to_numpy(dtype=float)
     time = dataI["Zeit [s]"]
-    plt.plot(time, viskosität)
+    plt.plot(time, viskosität, label = "measurement" + )
 
-
+plt.legend()
 
 
 
