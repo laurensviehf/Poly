@@ -29,6 +29,9 @@
 \addbibresource{Rheo.bib}
 \usepackage{tabularx, booktabs, multirow}
 \usepackage[pdfborder={0 0 0}]{hyperref}
+\usepackage{cleveref}
+\newcommand{\crefrangeconjunction}{--}
+\crefrangelabelformat{equation}{#3#1#4--#5#2#6}
 \usepackage{scrlayer-scrpage}%Header für die KOMA-script -Klasse
 %\usepackage{hyperref}
 \usepackage{pgfplots}
@@ -111,6 +114,28 @@
             \label{RheoModell}
         \end{figure}
 
+		Key parameters that can be detected or specified in this context include deformation $\gamma$, deformation rate $\dot{gamma}$, shear stress $\tau$ and 
+		steady-state shear viscosity $\eta$. These parameters are defined by Equations (\labelcref{gamma,gammadot,tau,eta}).
+
+		\begin{align}
+			\label{gamma}
+			&\text{Deformation:}  &\gamma &\equiv \frac{dx}{dy} = \tan \alpha  \\
+			\label{gammadot}
+			&\text{Deformation rate:}  &\dot{\gamma} &\equiv \frac{d\gamma}{dt} \\
+			\label{tau}
+			&\text{Shear stress:}  &\tau &= \frac{F}{A} = \eta \cdot \dot{\gamma}  \\
+			\label{eta}
+			&\text{Steady-state shear viscosity:}  &\eta &= \frac{\tau}{\dot{\gamma}}
+		\end{align}
+
+		$x$ and $y$ represent the coordinate axes, with $x$ pointing in the direction of the force $F$. \\
+		If a strain rate is specified and the shear stress is thereby detected, the viscosity can also be determined, allowing these parameters to be investigated as 
+		a function of the strain rate. Three types of curve behaviour can be detected for the shear stress or viscosity. The parameters may follow a linear trend or 
+		deviate from it. If the parameters deviate, they may become either larger or smaller at higher deformation rates. If a sample exhibits a linear relationship, 
+		it is referred to as a Newtonian fluid. If the parameters increase at higher deformation rates, it is referred to as a non-Newtonian shear-thickening fluid; 
+		conversely, if they decrease, it is referred to as a non-Newtonian shear-thinning fluid. The curves can be seen in Figure.
+
+	
 \section{Results}
 
 \printbibliography

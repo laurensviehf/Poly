@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.14)  18 MAR 2026 15:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.14)  18 MAR 2026 17:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1262,7 +1262,22 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
 \Hy@SectionHShift=\skip108
-) (C:\Users\rothf\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer-scrpage.sty
+) (C:\Users\rothf\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+)
+==> First Aid for cleveref.sty applied!
+(C:\Users\rothf\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer-scrpage.sty
 Package: scrlayer-scrpage 2026/02/02 v3.49.2 KOMA-Script package (end user interface for scrlayer)
  (C:\Users\rothf\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer.sty
 Package: scrlayer 2026/02/02 v3.49.2 KOMA-Script package (defining layers and page styles)
@@ -1680,7 +1695,7 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 68.
+(scrartcl)           before \begin{document} on input line 71.
  (C:\Users\rothf\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (C:\Users\rothf\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
@@ -1695,39 +1710,39 @@ Package chemmacros Info: Using float defining method `float'.
  (c:\Users\rothf\OneDrive\Dokumente\Chemie\Latex_Laurens\Poly\Rheology\out\protokoll.aux)
 \openout1 = `protokoll.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 68.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 68.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 71.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 71.
  (C:\Users\rothf\AppData\Local\Programs\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 68.
-Package scrbase Info: activating british \abstractname on input line 68.
-Package scrbase Info: activating british \partname on input line 68.
-Package scrbase Info: activating british \figurename on input line 68.
-Package scrbase Info: activating british \tablename on input line 68.
-Package scrbase Info: activating british \contentsname on input line 68.
-Package scrbase Info: activating british \listfigurename on input line 68.
-Package scrbase Info: activating british \listtablename on input line 68.
-Package scrbase Info: activating british \refname on input line 68.
-Package scrbase Info: activating british \indexname on input line 68.
+LaTeX Font Info:    ... okay on input line 71.
+Package scrbase Info: activating british \abstractname on input line 71.
+Package scrbase Info: activating british \partname on input line 71.
+Package scrbase Info: activating british \figurename on input line 71.
+Package scrbase Info: activating british \tablename on input line 71.
+Package scrbase Info: activating british \contentsname on input line 71.
+Package scrbase Info: activating british \listfigurename on input line 71.
+Package scrbase Info: activating british \listtablename on input line 71.
+Package scrbase Info: activating british \refname on input line 71.
+Package scrbase Info: activating british \indexname on input line 71.
  (C:\Users\rothf\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count532
@@ -1743,14 +1758,14 @@ Package scrbase Info: activating british \indexname on input line 68.
 \everyMPtoPDFconversion=\toks55
 )
 
-Package chemgreek Info: Activating mapping `default' on line 68.
+Package chemgreek Info: Activating mapping `default' on line 71.
 
  (C:\Users\rothf\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 ) (C:\Users\rothf\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-german.trsl
 File: translations-basic-dictionary-german.trsl (german translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 68.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 71.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1829,16 +1844,18 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'protokoll.bbl' found.
  (c:\Users\rothf\OneDrive\Dokumente\Chemie\Latex_Laurens\Poly\Rheology\out\protokoll.bbl)
-Package biblatex Info: Reference section=0 on input line 68.
-Package biblatex Info: Reference segment=0 on input line 68.
-Package hyperref Info: Link coloring OFF on input line 68.
+Package biblatex Info: Reference section=0 on input line 71.
+Package biblatex Info: Reference segment=0 on input line 71.
+Package hyperref Info: Link coloring OFF on input line 71.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 68.
+ on input line 71.
 
 Package babel Info: 'british' activates 'german' shorthands.
-(babel)             Reported on input line 68.
+(babel)             Reported on input line 71.
+Package cleveref Info: loaded `ngerman' language definitions on input line 71.
+Package cleveref Info: loaded `ngerman' language definitions on input line 71.
 
 Package chemmacros Warning: You haven't loaded any package for upright Greek
 (chemmacros)                letters or no unique choice was possible. Either
@@ -1846,15 +1863,15 @@ Package chemmacros Warning: You haven't loaded any package for upright Greek
 (chemmacros)                select a chemgreek mapping manually.
 
 (C:\Users\rothf\AppData\Local\Programs\MiKTeX\tex/latex/elements\elements_names_english.def)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 79.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 82.
  (C:\Users\rothf\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 79.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 82.
  (C:\Users\rothf\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+esvect on input line 79.
+LaTeX Font Info:    Trying to load font information for U+esvect on input line 82.
  (C:\Users\rothf\AppData\Local\Programs\MiKTeX\tex/latex/esvect\uesvect.fd
 File: uesvect.fd 
 ) [1
@@ -1869,24 +1886,24 @@ Non-PDF special ignored!
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.97 \newpage
-              [1]
+l.100 \newpage
+               [1]
 <Bilder/RheoModell.png, id=26, 245.41687pt x 167.87718pt>
 File: Bilder/RheoModell.png Graphic file (type png)
 <use Bilder/RheoModell.png>
-Package pdftex.def Info: Bilder/RheoModell.png  used on input line 109.
+Package pdftex.def Info: Bilder/RheoModell.png  used on input line 112.
 (pdftex.def)             Requested size: 171.79062pt x 117.51321pt.
 
 
-LaTeX Warning: Citation 'polyskript' on page 2 undefined on input line 110.
+LaTeX Warning: Citation 'polyskript' on page 2 undefined on input line 113.
 
 
-LaTeX Warning: Citation 'polyskript' on page 2 undefined on input line 110.
+LaTeX Warning: Citation 'polyskript' on page 2 undefined on input line 113.
 
 
-LaTeX Warning: Empty bibliography on input line 116.
+LaTeX Warning: Empty bibliography on input line 141.
 
-[2 <./Bilder/RheoModell.png>] (c:\Users\rothf\OneDrive\Dokumente\Chemie\Latex_Laurens\Poly\Rheology\out\protokoll.aux)
+[2 <./Bilder/RheoModell.png>] [3] (c:\Users\rothf\OneDrive\Dokumente\Chemie\Latex_Laurens\Poly\Rheology\out\protokoll.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1905,17 +1922,17 @@ Package logreq Info: Writing requests to 'protokoll.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 58720 strings out of 467867
- 1408616 string characters out of 5418334
- 2436262 words of memory out of 5000000
- 86786 multiletter control sequences out of 15000+600000
- 649962 words of font info for 103 fonts, out of 8000000 for 9000
+ 60407 strings out of 467867
+ 1448216 string characters out of 5418334
+ 2476378 words of memory out of 5000000
+ 88462 multiletter control sequences out of 15000+600000
+ 651496 words of font info for 105 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,20n,118p,11308b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx0900.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1000.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1200.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1440.pfb>
-Output written on c:\Users\rothf\OneDrive\Dokumente\Chemie\Latex_Laurens\Poly\Rheology\out\protokoll.pdf (3 pages, 175787 bytes).
+ 108i,19n,118p,11308b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx0900.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1000.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1200.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1440.pfb>
+Output written on c:\Users\rothf\OneDrive\Dokumente\Chemie\Latex_Laurens\Poly\Rheology\out\protokoll.pdf (4 pages, 212362 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
+ 115 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
  42 words of extra memory for PDF output out of 10000 (max. 10000000)
 
