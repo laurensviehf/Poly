@@ -27,6 +27,7 @@ plt.clf()
 
 plt.xlabel("$\omega$ [$s^{-1}$]")
 plt.ylabel("G' or G'' [Pa]")
+plt.xlim(1, 10e1)
 plt.xscale("log")
 plt.yscale("log")
 
