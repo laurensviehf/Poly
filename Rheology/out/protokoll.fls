@@ -647,6 +647,7 @@ INPUT .\Bilder\20_PVP_frq_G1_G2.png
 INPUT .\Bilder\20_PVP_frq_G1_G2.png
 INPUT .\Bilder\20_PVP_frq_G1_G2.png
 INPUT .\Bilder\20_PVP_frq_G1_G2.png
+INPUT C:\Users\rothf\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1000.tfm
 INPUT c:\Users\rothf\OneDrive\Dokumente\Chemie\Latex_Laurens\Poly\Rheology\out\protokoll.aux
 INPUT c:\Users\rothf\OneDrive\Dokumente\Chemie\Latex_Laurens\Poly\Rheology\out\protokoll.run.xml
 OUTPUT c:\Users\rothf\OneDrive\Dokumente\Chemie\Latex_Laurens\Poly\Rheology\out\protokoll.run.xml
@@ -656,8 +657,12 @@ INPUT C:\Users\rothf\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\rothf\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi9.pfb
 INPUT C:\Users\rothf\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\rothf\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\rothf\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Users\rothf\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Users\rothf\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\rothf\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\rothf\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Users\rothf\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Users\rothf\AppData\Local\Programs\MiKTeX\fonts\type1\public\cbgreek\grmn1000.pfb
 INPUT C:\Users\rothf\AppData\Local\Programs\MiKTeX\fonts\type1\public\cbgreek\grmn1000.pfb
 INPUT C:\Users\rothf\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfbx1000.pfb
@@ -674,3 +679,5 @@ INPUT C:\Users\rothf\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\s
 INPUT C:\Users\rothf\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfsx1200.pfb
 INPUT C:\Users\rothf\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfsx1440.pfb
 INPUT C:\Users\rothf\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfsx1440.pfb
+INPUT C:\Users\rothf\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfti1000.pfb
+INPUT C:\Users\rothf\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfti1000.pfb

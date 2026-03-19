@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber out/protokoll"] 1773935283.47556 "out/protokoll.bcf" "out/protokoll.bbl" "out/protokoll" 1773935297.67665 0
-  "Rheo.bib" 1773849773 414 37df833aabee4f713f0336a4250be172 ""
-  "out/protokoll.bcf" 1773935297 108640 52a8c524eb1ec8df0c70b3aac14c729e "pdflatex"
+["biber out/protokoll"] 1773935338.5931 "out/protokoll.bcf" "out/protokoll.bbl" "out/protokoll" 1773939252.03461 0
+  "Rheo.bib" 1773935331 2205 f34768a824314595f0010508406d7f9e ""
+  "out/protokoll.bcf" 1773939251 108726 d7f120f4e5e9b144d8b12fb31d9bd6a3 "pdflatex"
   (generated)
   "out/protokoll.bbl"
   "out/protokoll.blg"
   (rewritten before read)
-["pdflatex"] 1773935293.8576 "c:/Users/rothf/OneDrive/Dokumente/Chemie/Latex_Laurens/Poly/Rheology/protokoll.tex" "out/protokoll.pdf" "protokoll" 1773935297.6776 0
+["pdflatex"] 1773939248.03877 "c:/Users/rothf/OneDrive/Dokumente/Chemie/Latex_Laurens/Poly/Rheology/protokoll.tex" "out/protokoll.pdf" "protokoll" 1773939252.03556 0
   "Bilder/14_PVP.png" 1773844235 42072 2b0d02e7042a6da01511c18d06e6550b ""
   "Bilder/20_PVP_amp_G1.png" 1773849828 15612 384599e1dc777002b7092d54bf49234a ""
   "Bilder/20_PVP_amp_G2.png" 1773849828 16642 24c6c0fb9eeb719f358a0fff5a807996 ""
@@ -37,6 +37,7 @@
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecsx1000.tfm" 993062274 3132 8f6a92c0d7398c5da4b953b5b8578281 ""
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecsx1200.tfm" 993062276 3180 599b3b5297559680c761cb378da37988 ""
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecsx1440.tfm" 993062278 3184 a2316cf01357d42f7e6290f93e150975 ""
+  "C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecti1000.tfm" 993062320 2840 5606e1a681c23005308de9d61c09a8ff ""
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1233951848 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1233951848 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1233951848 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -77,7 +78,9 @@
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb" 1247596667 36094 798f80770b3b148ceedd006d487db67c ""
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
+  "C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1247596667 32762 7fee39e011c23b3589931effd97b9702 ""
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1247596666 32716 08e384dc442464e7285e891af9f45947 ""
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/grmn1000.pfb" 1199130600 82167 345ce464dc0ff0650f62e82447186d00 ""
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1000.pfb" 1215618300 145408 bcd327f112f643a875638eafb48d1d8b ""
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1728.pfb" 1215618300 139826 3796482349bae544f13f54da58f9706d ""
@@ -86,6 +89,7 @@
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1000.pfb" 1215618300 149078 529fb70b4eae6159fa47b6d68887e5ed ""
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1200.pfb" 1215618300 148436 6a185415b8a1b77c58fee2272f3574e2 ""
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1440.pfb" 1215618300 148301 1e3d992f26050f6b4fb0fd3d5094d854 ""
+  "C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfti1000.pfb" 1215618300 186554 2eb6bd25fc5e008c37b6575e4923fdc7 ""
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.sty" 1771089191 147019 f2ca437186bfeb562e1066ad59426a04 ""
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/de/babel-de.ini" 1771089192 4730 4757df0f315d1cf748da0b58d06a7c69 ""
@@ -339,12 +343,12 @@
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/tex/latex/was/upgreek.sty" 1665850770 5794 9054e31be15d93f1e6bd28cca2b6643f ""
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/tex/latex/xfrac/xfrac.sty" 1718270407 14945 a207ee7fd6b8cf6d82afb367c583ddd3 ""
-  "c:/Users/rothf/OneDrive/Dokumente/Chemie/Latex_Laurens/Poly/Rheology/protokoll.tex" 1773935262 11135 8f839162c79b166bd5e25c0312c6e024 ""
-  "out/protokoll.aux" 1773935297 13058 eaf52cccafec772fd97b4d5e26d38acd "pdflatex"
-  "out/protokoll.bbl" 1773935286 1412 f3f64e8ac9b005b1b49650f91d675aff "biber out/protokoll"
-  "out/protokoll.run.xml" 1773935297 2535 d371f6ff36b82b2ee56d2dadedae84e3 "pdflatex"
-  "out/protokoll.toc" 1773935297 1320 114ab8f5a7926f9191767539040f5473 "pdflatex"
-  "protokoll.tex" 1773935262 11135 8f839162c79b166bd5e25c0312c6e024 ""
+  "c:/Users/rothf/OneDrive/Dokumente/Chemie/Latex_Laurens/Poly/Rheology/protokoll.tex" 1773939243 13140 625abfd7462c67689fad920125d374b2 ""
+  "out/protokoll.aux" 1773939251 14323 2a6cf0e637cc2b3751cc8e3d9f958876 "pdflatex"
+  "out/protokoll.bbl" 1773935340 4912 02e5ade83dfd9527403453704cc4116f "biber out/protokoll"
+  "out/protokoll.run.xml" 1773939251 2535 d371f6ff36b82b2ee56d2dadedae84e3 "pdflatex"
+  "out/protokoll.toc" 1773939251 1519 3424bfcc7549a303e4e8a5e8b093912a "pdflatex"
+  "protokoll.tex" 1773939243 13140 625abfd7462c67689fad920125d374b2 ""
   (generated)
   "out/protokoll.aux"
   "out/protokoll.bcf"

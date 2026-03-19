@@ -37,6 +37,63 @@
       \verb https://ilias3.uni-stuttgart.de/ilias.php?baseClass=ilrepositorygui&cmdNode=z5:o1&cmdClass=ilObjFileGUI&cmd=sendfile&ref_id=4385586
       \endverb
     \endentry
+    \entry{martin-alfonso_development_2019}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f720f0d50a6947b3c0d676fa99f81530}{%
+           family={Martín-Alfonso},
+           familyi={M\bibinithyphendelim A\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=274c7e3bfa83aef6f55625aabe3d575f}{%
+           family={Číková},
+           familyi={Č\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d0d0bb760bf31a35cea745b4afafc1ab}{%
+           family={Omastová},
+           familyi={O\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6e469b6881942a26932876f75470f567}
+      \strng{fullhash}{304dddd9b20bab2a301147395d3ec01a}
+      \strng{fullhashraw}{304dddd9b20bab2a301147395d3ec01a}
+      \strng{bibnamehash}{304dddd9b20bab2a301147395d3ec01a}
+      \strng{authorbibnamehash}{304dddd9b20bab2a301147395d3ec01a}
+      \strng{authornamehash}{6e469b6881942a26932876f75470f567}
+      \strng{authorfullhash}{304dddd9b20bab2a301147395d3ec01a}
+      \strng{authorfullhashraw}{304dddd9b20bab2a301147395d3ec01a}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This work has been focused on the fabrication and characterization of polyvinylpyrrolidone (PVP)/tragacanth gum (GT) fibers prepared by electrospinning technique. The influence of GT amount on the electrospinning of PVP aqueous solutions under different concentrations was studied. Spectroscopic (FTIR and XPS), morphological (SEM) and thermal (DSC and TGA) properties of the electrospun fiber mats were analyzed. In addition, rheological behavior of the polymer solutions was measured to explain the electrospinnability for fiber formation. The results of SEM showed that the GT content exerts an important influence on the fiber morphology. The fiber diameter increased with increasing PVP concentration, whereas the diameter of fibers increased with decreasing GT concentration. One empirical correlation between the diameter of the fibers and the Newtonian viscosity has been proposed. Chemical analysis confirmed the presence of GT in fiber composition and the results of DSC proved that GT influences PVP polymer thermal behavior.}
+      \field{issn}{1359-8368}
+      \field{journaltitle}{Composites Part B: Engineering}
+      \field{month}{7}
+      \field{title}{Development and characterization of composite fibers based on tragacanth gum and polyvinylpyrrolidone}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{169}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{79\bibrangedash 87}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.compositesb.2019.04.005
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:C\:\\Users\\laure\\Zotero\\storage\\HL5JN72L\\S1359836818303901.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1359836818303901
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1359836818303901
+      \endverb
+      \keyw{A. Polymer fiber,B. Micro-structures,C. Electrospinning,D. Physical properties}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
