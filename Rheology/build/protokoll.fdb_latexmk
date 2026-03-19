@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber build/protokoll"] 1773928718.27499 "build/protokoll.bcf" "build/protokoll.bbl" "build/protokoll" 1773929422.97233 0
+["biber build/protokoll"] 1773928718.27499 "build/protokoll.bcf" "build/protokoll.bbl" "build/protokoll" 1773935346.80888 0
   "Rheo.bib" 1773928676 2177 f34768a824314595f0010508406d7f9e ""
-  "build/protokoll.bcf" 1773929422 108340 7d09f3143cb19ee7a6ea37687c242a9c "pdflatex"
+  "build/protokoll.bcf" 1773935346 108340 7d09f3143cb19ee7a6ea37687c242a9c "pdflatex"
   (generated)
   "build/protokoll.bbl"
   "build/protokoll.blg"
   (rewritten before read)
-["pdflatex"] 1773929419.53937 "d:/Dokumente/Uni laptop/Chemie/Poly/Rheology/protokoll.tex" "build/protokoll.pdf" "protokoll" 1773929422.97315 0
+["pdflatex"] 1773935343.24964 "d:/Dokumente/Uni laptop/Chemie/Poly/Rheology/protokoll.tex" "build/protokoll.pdf" "protokoll" 1773935346.80959 0
   "Bilder/14_PVP.png" 1773843222 42072 2b0d02e7042a6da01511c18d06e6550b ""
   "Bilder/20_PVP_amp_G1.png" 1773849519 15612 384599e1dc777002b7092d54bf49234a ""
   "Bilder/20_PVP_amp_G2.png" 1773849519 16642 24c6c0fb9eeb719f358a0fff5a807996 ""
@@ -17,11 +17,11 @@
   "Bilder/RheoModell.png" 1773848951 23233 b4b02ec08ecc133f163e2c23231f772d ""
   "Bilder/Speisestärke.png" 1773843223 42655 4d45cba7544411632ccdb54af58cdebe ""
   "Bilder/ketchup.png" 1773849323 28229 33212665ada2651b60eb9d28a3b17780 ""
-  "build/protokoll.aux" 1773929422 10806 becc17ab31d76ff23aef17937d257491 "pdflatex"
+  "build/protokoll.aux" 1773935346 10806 3a412fb7be9df21bde63d10448a66e38 "pdflatex"
   "build/protokoll.bbl" 1773928719 4912 b930120353a7d166f40d1f65e5561624 "biber build/protokoll"
-  "build/protokoll.out" 1773929422 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "build/protokoll.run.xml" 1773929422 2535 d371f6ff36b82b2ee56d2dadedae84e3 "pdflatex"
-  "build/protokoll.toc" 1773929422 813 c0a4cd7eeb1207361b739a2622927e5f "pdflatex"
+  "build/protokoll.out" 1773935345 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "build/protokoll.run.xml" 1773935346 2535 d371f6ff36b82b2ee56d2dadedae84e3 "pdflatex"
+  "build/protokoll.toc" 1773935346 813 b2159857007e9db00cddd9c3d61a8fe0 "pdflatex"
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1713295977 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1713296793 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1713296446 3584 2d666ecf6d466d8b007246bc2f94d9da ""
@@ -354,8 +354,8 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1713300443 5519690 1698f96789543a09b6b0e33aada59581 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1713300629 8222510 1d715446f99c4a441624fedc23e92ee4 ""
   "c:/texlive/2024/texmf.cnf" 1713300414 713 e69b156964470283e0530f5060668171 ""
-  "d:/Dokumente/Uni laptop/Chemie/Poly/Rheology/protokoll.tex" 1773929415 9912 2fae2780f48726dad0a24b54987a804d ""
-  "protokoll.tex" 1773929415 9912 2fae2780f48726dad0a24b54987a804d ""
+  "d:/Dokumente/Uni laptop/Chemie/Poly/Rheology/protokoll.tex" 1773935337 10260 9366d212ec1180ba17555800a9b2554e ""
+  "protokoll.tex" 1773935337 10260 9366d212ec1180ba17555800a9b2554e ""
   (generated)
   "build/protokoll.aux"
   "build/protokoll.bcf"
