@@ -1,5 +1,16 @@
 \babel@toc {british}{}\relax 
 \contentsline {section}{\numberline {1}Theory}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Basic concepts}{2}{subsection.1.1}%
-\contentsline {section}{\numberline {2}Results}{3}{section.2}%
+\contentsline {subsection}{\numberline {1.2}Behaviour of matter}{3}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Elastic}{3}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Viscous}{3}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Plastic}{3}{subsubsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}viscoelastic}{3}{subsubsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.3}Measurement methods}{3}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Results}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Rotational measurements}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Time dependant measurement of the viscosity}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Oszillational measurements to determine the viscoelastic properties}{6}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}amplitude sweep}{6}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}frequency sweep}{7}{subsubsection.2.3.2}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
