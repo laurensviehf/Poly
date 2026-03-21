@@ -167,7 +167,40 @@
 		determined by varying the deflection and subsequently selecting the frequency, and follows the equations below.\\
 	
 	\subsection{Complex parameters of oscillation}
-		
+		When determining the behaviour of the material, a stress or a strain is first specified. In oscillation measurements, the complex strain is given as a+b
+		\begin{equation}
+			\gamma^* = \gamma_0 \cdot \exp(\text{i} \cdot \omega \cdot t) \text{.}
+		\end{equation}
+		A similar calculation is used for the complex shear stress, given as 
+		\begin{equation}
+			\tau^* = \tau_0 \cdot \exp(\text{i} \cdot \omega \cdot t + \delta) \text{.}
+		\end{equation}
+		Here, $\gamma_0$ and $\tau_0$ describe the amplitude of the oscillation, $\omega$ the frequency, and $\delta$ the behaviour of the material. If $\delta$ takes the 
+		value 0, the material behaves elastically; a value of $\frac{\pi}{2}$ corresponds to viscous behaviour, and anything in between corresponds to viscoelastic 
+		behaviour.\\
+		The quotient of shear stress and strain describes the complex modulus, which is expressed as a complex number
+		\begin{equation}
+			G^* = \frac{\tau^*}{\gamma^*} = G^{'} + \text{i} \cdot G^{''}
+		\end{equation}
+		The quantity $G^{'}$ describes the storage modulus and is defined as
+		\begin{equation}
+			G^{'} = \frac{\tau_0}{\gamma_0} \cdot \cos(\delta) \text{.}
+		\end{equation}
+		$G^{''}$, on the other hand, is the loss modulus and is given as 
+		\begin{equation}
+			G^{''} = \frac{\tau_0}{\gamma_0} \cdot \sin(\delta) \text{.}
+		\end{equation}
+		The quotient of these values corresponds to the tangens of the phase shift $\delta$.
+		\begin{equation}
+			\tan \delta \equiv \frac{G^{''}}{G^{'}}
+		\end{equation}
+		If the calculation yields a number less than 1, the elastic behaviour dominates; conversely, the viscous behaviour dominates.\\
+		In addition, the complex viscosity, which is given as
+		\begin{equation}
+			|\eta^*| = \frac{\sqrt{G^{'2} + G^{''2}}}{\omega} = \frac{\sqrt{\tau_0}}{\gamma_0 \cdot \omega} \text{,}
+		\end{equation}
+		is measured. \cite{polyskript}
+
 \section{Results}
 
 	\subsection{Rotational measurements}
