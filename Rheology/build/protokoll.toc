@@ -13,4 +13,8 @@
 \contentsline {subsection}{\numberline {2.3}Oszillational measurements to determine the viscoelastic properties}{6}{subsection.2.3}%
 \contentsline {subsubsection}{\numberline {2.3.1}Strain sweep}{6}{subsubsection.2.3.1}%
 \contentsline {subsubsection}{\numberline {2.3.2}Frequency sweep}{8}{subsubsection.2.3.2}%
+\contentsline {section}{\numberline {3}Questions}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Question 1}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Question 2}{10}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Question 3}{10}{subsection.3.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
