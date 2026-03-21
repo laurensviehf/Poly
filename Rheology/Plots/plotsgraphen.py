@@ -29,4 +29,4 @@ plt.yticks([])
 plt.ylim(2, 6)
 plt.xlim(0, 5)
 
-plt.savefig(r"D:\Dokumente\Uni laptop\Chemie\Poly\Rheology\Bilder" + "\\" + "fließgraph")
+plt.savefig(r"D:\Dokumente\Uni laptop\Chemie\Poly\Rheology\Bilder" + "\\" + "Fliesgraph")
