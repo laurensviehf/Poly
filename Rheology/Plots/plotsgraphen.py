@@ -28,4 +28,4 @@ plt.legend() # Zeigt die Beschriftungen an
 # Limitieren der y-Achse, damit die Parabel das Bild nicht "sprengt"
 plt.ylim(0, 10)
 
-plt.savefig(r"C:\Users\rothf\OneDrive\Dokumente\Chemie\Latex_Laurens\Poly\Rheology\Bilder" + "\\" + "Fliesgraph")
+plt.savefig(r"D:\Dokumente\Uni laptop\Chemie\Poly\Rheology\Bilder" + "\\" + "fließgraph")
