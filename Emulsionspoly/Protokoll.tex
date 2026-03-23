@@ -1,0 +1,171 @@
+\documentclass[10pt,a4paper,ngerman]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage[onehalfspacing]{setspace}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{float}
+\usepackage{csquotes}
+\usepackage{chemformula}
+\usepackage{chemgreek}
+\usepackage{chemmacros}
+\chemsetup{modules=all}
+\usepackage{tikz}
+\usepackage{siunitx}
+\sisetup{locale = DE,per-mode = symbol}
+\usepackage{esvect}
+\usepackage{geometry}
+\usepackage{pdfpages}
+\usepackage[font=small]{caption}
+%\usepackage[version=4]{mhchem}
+\usepackage[backend=biber, style=chem-angew]{biblatex}
+\addbibresource{Emulsion.bib}
+\usepackage{tabularx, booktabs, multirow}
+\usepackage[pdfborder={0 0 0}]{hyperref}
+\usepackage{scrlayer-scrpage}%Header für die KOMA-script -Klasse
+%\usepackage{hyperref}
+\usepackage{pgfplots}
+\usepackage{textgreek}
+
+
+\newcommand{\tildenu}{{\fontencoding{LGR}\selectfont\accperispomeni\textnu}}
+\captionsetup{format=plain}
+\chemsetup[phases]{pos=sub}
+\chemsetup[redox]{pos=top}
+\chemsetup[redox]{align=center}
+%\chemsetup[redox]{explicit-sign=true}
+%\chemsetup[redox]{roman=false}
+\newcommand{\celsius}{^{\circ}\mathrm{C}}
+\parindent0pt
+\sloppy
+\DeclareChemPhase{\s}{s}
+\DeclareChemPhase{\l}{l}
+\DeclareChemPhase{\g}{g}
+\renewcaptionname{ngerman}{\figurename}{Abb.}
+\renewcaptionname{ngerman}{\tablename}{Tab.}
+\geometry{bottom=100pt} \geometry{top=80pt}
+\newcommand{\m}{\mathrm{m}}
+\newcommand{\K}{\mathrm{K}}
+\newcommand{\J}{\mathrm{J}}
+\newcommand{\gr}{\mathrm{g}}
+\newcommand{\kg}{\mathrm{kg}}
+\newcommand{\mol}{\mathrm{mol}}
+\newcommand{\Pa}{\mathrm{Pa}}
+\newcommand{\ad}{\mathrm{ad}}
+\newcommand{\de}{\mathrm{de}}
+\newcommand{\gmol}{\mathrm{\frac{g}{mol}}}
+\newcommand{\JKmol}{\mathrm{\frac{J}{K \cdot mol}}}
+\newcommand{\kgmss}{\mathrm{\frac{kg}{m \cdot s^2}}}
+\newcommand{\loge}{\mathrm{ln}}
+
+
+\begin{document}
+\begin{titlepage}
+	\vspace*{2,5cm}
+	\begin{center}
+		\begin{LARGE}
+			\textbf{Polymer Chemie}\\
+			\textbf{Elulsionspolymerisation}\\
+		\end{LARGE}
+		\vspace{1cm}
+		\textbf{Universität Stuttgart}\\
+		\vspace*{1,5cm}
+		\begin{tabular}{lp{7,5cm}l}
+			Author 1:     &Laurens Viehoff\\
+            Author 2:     &Felix Roth\\   
+			E-Mail 1:      &st183688@stud.uni-stuttgart.de\\
+            E-Mail 2:      &st188157@stud.uni-stuttgart.de  \\
+			Student-ID 1: & 3676761   \\ 
+            Student-ID 2: & 3711192 \\ \\
+			Assistentin:  &   \\ \\ 
+		\end{tabular}
+	\end{center}
+
+    
+\end{titlepage}
+\thispagestyle{empty}
+\renewcommand{\thepage}{\arabic{page}}
+\newpage
+\tableofcontents
+\setcounter{page}{1}
+\renewcommand{\thepage}{\arabic{page}}
+\newpage
+
+\section{Theorie}
+
+	\subsection{Allgemeine Funkionsweise}
+
+		Der Kerngedanke der Emulsionspolymerisation, ist das trennen der Polymerisation von der Monomerreserven.
+		Dies wird durch das feine dispergieren in Wasser zu kleinen tröpfchen (auch Latexzellen gennant) realisiert. 
+		Durch starkes rühren und zusatz von emulgator wird dies verstärkt.
+		Im allgemeinen sind die Bestandteile einer Emulsionspolymerisation Monomer (welches wasserunlöslich ist), Wasser, Emulgator und Initator welcher wasserlöslich und ein Radikalbildner sein muss.
+		Es gibt unterschiedliche Emulgatortypen, einer von ihnen ist der anionische- bzw. kationische Typ hierbei handelt es sich um Fettsäuren oder Salze von Alkylsulfonaten, 
+		wichtig ist hierbei das zweitere eher seltener verwendet werden.
+		Die wichtigste Eigenschaft eines Emulgators besteht darin, dass sie einen polaren (hydrophielen) sowie einen unpolaren (hydrophoben) Teil haben.
+		So werden ab einer bestimmten Konzentration (CMC) Mizellen gebildet welche im ineren eine polare umgebung haben (dort halten sich in unserem Fall die Monomere auf).\\
+		Im großen und ganzen lässt sich die Emulsionspolymerisation in 3 Phasen unterteilen.
+		In diesen Drei Phasen wird kontinuierlich die Polymerisationsgeschwindigkeit betrachtet.
+		So lassen sich diese in eine ansteigende (Phase 1), eine konstante (Phase 2) und eine abfallende (Phase 3) unterteilen dies ist im Abb. \ref{PolyGes} verdeutlicht.
+
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale = 0.75]{Bilder/Graph_Polymges.png}
+				\caption{Dieser Graph zeigt die Polymerisationsgeschwindigkeit und die Oberflächenspannung im bezug auf die Zeit. \cite{polyskript}}
+				\label{PolyGes}
+			\end{figure}
+			
+		Der Abluauf der Polymerisation erfolgt, dass zu begin zum einen leere Mizellen vorliegen aber auch nur mit Monomer gefüllte Mizellen Vorliegen.
+		Aus diesen, auch Monomertröpfchen genannte Mizellen diffundieren Monomere in die Leeren Mizellen. 
+		Der anschließend zugefügte wasserlösliche Initiator zerfällt in der Lösung und die Radikale können in die Mizellen diffundieren. Dort findet der start der Polymerisation statt. 
+		Wichtig hierbei ist das die anzahl der Monomertröpfchen duetlich kleiner ist als die anzahl der Mizellen wodurch eine statistische höhere diffusion in diese Stattfindet.
+		Ist die Polymerisation gestartet wird Monomer verbraucht, dadurch steigt wie in Phase eins die Polymerisationsgeschwindigkeit an.
+		Anschließend diffundieren weitere Monomere aus den Monomertröpfchen in die Mizelle wodurch die Polymerisationsgeschwindigkeit zunächst konstant bleibt (Phase 2).
+		Ist diese "Monomerreserve" aufgebraucht nimmt auch die Monomermenge in der Mizelle langsam ab, wodurch auch die Polymerisationsgeschwindigkeit abnimmt (Phase 3).
+
+	\subsection{Kinetik}
+
+		 
+\section{Durchführung}
+
+	Es wurden \SI{48}{mL} Wasser in einem Kolben vorgelegt. Hierzu wurde \SI{1,2}{g} Emulgator und \SI{12}{g} Styrol zugegeben. 
+	Es wurde auf 70°C erhitzt und unter Rückfluss gerührt. Nach etwas \SI{30}{min} wurde eine vorbereitete Kaliumperoxodisulfat-Lösung (\SI{139}{mg} in \SI{4}{mL} Wasser) zugegeben.
+	Im laufe der nächsten Drei stunden wurde zu in Tabelle \ref{xx} zeitpunkten \SI{2}{mL} der Reaktionslösung entnommen und zu \SI{1}{mL} einer bereits hergestellten Hydrochinonlösung zugegeben.
+	Diese werden in einem Hochvakuumschrank getrocknet und anschließend gewogen. wopbei das gewicht vor und nach trocknen notiert wird.
+
+\section{Auswertung}
+
+
+\section{Fragen}
+
+	\subsection{Frage 1}
+
+		Durch die Anwesenheut von sauerstoff kann ein Kettenabbruch stattfinden da es sich trotz Emulsionspolymerisation rein Chemisch um eine radikalische Polymerisation handelt.
+		Daraus folgt ein zusätzlicher anstieg der Polymerisationsgeschwindigkeit, da durch verbrauchen des Polymers die wahrscheinlichkeit steigt, dass eine Reaktion mit Sauerstoff stattfindet.
+
+			
+	\subsection{Frage 2}
+
+		Zum einen die Elektrostatische Stabilisierung, dies ist vor allem bei anionischen Emulgatoren der fall. Alle der Teilchen erhalten die selbe ladung und können sich gegenseitig abstoßen.
+		%Sterische Stabilisierung, Emulgatorkonz, Geringe Ionenstärke laut Gemini lol
+
+
+	\subsection{Frage 3}
+
+		
+
+	\subsection{Frage 4}
+
+
+	\subsection{Frage 5}
+
+
+\printbibliography
+
+\end{document}

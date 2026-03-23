@@ -1,0 +1,73 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage[bookmarks,colorlinks=true]{hyperref}
+\usepackage{float}
+\usepackage[final]{pdfpages}
+\usepackage{framed, color}
+\usepackage{scrlayer-scrpage}
+\usepackage{siunitx}
+\usepackage{subfigure}
+\usepackage[left=2.5cm, right=2.5cm, bottom=3cm, top=3cm]{geometry}
+\usepackage{svg}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{csquotes}
+\usepackage{tikz}
+\usepackage[font=small]{caption}
+\usepackage{tabularx, booktabs, multirow}
+\usepackage[version=4]{mhchem}
+\usepackage{chemfig, chemgreek, upgreek, chemmacros}
+\usepackage{mathtools}
+\usepackage{blindtext}
+\usepackage{microtype}
+\usepackage[backend=biber, style=chem-angew]{biblatex}
+\usepackage{longtable}
+\usepackage{calc}
+\usepackage{expl3}
+\addbibresource{lit.bib}
+
+
+\chemsetup[phases]{pos=sub}
+\chemsetup[redox]{pos=top}
+\chemsetup[redox]{explicit-sign=true}
+
+\captionsetup{format=plain}
+
+\newcommand{\celsius}{^{\circ}\mathrm{C}}
+\sloppy
+
+
+\sisetup{detect-weight=true, detect-family=true,range-phrase={\,bis\,},list-final-separator ={\,\linebreak[0] \text{und}\,},separate-uncertainty=true,per-mode = symbol-or-fraction}
+\DeclareSIUnit\curie{Ci}
+\sisetup{math-micro=\text{µ},text-micro=µ}
+
+%Hyperlinks-Setup
+\hypersetup{
+    colorlinks,
+    linktocpage,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+%Beträge
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}
+
+\numberwithin{equation}{section}
+
+\setlength{\parindent}{0 mm}
+\setlength{\parskip}{2 mm}
+
+
+
+\pagestyle{scrheadings}%Kopf und Fußzeilen
+\ohead{\VERSUCHSNAME} %Header oben links auf linker Seite (ungerade Seitenzahl) und oben rechts auf rechter Seite (gerade Seitenzahl), beinhaltet gruppennummer und Versuchskürzel. Im Fall eine einseitigen Dokuments: Header oben rechts
+\ihead{\VerfasserEINS~\&~\VerfasserZWEI~\&~\VerfasserDREI} %Header oben rechts auf linker Seite und oben links auf rechter Seite. Beinhaltet die Namen der Verfasser. Im Fall eine einseitigen Dokuments: Header oben links!
+\ofoot{\empty} %Footer unten links auf linker und unten rechts auf rechter Seite, enthÃ¤lt die jeweilige Seitenzahl. Im Fall eines einseitigen Elements: Footer unten rechts!
+\cfoot{\pagemark} %Mittig unten im Footer soll nichts eingetragen werden 
+\ifoot{\empty} %Footer unten rechts auf linker und unten links auf rechter Seite. Hier ebenfalls leer.
+
+

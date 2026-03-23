@@ -60,6 +60,8 @@
       <file>numeric-comp.cbx</file>
       <file>chem-angew.cbx</file>
       <file>biblatex.cfg</file>
+      <file>english.lbx</file>
+      <file>british.lbx</file>
       <file>german.lbx</file>
       <file>ngerman.lbx</file>
     </requires>

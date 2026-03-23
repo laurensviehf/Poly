@@ -1,0 +1,39 @@
+Datenreihen-Informationen
+Name:			260318-Honey 1
+Probe:			260318-Honey
+Anzahl Abschnitte:			1
+Applikation:			RHEOPLUS/32 V3.40 21004777-33024
+Messgerät:			MCR301 SN80696667; FW3.40D090210; Adj5780d
+Datum/Zeit:			18.03.2026; 09:28
+Messsystem:			CP50-1-SN20186; d=0,103 mm
+Zusatzgeräte:			TU1=P-PTD200-SN80709695
+
+Abschnitt:			1
+Anzahl Messpunkte:			19
+
+Zeitvorgabe:			19 Messpunkte, Deformation rücksetzen
+			Messpunktdauer 5 s
+Messprofil:
+  Scherrate			d(gamma)/dt = 0,1 ... 500 1/s log; |Steigung| = 4,8662195 Pkt. / dec 
+
+Messpkt.	Scherrate	Schubspannung	Viskosität	Drehzahl	Moment	Status
+	[1/s]	[Pa]	[Pa·s]	[1/min]	[µNm]	[]
+1	0,1	9,43	94,3	0,0168	309	Dy_auto
+2	0,16	8,85	55,2	0,027	290	Dy_auto
+3	0,258	8,97	34,8	0,0434	294	Dy_auto
+4	0,414	9,71	23,5	0,0697	318	Dy_auto
+5	0,664	11,5	17,4	0,112	378	Dy_auto
+6	1,07	15	14,1	0,18	491	Dy_auto
+7	1,71	20,9	12,2	0,288	685	Dy_auto
+8	2,75	30	10,9	0,463	983	Dy_auto
+9	4,41	45,2	10,3	0,742	1.480	Dy_auto
+10	7,07	68,9	9,74	1,19	2.250	Dy_auto
+11	11,4	107	9,42	1,91	3.500	Dy_auto
+12	18,2	169	9,3	3,07	5.550	Dy_auto
+13	29,2	269	9,2	4,92	8.810	Dy_auto
+14	46,9	427	9,1	7,91	14.000	Dy_auto
+15	75,3	679	9,01	12,7	22.200	Dy_auto
+16	121	1.080	8,93	20,4	35.400	Dy_auto
+17	194	1.720	8,85	32,7	56.200	Dy_auto
+18	312	2.710	8,71	52,5	88.800	Dy_auto
+19	500	4.240	8,48	84,2	139.000	Dy_auto

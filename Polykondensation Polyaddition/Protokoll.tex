@@ -1,0 +1,236 @@
+\documentclass[10pt,a4paper,ngerman]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage[onehalfspacing]{setspace}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{float}
+\usepackage{csquotes}
+\usepackage{chemformula}
+\usepackage{chemgreek}
+\usepackage{chemmacros}
+\chemsetup{modules=all}
+\usepackage{tikz}
+\usepackage{siunitx}
+\sisetup{locale = DE,per-mode = symbol}
+\usepackage{esvect}
+\usepackage{geometry}
+\usepackage{pdfpages}
+\usepackage[font=small]{caption}
+%\usepackage[version=4]{mhchem}
+\usepackage[backend=biber, style=chem-angew]{biblatex}
+\addbibresource{Polyaddition_Polykond.bib}
+\usepackage{tabularx, booktabs, multirow}
+\usepackage[pdfborder={0 0 0}]{hyperref}
+\usepackage{scrlayer-scrpage}%Header für die KOMA-script -Klasse
+%\usepackage{hyperref}
+\usepackage{pgfplots}
+\usepackage{textgreek}
+
+
+\newcommand{\tildenu}{{\fontencoding{LGR}\selectfont\accperispomeni\textnu}}
+\captionsetup{format=plain}
+\chemsetup[phases]{pos=sub}
+\chemsetup[redox]{pos=top}
+\chemsetup[redox]{align=center}
+%\chemsetup[redox]{explicit-sign=true}
+%\chemsetup[redox]{roman=false}
+\newcommand{\celsius}{^{\circ}\mathrm{C}}
+\parindent0pt
+\sloppy
+\DeclareChemPhase{\s}{s}
+\DeclareChemPhase{\l}{l}
+\DeclareChemPhase{\g}{g}
+\renewcaptionname{ngerman}{\figurename}{Abb.}
+\renewcaptionname{ngerman}{\tablename}{Tab.}
+\geometry{bottom=100pt} \geometry{top=80pt}
+\newcommand{\m}{\mathrm{m}}
+\newcommand{\K}{\mathrm{K}}
+\newcommand{\J}{\mathrm{J}}
+\newcommand{\gr}{\mathrm{g}}
+\newcommand{\kg}{\mathrm{kg}}
+\newcommand{\mol}{\mathrm{mol}}
+\newcommand{\Pa}{\mathrm{Pa}}
+\newcommand{\ad}{\mathrm{ad}}
+\newcommand{\de}{\mathrm{de}}
+\newcommand{\gmol}{\mathrm{\frac{g}{mol}}}
+\newcommand{\JKmol}{\mathrm{\frac{J}{K \cdot mol}}}
+\newcommand{\kgmss}{\mathrm{\frac{kg}{m \cdot s^2}}}
+\newcommand{\loge}{\mathrm{ln}}
+
+
+\begin{document}
+\begin{titlepage}
+	\vspace*{2,5cm}
+	\begin{center}
+		\begin{LARGE}
+			\textbf{Polymer Chemie}\\
+			\textbf{Polyaddition und Polykondensation}\\
+		\end{LARGE}
+		\vspace{1cm}
+		\textbf{Universität Stuttgart}\\
+		\vspace*{1,5cm}
+		\begin{tabular}{lp{7,5cm}l}
+			Author 1:     &Laurens Viehoff\\
+            Author 2:     &Felix Roth\\   
+			E-Mail 1:      &st183688@stud.uni-stuttgart.de\\
+            E-Mail 2:      &st188157@stud.uni-stuttgart.de  \\
+			Student-ID 1: & 3676761   \\ 
+            Student-ID 2: & 3711192 \\ \\
+			Assistentin:  &   \\ \\ 
+		\end{tabular}
+	\end{center}
+
+    
+\end{titlepage}
+\thispagestyle{empty}
+\renewcommand{\thepage}{\arabic{page}}
+\newpage
+\tableofcontents
+\setcounter{page}{1}
+\renewcommand{\thepage}{\arabic{page}}
+\newpage
+
+\section{Theorie}
+
+	\subsection{Polykondensation}
+
+		Ganz allgemein lassen sich Kondensationsreaktionen beschreiben als Reaktionen wo eine Abspaltung kleiner Teilchen (meist Wasser) stattfindet.
+		Im Falle der polymerisation passiert dies bei der Reaktion zweier Monomere oder Polymerketten miteinander. 
+		Hierbei reagieren die Funktionellen gruppen der Monomere miteinander Hierbei ist wichtig, dass in zwei unterschiedliche Systeme unterschieden wird.\\\\
+		Bei AA/BB-Systemen ragieren unterschiedliche Monomere, über die selben Endgruppen miteinander. Ein Beispiel hierfür wäre 1,6-Hexandiol.\\
+		Das andere System wäre das AB-System, hierbei reagieren die gleichen Monomeren über unterschiedliche Endgruppen miteinander. Ein Beispiel hierfür wäre Nylon-6.\\
+
+		Bei betrachten dieser Systeme fällt auf, dass um diese einteilung durch zu führen ein Monomer mit zwei Funktionellen Endgruppen benötigt wird.
+		Unteranderem geschieht im laufe der polymerisation ein Stufenwachstum, sprich es bilden sich zunächst aus mehreren Monomeren Oligomere und anschließend setzten sich diese Oligomere zu Polymerketten zusammen.
+		Wichtig ist auch, dass anders wie bei der Radikalischen Polimerisation, im laufe der Kondensation immer wieder die Aktivierungsenergie aufgewendet werden muss.\\\\
+
+
+		So kann unter berücksichtigung der bifunktionellen Reaktionspartner der Zahlenmittlere Polymerisationsgrad bestimmt werden.
+		Dies ist auch in Gleichung \ref{Polymerisationsgrad} verdeutlicht.
+
+		\begin{equation}
+			\bar{P}_n = \frac{c_0}{c_t} = \frac{1}{1-p}
+			\label{Polymerisationsgrad}
+		\end{equation}
+
+		Durch Umstellen lässt sich auch der Umsatz (p) definieren, dies ist wichtig da p zu der anzahl der funktionellen gruppen proportional ist.
+		Wird dies graphisch betrachtet wie in Abb.\ref{Carothers} so wird deutlich, dass das erreichen eines Umsatz von 1 nur möglich ist wenn 100\% der funktionellen Gruppen reagiert haben.
+		Da dies präperativ nich umzusetzten ist nähert sich die Umsetzung an 1 an je höer der Polymerisationsgrad ist. 
+		Diese Beziehung wird auch Carothers-Beziehung genannt. und ist mathematisch wie folgt gegeben:
+
+		\begin{equation}
+			P_n = \frac{1}{(1-p)}
+			\label{Carothers_Gleichung}
+		\end{equation}
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics{Bilder/Graph_Carothers.png}
+			\caption{Carothers-Beziehung Graphisch dargestellt, hierbei wird der zahlenmittlere Polymerisationsgrad gegen den Umsatz geplottet.\cite{polyskript}}
+			\label{Carothers}
+		\end{figure}
+
+		
+	\subsection{Polyaddition}
+	
+		Anders wie bei der zuvor genannten Polykondensation handelt es sich bei der Polyaddition um ein schrittweises ausbilden der Polymerkette.
+		Jedoch liegt bei der Polyaddition auch ein Stufenwachstum vor.
+		
+
+    
+
+\section{Durchführung}
+
+	\subsection{Herstellung von Nylon}
+
+		Es wurde eine Hexamethylendiamin Lösung (\SI{2,2}{g}, \SI{13}{mmol}, \SI{50}{mL} Wasser) hergestellt und in einem Becherglas vorgelegt.
+		Anschließend wurde eine weitere Lösung Sebacinsäuredichlorid (\SI{1,5}{mL}, \SI{7}{mmol}, \SI{100}{mL} Cyclohexan) hergestellt.
+		Die erste der beiden Lösungen wurde zusätzlich mit etwas Phenolphtalein angefärbt, sodass die Phasengrenze besser zu sehen ist.
+		Daraufhin wurde die Hexamethylendiamin Lösung mit der zweiten Lösung vorsichtig überschichtet. 
+		Nach überschichten wurde eine pinzette und ein glasstab verwended um einen faden aus der Phasengrenze zu ziehen.
+		Falls das ziehen eines Fadens möglich ist wird dieser anschließend mit Natriumhydrogencarbonatlösung, Wasser und Aceton gewaschen und zum trocknen in den Trockenschrank gelegt.
+
+	\subsection{Lösungspolymerisation}
+
+		Es wird Polytetrahydrofuran (Mn ~ 2000, \SI{4}{g}, \SI{2}{mmol}, 1 Äq) in einem schlenkkolben vorgelegt, und anschließend ausgeheizt.
+		Es wird TDI (\SI{0,8}{g}, \SI{0,66}{mL}, \SI{4,6}{mmol}, 2,3 Äq), \SI{40}{mL} trockenes DMF sowie eine DBTL (Dibutyzinnlaureat) Lösung (\SI{4}{mL}, \SI{0,1}{mol/L}, in DMF) 
+		zugegeben und anschließend auf \SI{80}{°C} für eine stunde, unter rühren erhitzt.
+		Danach wird 1,4-Butandiol (\SI{0,23}{g}, \SI{0,23}{mL}, \SI{2,6}{mmol}) zugegeben und weitere zwei stunden gerührt.
+		Die lösung wird nach den zwei Stunden in MeOH (250mL) gegeben und im falle von ausfallendem Polymer wird dieses abgefiltert und mit MeOH gewaschen.
+		Das Polymer wird im trochenschrank getrocknet.
+
+	\subsection{PU Schaum}
+
+		Für beide Varianten (Hartschaumpolyol und Weichschaumpolyol) wurde gleich vorgegangen und lediglich die Chemikalien änderten sich.\\
+		Für den Hartschaum wurden Polyethylenglykol 600 (\SI{5}{g}), Glyzerin (\SI{1,8}{g}), Natriumdodecylsulfat (\SI{280}{mg}), teilverseiftes Polyvinylacetat (\SI{400}{mg}), Dibutylzinndilaureat (2 Tropfen) und Wasser (\SI{2}{g}) verwendet.\\
+		Für den Weichschaum wurden Polyethylenglykol 600 (\SI{17}{g}), Glyzerin (\SI{580}{mg}), Natriumdodecylsulfat (\SI{170}{mg}), teilverseiftes Polyvinylacetat (\SI{300}{mg}), Dibutylzinndilaureat (2 Tropfen), Silikonöl (1 Tropfen) und Wasser (\SI{2,5}{g}) verwendet.\\
+		Die Chemikalien wurden in einem Pappbecher vermischt und zu einer einheitlichen Lösung vermischt. Anschließend wurde unter kräftigen rühren Diioscyanat zugegeben (\SI{10}{mL}).
+
+
+
+\section{Fragen}
+	
+	\subsection{Polykondensation}
+	
+
+
+
+	\subsection{Polyaddition}
+
+		\subsubsection{Frage 1}
+
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=\textwidth]{../ChemDraw/Mechanismen.png}
+				\caption{Die Abbildung zeigt die Mechanismen für a) basenkatalysierte PU bildung, b) Isocyanat mit Wasser, c) Isocyanat mit einem Alkohol, d) Isocyanat mit einem Amin und e) Isocyanat mit einer Carbonsäure.}
+			\end{figure}
+
+
+		\subsubsection{Frage 2}
+
+			Der Grund warum primäre und sekundäre Amine nicht als Katalysatoren geeignet sind liegt daran, dass sie direkt mit dem isocyanat reagieren und Harnstoffbindungen bilden.
+			Desweiteren können keine niedrig siedende Amine verwendet werden da die Reaktion exotherm ist und diese sehr schnell verdampfen würden. 
+			Das Dimethylaminoethanol hat einen hohen Siedepunkt im vergleich zu den anderen und ist somit besser geeignet für diese Reaktion \cite{noauthor_2-diethylaminoethanol_2026}. 
+
+		\subsubsection{Frage 3}
+
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width = \textwidth]{../ChemDraw/Isocyanat_zu_Harnstoff.png}
+				\caption{Die Abbildung zeigt die Reaktion von Diisocyanat-Präpolymeren mit Wasser zu Harnstoff.}
+				\label{Diisocyanat-Präpolymeren}
+			\end{figure}
+
+
+		\subsubsection{Frage 4}
+
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale = 0.75]{Bilder/Biuret_Wasser.png}
+				\caption{Die Abbildung zeigt die Reaktionsgleichung der Vernetzung über Biuret-Strukturen bei Anwesenheit von Wasser.}
+				\label{Biuret}
+			\end{figure}
+
+			
+		\subsubsection{Frage 5}
+
+			Ist die Aufschäumgeschwindigkeit größer als die Polyadditionsgeschwindigkeit beginnt zwar eine Schaumbildung jedoch ist diese Struktur nicht Sctabil und zerfällt schnell wieder.
+			Im Falle einer höheren Polyadditionsgeschwindigkeit wird der Schaum zu schnell fest und es entsteht eher ein harter Block und kein Schaum.
+
+		\subsubsection{Frage 6}
+			
+			Der größte unterschied zwischen Hart und weichschäumen liegt in der Vernetzung. So sind Hartschäume um einiges mehr vernetzt als weichschäume und haben somit kürzere Ketten.
+			Desweiteren werden Hartschäume meist physikalisch geschäumt sprich durch einleiten eines Gases. Weichschäume werden meist chemisch geschäumt, sprich es entsteht ein Gas bei der Reaktion.
+
+
+\printbibliography
+
+\end{document}
