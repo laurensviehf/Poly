@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.14)  21 MAR 2026 17:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.14)  23 MAR 2026 17:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1892,69 +1892,85 @@ l.100 \newpage
 File: Bilder/RheoModell.png Graphic file (type png)
 <use Bilder/RheoModell.png>
 Package pdftex.def Info: Bilder/RheoModell.png  used on input line 112.
-(pdftex.def)             Requested size: 171.79062pt x 117.51321pt.
- [2 <./Bilder/RheoModell.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 151--154
+(pdftex.def)             Requested size: 196.33376pt x 134.30193pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--137
+
+ []
+
+[2 <./Bilder/RheoModell.png>]
+<Bilder/Fliesgraph.png, id=84, 462.528pt x 346.896pt>
+File: Bilder/Fliesgraph.png Graphic file (type png)
+<use Bilder/Fliesgraph.png>
+Package pdftex.def Info: Bilder/Fliesgraph.png  used on input line 141.
+(pdftex.def)             Requested size: 277.51894pt x 208.13919pt.
+<Bilder/schergraph.png, id=85, 462.528pt x 346.896pt>
+File: Bilder/schergraph.png Graphic file (type png)
+<use Bilder/schergraph.png>
+Package pdftex.def Info: Bilder/schergraph.png  used on input line 148.
+(pdftex.def)             Requested size: 277.51894pt x 208.13919pt.
+ [3 <./Bilder/Fliesgraph.png> <./Bilder/schergraph.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 163--166
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--168
+Underfull \hbox (badness 10000) in paragraph at lines 173--180
 
  []
 
-[3] [4]
-<Bilder/Honey.png, id=116, 722.7pt x 433.62pt>
+[4] [5]
+<Bilder/Honey.png, id=120, 722.7pt x 433.62pt>
 File: Bilder/Honey.png Graphic file (type png)
 <use Bilder/Honey.png>
-Package pdftex.def Info: Bilder/Honey.png  used on input line 218.
+Package pdftex.def Info: Bilder/Honey.png  used on input line 230.
 (pdftex.def)             Requested size: 361.3491pt x 216.80946pt.
-<Bilder/14_PVP.png, id=119, 722.7pt x 433.62pt>
+<Bilder/14_PVP.png, id=123, 722.7pt x 433.62pt>
 File: Bilder/14_PVP.png Graphic file (type png)
 <use Bilder/14_PVP.png>
-Package pdftex.def Info: Bilder/14_PVP.png  used on input line 232.
+Package pdftex.def Info: Bilder/14_PVP.png  used on input line 244.
 (pdftex.def)             Requested size: 361.3491pt x 216.80946pt.
- [5 <./Bilder/Honey.png>]
-<Bilder/Speisestärke.png, id=127, 722.7pt x 433.62pt>
+ [6 <./Bilder/Honey.png> <./Bilder/14_PVP.png>]
+<Bilder/Speisestärke.png, id=135, 722.7pt x 433.62pt>
 File: Bilder/Speisestärke.png Graphic file (type png)
 <use Bilder/Speisestärke.png>
-Package pdftex.def Info: Bilder/Speisestärke.png  used on input line 245.
+Package pdftex.def Info: Bilder/Speisestärke.png  used on input line 257.
 (pdftex.def)             Requested size: 361.3491pt x 216.80946pt.
- [6 <./Bilder/14_PVP.png> <./Bilder/Speisestärke.png>]
-<Bilder/ketchup.png, id=136, 462.528pt x 346.896pt>
+ [7 <./Bilder/Speisestärke.png>]
+<Bilder/ketchup.png, id=142, 462.528pt x 346.896pt>
 File: Bilder/ketchup.png Graphic file (type png)
 <use Bilder/ketchup.png>
-Package pdftex.def Info: Bilder/ketchup.png  used on input line 264.
+Package pdftex.def Info: Bilder/ketchup.png  used on input line 276.
 (pdftex.def)             Requested size: 346.89514pt x 260.17136pt.
-<Bilder/20_PVP_amp_eta.png, id=142, 462.528pt x 346.896pt>
+<Bilder/20_PVP_amp_eta.png, id=148, 462.528pt x 346.896pt>
 File: Bilder/20_PVP_amp_eta.png Graphic file (type png)
 <use Bilder/20_PVP_amp_eta.png>
-Package pdftex.def Info: Bilder/20_PVP_amp_eta.png  used on input line 286.
+Package pdftex.def Info: Bilder/20_PVP_amp_eta.png  used on input line 298.
 (pdftex.def)             Requested size: 346.89514pt x 260.17136pt.
- [7 <./Bilder/ketchup.png>]
-<Bilder/20_PVP_amp_G1.png, id=152, 462.528pt x 346.896pt>
+ [8 <./Bilder/ketchup.png>]
+<Bilder/20_PVP_amp_G1.png, id=158, 462.528pt x 346.896pt>
 File: Bilder/20_PVP_amp_G1.png Graphic file (type png)
 <use Bilder/20_PVP_amp_G1.png>
-Package pdftex.def Info: Bilder/20_PVP_amp_G1.png  used on input line 294.
+Package pdftex.def Info: Bilder/20_PVP_amp_G1.png  used on input line 306.
 (pdftex.def)             Requested size: 346.89514pt x 260.17136pt.
-<Bilder/20_PVP_amp_G2.png, id=153, 462.528pt x 346.896pt>
+<Bilder/20_PVP_amp_G2.png, id=159, 462.528pt x 346.896pt>
 File: Bilder/20_PVP_amp_G2.png Graphic file (type png)
 <use Bilder/20_PVP_amp_G2.png>
-Package pdftex.def Info: Bilder/20_PVP_amp_G2.png  used on input line 302.
+Package pdftex.def Info: Bilder/20_PVP_amp_G2.png  used on input line 314.
 (pdftex.def)             Requested size: 346.89514pt x 260.17136pt.
- [8 <./Bilder/20_PVP_amp_eta.png> <./Bilder/20_PVP_amp_G1.png>]
-<Bilder/20_PVP_frq_betragEta.png, id=163, 462.528pt x 346.896pt>
+ [9 <./Bilder/20_PVP_amp_eta.png> <./Bilder/20_PVP_amp_G1.png>]
+<Bilder/20_PVP_frq_betragEta.png, id=169, 462.528pt x 346.896pt>
 File: Bilder/20_PVP_frq_betragEta.png Graphic file (type png)
 <use Bilder/20_PVP_frq_betragEta.png>
-Package pdftex.def Info: Bilder/20_PVP_frq_betragEta.png  used on input line 320.
+Package pdftex.def Info: Bilder/20_PVP_frq_betragEta.png  used on input line 332.
 (pdftex.def)             Requested size: 346.89514pt x 260.17136pt.
- [9 <./Bilder/20_PVP_amp_G2.png>]
-<Bilder/20_PVP_frq_G1_G2.png, id=171, 462.528pt x 346.896pt>
+ [10 <./Bilder/20_PVP_amp_G2.png>]
+<Bilder/20_PVP_frq_G1_G2.png, id=177, 462.528pt x 346.896pt>
 File: Bilder/20_PVP_frq_G1_G2.png Graphic file (type png)
 <use Bilder/20_PVP_frq_G1_G2.png>
-Package pdftex.def Info: Bilder/20_PVP_frq_G1_G2.png  used on input line 327.
+Package pdftex.def Info: Bilder/20_PVP_frq_G1_G2.png  used on input line 339.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
- [10 <./Bilder/20_PVP_frq_betragEta.png> <./Bilder/20_PVP_frq_G1_G2.png>] [11] (c:\Users\rothf\OneDrive\Dokumente\Chemie\Latex_Laurens\Poly\Rheology\out\protokoll.aux)
+ [11 <./Bilder/20_PVP_frq_betragEta.png> <./Bilder/20_PVP_frq_G1_G2.png>] [12] (c:\Users\rothf\OneDrive\Dokumente\Chemie\Latex_Laurens\Poly\Rheology\out\protokoll.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1964,17 +1980,17 @@ Package logreq Info: Writing requests to 'protokoll.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 60604 strings out of 467867
- 1452745 string characters out of 5418334
- 2479401 words of memory out of 5000000
- 88615 multiletter control sequences out of 15000+600000
+ 60625 strings out of 467867
+ 1453214 string characters out of 5418334
+ 2478765 words of memory out of 5000000
+ 88633 multiletter control sequences out of 15000+600000
  652090 words of font info for 106 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,19n,118p,11308b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,20n,118p,11308b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/grmn1000.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1000.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1200.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Users/rothf/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on c:\Users\rothf\OneDrive\Dokumente\Chemie\Latex_Laurens\Poly\Rheology\out\protokoll.pdf (12 pages, 513706 bytes).
+Output written on c:\Users\rothf\OneDrive\Dokumente\Chemie\Latex_Laurens\Poly\Rheology\out\protokoll.pdf (13 pages, 553423 bytes).
 PDF statistics:
- 329 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
- 223 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 338 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 

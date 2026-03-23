@@ -1,22 +1,24 @@
 # Fdb version 4
-["biber out/protokoll"] 1774110354.06289 "out/protokoll.bcf" "out/protokoll.bbl" "out/protokoll" 1774110373.5088 0
+["biber out/protokoll"] 1774281321.26679 "out/protokoll.bcf" "out/protokoll.bbl" "out/protokoll" 1774281714.86195 0
   "Rheo.bib" 1773935331 2205 f34768a824314595f0010508406d7f9e ""
-  "out/protokoll.bcf" 1774110372 108791 8ae34c81eac522a380ae7508ac33025b "pdflatex"
+  "out/protokoll.bcf" 1774281714 108726 d7f120f4e5e9b144d8b12fb31d9bd6a3 "pdflatex"
   (generated)
   "out/protokoll.bbl"
   "out/protokoll.blg"
   (rewritten before read)
-["pdflatex"] 1774110369.68622 "c:/Users/rothf/OneDrive/Dokumente/Chemie/Latex_Laurens/Poly/Rheology/protokoll.tex" "out/protokoll.pdf" "protokoll" 1774110373.51017 0
+["pdflatex"] 1774281711.07301 "c:/Users/rothf/OneDrive/Dokumente/Chemie/Latex_Laurens/Poly/Rheology/protokoll.tex" "out/protokoll.pdf" "protokoll" 1774281714.86289 0
   "Bilder/14_PVP.png" 1773844235 42072 2b0d02e7042a6da01511c18d06e6550b ""
   "Bilder/20_PVP_amp_G1.png" 1773849828 15612 384599e1dc777002b7092d54bf49234a ""
   "Bilder/20_PVP_amp_G2.png" 1773849828 16642 24c6c0fb9eeb719f358a0fff5a807996 ""
   "Bilder/20_PVP_amp_eta.png" 1773849828 17810 91b5e27d50574bfbb74dcf186047a7a2 ""
   "Bilder/20_PVP_frq_G1_G2.png" 1773939280 22082 96b28a0785a74911df2e9a8df2d5541d ""
   "Bilder/20_PVP_frq_betragEta.png" 1773849828 20135 05db3906171bce6950c94953df50851e ""
+  "Bilder/Fliesgraph.png" 1774279523 22941 59a953dba9f096ac085932885420f86b ""
   "Bilder/Honey.png" 1773844235 44138 33fdc85c8751922bf65ac24f879f97d9 ""
   "Bilder/RheoModell.png" 1773843757 23233 b4b02ec08ecc133f163e2c23231f772d ""
   "Bilder/Speisestärke.png" 1773844235 42655 4d45cba7544411632ccdb54af58cdebe ""
   "Bilder/ketchup.png" 1773849828 28229 33212665ada2651b60eb9d28a3b17780 ""
+  "Bilder/schergraph.png" 1774280864 22237 8b70164428e95acb353ddc2e85123c13 ""
   "C:/Users/rothf/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1773935279 308388 8beece5af3623a89c1be269418f6dfed ""
   "C:/Users/rothf/AppData/Local/MiKTeX/fonts/tfm/public/esvect/vect10.tfm" 1773159000 372 07da2e555f4c8dac959d0bb59cacb4dc ""
   "C:/Users/rothf/AppData/Local/MiKTeX/fonts/tfm/public/esvect/vect5.tfm" 1773159002 372 28e18d88a38be26cb20dc1302f0fdc04 ""
@@ -345,12 +347,12 @@
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/tex/latex/was/upgreek.sty" 1665850770 5794 9054e31be15d93f1e6bd28cca2b6643f ""
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/rothf/AppData/Local/Programs/MiKTeX/tex/latex/xfrac/xfrac.sty" 1718270407 14945 a207ee7fd6b8cf6d82afb367c583ddd3 ""
-  "c:/Users/rothf/OneDrive/Dokumente/Chemie/Latex_Laurens/Poly/Rheology/protokoll.tex" 1774110349 18311 046780c1954965f2be93653080303dcf ""
-  "out/protokoll.aux" 1774110372 15561 3658cac5b6479bfef52360bde01ee4dc "pdflatex"
-  "out/protokoll.bbl" 1774110365 4912 ed87a0e61e1c96c50bc9d1790b5a4310 "biber out/protokoll"
-  "out/protokoll.run.xml" 1774110372 2535 d371f6ff36b82b2ee56d2dadedae84e3 "pdflatex"
-  "out/protokoll.toc" 1774110372 1813 14b8388e4886c4798fd6fdafe9e72d4c "pdflatex"
-  "protokoll.tex" 1774110349 18311 046780c1954965f2be93653080303dcf ""
+  "c:/Users/rothf/OneDrive/Dokumente/Chemie/Latex_Laurens/Poly/Rheology/protokoll.tex" 1774281706 18815 c8518f931a6ccdd49603f44ceab2e527 ""
+  "out/protokoll.aux" 1774281714 16411 4ff4d47230fa367669508fef160d6f3d "pdflatex"
+  "out/protokoll.bbl" 1774281323 4912 02e5ade83dfd9527403453704cc4116f "biber out/protokoll"
+  "out/protokoll.run.xml" 1774281714 2535 d371f6ff36b82b2ee56d2dadedae84e3 "pdflatex"
+  "out/protokoll.toc" 1774281714 1814 bf847608a0cf2de28f9cba3853760855 "pdflatex"
+  "protokoll.tex" 1774281706 18815 c8518f931a6ccdd49603f44ceab2e527 ""
   (generated)
   "out/protokoll.aux"
   "out/protokoll.bcf"
