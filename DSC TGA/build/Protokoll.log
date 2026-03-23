@@ -1788,12 +1788,12 @@ Package biblatex Info: Automatic encoding selection.
 \openout5 = `Protokoll.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Protokoll.bbl' not found.
-
-No file Protokoll.bbl.
+Package biblatex Info: ... file 'Protokoll.bbl' found.
+ (build/Protokoll.bbl)
 Package biblatex Info: Reference section=0 on input line 68.
 Package biblatex Info: Reference segment=0 on input line 68.
 Package hyperref Info: Link coloring OFF on input line 68.
+
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
  on input line 68.
@@ -1879,12 +1879,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--144
 
 
 [2 <build/../Bilder/DSC Integral.png>]
-<../Bilder/Thermogramm.png, id=72, 442.65375pt x 235.63031pt>
+<../Bilder/Thermogramm.png, id=71, 442.65375pt x 235.63031pt>
 File: ../Bilder/Thermogramm.png Graphic file (type png)
 <use ../Bilder/Thermogramm.png>
 Package pdftex.def Info: ../Bilder/Thermogramm.png  used on input line 149.
 (pdftex.def)             Requested size: 331.98949pt x 176.72229pt.
-<../Bilder/TGA-Kurve.png, id=74, 602.25pt x 362.10281pt>
+<../Bilder/TGA-Kurve.png, id=73, 602.25pt x 362.10281pt>
 File: ../Bilder/TGA-Kurve.png Graphic file (type png)
 <use ../Bilder/TGA-Kurve.png>
 Package pdftex.def Info: ../Bilder/TGA-Kurve.png  used on input line 163.
@@ -1899,7 +1899,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 203--206
 
 
 [4{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <build/../Bilder/TGA-Kurve.png>]
-<Bilder/Teilkristall.png, id=101, 331.2375pt x 283.0575pt>
+<Bilder/Teilkristall.png, id=100, 331.2375pt x 283.0575pt>
 File: Bilder/Teilkristall.png Graphic file (type png)
 <use Bilder/Teilkristall.png>
 Package pdftex.def Info: Bilder/Teilkristall.png  used on input line 245.
@@ -1907,12 +1907,12 @@ Package pdftex.def Info: Bilder/Teilkristall.png  used on input line 245.
 
 
 [5 <./Bilder/Teilkristall.png>]
-<../G7/RE__G7_pdf/ps-iso-dsc-1st-cooling.pdf, id=108, 845.1575pt x 597.23125pt>
+<../G7/RE__G7_pdf/ps-iso-dsc-1st-cooling.pdf, id=107, 845.1575pt x 597.23125pt>
 File: ../G7/RE__G7_pdf/ps-iso-dsc-1st-cooling.pdf Graphic file (type pdf)
 <use ../G7/RE__G7_pdf/ps-iso-dsc-1st-cooling.pdf>
 Package pdftex.def Info: ../G7/RE__G7_pdf/ps-iso-dsc-1st-cooling.pdf  used on input line 273.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-<../G7/RE__G7_pdf/ps-iso-dsc-1st-cooling.pdf, id=110, page=1, 845.1575pt x 597.23125pt>
+<../G7/RE__G7_pdf/ps-iso-dsc-1st-cooling.pdf, id=109, page=1, 845.1575pt x 597.23125pt>
 File: ../G7/RE__G7_pdf/ps-iso-dsc-1st-cooling.pdf Graphic file (type pdf)
 <use ../G7/RE__G7_pdf/ps-iso-dsc-1st-cooling.pdf, page 1>
 Package pdftex.def Info: ../G7/RE__G7_pdf/ps-iso-dsc-1st-cooling.pdf , page1 used on input line 273.
@@ -1941,12 +1941,12 @@ Package pdftex.def Info: ../G7/RE__G7_pdf/ps-iso-dsc-1st-cooling.pdf , page1 use
 [7
 
  <build/../G7/RE__G7_pdf/ps-iso-dsc-1st-cooling.pdf, page is rotated 90 degrees>]
-<../G7/RE__G7_pdf/ps-iso-dsc-1st-hc.pdf, id=123, 845.1575pt x 597.23125pt>
+<../G7/RE__G7_pdf/ps-iso-dsc-1st-hc.pdf, id=122, 845.1575pt x 597.23125pt>
 File: ../G7/RE__G7_pdf/ps-iso-dsc-1st-hc.pdf Graphic file (type pdf)
 <use ../G7/RE__G7_pdf/ps-iso-dsc-1st-hc.pdf>
 Package pdftex.def Info: ../G7/RE__G7_pdf/ps-iso-dsc-1st-hc.pdf  used on input line 274.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-<../G7/RE__G7_pdf/ps-iso-dsc-1st-hc.pdf, id=125, page=1, 845.1575pt x 597.23125pt>
+<../G7/RE__G7_pdf/ps-iso-dsc-1st-hc.pdf, id=124, page=1, 845.1575pt x 597.23125pt>
 File: ../G7/RE__G7_pdf/ps-iso-dsc-1st-hc.pdf Graphic file (type pdf)
 <use ../G7/RE__G7_pdf/ps-iso-dsc-1st-hc.pdf, page 1>
 Package pdftex.def Info: ../G7/RE__G7_pdf/ps-iso-dsc-1st-hc.pdf , page1 used on input line 274.
@@ -1972,12 +1972,12 @@ Package pdftex.def Info: ../G7/RE__G7_pdf/ps-iso-dsc-1st-hc.pdf , page1 used on 
 [8
 
  <build/../G7/RE__G7_pdf/ps-iso-dsc-1st-hc.pdf, page is rotated 90 degrees>]
-<../G7/RE__G7_pdf/ps-iso-dsc-2nd-hc.pdf, id=134, 845.1575pt x 597.23125pt>
+<../G7/RE__G7_pdf/ps-iso-dsc-2nd-hc.pdf, id=133, 845.1575pt x 597.23125pt>
 File: ../G7/RE__G7_pdf/ps-iso-dsc-2nd-hc.pdf Graphic file (type pdf)
 <use ../G7/RE__G7_pdf/ps-iso-dsc-2nd-hc.pdf>
 Package pdftex.def Info: ../G7/RE__G7_pdf/ps-iso-dsc-2nd-hc.pdf  used on input line 275.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-<../G7/RE__G7_pdf/ps-iso-dsc-2nd-hc.pdf, id=136, page=1, 845.1575pt x 597.23125pt>
+<../G7/RE__G7_pdf/ps-iso-dsc-2nd-hc.pdf, id=135, page=1, 845.1575pt x 597.23125pt>
 File: ../G7/RE__G7_pdf/ps-iso-dsc-2nd-hc.pdf Graphic file (type pdf)
 <use ../G7/RE__G7_pdf/ps-iso-dsc-2nd-hc.pdf, page 1>
 Package pdftex.def Info: ../G7/RE__G7_pdf/ps-iso-dsc-2nd-hc.pdf , page1 used on input line 275.
@@ -2003,12 +2003,12 @@ Package pdftex.def Info: ../G7/RE__G7_pdf/ps-iso-dsc-2nd-hc.pdf , page1 used on 
 [9
 
  <build/../G7/RE__G7_pdf/ps-iso-dsc-2nd-hc.pdf, page is rotated 90 degrees>]
-<../G7/RE__G7_pdf/pet-dsc-g8-1st-hc2.pdf, id=144, 845.1575pt x 597.23125pt>
+<../G7/RE__G7_pdf/pet-dsc-g8-1st-hc2.pdf, id=143, 845.1575pt x 597.23125pt>
 File: ../G7/RE__G7_pdf/pet-dsc-g8-1st-hc2.pdf Graphic file (type pdf)
 <use ../G7/RE__G7_pdf/pet-dsc-g8-1st-hc2.pdf>
 Package pdftex.def Info: ../G7/RE__G7_pdf/pet-dsc-g8-1st-hc2.pdf  used on input line 276.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-<../G7/RE__G7_pdf/pet-dsc-g8-1st-hc2.pdf, id=146, page=1, 845.1575pt x 597.23125pt>
+<../G7/RE__G7_pdf/pet-dsc-g8-1st-hc2.pdf, id=145, page=1, 845.1575pt x 597.23125pt>
 File: ../G7/RE__G7_pdf/pet-dsc-g8-1st-hc2.pdf Graphic file (type pdf)
 <use ../G7/RE__G7_pdf/pet-dsc-g8-1st-hc2.pdf, page 1>
 Package pdftex.def Info: ../G7/RE__G7_pdf/pet-dsc-g8-1st-hc2.pdf , page1 used on input line 276.
@@ -2034,12 +2034,12 @@ Package pdftex.def Info: ../G7/RE__G7_pdf/pet-dsc-g8-1st-hc2.pdf , page1 used on
 [10
 
  <build/../G7/RE__G7_pdf/pet-dsc-g8-1st-hc2.pdf, page is rotated 90 degrees>]
-<../G7/RE__G7_pdf/pet-dsc-1st-cooling-g8.pdf, id=155, 845.1575pt x 597.23125pt>
+<../G7/RE__G7_pdf/pet-dsc-1st-cooling-g8.pdf, id=154, 845.1575pt x 597.23125pt>
 File: ../G7/RE__G7_pdf/pet-dsc-1st-cooling-g8.pdf Graphic file (type pdf)
 <use ../G7/RE__G7_pdf/pet-dsc-1st-cooling-g8.pdf>
 Package pdftex.def Info: ../G7/RE__G7_pdf/pet-dsc-1st-cooling-g8.pdf  used on input line 277.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-<../G7/RE__G7_pdf/pet-dsc-1st-cooling-g8.pdf, id=157, page=1, 845.1575pt x 597.23125pt>
+<../G7/RE__G7_pdf/pet-dsc-1st-cooling-g8.pdf, id=156, page=1, 845.1575pt x 597.23125pt>
 File: ../G7/RE__G7_pdf/pet-dsc-1st-cooling-g8.pdf Graphic file (type pdf)
 <use ../G7/RE__G7_pdf/pet-dsc-1st-cooling-g8.pdf, page 1>
 Package pdftex.def Info: ../G7/RE__G7_pdf/pet-dsc-1st-cooling-g8.pdf , page1 used on input line 277.
@@ -2064,101 +2064,6 @@ Package pdftex.def Info: ../G7/RE__G7_pdf/pet-dsc-1st-cooling-g8.pdf , page1 use
 (pdftex.def)             Requested size: 597.61578pt x 422.30568pt.
 [11
 
- <build/../G7/RE__G7_pdf/pet-dsc-1st-cooling-g8.pdf, page is rotated 90 degrees>]
-<../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf, id=167, 845.1575pt x 597.23125pt>
-File: ../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf Graphic file (type pdf)
-<use ../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf>
-Package pdftex.def Info: ../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf  used on input line 278.
-(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-<../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf, id=169, page=1, 845.1575pt x 597.23125pt>
-File: ../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf Graphic file (type pdf)
-<use ../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf, page 1>
-Package pdftex.def Info: ../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf , page1 used on input line 278.
-(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-File: ../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf Graphic file (type pdf)
-<use ../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf, page 1>
-Package pdftex.def Info: ../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf , page1 used on input line 278.
-(pdftex.def)             Requested size: 597.61578pt x 422.30568pt.
-File: ../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf Graphic file (type pdf)
-<use ../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf, page 1>
-Package pdftex.def Info: ../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf , page1 used on input line 278.
-(pdftex.def)             Requested size: 597.61578pt x 422.30568pt.
-File: ../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf Graphic file (type pdf)
-<use ../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf, page 1>
-Package pdftex.def Info: ../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf , page1 used on input line 278.
-(pdftex.def)             Requested size: 597.61578pt x 422.30568pt.
-
-
-File: ../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf Graphic file (type pdf)
-<use ../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf, page 1>
-Package pdftex.def Info: ../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf , page1 used on input line 278.
-(pdftex.def)             Requested size: 597.61578pt x 422.30568pt.
-[12
-
- <build/../G7/RE__G7_pdf/pet-dsc-2nd-hc-g8.pdf, page is rotated 90 degrees>]
-<../G7/RE__G7_pdf/G8-pet-tga.pdf, id=179, 845.1575pt x 597.23125pt>
-File: ../G7/RE__G7_pdf/G8-pet-tga.pdf Graphic file (type pdf)
-<use ../G7/RE__G7_pdf/G8-pet-tga.pdf>
-Package pdftex.def Info: ../G7/RE__G7_pdf/G8-pet-tga.pdf  used on input line 279.
-(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-<../G7/RE__G7_pdf/G8-pet-tga.pdf, id=181, page=1, 845.1575pt x 597.23125pt>
-File: ../G7/RE__G7_pdf/G8-pet-tga.pdf Graphic file (type pdf)
-<use ../G7/RE__G7_pdf/G8-pet-tga.pdf, page 1>
-Package pdftex.def Info: ../G7/RE__G7_pdf/G8-pet-tga.pdf , page1 used on input line 279.
-(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-File: ../G7/RE__G7_pdf/G8-pet-tga.pdf Graphic file (type pdf)
-<use ../G7/RE__G7_pdf/G8-pet-tga.pdf, page 1>
-Package pdftex.def Info: ../G7/RE__G7_pdf/G8-pet-tga.pdf , page1 used on input line 279.
-(pdftex.def)             Requested size: 597.61578pt x 422.30568pt.
-File: ../G7/RE__G7_pdf/G8-pet-tga.pdf Graphic file (type pdf)
-<use ../G7/RE__G7_pdf/G8-pet-tga.pdf, page 1>
-Package pdftex.def Info: ../G7/RE__G7_pdf/G8-pet-tga.pdf , page1 used on input line 279.
-(pdftex.def)             Requested size: 597.61578pt x 422.30568pt.
-File: ../G7/RE__G7_pdf/G8-pet-tga.pdf Graphic file (type pdf)
-<use ../G7/RE__G7_pdf/G8-pet-tga.pdf, page 1>
-Package pdftex.def Info: ../G7/RE__G7_pdf/G8-pet-tga.pdf , page1 used on input line 279.
-(pdftex.def)             Requested size: 597.61578pt x 422.30568pt.
-
-
-File: ../G7/RE__G7_pdf/G8-pet-tga.pdf Graphic file (type pdf)
-<use ../G7/RE__G7_pdf/G8-pet-tga.pdf, page 1>
-Package pdftex.def Info: ../G7/RE__G7_pdf/G8-pet-tga.pdf , page1 used on input line 279.
-(pdftex.def)             Requested size: 597.61578pt x 422.30568pt.
-[13
-
- <build/../G7/RE__G7_pdf/G8-pet-tga.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Empty bibliography on input line 281.
-
-(build/Protokoll.aux)
- ***********
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
- ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package logreq Info: Writing requests to 'Protokoll.run.xml'.
-\openout1 = `Protokoll.run.xml'.
-
- ) 
-Here is how much of TeX's memory you used:
- 58278 strings out of 467748
- 1381870 string characters out of 5431137
- 2398431 words of memory out of 5000000
- 86137 multiletter control sequences out of 15000+600000
- 653724 words of font info for 109 fonts, out of 8000000 for 9000
- 1143 hyphenation exceptions out of 8191
- 108i,20n,107p,11309b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{equation.1.1} has been referenced but does not exist, replaced by a fixed one
-
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb>
-Output written on build/Protokoll.pdf (14 pages, 465122 bytes).
-PDF statistics:
- 331 PDF objects out of 1000 (max. 8388607)
- 243 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
- 250 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ <build/../G7/RE__G7_pdf/pet-dsc-1st-cooling-g8.pdf
+!pdfTeX error: pdflatex.exe (file build/../G7/RE__G7_pdf/pet-dsc-1st-cooling-g8.pdf): fflush() failed (Invalid argument)
+ ==> Fatal error occurred, no output PDF file produced!
