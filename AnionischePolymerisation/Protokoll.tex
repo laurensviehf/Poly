@@ -26,7 +26,7 @@
 \usepackage[font=small]{caption}
 %\usepackage[version=4]{mhchem}
 \usepackage[backend=biber, style=chem-angew]{biblatex}
-\addbibresource{Polyaddition_Polykond.bib}
+\addbibresource{Ionische.bib}
 \usepackage{tabularx, booktabs, multirow}
 \usepackage[pdfborder={0 0 0}]{hyperref}
 \usepackage{scrlayer-scrpage}%Header für die KOMA-script -Klasse
@@ -72,7 +72,7 @@
 	\begin{center}
 		\begin{LARGE}
 			\textbf{Polymer Chemie}\\
-			\textbf{Anionische Polymerisation}\\
+			\textbf{Ionische Polymerisation}\\
 		\end{LARGE}
 		\vspace{1cm}
 		\textbf{Universität Stuttgart}\\
@@ -98,6 +98,68 @@
 \renewcommand{\thepage}{\arabic{page}}
 \newpage
 
+ 
+\section{Theorie}
+
+	Der kerngedanke der Ionischen Polymerisation ist das bilder Polymerkette durch anlagerung der Monomere an 
+	ein Makroanion oder ein Makrokation. Die Ladung des Makroions entscheidet hierbei darüber ob es sich um eine 
+	Anionische- oder eine kationische-Polymerisation handelt. Diese Ladung der Endgruppe kann durch unterschiedliche dinge
+	wie Lösemittel, Gegenionen, Temperatur und druck beeinflusst werden \ref{Ladungsggw}.
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics{Bilder/Lösemitteleinfluss.png}
+			\caption{Die Abbildung zeigt den Einfluss des Lösemittels auf das gleichgewicht der Ionen im falle der Anionischen Polymerisation von Styrol. \cite{polyskript}}
+			\label{Ladungsggw}
+		\end{figure}
+
+	Die Stärke dieses Ions nimmt dabei sehr goßen einfluss auf die Wachstumsgeschwindigkeit. 
+	So sind gebundene Ionenpaare langsamer in ihrem Wachstum als freie Ionen.\\
+	
+	Wird die Ionische Polymerisation mit z.B. der radikalischen Polymerisation verglichen. Wird deutlich,
+	dass bei der Ionischen Polymerisation die möglichkeit besteht, diese lebend durchzuführen. 
+	Da die aktiven Zentren nicht miteinander reagieren können. Somit kann die Polymerisation theoretisch
+	endlos aufrecht erhalten werden, bzw. sie kann durch erneute zugabe von Monomer weitergeführt werden.
+	Diese wird nur durch zugeben einer Brönsted-Base abgebrochen es wird auch von "abtöten" gesprochen.
+
+	\subsection{Ablauf der lebenden anionische Polymerisation}
+
+		Die lebende anionische Polymerisation kannn wie bei der radikalischen Polymerisation in drein Teile geteilt werden.\\
+		Der erste Schritt ist die Initiierung. Hierfür werden bei der Ionischen Polymerisation Brönsted-Säuren und Brösnsted Basen verwendet.
+		Hierbei gilt die Regel je weniger elekrophil das Zentrum aktiviert ist umso stärker muss die Säure oder Base sein.
+		Beispiele für solche Initiatoren sind Alkalimetalle, Alkylverbindungen und Alkalimetallnaphthalide \cite{polyskript}.
+		Im Rahmen dieses Versuchs wurde \textit{sec}-BuLi verwendet. Dabei reagiert dieses nach folgendem Prinzip:
+
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale = 0.35]{Bilder/Initiierung.png}
+				\caption{Die Abbildung zeigt den Initiatorschritt von Styrol mit BuLi.}
+				\label{Initiierung}
+			\end{figure}
+
+		Eine weitere Methode die Reaktion zu Initiieren ist durch Naphthalin mit einem Alkalimetall. 
+		Hierbei wird zuerst ein Radikalanion gebildet welches anschließend seine ladung sowie das Radikal an das Monomer (unserem Fall Styrol) abgibt.
+		das hierraus entstandene Radikalanion Monomer rekombiniert und hat anschließend zwei aktive anionische enden.
+
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale = 0.6]{Bilder/NaphthalinStarter.png}
+				\caption{Die Abbildung zeigt den Initiatorschritt von Styrol mittels der Alkalimetallnaphthaliden.\cite{polyskript}}
+				\label{NaphthalinStarter}
+			\end{figure}
+		
+		
+		Nach der Initiierung findet das Kettenwachstum Statt auch gezeigt in Abb. [\ref{Wachstum}].
+
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale = 0.3]{Bilder/Wachstum.png}
+				\caption{Die Abbildung zeigt den Allgemeinen Wachstumsschritt anhand des Peispiels von Styrol.}
+				\label{Wachstum}
+			\end{figure}
+
+
+		Allgemein haben %Wachstum weiter erklären
 
 \printbibliography
 
