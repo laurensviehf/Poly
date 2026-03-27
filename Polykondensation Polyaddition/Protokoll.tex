@@ -123,7 +123,13 @@
 		\end{equation}
 
 		Durch Umstellen lässt sich auch der Umsatz ($p$) definieren, dies ist wichtig da $p$ zu der Anzahl der funktionellen Gruppen proportional ist.
-		Wird dies graphisch betrachtet, wie in Abb.\ref{Carothers}, so wird deutlich, dass das Erreichen eines Umsatzes von 1 nur möglich ist wenn 100\% der funktionellen 
+		Der Umsatz $p$ wird dabei über 
+		\begin{equation}
+			p = \frac{N_0 - N_t}{N_0}
+			\label{Umsatzberechnen}
+		\end{equation}
+		berechnet, bei welcher $N_0$ die Anzahl der Moleküle zum Zeitpunkt $t=0$ und $N_t$ die Anzahl der Moleküle bei gegebenen Zeitpunkt ist.\\ 
+		Wird die Abhängigkeit vom Polymerisationsgrad von dem Umsatz graphisch betrachtet, wie in Abb.\ref{Carothers}, so wird deutlich, dass das Erreichen eines Umsatzes von 1 nur möglich ist wenn 100\% der funktionellen 
 		Gruppen reagiert haben. Da dies präperativ nicht umzusetzen ist nähert sich die Umsetzung an 1 an, je höher der Polymerisationsgrad ist. 
 		Diese Beziehung wird auch Carothers-Beziehung genannt und ist mathematisch wie folgt gegeben: \cite{polyskript}
 
@@ -175,7 +181,85 @@
 		Anschließend wurde eine weitere Lösung Sebacinsäuredichlorid (\SI{1,5}{mL}, \SI{7}{mmol}, \SI{100}{mL} Cyclohexan) hergestellt.
 		Die erste der beiden Lösungen wurde zusätzlich mit etwas Phenolphtalein angefärbt, sodass die Phasengrenze besser zu sehen ist.
 		Daraufhin wurde die Hexamethylendiamin Lösung mit der zweiten Lösung vorsichtig überschichtet. 
-		Nach überschichten bildete sich an der Phasengrenze eine Schicht von Nylon-6,10, welche mit einer Pinzette versucht wurde herrauszuziehen um ein Faden zu bilden.
+		Nach überschichten bildete sich an der Phasengrenze eine Schicht von Nylon-6,10, welche mit einer Pinzette versucht wurde herrauszuziehen um ein Faden zu bilden.\\
+
+		Der zeitliche Verlauf des Umsatzes wurde über NMR-Spektroskopie beobachtet. Die Integralwerte der Signale sind in Tabelle \ref{integraleOctOH} aufgelistet.
+
+		\begin{table}[H]
+    	\begin{center}
+        	\caption{Aufgelistet sind die zeitlich Abhängenden Integrale des Octan standards und der OH-Gruppen vom unverbrauchten Monomer. Dazu ist noch das Verhältnis der Integrale aufgelistet.}
+        	\label{integraleOctOH}
+            	\begin{tabular}{c|c|c|c}
+					\hline
+					Zeit $t$ [$min$]& Octan $I_\text{Okt}$ & OH-Gruppen $I_\text{OH}$ & Verhältnis $N_t$\\
+					\hline  
+					0	&2305	&16741	&2,421 \\
+					15	&1991	&13018	&2,179 \\
+					30	&1770	&10157	&1,913\\
+					45	&2877	&14625	&1,694\\
+					60	&5532	&24509	&1,477\\
+					75	&1106	&4018	&1,211\\
+					90	&7302	&20154	&0,920\\
+					105	&3983	&8968	&0,751\\
+					120	&16374	&23786	&0,484\\
+					135	&3319	&2170	&0,218\\
+				\end{tabular}
+		\end{center}
+		\end{table}
+
+		Da das Integral der Octan Signale für zwei Methylgruppen und das der OH-Gruppen für zwei gilt, wird das Verhältnis über 
+		\begin{equation}
+			N_t = \frac{I_\text{Okt}}{I_\text{OH} \cdot 3}
+		\end{equation}
+		berechnet. Beispielsweise ergibt sich für die erste Zeitmessung ein Verhältnis von
+		\begin{equation*}
+			N_t = \frac{2305}{16741 \cdot 3} = 2,421 \text{.}
+		\end{equation*}
+		Nach Gleichung \ref{Umsatzberechnen} wird dann der Umsatz berechnet. Für die Zeitmessung nach 15 Minuten beträgt der Umsatz
+		\begin{equation*}
+			p = \frac{2,421 - 2,179}{2,421} = 0,09975 \text{.}
+		\end{equation*}
+		Dieser kann in die Carothers Gleichung \ref{Carothers_Gleichung} eingesetzt werden und somit den Polymerisationsgrad bestimmen. 
+		Für die Messung nach 15 Minuten ergibt sich demnach ein Polymerisationsgrad von
+		\begin{equation*}
+			P_n = \frac{1}{1-0,09975} = 1,111 \text{.}
+		\end{equation*}
+		Die restlichen Umsätze und Polymerisationsgrade sind in Tabelle \ref{Umsatzpolygradtab} gelistet. Dazu zeigt die Abbildung \ref{Umsatzpolygradabb} den graphischen 
+		Verlauf der Polymerisationsgrade in abhängigkeit des Umsatzes.
+
+		\begin{table}[H]
+    	\begin{center}
+        	\caption{Aufgelistet sind die zeitlich abhängenden Umsätze und Polymerisationsgrade.}
+        	\label{Umsatzpolygradtab}
+            	\begin{tabular}{c|c|c}
+					\hline
+					Zeit $t$ [$min$]& Umsatz $p$ & Polymerisationsgrad $P_n$ \\
+					\hline 
+					0	&	0	&1 \\
+					15	&	0,09975	&1,111 \\
+					30	&	0,20990	&1,266\\
+					45	&	0,30008	&1,429\\
+					60	&	0,39000	&1,639\\
+					75	&	0,49980	&1,999\\
+					90	&	0,61998	&2,631\\
+					105	&	0,68999	&3,226\\
+					120	&	0,79999	&5,000\\
+					135	&	0,90998	&11,109\\
+				\end{tabular}
+		\end{center}
+		\end{table}
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.8]{Bilder/UmsatzPolygrad.png}
+			\caption{Aufgetragen ist der Polymerisationsgrad $P_n$ auf den Umsatz $p$.}
+			\label{Umsatzpolygradabb}
+		\end{figure}
+
+
+
+
+
 
 	\subsection{Lösungspolymerisation}
 
