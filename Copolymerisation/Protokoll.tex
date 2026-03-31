@@ -248,7 +248,63 @@
 	Unteranderem besdchreibt $m$ den jeweiligen anteil des Monomers im Copolymer.
 	Experimentell werden diese Parameter über Spektroskopie wie NMR oder IR bestimmt, können aber auch durch Elementaranalyse bestimmt werden.
 
-	Durch Umformen der zuvor genannten 
+	Durch Umformen der zuvor genannten Gleichung kann eine lineare Beziehung gezeigt werden und folgende funktion aufgestellt werden:
+
+		\begin{equation}
+			r_1 = r_2 \frac{m_1[M_2]^2}{m_2[M_1]^2} + \frac{[M_2]}{[M_1]}\cdot \left(\frac{m_1}{m_2}-1\right)
+		\end{equation}
+
+	Daraus gehen Steigung sowie der Koordinatenabschnitt heraus und es lässt sich eine Gerade zeichnen. 
+	So lässt sich die Copolymerisationsparameter durch den schnittpunkt der unterschiedlichen Geraden ermitteln.
+	Da dies jedoch nicht immer der fall ist, wird ein arithmetisches Mittel gebildet (auch in Abb. \ref{GraphMittel} zu sehen) gebildet.
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.75]{Bilder/GraphMittel.png}
+			\caption{Graphische Copolysmerisationsparameterbestimmung.\cite{polyskript}}
+			\label{GraphMittel}
+		\end{figure}
+
+	Diese Copolymerisationsparameter können generell durch unterschiedliche dinge beeinflusst werden. 
+	So kann die Generelle Konstitution der Monomere, Resonanzstabilisierung der Monomers sowie des Polymerradikals, 
+	das Lösemittel, die Sterik und die Doppelbindungspolarität eine Rolle spielen.
+
+
+\section{Durchführung}
+
+		Alle Versuche wurden unter Schlenk-Bedingungen durchgeführt, und es wurde auf eine suabere luft und wasserfreie umgebung geachtet.\\
+
+	\subsection{Versuch 1}
+
+		In kleinen Schraub-Septum-Gläschen wurden drei unterschiedliche AIBN-Lösungen vorgelegt. 
+		In das erste wird eine $0.15\cdot 10^{-2}\text{M}$, in das zweite eine $0.6\cdot 10^{-2}\text{M}$ und in das letzte eine $1.5\cdot 10^{-2}\text{M}$ Lösung. 
+		Hierzu wird jeweils 10 mL Styrol zugegeben, und für 15 min mit Stickstoff entgast. 
+		Es wird ein Heitzblock auf 60°C vorgeheitzt und es die lösungen werden für 2 Stunden gerührt.
+		Die Lösungen werden anschließend langsam in kaltes Methanol gegeben und das Polymer wird abfiltriert.
+		Das Produkt musste nicht in Chloroform gelöst werden und erneut gefällt werden.
+		Das abflitriere Produkt wurde im Vakuumtrockenschrank bei 60°C getrocknet
+
+	\subsection{Versuch 2}
+
+		In 5 Schraub-Septum-Gläschen werden ansätze mit einer 0.5 mol\%-AIBN lösung präpariert:
+
+		\begin{table}[htbp]
+			\centering
+			\caption{Mischungsverhältnisse der beiden Monomere.}
+			\label{mischungsverhaeltnisse}
+			\begin{tabular}{c|c|c}
+					Gläßchen & \textbf{Styrol [ml]} & \textbf{MMA [ml]} \\
+					\hline 
+					1 & 2                    & 10                \\ 
+					2 & 6                    & 6                 \\ 
+					3 & 8                    & 4                 \\ 
+					4 & 10                   & 2                 \\ 
+			\end{tabular}
+		\end{table}
+	
+	Diese werden auch alle mit Stickstoff entgast und für 30 min in den auf 60°C vorgeheitzten heitzblock gestellt. 
+	Auch diese werden in ca 150-200 mL Methanol gefällt und abfiltriert und im Trockenschrank getrocknet.
+
 \printbibliography
 
 \end{document}

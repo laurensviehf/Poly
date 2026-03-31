@@ -564,6 +564,13 @@ INPUT ./Bilder/RGL.png
 INPUT ./Bilder/RGL.png
 INPUT ./Bilder/RGL.png
 INPUT ./Bilder/RGL.png
+INPUT ./Bilder/GraphMittel.png
+INPUT ./Bilder/GraphMittel.png
+INPUT ./Bilder/GraphMittel.png
+INPUT ./Bilder/GraphMittel.png
+INPUT ./Bilder/GraphMittel.png
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT build/Protokoll.aux
 INPUT build/Protokoll.out
 INPUT build/Protokoll.out
