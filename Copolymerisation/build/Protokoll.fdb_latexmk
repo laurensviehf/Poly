@@ -1,20 +1,20 @@
 # Fdb version 4
-["biber build/Protokoll"] 0 "build/Protokoll.bcf" "build/Protokoll.bbl" "build/Protokoll" 1774890210.47093 0
+["biber build/Protokoll"] 0 "build/Protokoll.bcf" "build/Protokoll.bbl" "build/Protokoll" 1774960043.56702 0
   "Polyaddition_Polykond.bib" 0 -1 0 ""
   "build/Protokoll.bcf" 0 -1 0 "pdflatex"
   (generated)
   "build/Protokoll.bbl"
   "build/Protokoll.blg"
   (rewritten before read)
-["pdflatex"] 1774890207.06083 "d:/Dokumente/Uni laptop/Chemie/Poly/Copolymerisation/Protokoll.tex" "build/Protokoll.pdf" "Protokoll" 1774890210.47181 0
+["pdflatex"] 1774960040.21584 "d:/Dokumente/Uni laptop/Chemie/Poly/Copolymerisation/Protokoll.tex" "build/Protokoll.pdf" "Protokoll" 1774960043.56794 0
   "Bilder/GraphPG.png" 1774888323 3516 2870e74cf5e53b80a9614f4ac51dd191 ""
   "Bilder/Initiierung.png" 1774870234 20935 0eb87f9239f69683fc835a4936b81210 ""
-  "Protokoll.tex" 1774890206 6443 c1654ac6bb0cec9fd05217dc04fe4e95 ""
-  "build/Protokoll.aux" 1774890209 1881 2b34960fc5e9222551e758efc0c5e997 "pdflatex"
+  "Protokoll.tex" 1774960036 7229 fba2a548e30687fdda9d795bf5c92ae7 ""
+  "build/Protokoll.aux" 1774960042 1977 a7bcda99687b4547666b31c0ee3ac88a "pdflatex"
   "build/Protokoll.bbl" 0 -1 0 "biber build/Protokoll"
-  "build/Protokoll.out" 1774890209 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "build/Protokoll.run.xml" 1774890209 2490 b860d3fcb56ed6026af63bf2653d8531 "pdflatex"
-  "build/Protokoll.toc" 1774890209 158 ae8a63c34890776e9379f273f82b7c23 "pdflatex"
+  "build/Protokoll.out" 1774960042 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "build/Protokoll.run.xml" 1774960042 2490 b860d3fcb56ed6026af63bf2653d8531 "pdflatex"
+  "build/Protokoll.toc" 1774960042 158 ae8a63c34890776e9379f273f82b7c23 "pdflatex"
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1713295977 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1713296793 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx0900.tfm" 1713296446 3584 1a7de6c99457381c64abc1a7c545505f ""
@@ -324,7 +324,7 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1713300443 5519690 1698f96789543a09b6b0e33aada59581 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1713300629 8222510 1d715446f99c4a441624fedc23e92ee4 ""
   "c:/texlive/2024/texmf.cnf" 1713300414 713 e69b156964470283e0530f5060668171 ""
-  "d:/Dokumente/Uni laptop/Chemie/Poly/Copolymerisation/Protokoll.tex" 1774890206 6443 c1654ac6bb0cec9fd05217dc04fe4e95 ""
+  "d:/Dokumente/Uni laptop/Chemie/Poly/Copolymerisation/Protokoll.tex" 1774960036 7229 fba2a548e30687fdda9d795bf5c92ae7 ""
   (generated)
   "build/Protokoll.aux"
   "build/Protokoll.bcf"
