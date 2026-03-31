@@ -1,20 +1,21 @@
 # Fdb version 4
-["biber build/Protokoll"] 0 "build/Protokoll.bcf" "build/Protokoll.bbl" "build/Protokoll" 1774960043.56702 0
+["biber build/Protokoll"] 0 "build/Protokoll.bcf" "build/Protokoll.bbl" "build/Protokoll" 1774962634.86501 0
   "Polyaddition_Polykond.bib" 0 -1 0 ""
   "build/Protokoll.bcf" 0 -1 0 "pdflatex"
   (generated)
   "build/Protokoll.bbl"
   "build/Protokoll.blg"
   (rewritten before read)
-["pdflatex"] 1774960040.21584 "d:/Dokumente/Uni laptop/Chemie/Poly/Copolymerisation/Protokoll.tex" "build/Protokoll.pdf" "Protokoll" 1774960043.56794 0
+["pdflatex"] 1774962631.15048 "d:/Dokumente/Uni laptop/Chemie/Poly/Copolymerisation/Protokoll.tex" "build/Protokoll.pdf" "Protokoll" 1774962634.86585 0
   "Bilder/GraphPG.png" 1774888323 3516 2870e74cf5e53b80a9614f4ac51dd191 ""
   "Bilder/Initiierung.png" 1774870234 20935 0eb87f9239f69683fc835a4936b81210 ""
-  "Protokoll.tex" 1774960036 7229 fba2a548e30687fdda9d795bf5c92ae7 ""
-  "build/Protokoll.aux" 1774960042 1977 a7bcda99687b4547666b31c0ee3ac88a "pdflatex"
+  "Bilder/RGL.png" 1774961807 8764 2102e71d11da2e8e46a8f25ddf8b5159 ""
+  "Protokoll.tex" 1774962630 9750 6c60fa09bfe808c882f868375647f7b6 ""
+  "build/Protokoll.aux" 1774962634 4147 fb2f1f859225cdbf16d7a10beb6d1420 "pdflatex"
   "build/Protokoll.bbl" 0 -1 0 "biber build/Protokoll"
-  "build/Protokoll.out" 1774960042 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "build/Protokoll.run.xml" 1774960042 2490 b860d3fcb56ed6026af63bf2653d8531 "pdflatex"
-  "build/Protokoll.toc" 1774960042 158 ae8a63c34890776e9379f273f82b7c23 "pdflatex"
+  "build/Protokoll.out" 1774962633 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "build/Protokoll.run.xml" 1774962634 2490 b860d3fcb56ed6026af63bf2653d8531 "pdflatex"
+  "build/Protokoll.toc" 1774962634 372 f4facb27325124949e749c6bbdd48fe0 "pdflatex"
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1713295977 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1713296793 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx0900.tfm" 1713296446 3584 1a7de6c99457381c64abc1a7c545505f ""
@@ -28,6 +29,7 @@
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecsl1000.tfm" 1713296446 3584 bf02fd9e8bc8c375f218c700cabb9a92 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecss1000.tfm" 1713296446 3584 ab55608ad377891510479d34d90acc46 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecsx1000.tfm" 1713296446 3584 d90cef44d3336212c1284055d79d7513 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecsx1200.tfm" 1713296446 3584 36f697a6b99f29aad1ddddcfadf7a969 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecsx1440.tfm" 1713296446 3584 9bd2baa3a21be3460ad52867ca0084f1 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1713295300 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1713295300 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -58,6 +60,8 @@
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1713295300 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1713295300 36281 c355509802a035cadc5f15869451dcee ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1713295300 35752 024fb6c41858982481f6968b5fc26508 ""
+  "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb" 1713295300 31809 8670ca339bf94e56da1fc21c80635e2a ""
+  "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1713295300 32762 7fee39e011c23b3589931effd97b9702 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1713295300 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1713295300 32716 08e384dc442464e7285e891af9f45947 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb" 1713295977 143961 fe73b0de40bc9eebafe5b31a39c455e0 ""
@@ -67,6 +71,7 @@
   "c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb" 1713295977 149037 59d73c34fca02636f548728608edd111 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb" 1713295977 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb" 1713295977 149078 529fb70b4eae6159fa47b6d68887e5ed ""
+  "c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb" 1713295977 148436 6a185415b8a1b77c58fee2272f3574e2 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb" 1713295977 148301 1e3d992f26050f6b4fb0fd3d5094d854 ""
   "c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1713298179 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/texlive/2024/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1713295414 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -324,7 +329,7 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1713300443 5519690 1698f96789543a09b6b0e33aada59581 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1713300629 8222510 1d715446f99c4a441624fedc23e92ee4 ""
   "c:/texlive/2024/texmf.cnf" 1713300414 713 e69b156964470283e0530f5060668171 ""
-  "d:/Dokumente/Uni laptop/Chemie/Poly/Copolymerisation/Protokoll.tex" 1774960036 7229 fba2a548e30687fdda9d795bf5c92ae7 ""
+  "d:/Dokumente/Uni laptop/Chemie/Poly/Copolymerisation/Protokoll.tex" 1774962630 9750 6c60fa09bfe808c882f868375647f7b6 ""
   (generated)
   "build/Protokoll.aux"
   "build/Protokoll.bcf"

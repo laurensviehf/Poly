@@ -152,6 +152,8 @@
 			\label{GraphPG}
 		\end{figure}
 
+
+\subsection{Kinetik der radikalischen Polymerisation}
 	Für diese Kinetik spielt auch das sogenannte "Wurzel-I-Gesetz" eine große Rolle. 
 		
 	Um dieses Aufstellen zu können wird unteranderem von sechs Annahmen ausgegangen.\\
@@ -185,23 +187,68 @@
 	Desweiteren ist die Bruttogeschwindigkeit abhängig von der Konzentration der Edukte.\\
 
 	Allgemein wird um die güte einer Polymerisation zu bestimmen der zahlenmittlere Polymerisationsgrad bestimmt. 
-	Dieser wird in zwei unterschiedlichen Formeln beschrieben wobei Formel (\ref{Pn1}) den Polymerisationsgrad bei abbruch durch Kombination beschreibt, 
-	und Formel (\ref{Pn2}) den Polymerisationsgrad bei Kettenabruch durch Disproportionierung beschreibt.
+	Dieser wird in zwei unterschiedlichen Formeln beschrieben wobei Formel(\ref{Pn1}) den Polymerisationsgrad bei abbruch durch Kombination beschreibt, 
+	und Formel(\ref{Pn2}) den Polymerisationsgrad bei Kettenabruch durch Disproportionierung beschreibt.
 
 		\begin{equation}
-			P_n = 2v\\
+			\bar{P_n} = 2v\\
 			\label{Pn1}
 		\end{equation}
 
 		\begin{equation}
-			P_n = v
+			\bar{P_n} = v
 			\label{Pn2}
 		\end{equation}
 		
-	
-	
-	
+	Dies lässt sich auch für Kettenübertragungen betrachten wobei hier die Kettenlänge $v$ durch $v'$ ausgetauscht wird. 
+	Dieser wird auch als Polymerkette bezeichnet und beschreibt alle Monomere die im wachstum "zusammengesetzt" wurden. 
+	Wichtig dabei ist auch, dass die für die Disproportionierung sowie für die dur eine Übretragung abgebrochenen Reaktion die Formel(\ref{PnV'1}) gilt.
+	Aber für Reaktionen die durch Kombination abgebrochen wurden Formel(\ref{PnV'2})
 
+		\begin{equation}
+			\bar{P_n} = v'
+			\label{PnV'1}
+		\end{equation}
+		\begin{equation}
+			\bar{P_n} = 2v'
+			\label{PnV'2}
+		\end{equation}
+	
+\subsection{Kinetik der radikalischen Copolymerisation}
+
+	Auch bei der Copolymerisation wird mit Annahmen gearbeitet hier sind es jedoch nur 5 welche zum aufstellen der Copolymerisationsgleichung benötigt werden.\\
+
+	Die erste ist identisch zu der zuvor genannten ersten Annahme, dass alle Reaktionen irreversiebel sind.\\
+
+	Die zweite beschreibt, dass die Bruttokonzentrationen der Monomere gleich der Konzentratonen am Reaktionsort sein muss.\\
+
+	Die dritte ist das vernachlässigen des Monomerverbrauchs an Start, Abbruch und Übertragung da ein sehr hoher Polymerisationsgrad vorhanden ist.\\
+
+	Die vierte ist das vernachlässigen der Reaktivität des zuvor eingebauten Monomers.\\
+
+	Die letzte ist die Annahme, das für die kinetik das Bodenstein'sche Quasistationaritätsprinzip gilt.\\
+
+	Mit diesen Annahmen kann das Ziel einer Aussage zum Einbauverhältnis verfolgt werden. 
+	Dafür werden folgende Reaktionsgleichungen mit der jeweiligen Reaktionsgleichungen:
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.75]{Bilder/RGL.png}
+			\caption{Die Abbildung zeigt die Reaktionsgleichungen und ihre zugehörigen kettenlängen. \cite{polyskript}}
+			\label{RGL_wachstum}
+		\end{figure}
+
+	Durch Umformen und einsetzen folgt aus diesen Reaktionsgleichungen die Copolymerisationsgleichung.
+
+		\begin{equation}
+			\frac{m_1}{m_2} = \frac{[M_1]}{[M_2]}\cdot \frac{r_1[M_1]+[M_2]}{r_2[M_2]+[M_1]}
+		\end{equation}
+
+	Darin ist $r$ die Copolymerisationskonstanten welche als $\frac{k_{11}}{k_{12}}=r1$ definiert sind.
+	Unteranderem besdchreibt $m$ den jeweiligen anteil des Monomers im Copolymer.
+	Experimentell werden diese Parameter über Spektroskopie wie NMR oder IR bestimmt, können aber auch durch Elementaranalyse bestimmt werden.
+
+	Durch Umformen der zuvor genannten 
 \printbibliography
 
 \end{document}

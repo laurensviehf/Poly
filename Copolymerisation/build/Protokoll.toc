@@ -1,3 +1,5 @@
 \babel@toc {ngerman}{}\relax 
 \contentsline {section}{\numberline {1}Theorie}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Kinetik der radikalischen Polymerisation}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Kinetik der radikalischen Copolymerisation}{4}{subsection.1.2}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
