@@ -177,7 +177,72 @@
 
 \section{Auswertung}
 
-	
+	\subsection{Polystyrol über RAFT}
+
+		Die Synthese von Polystyrol über RAFT erfolgte über die Reaktion in Abbildung \ref{PolystyrolRKT-RAFT}.
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.3]{Bilder/RKTGleichung_PS_CTA.png}
+			\caption{Reaktionsgleichung zur Synthese von Polystyrol über RAFT.}
+			\label{PolystyrolRKT-RAFT}
+		\end{figure}
+
+		Für die Berechnung des Umsatzes wurde die Probe vor Fällung des Polymers mittels NMR-Spektroskopie untersucht. Dabei zeigt die 
+		Abbildung \ref{PSRAFTNMR} das Spektrum der Probe und die Abbildung \ref{PSNMR} das Spektrum von reinem Styrol.
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.5]{NMR/hGR2_1.1_U.1.fid.pdf}
+			\caption{NMR-Spektrum der Polystyrolprobe vor der Fällung.}
+			\label{PSRAFTNMR}
+		\end{figure}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.5]{NMR/hStyrol_CDCl3.1.fid.pdf}
+			\caption{NMR-Spektrum der Polystyrolprobe vor der Fällung.}
+			\label{PSNMR}
+		\end{figure}
+		
+		Für die Berechung wurden die Integrale aller Signale bestimmt, aber die der Aromaten zusammengefasst. Da diese nach der Reaktionsgleichung
+		\ref{PolystyrolRKT-RAFT} keine Chemische Veränderung durchlaufen, bleiben die Integrale gleich. Diese Integrale wurden dann auf fünf normiert, 
+		da es den fünf Protonen am Aromaten entspricht. Aus dem Spektrum des reinen Styrols werden die olefinischen Signale zugeordnet und 
+		anschließend für das Spektrum der Probe integriert und verglichen. Da die integrale im reinen Styrol auf eins normiert sind, entspricht 
+		das Integral in der Probe der Konzentration an olefinischen Protonen, wodurch der Umsatz sich über
+
+		\begin{equation}
+			X = 1 - I_{\text{ole}}
+		\end{equation}
+
+		berechnen lässt. Mit den Integralen der Signale bei ungefähr $\delta = \SI{5,1}{ppm}$ und $\delta = \SI{5,7}{ppm}$ ermittelt sich für 
+		diese Probe ein Umsatz von $X = 0,6$. \\\\
+
+		Das theoretische Molekulargewicht der Probe lässt sich über die Gleichung \eqref{Molekulargewicht} berechnen. Mit einem Umsatz von $X = 0,6$, 
+		einer Monomer Anfangskonzentration von $[\text{M}]_0 = \SI{30,437}{mmol}$, einer CTA Anfangskonzentration von $[\text{CTA}]_0 = \SI{0,125}{mmol}$ 
+		und den Molekulargewichten von $m\text{M} = \SI{104,15}{\frac{g}{mol}}$ und $m\text{CTA} = \SI{364,63}{\frac{g}{mol}}$ ergibt sich ein 
+		theoretisches Molekulargewicht von
+
+		\begin{equation*}
+			M_\text{n,Calc} = \bigl(0,6 \cdot \frac{\SI{30,437}{mmol}}{\SI{0,125}{mmol}} \cdot \SI{104,15}{\frac{g}{mol}}\bigr) + \SI{364,63}{\frac{g}{mol}} = \SI{15580,70}{\frac{g}{mol}} \text{.}
+		\end{equation*}
+
+	\subsection{Polystyrol über freie radikalische Polymerisation}
+
+
+
+	\subsection{Polystyrol-$co$-Polymethylmethacrylat über RAFT}
+
+
+
+	\subsection{Polystyrol-$co$-Polymethylmethacrylat über freie radikalische Polymerisation}
+
+
+
+	\subsection{Vergleich RAFT und freie radikalische Polymerisation}
+
+
+
 
 \section{Durchführung}
 
