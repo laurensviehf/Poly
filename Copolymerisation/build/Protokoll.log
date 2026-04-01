@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.16)  1 APR 2026 20:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.16)  1 APR 2026 20:43
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1836,35 +1836,31 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.101 \newpage
                [1]
-<Bilder/Initiierung.png, id=64, 1032.85875pt x 440.39531pt>
+<Bilder/Initiierung.png, id=64, 1032.10594pt x 164.86594pt>
 File: Bilder/Initiierung.png Graphic file (type png)
 <use Bilder/Initiierung.png>
 Package pdftex.def Info: Bilder/Initiierung.png  used on input line 112.
-(pdftex.def)             Requested size: 258.21405pt x 110.09856pt.
-<Bilder/GraphPG.png, id=65, 228.10219pt x 150.5625pt>
+(pdftex.def)             Requested size: 258.02585pt x 41.21637pt.
+<Bilder/RadikalKomplett.png, id=66, 988.44281pt x 675.27281pt>
+File: Bilder/RadikalKomplett.png Graphic file (type png)
+<use Bilder/RadikalKomplett.png>
+Package pdftex.def Info: Bilder/RadikalKomplett.png  used on input line 131.
+(pdftex.def)             Requested size: 395.37012pt x 270.10434pt.
+ [2 <./Bilder/Initiierung.png> <./Bilder/RadikalKomplett.png>]
+<Bilder/GraphPG.png, id=83, 228.10219pt x 150.5625pt>
 File: Bilder/GraphPG.png Graphic file (type png)
 <use Bilder/GraphPG.png>
-Package pdftex.def Info: Bilder/GraphPG.png  used on input line 152.
+Package pdftex.def Info: Bilder/GraphPG.png  used on input line 157.
 (pdftex.def)             Requested size: 159.67043pt x 105.39302pt.
 
 
-LaTeX Warning: Citation 'polyskript' on page 2 undefined on input line 153.
+LaTeX Warning: Citation 'polyskript' on page 3 undefined on input line 158.
 
 
-LaTeX Warning: Citation 'polyskript' on page 2 undefined on input line 153.
-
-[2 <./Bilder/Initiierung.png> <./Bilder/GraphPG.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
-
- []
+LaTeX Warning: Citation 'polyskript' on page 3 undefined on input line 158.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--167
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
 
@@ -1874,125 +1870,134 @@ Underfull \hbox (badness 10000) in paragraph at lines 168--169
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
+Underfull \hbox (badness 10000) in paragraph at lines 170--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--190
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
-[3]
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+
+ []
+
+[3 <./Bilder/GraphPG.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 192--195
+
+ []
+
 <Bilder/Norrish-Trompsdorff.png, id=101, 963.6pt x 631.35875pt>
 File: Bilder/Norrish-Trompsdorff.png Graphic file (type png)
 <use Bilder/Norrish-Trompsdorff.png>
-Package pdftex.def Info: Bilder/Norrish-Trompsdorff.png  used on input line 228.
+Package pdftex.def Info: Bilder/Norrish-Trompsdorff.png  used on input line 233.
 (pdftex.def)             Requested size: 289.08223pt x 189.40909pt.
 
-
-LaTeX Warning: Citation 'wikipedia' on page 4 undefined on input line 229.
-
-
-LaTeX Warning: Citation 'wikipedia' on page 4 undefined on input line 229.
+LaTeX Warning: Citation 'wikipedia' on page 4 undefined on input line 234.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
+LaTeX Warning: Citation 'wikipedia' on page 4 undefined on input line 234.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
 
  []
 
-[4 <./Bilder/Norrish-Trompsdorff.png>]
-<Bilder/RGL.png, id=109, 297.36093pt x 114.4275pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+
+ []
+
+<Bilder/RGL.png, id=110, 297.36093pt x 114.4275pt>
 File: Bilder/RGL.png Graphic file (type png)
 <use Bilder/RGL.png>
-Package pdftex.def Info: Bilder/RGL.png  used on input line 253.
+Package pdftex.def Info: Bilder/RGL.png  used on input line 258.
 (pdftex.def)             Requested size: 223.02014pt x 85.8204pt.
 
+LaTeX Warning: Citation 'polyskript' on page 5 undefined on input line 259.
 
-LaTeX Warning: Citation 'polyskript' on page 5 undefined on input line 254.
 
+LaTeX Warning: Citation 'polyskript' on page 5 undefined on input line 259.
 
-LaTeX Warning: Citation 'polyskript' on page 5 undefined on input line 254.
-
-<Bilder/GraphMittel.png, id=111, 340.27126pt x 267.24844pt>
+[5 <./Bilder/Norrish-Trompsdorff.png> <./Bilder/RGL.png>]
+<Bilder/GraphMittel.png, id=120, 340.27126pt x 267.24844pt>
 File: Bilder/GraphMittel.png Graphic file (type png)
 <use Bilder/GraphMittel.png>
-Package pdftex.def Info: Bilder/GraphMittel.png  used on input line 280.
+Package pdftex.def Info: Bilder/GraphMittel.png  used on input line 285.
 (pdftex.def)             Requested size: 255.2028pt x 200.43584pt.
 
-LaTeX Warning: Citation 'polyskript' on page 5 undefined on input line 281.
+
+LaTeX Warning: Citation 'polyskript' on page 6 undefined on input line 286.
 
 
-LaTeX Warning: Citation 'polyskript' on page 5 undefined on input line 281.
+LaTeX Warning: Citation 'polyskript' on page 6 undefined on input line 286.
 
-[5 <./Bilder/RGL.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
 
  []
 
-[6{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Bilder/GraphMittel.png>]
-<Bilder/Block_copolymer.png, id=132, 963.6pt x 95.35625pt>
+[6 <./Bilder/GraphMittel.png>] [7{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+<Bilder/Block_copolymer.png, id=141, 963.6pt x 95.35625pt>
 File: Bilder/Block_copolymer.png Graphic file (type png)
 <use Bilder/Block_copolymer.png>
-Package pdftex.def Info: Bilder/Block_copolymer.png  used on input line 378.
+Package pdftex.def Info: Bilder/Block_copolymer.png  used on input line 383.
 (pdftex.def)             Requested size: 188.21288pt x 18.6242pt.
 
 
-LaTeX Warning: Citation 'wikipedia2' on page 7 undefined on input line 379.
+LaTeX Warning: Citation 'wikipedia2' on page 8 undefined on input line 384.
 
 
-LaTeX Warning: Citation 'wikipedia2' on page 7 undefined on input line 379.
+LaTeX Warning: Citation 'wikipedia2' on page 8 undefined on input line 384.
 
-<Bilder/Pfropf.png, id=133, 501.875pt x 138.5175pt>
+<Bilder/Pfropf.png, id=142, 501.875pt x 138.5175pt>
 File: Bilder/Pfropf.png Graphic file (type png)
 <use Bilder/Pfropf.png>
-Package pdftex.def Info: Bilder/Pfropf.png  used on input line 386.
+Package pdftex.def Info: Bilder/Pfropf.png  used on input line 391.
 (pdftex.def)             Requested size: 188.21288pt x 51.94815pt.
 
-LaTeX Warning: Citation 'wikipedia2' on page 7 undefined on input line 387.
+LaTeX Warning: Citation 'wikipedia2' on page 8 undefined on input line 392.
 
 
-LaTeX Warning: Citation 'wikipedia2' on page 7 undefined on input line 387.
+LaTeX Warning: Citation 'wikipedia2' on page 8 undefined on input line 392.
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 413--417
+
+Underfull \hbox (badness 10000) in paragraph at lines 418--422
 
  []
 
+[8 <./Bilder/Block_copolymer.png> <./Bilder/Pfropf.png>]
 
-LaTeX Warning: Empty bibliography on input line 437.
+LaTeX Warning: Empty bibliography on input line 442.
 
-[8 <./Bilder/Block_copolymer.png> <./Bilder/Pfropf.png>] (build/Protokoll.aux)
+[9] (build/Protokoll.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
@@ -2013,18 +2018,18 @@ Package logreq Info: Writing requests to 'Protokoll.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 58267 strings out of 474103
- 1379418 string characters out of 5747481
- 2381918 words of memory out of 5000000
- 79792 multiletter control sequences out of 15000+600000
+ 58277 strings out of 474103
+ 1379692 string characters out of 5747481
+ 2381149 words of memory out of 5000000
+ 79800 multiletter control sequences out of 15000+600000
  576379 words of font info for 78 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,20n,107p,10986b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb>
-Output written on build/Protokoll.pdf (9 pages, 518120 bytes).
+Output written on build/Protokoll.pdf (10 pages, 541855 bytes).
 PDF statistics:
- 311 PDF objects out of 1000 (max. 8388607)
- 244 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 500000)
- 216 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 318 PDF objects out of 1000 (max. 8388607)
+ 248 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 

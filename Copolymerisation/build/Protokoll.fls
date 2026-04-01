@@ -553,6 +553,12 @@ INPUT ./Bilder/Initiierung.png
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0900.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
+INPUT ./Bilder/RadikalKomplett.png
+INPUT ./Bilder/RadikalKomplett.png
+INPUT ./Bilder/RadikalKomplett.png
+INPUT ./Bilder/RadikalKomplett.png
+INPUT ./Bilder/RadikalKomplett.png
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecsl1000.tfm
 INPUT ./Bilder/GraphPG.png
 INPUT ./Bilder/GraphPG.png
 INPUT ./Bilder/GraphPG.png
@@ -560,7 +566,6 @@ INPUT ./Bilder/GraphPG.png
 INPUT ./Bilder/GraphPG.png
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx0900.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecsx1200.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecsl1000.tfm
 INPUT ./Bilder/Norrish-Trompsdorff.png
 INPUT ./Bilder/Norrish-Trompsdorff.png
 INPUT ./Bilder/Norrish-Trompsdorff.png

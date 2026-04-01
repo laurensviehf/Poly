@@ -1,23 +1,23 @@
 \babel@toc {ngerman}{}\relax 
 \contentsline {section}{\numberline {1}Theorie}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Kinetik der radikalischen Polymerisation}{3}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Kinetik der radikalischen Copolymerisation}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.2}Kinetik der radikalischen Copolymerisation}{5}{subsection.1.2}%
 \contentsline {section}{\numberline {2}Durchführung}{6}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Versuch 1}{6}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Versuch 2}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.1}Versuch 1}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Versuch 2}{7}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Auswertung}{7}{section.3}%
 \contentsline {section}{\numberline {4}Fazit}{7}{section.4}%
 \contentsline {section}{\numberline {5}Fragen}{7}{section.5}%
 \contentsline {section}{\numberline {6}Frage 1}{7}{section.6}%
 \contentsline {section}{\numberline {7}Frage 2}{7}{section.7}%
-\contentsline {section}{\numberline {8}Frage 3}{7}{section.8}%
-\contentsline {section}{\numberline {9}Frage 4}{7}{section.9}%
-\contentsline {section}{\numberline {10}Frage 5}{7}{section.10}%
+\contentsline {section}{\numberline {8}Frage 3}{8}{section.8}%
+\contentsline {section}{\numberline {9}Frage 4}{8}{section.9}%
+\contentsline {section}{\numberline {10}Frage 5}{8}{section.10}%
 \contentsline {section}{\numberline {11}Frage 6}{8}{section.11}%
 \contentsline {section}{\numberline {12}Frage 7}{8}{section.12}%
 \contentsline {section}{\numberline {13}Frage 8}{8}{section.13}%
 \contentsline {section}{\numberline {14}Frage 9}{8}{section.14}%
-\contentsline {section}{\numberline {15}Frage 10}{8}{section.15}%
-\contentsline {section}{\numberline {16}Frage 11}{8}{section.16}%
-\contentsline {section}{\numberline {17}Frage 12}{8}{section.17}%
+\contentsline {section}{\numberline {15}Frage 10}{9}{section.15}%
+\contentsline {section}{\numberline {16}Frage 11}{9}{section.16}%
+\contentsline {section}{\numberline {17}Frage 12}{9}{section.17}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -1,25 +1,26 @@
 # Fdb version 4
-["biber build/Protokoll"] 0 "build/Protokoll.bcf" "build/Protokoll.bbl" "build/Protokoll" 1775067401.90981 0
+["biber build/Protokoll"] 0 "build/Protokoll.bcf" "build/Protokoll.bbl" "build/Protokoll" 1775069019.72562 0
   "Polyaddition_Polykond.bib" 0 -1 0 ""
   "build/Protokoll.bcf" 0 -1 0 "pdflatex"
   (generated)
   "build/Protokoll.bbl"
   "build/Protokoll.blg"
   (rewritten before read)
-["pdflatex"] 1775067398.30383 "d:/Dokumente/Uni laptop/Chemie/Poly/Copolymerisation/Protokoll.tex" "build/Protokoll.pdf" "Protokoll" 1775067401.91059 0
+["pdflatex"] 1775069015.77872 "d:/Dokumente/Uni laptop/Chemie/Poly/Copolymerisation/Protokoll.tex" "build/Protokoll.pdf" "Protokoll" 1775069019.72642 0
   "Bilder/Block_copolymer.png" 1775055581 54596 4988316ce7dc86c94d24bda8d4ef55e8 ""
   "Bilder/GraphMittel.png" 1774977674 9018 9c9e26a2ed8c0fe00b38d49ac1c685f3 ""
   "Bilder/GraphPG.png" 1774888323 3516 2870e74cf5e53b80a9614f4ac51dd191 ""
-  "Bilder/Initiierung.png" 1774870234 20935 0eb87f9239f69683fc835a4936b81210 ""
+  "Bilder/Initiierung.png" 1775068906 21067 ec12682e86802d17c3fe2efab1e42972 ""
   "Bilder/Norrish-Trompsdorff.png" 1775054642 61163 346ef51156765bc8f54327896b6e4422 ""
   "Bilder/Pfropf.png" 1775055610 44206 4d335784b411e1af8a0676af2563a3da ""
   "Bilder/RGL.png" 1774961807 8764 2102e71d11da2e8e46a8f25ddf8b5159 ""
-  "Protokoll.tex" 1775067393 17425 ddb90ffb1dd86495a150e5d106b86660 ""
-  "build/Protokoll.aux" 1775067401 11089 88b9ebbeb02080181f899588ff9ccac1 "pdflatex"
+  "Bilder/RadikalKomplett.png" 1775068733 66730 58b1c005594684c56254f84ed42a6674 ""
+  "Protokoll.tex" 1775069011 17780 788a99f3dd5e24595e987328c18724a0 ""
+  "build/Protokoll.aux" 1775069018 11659 3fe10dd0c044f05818e09ddb22306000 "pdflatex"
   "build/Protokoll.bbl" 0 -1 0 "biber build/Protokoll"
-  "build/Protokoll.out" 1775067400 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "build/Protokoll.run.xml" 1775067401 2490 b860d3fcb56ed6026af63bf2653d8531 "pdflatex"
-  "build/Protokoll.toc" 1775067401 1555 df17ce392d835393ba211389679bc9ed "pdflatex"
+  "build/Protokoll.out" 1775069018 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "build/Protokoll.run.xml" 1775069018 2490 b860d3fcb56ed6026af63bf2653d8531 "pdflatex"
+  "build/Protokoll.toc" 1775069018 1555 ce4967b0b0e14efab6b8a595517df418 "pdflatex"
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1713295977 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1713295977 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1713296793 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -340,7 +341,7 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1713300443 5519690 1698f96789543a09b6b0e33aada59581 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1713300629 8222510 1d715446f99c4a441624fedc23e92ee4 ""
   "c:/texlive/2024/texmf.cnf" 1713300414 713 e69b156964470283e0530f5060668171 ""
-  "d:/Dokumente/Uni laptop/Chemie/Poly/Copolymerisation/Protokoll.tex" 1775067393 17425 ddb90ffb1dd86495a150e5d106b86660 ""
+  "d:/Dokumente/Uni laptop/Chemie/Poly/Copolymerisation/Protokoll.tex" 1775069011 17780 788a99f3dd5e24595e987328c18724a0 ""
   (generated)
   "build/Protokoll.aux"
   "build/Protokoll.bcf"
