@@ -1,0 +1,42 @@
+Sample :	Vial   1: Group 7, Anionisch - 1
+Eluent :	THF
+Flow :	  1.000	ml/min
+
+
+Detector 1 :	I1: RID 1, RI Signal	Delay :	  0.000	min
+Detector 2 :	I1: VWD 1, Signal A	Delay :	  0.000	min
+Detector 3 :	I1: IsoPump 1, Pressure	Delay :	  0.000	min
+
+Baseline from :	 13.322	to :	 20.851	ml
+Integration from :	 14.532	to :	 20.591	ml
+
+	I1: RID 1, RI Signal	I1: VWD 1, Signal A
+Mn:	 2.166E+4	 3.121E+4	g/mol
+Mw:	 2.706E+4	 5.088E+4	g/mol
+Mz:	 3.167E+4	 7.562E+4	g/mol
+M(z+1):	 3.639E+4	 1.035E+5	g/mol
+Mv:	 0.000E+0	 0.000E+0	g/mol
+D:	 1.249E+0	 1.630E+0	
+[n]:	 0.000E+0	 0.000E+0	ml/g
+Vp:	 1.774E+1	 1.726E+1	ml
+Mp:	 2.884E+4	 4.026E+4	g/mol
+A:	 1.177E+1	 3.593E+1	ml*V
+< 3780 :	      0.00	      0.00	%
+w% : 	    100.00	    100.00	%
+> 273584 :	      0.00	      0.00	%
+
+Calibration Coefficients:
+
+Vol. min : 11.293200   
+Vol. max : 22.911000   
+R : 9.987704e-01
+Fit : Polynom 5
+Const.: 2.623221e+00
+Coef.2: 1.532332e+00
+Coef.3: -1.704748e-01
+Coef.4: 6.712467e-03
+Coef.5: -8.309592e-05
+Coef.6: -5.356945e-07
+Coef.7: 0.000000e+00
+Coef.8: 0.000000e+00
+
