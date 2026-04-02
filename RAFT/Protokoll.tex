@@ -283,28 +283,34 @@
 
 	\subsection{Polystyrol-$co$-Polymethylmethacrylat über RAFT}
 
-		Die Synthese von Polystyrol-$co$-Polymethylmethacrylat über RAFT erfolgte über die Reaktionsgleichung in Abbildung \ref{PolystyrolRKT-FR}.
+		Die Synthese von Polystyrol-$co$-Polymethylmethacrylat über RAFT erfolgte über die Reaktionsgleichung in Abbildung \ref{PScoMMARKT-Raft}.
 
 		\begin{figure}[H]
 			\centering
 			\includegraphics[scale = 0.3]{Bilder/RKTGleichung_PScpMMA_CTA.png}
-			\caption{Reaktionsgleichung zur Synthese von Polystyrol über freie radikalische Polymerisation.}
-			\label{PolystyrolRKT-FR}
+			\caption{Reaktionsgleichung zur Synthese von Polystyrol-$co$-Polymethylmethacrylat über RAFT.}
+			\label{PScoMMARKT-Raft}
 		\end{figure}
 
 		Für die Berechnung des Umsatzes wurde die Probe ebenfalls vor Fällung des Polymers mittels NMR-Spektroskopie untersucht. Dabei zeigt die 
-		Abbildung \ref{PSFRNMR1} das Spektrum der Probe.
+		Abbildung \ref{PScoMMANMR1} das Spektrum der Probe.
 
 		\begin{figure}[H]
 			\centering
 			\includegraphics[scale = 0.5]{NMR/hGR2_2.1_U.1.fid.pdf}
 			\caption{NMR-Spektrum der Polystyrolprobe vor der Fällung.}
-			\label{PSFRNMR1}
+			\label{PScoMMANMR1}
 		\end{figure}
 		
-		Hierbei wurden ebenfalls die Integrale bestimmt und mit den olefinischen Signalen aus der Abbildung \ref{PSNMR} verglichen. Mit den Integralen der Signale bei 
-		ungefähr $\delta = \SI{5,1}{ppm}$ und $\delta = \SI{5,7}{ppm}$ ermittelt sich für diese Probe ein Styrolumsatz von $X_\text{Styrol} = 0,77$. Für den 
-		Methylmethacrylatumsatz zeigt die Abbildung \ref{MMANMR} das reine Spektrum von Methylmethacrylat.
+		Für die Berechnung des Umsatzes bei Copolymeren wird das Verhältnis der Integrale des Polymeren $I_\text{Poly}$ zum Gesamtintegral von Polymer und Monomer genommen. 
+
+		\begin{equation}
+			X = \frac{\frac{I_\text{Poly}}{H}}{\frac{I_\text{Poly}}{H} + \frac{I_\text{Mono,1}}{H} + \frac{I_\text{Mono,2}}{H}}
+		\end{equation}
+
+		Die Integrale $I_\text{Mono,1}$ und $I_\text{Mono,2}$ beziehen sich auf die Integrale der Monomer Protonen. Durch die Division der Integrale mit dem Faktor $H$ 
+		werden diese auf Proton genormt. $H$ steht dementsprechend für die Anzahl an Protonen für dieses Integral.\\
+		Für die bestimmung der Integrale welche sich während der Reaktion ändern, ist das reine Spektrum vom Methylmethacrylat in Abbildung \ref{MMANMR} aufgeführt.
 
 		\begin{figure}[H]
 			\centering
@@ -316,30 +322,44 @@
 		Zu erkennen sind vier Signale, wovon zwei im olefinischen Bereich sind, eins im aliphatischen und eins im tieffeld verschobenen aliphatischen Bereich.
 		Mit Integralen von eins sind Signale bei $\SI{5,5}{ppm}$ und $\SI{6,1}{ppm}$ den olefinischen Protonen am Methylmethacrylat zuzuordnen. Das Signal bei $\SI{3,75}{ppm}$
 		und einem Integral von drei ist der Methoxygruppe zuzuorden und das letzte Integral der Methylgruppe. Die beiden Signale im Hochfeld bleiben dabei konstant, 
-		womit sie als Standard für die Umsatzrechnung gelten. Das Integral der olefinischen bestimmen hingegen den Umsatz. \\
-		Das Integral bei einer Verschiebung von $\SI{3,75}{ppm}$ aus der Abbildung \ref{PSFRNMR1} wird zu 3,1 normiert, wodurch sich ein Umrechenfaktor von 
-		
+		womit die Signale im olefinischen für die Umsatzrechnung benutzt werden.\\
+		Im Spektrum der Probe sind die Signale im olefinischen mit ähnlicher Verschiebung zu erkennen. Hinzu kommen allerdings die Signale des Styrols und das Signal bei 
+		$\SI{2,5}{ppm}$ mit einem Integral von $I_\text{poly} = 2,27$, welches die Methylengruppen der Polymerkette darstellen. Mit diesen Informationen erfolgt ein Umsatz 
+		von 
+
 		\begin{equation*}
-			a = \frac{3,1}{0,67} = 4,627
+			X = \frac{\frac{2,27}{2}}{\frac{2,27}{2} + \frac{0,21}{1} + \frac{0,22}{1}} = 0,73
 		\end{equation*}
-		ergibt. Dieser Faktor wird mit den Integralen der Singuletts im olephinischen Bereich multipliziert und von 1 abgezogen um den Umsatz zu berechnen.
+		%Das Integral bei einer Verschiebung von $\SI{3,75}{ppm}$ aus der Abbildung \ref{PSFRNMR1} wird zu 3,1 normiert, wodurch sich ein Umrechenfaktor von 
 		
-		\begin{equation*}
-			X = 1 - 4,627 \cdot 0,21 = 0,028
-		\end{equation*}
+		%\begin{equation*}
+		%	a = \frac{3,1}{0,67} = 4,627
+		%\end{equation*}
+		%ergibt. Dieser Faktor wird mit den Integralen der Singuletts im olephinischen Bereich multipliziert und von 1 abgezogen um den Umsatz zu berechnen.
 		
-		Nach der Fällung in Methanol wurde das Polymer erneut über NMR-Spektroskopie analysiert. Dieses Spektrum ist in Abbildung \ref{PSFRNMR2} aufgeführt.
+		%\begin{equation*}
+		%	X = 1 - 4,627 \cdot 0,21 = 0,028
+		%\end{equation*}
+		
+		%Nach der Fällung in Methanol wurde das Polymer erneut über NMR-Spektroskopie analysiert. Dieses Spektrum ist in Abbildung \ref{PSFRNMR2} aufgeführt.
 
 		\begin{figure}[H]
 			\centering
 			\includegraphics[scale = 0.5]{NMR/hGR2_2.1.1.fid(clean).pdf}
-			\caption{NMR-Spektrum der Polystyrolprobe vor der Fällung.}
-			\label{PSFRNMR2}
+			\caption{NMR-Spektrum der Polystyrolprobe nach der Fällung.}
+			\label{PScoMMARAFTNMR2}
 		\end{figure}
 
 	\subsection{Polystyrol-$co$-Polymethylmethacrylat über freie radikalische Polymerisation}
 
+		Die Synthese von Polystyrol-$co$-Polymethylmethacrylat über RAFT erfolgte über die Reaktionsgleichung in Abbildung \ref{PolystyrolRKT-FR}.
 
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.3]{Bilder/RKTGleichung_PScpMMA_FR.png}
+			\caption{Reaktionsgleichung zur Synthese von Polystyrol-$co$-Polymethylmethacrylat über freie radikalische Polymerisation.}
+			\label{PolystyrolRKT-FR}
+		\end{figure}
 
 	\subsection{Vergleich RAFT und freie radikalische Polymerisation}
 
