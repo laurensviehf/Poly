@@ -26,7 +26,7 @@
 \usepackage[font=small]{caption}
 %\usepackage[version=4]{mhchem}
 \usepackage[backend=biber, style=chem-angew]{biblatex}
-\addbibresource{Polyaddition_Polykond.bib}
+\addbibresource{GPC.bib}
 \usepackage{tabularx, booktabs, multirow}
 \usepackage[pdfborder={0 0 0}]{hyperref}
 \usepackage{scrlayer-scrpage}%Header für die KOMA-script -Klasse
@@ -118,6 +118,23 @@
 
 	\subsection{Aufbau der GPC}
 
+		Der allgemeine Aufbau einer GPC ist in Abbildung \ref{GPCAufbau} dargstellt. 
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.6]{Bilder/GPCAufbau.png}
+			\caption{Allgemeiner Aufbau einer GPC. \cite{polyskript}}
+			\label{GPCAufbau}
+		\end{figure}
+
+		Zu Beginn wird entgastes Lösungsmittel mit einer Pumpe in die GPC gepumpt, in welches vor der Säule das Polymer injektiert wird. Dieses 
+		Gemisch gelangt dann in die Säule, die mit einem porösen Gel aus Polystyrol und Divinylbenzol gefüllt ist. Dieses Gel trennt die Polymere 
+		nach größe auf und die Detektoren am Ende der Säule bestimmen über unterschiedliche Methoden das Molekulargewicht und die Konzentration. 
+		Mögliche Detektoren sind beispielsweise ein Differentialrefraktometer, ein UV-Vis Detektor oder ein Lichtstreudetektor. Meistens werden zwei 
+		von denen hintereinander geschaltet, um das Molekulargewicht über mehrere Methoden zu bestimmen. 
+
+	\subsection{Eigenschaften der Messung}
+
 		
 
 
@@ -130,6 +147,9 @@
 
 
 \section{Fragen}
+
+
+
 \printbibliography
 
 \end{document}
