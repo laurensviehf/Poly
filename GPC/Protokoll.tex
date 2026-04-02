@@ -114,7 +114,7 @@
 		Die Größe der Polymerknäuel hängt dabei von der Molmasse und dem Solvatationsvermögen der Polymere im gewählten Lösungsmittel ab. Werden 
 		Beispielsweise zwei Polymere mit identischer Molmasse in einem bestimmten Lösungsmittel gelöst, sind die Wechselwirkungen zwischen dem einem 
 		Polymer zum Lösungsmittel stärker und lassen dieses weiter aufknäulen. Somit würde dieses auch eine andere Retentionszeit besitzen und früher 
-		Detektiert werden. \\
+		Detektiert werden. \cite{polyskript}\\
 
 	\subsection{Aufbau der GPC}
 
@@ -131,16 +131,45 @@
 		Gemisch gelangt dann in die Säule, die mit einem porösen Gel aus Polystyrol und Divinylbenzol gefüllt ist. Dieses Gel trennt die Polymere 
 		nach größe auf und die Detektoren am Ende der Säule bestimmen über unterschiedliche Methoden das Molekulargewicht und die Konzentration. 
 		Mögliche Detektoren sind beispielsweise ein Differentialrefraktometer, ein UV-Vis Detektor oder ein Lichtstreudetektor. Meistens werden zwei 
-		von denen hintereinander geschaltet, um das Molekulargewicht über mehrere Methoden zu bestimmen. 
+		von denen hintereinander geschaltet, um das Molekulargewicht über mehrere Methoden zu bestimmen. \cite{polyskript}
 
 	\subsection{Eigenschaften der Messung}
 
-		
+		Eine wichtige Eigenschaft einer GPC ist die Anzahl der theoretischen Böden $N$, welche die Trennleistung beschreiben. Berechnet werden kann 
+		diese Eigenschaft über die Gleichung 
 
+		\begin{equation}
+			N = \bigl(\frac{V_\text{e/max}}{\sigma}\bigr)^2 = \bigl(\frac{4 \cdot V_\text{e/max}}{b}\bigr)^2
+		\end{equation}
 
-\section{Auswertung}
+		$V_\text{e/max}$ beschreibt das Elutionsvolumen der Substanz, $\sigma$ ist die Standardabweichung und $b$ den Betrag der Strecke zwischen 
+		den Schnittpunkten der x-Achse mit den Tangenten an den Wendepunkten. \\
+		Des weiteren gibt es noch die höhe eines theoretischen Bodens $HETP$, welcher der Quotient aus Säulenlänge $L$ und der Anzahl an theoretischer 
+		Böden $N$ ist. \cite{polyskript}
 
+		\begin{equation}
+			HETP = \frac{L}{N}
+		\end{equation}
 
+	\subsection{Bestimmung der Molekulargewichte}
+
+		Um die Molekulargewichte einer Probe zu bestimmen, wird zuerst eine Kalibrierung mit mehreren Proben mit bekannten Molekulargewichten 
+		aufgenommen. Die Retentionszeiten und Signale der Detektoren werden darüber dann Kalibriert. Anschließend wird die Probe aufgetrennt und 
+		die Signale werden über die Kalibrierung in Molekulargewichte umgerechnet. Dabei gibt es nun mehrere Molekulargewichte, die das Polymer 
+		beschreiben können. Einmal gibt es das zahlenmittlere Molekulargewicht $M_\text{n}$, welches über die Gleichung 
+
+		\begin{equation}
+			M_\text{n} = \frac{\sum_i n_i M_i}{\sum_i n_i}
+		\end{equation}
+
+		bestimmt wird. Dabei ist $n_i$ die Anzahl der Moleküle mit der Molmasse $M_i$. Des weiteren gibt es noch das gewichtsmittlere 
+		Molekulargewicht $M_\text{w}$, welches über die Gleichung
+
+		\begin{equation}
+			M_\text{w} = \frac{\sum_i n_i M_i^2}{\sum_i n_i M_i}
+		\end{equation}
+
+		beschrieben wird. \cite{polyskript}
 
 \section{Durchführung}
 
