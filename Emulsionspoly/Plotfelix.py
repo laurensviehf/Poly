@@ -24,7 +24,7 @@ x_fit = np.linspace(0, 5, 100)
 y_fit = exp_funktion(x_fit, a_fit, b_fit)
 
 # 5. Visualisierung
-plt.figure(figsize=(8, 5))
+plt.figure(figsize=(180, 60))
 plt.scatter(x_daten, y_daten, color='red', label='Originaldaten') # Die Punkte
 plt.plot(x_fit, y_fit, label=f'Fit: $f(x) = {a_fit:.2f} \cdot e^{{{b_fit:.2f} \cdot x}}$', color='blue')
 
