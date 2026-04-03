@@ -140,6 +140,7 @@
 
 		\begin{equation}
 			N = \bigl(\frac{V_\text{e/max}}{\sigma}\bigr)^2 = \bigl(\frac{4 \cdot V_\text{e/max}}{b}\bigr)^2
+			\label{Bodenzahl}
 		\end{equation}
 
 		$V_\text{e/max}$ beschreibt das Elutionsvolumen der Substanz, $\sigma$ ist die Standardabweichung und $b$ den Betrag der Strecke zwischen 
@@ -149,6 +150,7 @@
 
 		\begin{equation}
 			HETP = \frac{L}{N}
+			\label{Bodenhöhe}
 		\end{equation}
 
 	\subsection{Bestimmung der Molekulargewichte}
@@ -176,10 +178,92 @@
 	Die Proben und die Kalibrierung wurden über den Injektor nacheinander in die GPC gegeben. Die Signale und Messdaten wurden dann über eine 
 	Software aufgezeichnet und berechnet. 
 
+\section{Messdaten}
+
+	Die Aufgenommenen Messdaten für die Kalibrierung, die Copolymerisationsprobe und die der anionischen Polymerisationsprobe von Polystyrol 
+	sind in den nachfolgenden Abbildungen dargestellt. 
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale = 0.6]{Bilder/Kalibrierungskurve.png}
+		\caption{Logharithmische Auftragung der unterschiedlichen Molekulargewichte der Polystyrolstandards auf das Elutionsvolumen.}
+		\label{Kalibrierungskurveplot}
+	\end{figure}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale = 0.6]{Bilder/CoPokurve.png}
+		\caption{Auftragung des RI-Signals auf die Zeit für die radikalische Copolymerisationsprobe.}
+		\label{CoPokurveplot}
+	\end{figure}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale = 0.6]{Bilder/AnionischeKurve.png}
+		\caption{Auftragung des RI-Signals auf die Zeit für die anionische Copolymerisationsprobe.}
+		\label{AnionischeKurveplot}
+	\end{figure}
+
+	Die Kurven sind dabei durch unterschiedliche Detektoren betimmt worden, wovon der RI-Detektor die rote Kurve und UV-Vis Detektor die grüne Kurve lieferten.
+
+
+
 \section{Auswertung}
 
-	
+	\subsection{Theoretische Bodenzahl und HETP}
 
+		Für die theoretische Bodenzahl $N$ wurde die Gleichung \eqref{Bodenzahl} verwendet. Dafür wurde die Zeit, bei welcher das erste Maximum der 
+		roten Kurve in Abbildung \ref{AnionscheKurveplot} auftritt, bestimmt und mit gegebener Flussrate von $\SI{1}{\frac{ml}{min}}$ in ein 
+		Elutionsvolumen umgerechnet. Dabei ergab sich ein Elutionsvolumen von $V_\text{e/max} = \SI{17,7632}{ml}$. Es wurde ebenfalls noch der Faktor 
+		$b$ bestimmt, welcher sich zu $b = \SI{1,6776}{ml}$ ergab. Somit ist die theoretische Bodenzahl bei 
+
+		\begin{equation}
+			N = \bigl(\frac{4 \cdot \SI{17,7632}{ml}}{\SI{1,6776}{ml}}\bigr)^2 = 1794 \text{.}
+		\end{equation}
+
+		Über die Gleichung \eqref{Bodenhöhe} ergibt sich mit der Säulenlänge von $L = \SI{}{m}$ eine Bodenhöhe von 
+
+		\begin{equation}
+			HETP = \frac{}{1794} = \SI{}{m} \text{.}
+		\end{equation}
+
+	\subsection{Molekulargewichte}
+
+		In der Messkurve für die anionische Copolymerisationsprobe in Abbildung \ref{AnionischeKurveplot} sind einige Signale zu erkennen. Die 
+		prominentesten Signale befinden sich dabei bei $\SI{17,5}{min}$ und ungefähr $\SI{25}{min}$. Dazu sind noch weitere Signale bei höheren 
+		Zeiten zu erkennen, welche aber nicht sehr intensiv sind. \\
+		Bei der Messkurve für die radikalische Copolymerisationsprobe in Abbildung \ref{CoPokurveplot} befinden sich die prominentesten Signale bei ungefähr 
+		$\SI{25}{min}$ und das Signal frühere Signal ist in hier bei $\SI{15}{min}$ mit einer deutlich geringeren Intensität aufzufinden. \\
+		Die geringere Intensität des ersten Signals der Copolymerisationsprobe lässt auf eine geringere Konzentration hindeuten. Da ebenfalls 
+		eine geringere Retentionszeit vorliegt und diese bedeutet, dass höhere Molmassen vorliegen, sind hohen Kettenlängen bei der radikalischen 
+		Copolymerisation weniger vertreten. Dies kann durch die kontrollierte Polymerisation der anionischen Copolymerisation 
+		erklärt werden, da diese über einen lebenden Mechanismus abläuft und somit längere Ketten ermöglicht werden. Ebenfalls wurde die 
+		radikalische Copolymerisation nur bis zu einem Umsatz von 5-10 \% durchgeführt, wodurch ebenfalls die Kettenlänge begrenzt wird. Dazu sind 
+		radikalische Polymerisationen anfällig für den Kettenabbruch, da radikale sehr reaktiv sind und schnell rekombinieren können. \\\\
+
+		Die Molekulargewichte der Proben wurden über die Kalibrierung bestimmt und sind in Tabelle \ref{Molekulargewichteanionischradikalisch} aufgeführt.
+
+		\begin{table}[H]
+    	\begin{center}
+        	\caption{Aufgelistet sind ermittelten Molekulargewichte $\bar{M}_\text{n}$ und $\bar{M}_\text{w}$ für die anionische und radikalische Copolymerisation.}
+        	\label{Molekulargewichteanionischradikalisch}
+            	\begin{tabular}{c|c|c}
+					\hline
+					Probe [$min$]& $\bar{M}_\text{n}$ [$\frac{g}{mol}$] & $\bar{M}_\text{w}$ [$\frac{g}{mol}$]\\
+					\hline  
+					Anionisch	& 21660	& 27060	 \\
+					Radikalisch	& 50410	& 104000	 \\
+				\end{tabular}
+		\end{center}
+		\end{table}
+
+		Die Molekulargewichte der radikalischen Copolymerisation sind deutlich höher als die der anionischen Copolymerisation, was dadurch 
+		zustande kommt, dass die anionische Polymerisation kontrolliert abläuft und die Menge an Initiator dieses Molekulargewicht hervorruft. 
+		Des weiteren ist der unterschied zwischen dem zahlenmittleren und gewichtsmittleren Molekulargewicht bei der radikalischen 
+		Copolymerisation deutlich höher als bei der anionischen Copolymerisation, was auf eine breite Molmassenverteilung hindeutet. Dies ist sehr 
+		typisch für radikalische Polymerisationen, da diese durch Kettenabbruchreaktionen eine breite Molmassenverteilung aufweisen. Eine anionische 
+		Polymerisation verläuft hingegen kontrolliert und erziehlt dadurch eine schmalere Molmassenverteilung. 
+		
 \section{Fragen}
 
 	\subsection{Frage 1}
