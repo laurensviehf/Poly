@@ -39,22 +39,22 @@
     \endentry
     \entry{Ludwigs2025}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=efd2a8f2c5801486693f7d3badc43b05}{%
+        {{hash=0ee23c5a16a45eeb31cdd717de4ad043}{%
            family={Ludwigs},
            familyi={L\bibinitperiod},
-           given={Prof.\bibnamedelimi Dr.\bibnamedelimi rer.\bibnamedelimi nat.\bibnamedelimi habil.\bibnamedelimi Sabine},
-           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim r\bibinitperiod\bibinitdelim n\bibinitperiod\bibinitdelim h\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+           given={Sabine},
+           giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{efd2a8f2c5801486693f7d3badc43b05}
-      \strng{fullhash}{efd2a8f2c5801486693f7d3badc43b05}
-      \strng{fullhashraw}{efd2a8f2c5801486693f7d3badc43b05}
-      \strng{bibnamehash}{efd2a8f2c5801486693f7d3badc43b05}
-      \strng{authorbibnamehash}{efd2a8f2c5801486693f7d3badc43b05}
-      \strng{authornamehash}{efd2a8f2c5801486693f7d3badc43b05}
-      \strng{authorfullhash}{efd2a8f2c5801486693f7d3badc43b05}
-      \strng{authorfullhashraw}{efd2a8f2c5801486693f7d3badc43b05}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \strng{namehash}{0ee23c5a16a45eeb31cdd717de4ad043}
+      \strng{fullhash}{0ee23c5a16a45eeb31cdd717de4ad043}
+      \strng{fullhashraw}{0ee23c5a16a45eeb31cdd717de4ad043}
+      \strng{bibnamehash}{0ee23c5a16a45eeb31cdd717de4ad043}
+      \strng{authorbibnamehash}{0ee23c5a16a45eeb31cdd717de4ad043}
+      \strng{authornamehash}{0ee23c5a16a45eeb31cdd717de4ad043}
+      \strng{authorfullhash}{0ee23c5a16a45eeb31cdd717de4ad043}
+      \strng{authorfullhashraw}{0ee23c5a16a45eeb31cdd717de4ad043}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Vorlesungsfolien, Universität Stuttgart}
