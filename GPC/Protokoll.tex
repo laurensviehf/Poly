@@ -107,10 +107,10 @@
 		Polymerknäuel in die Poren der stationären Phase und werden somit zurückgehalten. Dabei können sehr große Polymerknäuel nicht in die Poren 
 		gelangen, da sie zu groß sind. Diese werden nicht zurückgehalten und werden als erstes detektiert aber nicht aufgetrennt. Anschließend werden 
 		die kleinen Polymerknäuel durch ein Konzentrationsgradienten aus den Poren gezogen und detektiert. Davon werden allerdings nur sehr kleine 
-		Polymerknäuel beeinflusst, da sie ein größeres Permeationsvermögen besitzen und als zweites Detektiert. Diese beiden Grenzen bilden das Fenster 
+		Polymerknäuel beeinflusst, da sie ein größeres Permeationsvermögen besitzen. Diese beiden Grenzen bilden das Fenster 
 		in denen die Polymerknäuel aufgetrennt werden können. So muss je nach Größe der Polymerknäuel eine andere Porengröße gewählt werden, damit dieses 
 		Auftrennungsfenster optimal genutzt werden kann. Bei vorgegebener Porengröße werden die Polymere mit größen zwischen der oberen und unteren 
-		Grenzen von groß nach klein aufgetrennt und die Intensität der Detektion ist dabei dann proportional zur Menge an Polymer dieser Molmasse. \\
+		Grenzen von groß nach klein aufgetrennt und die Intensität der Detektion ist dabei dann proportional zur Konzentration an Polymer dieser Molmasse. \\
 		Die Größe der Polymerknäuel hängt dabei von der Molmasse und dem Solvatationsvermögen der Polymere im gewählten Lösungsmittel ab. Werden 
 		Beispielsweise zwei Polymere mit identischer Molmasse in einem bestimmten Lösungsmittel gelöst, sind die Wechselwirkungen zwischen dem einem 
 		Polymer zum Lösungsmittel stärker und lassen dieses weiter aufknäulen. Somit würde dieses auch eine andere Retentionszeit besitzen und früher 
@@ -122,12 +122,12 @@
 
 		\begin{figure}[H]
 			\centering
-			\includegraphics[scale = 0.6]{Bilder/GPCAufbau.png}
+			\includegraphics[scale = 0.7]{Bilder/GPCAufbau.png}
 			\caption{Allgemeiner Aufbau einer GPC. \cite{polyskript}}
 			\label{GPCAufbau}
 		\end{figure}
 
-		Zu Beginn wird entgastes Lösungsmittel mit einer Pumpe in die GPC gepumpt, in welches vor der Säule das Polymer injektiert wird. Dieses 
+		Zu Beginn wird entgastes Lösungsmittel mit einer Pumpe in die GPC gepumpt, in welches vor der Säule das Polymer injiziert wird. Dieses 
 		Gemisch gelangt dann in die Säule, die mit einem porösen Gel aus Polystyrol und Divinylbenzol gefüllt ist. Dieses Gel trennt die Polymere 
 		nach größe auf und die Detektoren am Ende der Säule bestimmen über unterschiedliche Methoden das Molekulargewicht und die Konzentration. 
 		Mögliche Detektoren sind beispielsweise ein Differentialrefraktometer, ein UV-Vis Detektor, ein Viskositätsdetektor oder ein Lichtstreudetektor. 
@@ -139,13 +139,21 @@
 		diese Eigenschaft über die Gleichung 
 
 		\begin{equation}
-			N = \bigl(\frac{V_\text{e/max}}{\sigma}\bigr)^2 = \bigl(\frac{4 \cdot V_\text{e/max}}{b}\bigr)^2
+			N = \left(\frac{V_\text{e/max}}{\sigma}\right)^2 = \left(\frac{4 \cdot V_\text{e/max}}{b}\right)^2 \text{.}
 			\label{Bodenzahl}
 		\end{equation}
 
-		$V_\text{e/max}$ beschreibt das Elutionsvolumen der Substanz, $\sigma$ ist die Standardabweichung und $b$ den Betrag der Strecke zwischen 
-		den Schnittpunkten der x-Achse mit den Tangenten an den Wendepunkten. \\
-		Des weiteren gibt es noch die höhe eines theoretischen Bodens $HETP$, welcher der Quotient aus Säulenlänge $L$ und der Anzahl an theoretischer 
+		$V_\text{e/max}$ beschreibt das Elutionsvolumen der Molmasse der Substanz, $\sigma$ ist die Standardabweichung und $b$ beschreibt den Betrag der Strecke zwischen 
+		den Schnittpunkten der x-Achse mit den Tangenten an den Wendepunkten. Zur Visualisierung, zeigt die Abbildung \ref{Bodenzahlabb} die Ermittlung der genannten Größen. 
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.7]{Bilder/Bodenzahlabb.png}
+			\caption{Visualisierung der Größen für die Bestimmung der Bodenzahl $N$. \cite{polyskript}}
+			\label{Bodenzahlabb}
+		\end{figure}
+		
+		Des weiteren gibt es noch die Höhe eines theoretischen Bodens $HETP$, welcher der Quotient aus Säulenlänge $L$ und der Anzahl an theoretischer 
 		Böden $N$ ist. \cite{polyskript}
 
 		\begin{equation}
@@ -158,17 +166,17 @@
 		Um die Molekulargewichte einer Probe zu bestimmen, wird zuerst eine Kalibrierung mit mehreren Proben mit bekannten Molekulargewichten 
 		aufgenommen. Die Retentionszeiten und Signale der Detektoren werden darüber dann Kalibriert. Anschließend wird die Probe aufgetrennt und 
 		die Signale werden über die Kalibrierung in Molekulargewichte umgerechnet. Dabei gibt es nun mehrere Molekulargewichte, die das Polymer 
-		beschreiben können. Einmal gibt es das zahlenmittlere Molekulargewicht $M_\text{n}$, welches über die Gleichung 
+		beschreiben können. Einmal gibt es das zahlenmittlere Molekulargewicht $\bar{M}_\text{n}$, welches über die Gleichung 
 
 		\begin{equation}
-			M_\text{n} = \frac{\sum_i n_i M_i}{\sum_i n_i}
+			\bar{M}_\text{n} = \frac{\sum_i n_i M_i}{\sum_i n_i}
 		\end{equation}
 
 		bestimmt wird. Dabei ist $n_i$ die Anzahl der Moleküle mit der Molmasse $M_i$. Des weiteren gibt es noch das gewichtsmittlere 
-		Molekulargewicht $M_\text{w}$, welches über die Gleichung
+		Molekulargewicht $\bar{M}_\text{w}$, welches über die Gleichung
 
 		\begin{equation}
-			M_\text{w} = \frac{\sum_i n_i M_i^2}{\sum_i n_i M_i}
+			\bar{M}_\text{w} = \frac{\sum_i n_i M_i^2}{\sum_i n_i M_i}
 		\end{equation}
 
 		beschrieben wird. \cite{polyskript}
@@ -185,26 +193,27 @@
 
 	\begin{figure}[H]
 		\centering
-		\includegraphics[scale = 0.6]{Bilder/Kalibrierungskurve.png}
+		\includegraphics[scale = 0.5]{Bilder/Kalibrierungskurve.png}
 		\caption{Logharithmische Auftragung der unterschiedlichen Molekulargewichte der Polystyrolstandards auf das Elutionsvolumen.}
 		\label{Kalibrierungskurveplot}
 	\end{figure}
 
 	\begin{figure}[H]
 		\centering
-		\includegraphics[scale = 0.6]{Bilder/CoPokurve.png}
+		\includegraphics[scale = 0.48]{Bilder/CoPokurve.png}
 		\caption{Auftragung des RI-Signals auf die Zeit für die radikalische Copolymerisationsprobe.}
 		\label{CoPokurveplot}
 	\end{figure}
 
 	\begin{figure}[H]
 		\centering
-		\includegraphics[scale = 0.6]{Bilder/AnionischeKurve.png}
+		\includegraphics[scale = 0.43]{Bilder/AnionischeKurve.png}
 		\caption{Auftragung des RI-Signals auf die Zeit für die anionische Copolymerisationsprobe.}
 		\label{AnionischeKurveplot}
 	\end{figure}
 
-	Die Kurven sind dabei durch unterschiedliche Detektoren betimmt worden, wovon der RI-Detektor die rote Kurve und UV-Vis Detektor die grüne Kurve lieferten.
+	Die Kurven sind dabei durch unterschiedliche Detektoren betimmt worden, wovon der RI-Detektor die rote Kurve und UV-Vis Detektor die grüne 
+	Kurve lieferten. Die nachfolgenden Messergebnisse und Disskusionen beziehen sich dabei immer auf die rote Kurve, den RI-Detektor.
 
 
 
@@ -213,7 +222,7 @@
 	\subsection{Theoretische Bodenzahl und HETP}
 
 		Für die theoretische Bodenzahl $N$ wurde die Gleichung \eqref{Bodenzahl} verwendet. Dafür wurde die Zeit, bei welcher das erste Maximum der 
-		roten Kurve in Abbildung \ref{AnionscheKurveplot} auftritt, bestimmt und mit gegebener Flussrate von $\SI{1}{\frac{ml}{min}}$ in ein 
+		roten Kurve in Abbildung \ref{AnionischeKurveplot} auftritt, bestimmt und mit gegebener Flussrate von $\SI{1}{\frac{ml}{min}}$ in ein 
 		Elutionsvolumen umgerechnet. Dabei ergab sich ein Elutionsvolumen von $V_\text{e/max} = \SI{17,7632}{ml}$. Es wurde ebenfalls noch der Faktor 
 		$b$ bestimmt, welcher sich zu $b = \SI{1,6776}{ml}$ ergab. Somit ist die theoretische Bodenzahl bei 
 
@@ -233,11 +242,11 @@
 		prominentesten Signale befinden sich dabei bei $\SI{17,5}{min}$ und ungefähr $\SI{25}{min}$. Dazu sind noch weitere Signale bei höheren 
 		Zeiten zu erkennen, welche aber nicht sehr intensiv sind. \\
 		Bei der Messkurve für die radikalische Copolymerisationsprobe in Abbildung \ref{CoPokurveplot} befinden sich die prominentesten Signale bei ungefähr 
-		$\SI{25}{min}$ und das Signal frühere Signal ist in hier bei $\SI{15}{min}$ mit einer deutlich geringeren Intensität aufzufinden. \\
+		$\SI{25}{min}$ und das frühere Signal ist in hier bei $\SI{15}{min}$ mit einer deutlich geringeren Intensität aufzufinden. \\
 		Die geringere Intensität des ersten Signals der Copolymerisationsprobe lässt auf eine geringere Konzentration hindeuten. Da ebenfalls 
-		eine geringere Retentionszeit vorliegt und diese bedeutet, dass höhere Molmassen vorliegen, sind hohen Kettenlängen bei der radikalischen 
+		eine geringere Retentionszeit vorliegt und diese bedeutet, dass höhere Molmassen detektiert werden. Damit sind hohe Kettenlängen bei der radikalischen 
 		Copolymerisation weniger vertreten. Dies kann durch die kontrollierte Polymerisation der anionischen Copolymerisation 
-		erklärt werden, da diese über einen lebenden Mechanismus abläuft und somit längere Ketten ermöglicht werden. Ebenfalls wurde die 
+		erklärt werden, da diese über einen lebenden Mechanismus abläuft und keine Abbruchreaktionen stattfinden. Ebenfalls wurde die 
 		radikalische Copolymerisation nur bis zu einem Umsatz von 5-10 \% durchgeführt, wodurch ebenfalls die Kettenlänge begrenzt wird. Dazu sind 
 		radikalische Polymerisationen anfällig für den Kettenabbruch, da radikale sehr reaktiv sind und schnell rekombinieren können. \\\\
 
@@ -263,7 +272,7 @@
 		Copolymerisation deutlich höher als bei der anionischen Copolymerisation, was auf eine breite Molmassenverteilung hindeutet. Dies ist sehr 
 		typisch für radikalische Polymerisationen, da diese durch Kettenabbruchreaktionen eine breite Molmassenverteilung aufweisen. Eine anionische 
 		Polymerisation verläuft hingegen kontrolliert und erziehlt dadurch eine schmalere Molmassenverteilung. 
-		
+
 \section{Fragen}
 
 	\subsection{Frage 1}
@@ -274,8 +283,8 @@
 
 		Es gibt einige Absolutmethoden, um die Molekulargewichte zu bestimmen. Beispiele dafür sind die Endgruppenanalyse, die Kryoskopie, 
 		die Dampfdruckosmose, die Membranosmose und die statische Lichtstreuung. Bei der Endgruppenanalyse wird dabei die Anzahl der Endgruppen 
-		bestimmt und anschließend mit dem Ansatz in ein Molekulargewicht umgerechnet. Die Analyse kann dabei über NMR oder Titration erfolgen, 
-		allerdings muss für diese Methode die Endgruppe bekannt sein. Bei der Dampfdruckosmose wird die Temperaturdifferenz zwischen einem 
+		bestimmt und anschließend mit dem Ansatz in ein Molekulargewicht umgerechnet. Die Analyse kann dabei über NMR oder Titration erfolgen. 
+		Allerdings muss für diese Methode die Endgruppe bekannt sein. Bei der Dampfdruckosmose wird die Temperaturdifferenz zwischen einem 
 		Polymertropfen und einem Lösungsmitteltropfen bestimmt. Dafür werden beide Tropfen in eine Kammer mit Lösungsmitteldampf gegeben, welches 
 		dann langsam an den Polymertropfen und dem Lösungsmitteltropfen ankondensiert. Dabei wird durch den Lösungsprozess Wärme frei, die 
 		als Temperaturdifferenz gemessen werden kann. Diese Temperaturdifferenz ist dann umgekehrt proportional zum zahlenmittleren 
@@ -288,7 +297,7 @@
 		berechnet werden. \cite{Ludwigs2025}
 	\subsection{Frage 3}
 
-		Lösungsmittel können über eine SBS entgast werden oder Manuel über die Pump-Freeze-Thaw Methode entgast werden. Bei der SBS wird das 
+		Lösungsmittel können über eine SBS oder Manuel über die Pump-Freeze-Thaw Methode entgast werden. Bei der SBS wird das 
 		Lösungsmittel durch eine Säule gepumpt, welche mit bespielsweise Aluminiumoxid gefüllt ist. Dieses absorbiert alle Verunreinigungen und 
 		Gase, wodurch das Lösungsmittel entgast wird. 
 
@@ -306,9 +315,9 @@
 	\subsection{Frage 6}
 
 		Ein Differentialrefraktometer misst die Änderung des Brechungsindex, indem es den Brechungsindex des Eluenten und des Eluats vergleicht. \\
-		Beim passieren von Licht durch unterschiedliche Medien, wird dieses gebrochen, da die Lichtgeschwindigkeit in unterschiedlichen Mediem 
+		Beim passieren von Licht durch unterschiedliche Medien, wird dieses gebrochen, da die Lichtgeschwindigkeit in unterschiedlichen Medien 
 		unterschiedlich schnell sind. Das Licht wird also an der Grenzfläche durch das obtisch dichtere Medium abgebremst und zu ihm hin gebrochen. 
-		Der Brechungsindex beschreibt dabei diese Fähigkeit das Licht zu brechen. Durch den vergleich des Brechungsindex von Eluenten und Eluat, 
+		Der Brechungsindex beschreibt dabei diese Fähigkeit das Licht zu brechen. Durch den Vergleich des Brechungsindex von Eluenten und Eluat, 
 		kann der Brechungsindex des gelösten Polymers bei gegebener konzentration bestimmt werden. Ist der Brechungsindex allerdings bekannt, kann 
 		darüber die Konzentration bestimmt werden. \cite{noauthor_refraktometer_2023}
 
