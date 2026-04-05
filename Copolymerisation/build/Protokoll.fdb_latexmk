@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber build/Protokoll"] 0 "build/Protokoll.bcf" "build/Protokoll.bbl" "build/Protokoll" 1775420666.93081 0
+["biber build/Protokoll"] 0 "build/Protokoll.bcf" "build/Protokoll.bbl" "build/Protokoll" 1775421951.16297 0
   "Polyaddition_Polykond.bib" 0 -1 0 ""
   "build/Protokoll.bcf" 0 -1 0 "pdflatex"
   (generated)
   "build/Protokoll.bbl"
   "build/Protokoll.blg"
   (rewritten before read)
-["pdflatex"] 1775420663.14119 "d:/Dokumente/Uni laptop/Chemie/Poly/Copolymerisation/Protokoll.tex" "build/Protokoll.pdf" "Protokoll" 1775420666.93176 0
+["pdflatex"] 1775421946.97633 "d:/Dokumente/Uni laptop/Chemie/Poly/Copolymerisation/Protokoll.tex" "build/Protokoll.pdf" "Protokoll" 1775421951.16386 0
   "Bilder/Block_copolymer.png" 1775055581 54596 4988316ce7dc86c94d24bda8d4ef55e8 ""
   "Bilder/GraphMittel.png" 1774977674 9018 9c9e26a2ed8c0fe00b38d49ac1c685f3 ""
   "Bilder/GraphPG.png" 1774888323 3516 2870e74cf5e53b80a9614f4ac51dd191 ""
@@ -16,12 +16,12 @@
   "Bilder/PlotsVersuch1.png" 1775420662 16433 bea357c005c845731253c6c1d5f57776 ""
   "Bilder/RGL.png" 1774961807 8764 2102e71d11da2e8e46a8f25ddf8b5159 ""
   "Bilder/RadikalKomplett.png" 1775068733 66730 58b1c005594684c56254f84ed42a6674 ""
-  "Protokoll.tex" 1775420362 20376 dce064235046aae5ed9406c983d26017 ""
-  "build/Protokoll.aux" 1775420666 12676 1a5cb4fd2d54b2f6d990358514ad4422 "pdflatex"
+  "Protokoll.tex" 1775421942 20836 cda61942933754b048481d8bf5a50564 ""
+  "build/Protokoll.aux" 1775421950 12677 f10356b87ef7aac37cb8409a4ab9f0c0 "pdflatex"
   "build/Protokoll.bbl" 0 -1 0 "biber build/Protokoll"
-  "build/Protokoll.out" 1775420665 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "build/Protokoll.run.xml" 1775420666 2490 b860d3fcb56ed6026af63bf2653d8531 "pdflatex"
-  "build/Protokoll.toc" 1775420666 1708 011477622ac38827e3a6e7c8948e8cbf "pdflatex"
+  "build/Protokoll.out" 1775421949 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "build/Protokoll.run.xml" 1775421950 2490 b860d3fcb56ed6026af63bf2653d8531 "pdflatex"
+  "build/Protokoll.toc" 1775421950 1709 0f31e1e27dce1bd5ec9e3f9a645a08e5 "pdflatex"
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1713295977 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1713295977 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1713296793 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -342,7 +342,7 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1713300443 5519690 1698f96789543a09b6b0e33aada59581 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1713300629 8222510 1d715446f99c4a441624fedc23e92ee4 ""
   "c:/texlive/2024/texmf.cnf" 1713300414 713 e69b156964470283e0530f5060668171 ""
-  "d:/Dokumente/Uni laptop/Chemie/Poly/Copolymerisation/Protokoll.tex" 1775420362 20376 dce064235046aae5ed9406c983d26017 ""
+  "d:/Dokumente/Uni laptop/Chemie/Poly/Copolymerisation/Protokoll.tex" 1775421942 20836 cda61942933754b048481d8bf5a50564 ""
   (generated)
   "build/Protokoll.aux"
   "build/Protokoll.bcf"

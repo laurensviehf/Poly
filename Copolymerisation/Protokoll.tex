@@ -353,26 +353,43 @@
 				\centering
 				\caption{Messdaten der Polymerisation}
 				\label{Tabelle1}
-				\begin{tabular}{|c|c|c|c|c|c|c|}
-				\hline
-				\textbf{Probe} & \textbf{Initiator Einwaage (mg)} & \textbf{[I] (mol/L)} & \textbf{$m_{ps}$ (g)} & \textbf{$m_{st}$ (g)} & \textbf{$n_{st}$ (mol)} & \textbf{$U$ (\%)} \\ \hline
-				1 & 2,60  & 0,00158 & 0,32 & 8,78 & 0,08430149 & 0,03516484 \\ \hline
-				2 & 10,10 & 0,00615 & 0,63 & 8,47 & 0,08132501 & 0,06923077 \\ \hline
-				3 & 24,60 & 0,01498 & 0,93 & 8,17 & 0,07844455 & 0,1021978  \\ \hline
-				\end{tabular}
+				\resizebox{\textwidth}{!}
+				{ % Begin der Skalierung
+					\begin{tabular}{|c|c|c|c|c|c|c|}
+					\hline
+					\textbf{Probe} & \textbf{Initiator Einwaage (mg)} & \textbf{[I] (mol/L)} & \textbf{$m_{ps}$ (g)} & \textbf{$m_{st}$ (g)} & \textbf{$n_{st}$ (mol)} & \textbf{$U$ (\%)} \\ \hline
+					1 & 2,60  & 0,00158 & 0,32 & 8,78 & 0,08430149 & 0,03516484 \\ \hline
+					2 & 10,10 & 0,00615 & 0,63 & 8,47 & 0,08132501 & 0,06923077 \\ \hline
+					3 & 24,60 & 0,01498 & 0,93 & 8,17 & 0,07844455 & 0,1021978  \\ \hline
+					\end{tabular}
+				} % Ende der Skalierung
 			\end{table}
 
-		
+		Diese werte können in ein doppelt logarithmisch skaliertes Koordinatensystem eingetragen werden wie in Abb. \ref{PlotsVersuch1}.
+
 			\begin{figure}[H]
 				\centering
 				\includegraphics[scale = 0.5]{Bilder/PlotsVersuch1.png}
 				\caption{}
 				\label{PlotsVersuch1}
 			\end{figure}
-		ERGEBNISSE DER LINEAREN REGRESSION:
-		Steigung (n):             0.4763
-		Log. Achsenabschnitt (b): -3.0318
-		Phys. Konstante (K):      9.2932e-04 mol/(L*s)
+
+		Die Fitgerade wird über folgende GLeichung aufgestellt:
+
+			\begin{equation}
+				\log(v_\text{Br}) = 0.4763 \cdot \log([I]) - 3.0318
+			\end{equation}
+
+		Durch extrapolieren der Fitgerade kann die Geschwindigkeitskonstante  $K$ ermittelt werden. 
+		Dies wird über folgende Gleichung erreicht:
+
+			\begin{equation}
+				k = 10^{-3.0318- \log{[M]}} = 
+			\end{equation}
+
+		
+		
+
 
 
 

@@ -36,7 +36,7 @@ log_y = np.log10(vbr)
 slope, intercept = np.polyfit(log_x, log_y, 1)
 
 # Entlogarithmierter Achsenabschnitt (Proportionalitätskonstante K)
-K_wert = 10**intercept
+K_wert = 10**intercept 
 
 print("-" * 30)
 print(f"ERGEBNISSE DER LINEAREN REGRESSION:")
