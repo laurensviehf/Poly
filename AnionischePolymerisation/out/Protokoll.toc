@@ -1,0 +1,15 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Theorie}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Ablauf der lebenden anionische Polymerisation}{2}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Durchführung}{4}{section.2}%
+\contentsline {section}{\numberline {3}Auswertung}{4}{section.3}%
+\contentsline {section}{\numberline {4}Fragen}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Frage 1}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Frage 2}{4}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Frage 3}{4}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Frage 4}{5}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Frage 5}{5}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Frage 6}{5}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Frage 7}{5}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Frage 8}{5}{subsection.4.8}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

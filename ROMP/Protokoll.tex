@@ -26,7 +26,7 @@
 \usepackage[font=small]{caption}
 %\usepackage[version=4]{mhchem}
 \usepackage[backend=biber, style=chem-angew]{biblatex}
-\addbibresource{Polyaddition_Polykond.bib}
+\addbibresource{ROMP.bib}
 \usepackage{tabularx, booktabs, multirow}
 \usepackage[pdfborder={0 0 0}]{hyperref}
 \usepackage{scrlayer-scrpage}%Header für die KOMA-script -Klasse
@@ -112,7 +112,7 @@
 		So koordiniert eine Doppelbindung an einen Freie stelle des Metalls. 
 		Dabei bildet sich mit einem Rest an einer anliegenden Stelle ein viergliedriger übergangszustand.
 		Anschließend klappen die bindungen so um, dass der rest an die eine seite der Doppelbindung übertragen wird.
-		Die kette ist somit um den rest des Olefins gewachsen.
+		Die Kette ist somit um den Rest des Olefins gewachsen.
 
 			\begin{figure}[H]
 				\centering
@@ -208,7 +208,7 @@
 
 		In einem Kolben mit Septum wurde Heptan (\SI{25}{ml} aus der SPS) vorgelegt.
 		Es wurde eine Spritze mit \SI{0.5}{ml} \ch{TiCl4} zugegeben. Anschließend sollten \SI{12.5}{ml} einer Aluminiumalkyl Lösung im zeitraum von 20 min zugegeben werden.
-		Dieser schritt wurde jedoch falsch gemacht und es wurde alles schnell zugegen.
+		Dieser Schritt wurde jedoch falsch gemacht und es wurde alles schnell zugegen.
 		Der Kolben wurde während des zugebens mit einem Wasserbad gekühlt.
 		Nach 10 min wurden \SI{12.5}{ml} Styrol auf einmal zugegeben und bei 74°C für 3-4h geheitzt.
 		Anschließend wird auf Raumtemperatur abgekühlt und die Reaktion wird mit \SI{100}{ml} in Methanol gelöster \ch{HCl} abgebrochen.
@@ -228,7 +228,7 @@
 
 \section{Auswertung}
 
-
+	
 
 \section{Fragen}
 
@@ -236,64 +236,126 @@
 
 		\subsubsection{Frage 1}
 
-			
+			Die Extraktion mit Methylethylketon und Toluol sorgt für eine Auftrennung des Produkts, welches möglicherweise aus Polymer und davon eingeschlossenem Titan- 
+			und Aluminiumalkylen besteht. Somit wird im Ganzen das Polymer sauberer.
 
 		\subsubsection{Frage 2}
 
+			Verwendet wurden bei der Reaktion \SI{0,5}{ml} $\ch{TiCl4}$ und \SI{12,5}{ml} Styrol. Mit den entsprechenden Dichten und molaren Massen, entspricht das einem 
+			Verhältnis von 
 
+			\begin{equation}
+				\frac{n_\text{Ti}}{n_\text{Styrol}} = \frac{\frac{\rho_\text{Ti} \cdot V_\text{Ti}}{M_\text{Ti}}}{\frac{\rho_\text{Styrol} \cdot V_\text{Styrol}}{M_\text{Styrol}}} = \frac{\frac{\SI{1,728}{\frac{g}{ml}} \cdot \SI{0,5}{ml}}{\SI{189,71}{\frac{g}{mol}}}}{\frac{{\SI{0,91}{\frac{g}{ml}} \cdot \SI{12,5}{ml}}}{\SI{104,15}{\frac{g}{mol}}}} = 0,0417 \text{.}
+			\end{equation}
+
+			Die Stoffmengenkonzentration des Katalysators entspricht dabei der Stoffmengenkonzentration des $\ch{TiCl4}$ für das ganze Volumen und somit
+
+			\begin{equation*}
+				M_\text{\ch{TiCl4}} = \frac{\frac{\rho_\text{Ti} \cdot V_\text{Ti}}{M_\text{Ti}}}{V_\text{ges}} = \frac{\frac{\SI{1,728}{\frac{g}{ml}} \cdot \SI{0,5}{ml}}{\SI{189,71}{\frac{g}{mol}}}}{\SI{25}{ml} + \SI{0,5}{ml} + \SI{12,5}{ml} + \SI{12,5}{ml}} = \SI{90,185}{\frac{mmol}{l}} \text{.}
+			\end{equation*}
 
 		\subsubsection{Frage 3}
 
+			Die nachfolgende Abbildung zeigt die Fischer- und die Natta-Projektion auf.
 
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale = 0.4]{Bilder/Natte-Fischer-Projektion.png}
+				\caption{Abgebildet ist links die Natta- und rechts die Fischer-Projektion des selben hypothetischen Oligomeren.}
+				\label{NattaFischerProjektionabb}
+			\end{figure}
 
-		\subsubsection{Frage 4}
-
-
+			Bei der Natta-Prjektion wird die Orientierunge der Substituenten durch Keile oder Striche gekennzeichnet, während bei der Fischer Projektion die fortführende 
+			Kette immer nach oben und unten geschrieben wird und die Substituenten rechts und links abgehen. Dabei wird auf das Substitutionstetraeder so draufgeschaut, dass 
+			die fortführende Kette nach hinten zeigt und vorne die Substituenten stehen. Nach links zeigen dann die Substituenten, welche in der Natta-Projektion nach vorne 
+			stehen und umgekehrt.
 
 		\subsubsection{Frage 5}
 
+			Bei LDPE und HDPE ist die Dichte der Hauptunterschied, was dadurch Zustande kommt, dass die Polymerketten bei LDPE nur amorphe Strukturen bilden und HDPE 
+			teilkristallin ist. 
 
 
 		\subsubsection{Frage 6}
 
-
+			Durch den Sauerstoff in der Etherbindung, würde dieser im bimetallischen Mechanismus zum Titan koordinieren und diesen so desaktivieren.
 
 		\subsubsection{Frage 7}
+
+			HDPE besteht aus teilkristallinen Strukturen aus linearem Polyethylen. Bei LDPE ist die Struktur amorph, da die Ketten zusätzlich verzweigt sind. LLDPE ist 
+			ebenfalls amorph, allerdings sind die Verzwigungen weniger lang als bei LDPE, wodurch die Dichte etwas ansteigt. Diese und weitere Strukturen sind nochmal in 
+			Abbildung \ref{ROMPstrukturen} aufgeführt.
+
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale = 0.4]{Bilder/StrukturenROMP.png}
+				\caption{Abgebildet sind die Strukturen der Polymere.}
+				\label{ROMPstrukturen}
+			\end{figure}
 
 
 	\subsection{ROMP}
 
 		\subsubsection{Frage 1}
 
+			Beim ersten Fällen, bildete sich ein roter Polymerklumpen, der beim zweiten Fällen nicht beobachtet wurde. Das liegt daran, dass beim ersten Fällen noch der 
+			Grubbs-Katalysator die Endgruppe bildete und beim zweiten Fällen zuvor entfernt wurde.
 
 		\subsubsection{Frage 2}
 
+			Ethylvinylether bricht die Reaktion ab und ersetzt die Endgruppe. Dabei wird nämlich der Ruthenium-Kat gegen ein Kohlenstoff substituiert. Die Reaktion ist 
+			anschließend aufgeführt. 
 
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale = 0.4]{Bilder/ROMPabbruchethylvinylether.png}
+				\caption{Reaktionsgleichung des Abbruchreaktion zwischen dem Grubbs-Polymer und Ethylvinylether.}
+				\label{ROMPethylvinyletherabbruch}
+			\end{figure}
+
+			Der Grund für die Wahl von Ethylvinylether ist die definierte Endgruppe. Denn bei der Koordinierung von Ethylvinylether an Ruthenium, koordiniert dieses immer 
+			nach der Weise aus Reaktion \ref{ROMPethylvinyletherabbruch}. Mit 1-Penten wäre die Endgruppe nicht bekannt und wäre statistisch Verteilt.
 
 		\subsubsection{Frage 3}
 
-
+			Der Katalysator muss bei der Reaktion so schnell wie möglich hinzugegeben werden, um die Polydispersität möglichst eng zu halten und alle Polymere gleichzeitig 
+			starten zu lassen.
 
 		\subsubsection{Frage 4}
+
+			Das theoretische Molekulargewicht wird über die Monomermasse und die Katalysatorstoffmenge bestimmt. Damit ergibt sich eine molekulare Masse von
+
+			\begin{equation*}
+				M_\text{theo} = \frac{m_\text{Mono}}{n_\text{kat}} = \frac{\SI{1}{g}}{\SI{0,0329}{mmol}} = \SI{30395,14}{\frac{g}{mol}} \text{.}
+			\end{equation*}
 
 
 
 		\subsubsection{Frage 5}
 
-
+			Den Katalysator kann nach der desaktivierung mit Ethylvinylether nicht erneut verwendet werden, da der Rest zu inreaktiv ist. Allerdings kann der Katalysator 
+			chemisch regeneriert werden, indem der Rest substituiert wird. 
 
 		\subsubsection{Frage 6}
 
-
+			Um das Polymer löslicher zu gestallten, müssen die Seitenketten variiert werden. Mit Phenylresten wären das Polymer möglich in Toluol zu lösen, mit ionischen 
+			Seitenketten wäre es möglich es in Wasser zu lösen. Die Faktoren die eine Rolle spielen sind Polarität und Bildung guter zwischermolekularer Wechselwirkungen.
 
 		\subsubsection{Frage 7}
 
-
+			Die Wahl des Katalysators kann die Reaktionsgeschwindigkeit verändern. Bei der koordinierung der Monomere an den Ruthenium-Kern muss dieser einen Substituenten 
+			abspalten um das Monomer zu koordinieren. Die Wahl dieses Substituenten ist dabei dann Geschwindigkeitsbestimmend. Ist die Dativbindung zwischen dem Liganden und 
+			dem Ruthenium-Kern beispielsweise stärker, ist die Reaktion verlangsamt. Ist aber die Bindung schwächer, ist die Reaktion schneller.
 		
 		\subsubsection{Frage 8}
 
+			Der Ausgangskatalysator besitzt ein Carben, welches im singulett oder triplett Zustand vorliegen kann. Je nach dem wäre dieses Signal hochfeld verschoben. Der 
+			weiteren ist die propagierede Spezies ein Cyclobutanderivat, bei welchem nur einfach Bindungen vorliegen und die chemische Umgebung unterschiedlich ist. 
+			Dementsprechend wäre dieses Signal wieder Verschoben und von dem Signal des Ausgangskatalysators verschieden.
 
 		\subsubsection{Frage 9}
+
+		
 
 \printbibliography
 
