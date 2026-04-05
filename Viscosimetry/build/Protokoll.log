@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.16)  5 APR 2026 13:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.16)  5 APR 2026 13:43
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1849,11 +1849,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 115.
 
-[2]
+[2] [3]
 
-LaTeX Warning: Empty bibliography on input line 207.
+LaTeX Warning: Empty bibliography on input line 226.
 
-[3] (build/Protokoll.aux)
+[4] (build/Protokoll.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
@@ -1865,18 +1865,18 @@ Package logreq Info: Writing requests to 'Protokoll.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 57884 strings out of 474103
- 1371679 string characters out of 5747481
+ 57892 strings out of 474103
+ 1371778 string characters out of 5747481
  2378926 words of memory out of 5000000
- 79426 multiletter control sequences out of 15000+600000
+ 79433 multiletter control sequences out of 15000+600000
  582315 words of font info for 109 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,107p,10982b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb>
-Output written on build/Protokoll.pdf (4 pages, 242350 bytes).
+Output written on build/Protokoll.pdf (5 pages, 246540 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
+ 187 PDF objects out of 1000 (max. 8388607)
+ 142 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 500000)
  93 words of extra memory for PDF output out of 10000 (max. 10000000)
 
