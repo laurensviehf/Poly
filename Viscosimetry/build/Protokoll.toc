@@ -1,2 +1,7 @@
 \babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Theory}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Viscosity}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}From viscosity to $M_\eta $}{2}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Experimental}{3}{section.2}%
+\contentsline {section}{\numberline {3}Results}{3}{section.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

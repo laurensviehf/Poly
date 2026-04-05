@@ -99,6 +99,89 @@
 \newpage
 
 
+
+\section{Theory}	
+
+	\subsection{Viscosity}
+
+		Viscosity in polymers is influenced by 5 key factors.
+		The first being the chain lenght of the Polymer, the longer the chains the more viscouse the fluid gets.
+		This is due to the Intramolecular forces.
+		The second influence is the chemical structure of the polymer, different functional groups mean different intermolecular forces.
+		The third one is the influence of the solvent. Because different solvents have different properties.
+		The fourth is the influence of the concentration. This means with different concentration the viscosity changes.
+		The last but not least influence is the temperature. Because the viscosity changes with different temperatures because the movement of the molecules changes.\\
+
+	\subsection{From viscosity to $M_\eta$}
+
+		The viscosity is defined after Hagen-Poiseuille by following equation:
+
+			\begin{equation}
+				\eta = \frac{\pi\cdot r^4 \cdot t \cdot \Delta p}{8\cdot l \cdot V}
+				\label{viscosity}
+			\end{equation}
+
+		In which the $\Delta p$ is defindet as:
+			
+			\begin{equation}
+				\Delta p = \rho \cdot g \cdot h
+			\end{equation}
+
+		In these equations $r$ is the capillaryradius, $t$ is the time the polymer needs to flow through the capillary,
+		$\Delta p$ is the pressure difference in the capillary, $l$ is the lenght of the capillary, $V$ is the Volume, 
+		$\rho$ is the density of the solution and $h$ is the height of the measured part.
+
+		After analyzing different polymers four different types of Viscosities could be determined.
+
+			\begin{eqnarray}
+				\eta_\text{rel} =& \frac{\eta}{\eta_0}\\
+				\eta_\text{sp} =& \eta_\text{rel} - 1^\\ 
+				\eta_\text{red} =& \frac{\eta_\text{sp}}{c}\\ 
+				\eta_\text{} =& \frac{\ln \eta_\text{rel}}{c}
+			\end{eqnarray}
+
+		 
+		If equation \ref{viscosity} is taken into account $\eta_\text{sp}$ is changed to:
+		
+			\begin{equation}
+				\eta_\text{sp} = \frac{t\rho - t_0\rho_0}{t_0\rho_0}
+			\end{equation}
+
+		And because of the low concentration the density of the solution is almost equal to the density of the solvent.
+		Therefore the equation can be simplyfied.
+			
+			\begin{equation}
+				\eta_\text{sp} \approx \frac{t-t_0}{t_0}
+			\end{equation}
+
+	\newpage
+
+		To get the viscousmiddeled molecular Volume the Staudinger-index is used, and it is connected via the 
+		Marc-Howink-Equation.
+		
+			\begin{equation}
+				[\eta] = K \cdot \bar{M_\eta^a}
+			\end{equation}
+
+		This equation is used in combination with the equatoin for the viscositynumber.
+
+			\begin{equation}
+				[\eta] = \lim_{c\rightarrow0} (\eta_\text{red}) =\lim_{c\rightarrow0} \left( \frac{\eta_\text{sp}}{c}\right) 
+			\end{equation}
+		
+
+		So by extrapolating the results $\eta_\text{red}$ can be determined and via this $[\eta]$ and from that $\bar{M_\eta}$ can be determined.
+		This is also used in our case in the experiment.
+
+
+\section{Experimental}
+
+		
+
+\section{Results}
+
+		
+
 \printbibliography
 
 \end{document}
