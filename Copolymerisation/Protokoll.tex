@@ -330,8 +330,37 @@
 
 \section{Auswertung}
 
-	
+	Der Umsatz U kann über Folgende Gleichung berechnet werden.
 
+		\begin{equation}
+			U = \frac{m_\text{ps}}{m_\text{st,0}} \cdot 100\%
+		\end{equation}
+
+	Nach ausrechnen des Umsatzes kann anschließend die masse an übrigen styrol berechnet werden.
+	Und daraus wiederum die Stoffmenge welche dann verwendet werden kann um $v_\text{Br}$ zu bestimmen.
+	Dieser Vorgang ist in den Folgenden Gleichungen für die erste PRobe als Beispiel durchgerechnent.
+
+		\begin{eqnarray}
+			U_1 =& \frac{\SI{0.32}{g}}{\SI{9.1}{g}} \cdot 100\% =&  \SI{3.4}{\%}\\
+			m_\text{St} =& \SI{9.1}{g} \cdot (1 - 0.034) =& \SI{8.791}{g}\\
+			n_\text{St} =& \frac{\SI{8.791}{g}}{\SI{104.15}{\frac{g}{mol}}} =& \SI{0.0844}{mol}\\
+		\end{eqnarray}
+
+	Diese Werte sowie die der anderen zwei Proben sind in Tabelle \ref{Tabelle1} gelistet.
+
+		\begin{table}[h!]
+			\centering
+			\caption{Messdaten der Polymerisation}
+			\label{Tabelle1}
+			\begin{tabular}{|c|c|c|c|c|c|c|}
+			\hline
+			\textbf{Probe} & \textbf{Initiator Einwaage (mg)} & \textbf{[I] (mol/L)} & \textbf{$m_{ps}$ (g)} & \textbf{$m_{st}$ (g)} & \textbf{$n_{st}$ (mol)} & \textbf{$U$ (\%)} \\ \hline
+			1 & 2,60  & & 0,32 & 8,78 & 0,08430149 & 0,03516484 \\ \hline
+			2 & 10,10 & & 0,63 & 8,47 & 0,08132501 & 0,06923077 \\ \hline
+			3 & 24,60 & & 0,93 & 8,17 & 0,07844455 & 0,1021978  \\ \hline
+			\end{tabular}
+		\end{table}
+		
 \section{Fazit}
 
 	
@@ -435,10 +464,22 @@
 
 	\section{Frage 12}
 		
-		
+		Die mittlere Sequenzlänge kann über folgende Gleichung berechnet werden.	
+			
+			\begin{equation}
+				\bar{I_\text{St}} = r_1 \cdot \frac{[M_1]}{[M_2]} + 1
+			\end{equation}
 				
+		Durch einsetzten beider werte ergibt sich dabei für Styrol ein Wert von $\bar{I_\text{St}} = 1,67$ 
+		und für Vinylidenchlorid ein Wert von $\bar{I_\text{VC}} = 1,42$
+		Daraus lässt sich sagen, dass die Blöcke im Durchschnitt aus 1,67 Einheiten bestehen.
+		Die Blockzahl wird anschließend nach folgender Gleichung berechnet:
 		
-
+			 \begin{equation}
+				R = \frac{200}{2 + r_1 \frac{[M_1]}{M_2} + r_2 \frac{[M2]}{[M_1]}} + 1
+			 \end{equation}
+		
+		Dies Resultiert in diesem Fall in einer Blockzahl von $R = 64,8$. Dies bedeutet, dass es in 100 Einheiten 64,8 Blöcke hat.
 \printbibliography
 
 \end{document}
