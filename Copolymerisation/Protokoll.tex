@@ -274,6 +274,7 @@
 
 		\begin{equation}
 			r_1 = r_2 \frac{m_1[M_2]^2}{m_2[M_1]^2} + \frac{[M_2]}{[M_1]}\cdot \left(\frac{m_1}{m_2}-1\right)
+			\label{CoPO-r1r2}
 		\end{equation}
 
 	Daraus gehen Steigung sowie der Koordinatenabschnitt heraus und es lässt sich eine Gerade zeichnen. 
@@ -286,6 +287,17 @@
 			\caption{Graphische Copolysmerisationsparameterbestimmung.\cite{polyskript}}
 			\label{GraphMittel}
 		\end{figure}
+
+	Dies ist die Methode nach Mayo und Lewis. Eine Andere Methode, welche auch eine Graphische Bestimmung verwendet, ist die nach Fineman und Ross.
+	Dabei die Copolymerisationsgleichung so umgeformt, das beide $r$ die Steigung und den Koordinatenabschnitt angeben.
+
+		\begin{equation}
+			\frac{[M_1]}{[M_2]}\cdot \left( 1- \frac{m_2}{m_1}\right) = r_1 \cdot \frac{[M_1]^2\cdot m_2}{[M_2]^2 \cdot m_1} - r_2
+			\label{FinemanRoss}
+		\end{equation}
+
+	Dabei werden die ergebenen Punkte geplottet und anschließend über eine Ausgleichsgerade der Achsenabschnitt und die Steigung bestimmt.\\
+
 
 	Diese Copolymerisationsparameter können generell durch unterschiedliche dinge beeinflusst werden. 
 	So kann die Generelle Konstitution der Monomere, Resonanzstabilisierung der Monomers sowie des Polymerradikals, 
@@ -349,21 +361,22 @@
 
 		Diese Werte sowie die der anderen zwei Proben sind in Tabelle \ref{Tabelle1} gelistet.
 
-			\begin{table}[h!]
+			\begin{table}[ht]
 				\centering
-				\caption{Messdaten der Polymerisation}
-				\label{Tabelle1}
+				\caption{Übersicht der Probenparameter und Messergebnisse}
 				\resizebox{\textwidth}{!}
-				{ % Begin der Skalierung
-					\begin{tabular}{|c|c|c|c|c|c|c|}
-					\hline
-					\textbf{Probe} & \textbf{Initiator Einwaage (mg)} & \textbf{[I] (mol/L)} & \textbf{$m_{ps}$ (g)} & \textbf{$m_{st}$ (g)} & \textbf{$n_{st}$ (mol)} & \textbf{$U$ (\%)} \\ \hline
-					1 & 2,60  & 0,00158 & 0,32 & 8,78 & 0,08430149 & 0,03516484 \\ \hline
-					2 & 10,10 & 0,00615 & 0,63 & 8,47 & 0,08132501 & 0,06923077 \\ \hline
-					3 & 24,60 & 0,01498 & 0,93 & 8,17 & 0,07844455 & 0,1021978  \\ \hline
-					\end{tabular}
-				} % Ende der Skalierung
-			\end{table}
+				{%
+				\begin{tabular}{ccccccccc}
+					\toprule
+					\textbf{Probe} & \textbf{Initiator-Einwaage (mg)} & \textbf{[I] (mol/L)} & \textbf{$m_{ps}$ (g)} & \textbf{$m_{st}$ (g)} & \textbf{$n_{st}$ (mol)} & \textbf{$U$ (\%)} & \textbf{$\Delta M$} & \textbf{$v_{Br}$} \\
+					\midrule
+					1 & 2,60  & 0,001583338 & 0,32 & 8,78 & 0,08430149 & 0,03516484 & 0,30724916 & $4,26735 \cdot 10^{-5}$ \\
+					2 & 10,10 & 0,006150661 & 0,63 & 8,47 & 0,08132501 & 0,06923077 & 0,60489678 & $8,40134 \cdot 10^{-5}$ \\
+					3 & 24,60 & 0,014980817 & 0,93 & 8,17 & 0,07844455 & 0,10219780 & 0,89294287 & 0,00012402 \\
+					\bottomrule
+				\end{tabular}%
+				}
+		\end{table}
 
 		Diese werte können in ein doppelt logarithmisch skaliertes Koordinatensystem eingetragen werden wie in Abb. \ref{PlotsVersuch1}.
 
@@ -374,13 +387,15 @@
 				\label{PlotsVersuch1}
 			\end{figure}
 
-		Die Fitgerade wird über folgende GLeichung aufgestellt:
+		Die Fitgerade wird über folgende Gleichung aufgestellt:
 
 			\begin{equation}
 				\log(v_\text{Br}) = 0.4763 \cdot \log([I]) - 3.0318
 			\end{equation}
 
-		Durch extrapolieren der Fitgerade kann die Geschwindigkeitskonstante  $K$ ermittelt werden. 
+		Nach ermitteln der Steigung dieser gerade konnte die Reaktionsordnung bestimmt werden, welche 0,4763 beträgt.
+		Dies ist ziemlich gut wenn man diesen mit dem theoretischen Wert von 0,5 vergleicht.
+		Durch extrapolieren der Fitgerade kann die Geschwindigkeitskonstante  $k$ ermittelt werden. 
 		Dies wird über folgende Gleichung erreicht:
 
 			\begin{equation}
@@ -388,7 +403,8 @@
 			\end{equation}
 
 		
-
+			
+		
 		
 		
 
@@ -400,19 +416,22 @@
 
 		Die Verhältnisse der Integrale der gemessenen NMR-Spektren der Proben sind in Tabelle \ref{NMRIntegrale} gelistet.
 
-		\begin{table}[h!]
+		\begin{table}[ht]
 			\centering
-			\caption{Verhältnisse der Integrale der NMR-Signale für Styrol und MMA im gebildeten Polymer.}
-			\label{NMRIntegrale}
-			\begin{tabular}{|c|c|c|}
-			\hline
-			\textbf{Probe} & $I_\text{Styrol}$ & $I_\text{MMA}$ \\
-			1 & 1  & 2,57 \\
-			2 & 1  & 0,96 \\
-			3 & 1  & 0,42 \\
-			4 & 1  & 0,28 \\
-			5 & 1  & 0,15 \\
-			\end{tabular}
+			\caption{Zusammensetzung und Stoffmengenverhältnisse }
+			\label{Tabelle-Versuch2}
+			\small % Verringert die Schriftgröße leicht, damit es weniger gedrängt wirkt
+			\begin{tabularx}{\textwidth}{@{} c *{8}{X} @{}}
+				\toprule
+				\textbf{Probe} & \textbf{$m_{St}$} & \textbf{$m_{MMA}$} & \textbf{$I_{St}$} & \textbf{$I_{MMA}$} & \textbf{$\frac{m_{St}}{m_{MMA}}$} & \textbf{$n_{St}$} & \textbf{$n_{MMA}$} & \textbf{$\frac{n_{St}}{n_{MMA}}$} \\
+				\midrule
+				1 & 1,8 & 9,40 & 1,0 & 2,57 & 0,2429 & 0,0173 & 0,0939 & 0,1841 \\
+				2 & 3,6 & 7,52 & 1,0 & 0,96 & 0,6502 & 0,0346 & 0,0751 & 0,4602 \\
+				3 & 5,4 & 5,64 & 1,0 & 0,42 & 1,4861 & 0,0518 & 0,0563 & 0,9204 \\
+				4 & 7,2 & 3,76 & 1,0 & 0,28 & 2,2291 & 0,0691 & 0,0376 & 1,8408 \\
+				5 & 9,0 & 1,88 & 1,0 & 0,15 & 4,1610 & 0,0864 & 0,0188 & 4,6020 \\
+				\bottomrule
+			\end{tabularx}
 		\end{table}
 
 		Die Verhältnisse entsprechen dabei den Stoffmengenverhältnissen an Styrol zu MMA in den Polymerketten. Allerdings sind die Integrale noch für unterschiedlich viele 
@@ -424,8 +443,110 @@
 			\frac{m_\text{Styrol}}{m_\text{MMA}} = \frac{1}{2,57} \cdot \frac{\SI{104,15}{\frac{g}{mol}}}{\SI{100,12}{\frac{g}{mol}}} \cdot \frac{3}{5} = 0,243
 		\end{equation*}
 
+		Die restlichen Massenverhältnisse der Proben sind in Tabelle \ref{Tabelle-Versuch2} aufgelistet.
+
+	 \subsubsection{Copolymerisationsparameter nach Mayo und Lewis}
+
+		
+		Wie in Gleichung \ref{CoPO-r1r2} beschrieben können die Funktionen für $r_\text{St}$ und $r_\text{MMA}$ bestimmt werden. 
+		Daraus folgen dann folgende gleichungen.
+
+			\begin{eqnarray}
+				r_{\text{St},1} =& r_{\text{MMA},1} \cdot 7,167 - 0,139\\
+				r_{\text{St},2} =& r_{\text{MMA},2} \cdot 3,07 - 0,161\\
+				r_{\text{St},3} =& r_{\text{MMA},3} \cdot 1,754 + 0,447\\
+				r_{\text{St},4} =& r_{\text{MMA},4} \cdot 0,658 + 2,263\\
+				r_{\text{St},5} =& r_{\text{MMA},5} \cdot 0,196 + 14,547
+			\end{eqnarray}
+
+		Diese Aufgestellten Geradenfunktionen können graphisch Aufgetragen werden, und es kann Graph \ref{VoodooShit} erhalten werden.
+
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale = 0.5]{Bilder/MayoVersuch2.png}
+				\caption{Die Abbildung zeigt die graphische Bestimmung der Parameter nach Mayo und Lewis.}
+				\label{VoodooShit}
+			\end{figure}
+			
+		Darüber ließen sich die Werte für die jeweiligen Inkreismittelpunkte berechnen.
+
+			\begin{table}[ht]
+				\centering
+				\caption{Koordinaten der berechneten Inkreismittelpunkte $r_\text{MMA}$ und $r_\text{St}$ .}
+				\begin{tabular}{cc}
+					\toprule
+					\textbf{$r_{MMA}$} & \textbf{$r_{St}$} \\
+					\midrule
+					0,1771  & 0,6134  \\
+					0,5826  & 2,3708  \\
+					3,2399  & 13,8874 \\
+					0,6784  & 2,3102  \\
+					4,2858  & 12,8973 \\
+					5,9452  & 11,3267 \\
+					1,1504  & 2,8133  \\
+					6,2297  & 14,2941 \\
+					8,0838  & 12,2002 \\
+					11,1200 & 13,4403 \\
+				\end{tabular}
+			\end{table}
+		
+		Darüber lassen sich nun die Durchschnitte berechnen welche \O $r_\text{St} = 4.1493$ und \O $r_\text{MMA} = 8,6154$ betragen. 
 
 
+	\subsubsection{Copolymerisationsparameter nach FIneman und Ross}
+
+		Bei der Methode nach Fineman und Ross wird etwas anders vorgegangen.
+		Dabei wird Gleichung \ref{FinemanRoss} können mit den Werten aus Tabelle \ref{Tabelle-Versuch2} die Punkte erhalten und aufgetragen werden.
+		Zusätzlich gilt hier $[M] = n$ da das Volumen konstant ist, daraus folgt als Beispiel für Probe 1.
+
+			\begin{eqnarray}
+				\frac{n_\text{St}}{n_\text{MMA}} \cdot \left( 1- \frac{1}{\frac{{m_\text{St}}}{{m_\text{MMA}}}}\right) =& r_1 \cdot \frac{(n_\text{St})^2}{(n_\text{MMA})^2} \cdot \frac{1}{\frac{m_\text{St}}{m_\text{MMA}}} - r_2\\
+				\frac{0,0173}{0,0939} \cdot \left( 1 - \frac{1}{0,2429} \right) =& r_1 \cdot \frac{(0,0173)^2}{(0,0939)^2} \cdot \frac{1}{0,2429} - r_2\\
+				-0,5739 =& r_1 \cdot 0,1395 -r_2
+			\end{eqnarray}
+		
+		Für die restilichen proben wurde analog vorgegangen und die Werte sind in Tabelle \ref{Tabelle-Fineman} gelistet.
+			
+			\begin{table}[ht]
+				\centering
+				\caption{Berechnete Terme für die Linearisierung (Fineman-Ross)}
+				\label{Tabelle-Fineman}
+				\begin{tabular}{cc}
+					\toprule
+					\textbf{$\frac{n_{St}}{n_{MMA}} \cdot \left(1 - \frac{1}{m_{St}/m_{MMA}}\right)$} & \textbf{$\frac{n_{St}^2}{n_{MMA}^2} \cdot \frac{1}{m_{St}/m_{MMA}}$} \\
+					\midrule
+					-0,5739 & 0,1395 \\
+					-0,2476 & 0,3258 \\
+					0,3010  & 0,5701 \\
+					1,0150  & 1,5202 \\
+					3,4960  & 5,0899 \\
+					\bottomrule
+				\end{tabular}
+			\end{table}
+
+		Diese Werte können geplottet werden und es kann eine Ausgleichsgerade sowie der Achsenabschnitt bestimmt werden.
+		Welche den Werten $r_1$ und $r_2$ entsprechen.
+
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale = 0.5]{Bilder/GraphFineman.png}
+				\caption{Der Glaph zeigt die Graphische bestimmung der Copolymerisationskonstanten über die Fineman Methode.}
+			\end{figure}
+
+		Daraus ergeben sich die jeweiligen werte for $r_1 = 0,7802$ aus der Steigung und $r_2 = -0,3949$ aus dem Achsenabschnitt.
+
+		%Sagen wie sie abweichen von Mayo methode und warum.
+
+		Abschließend lässt sich das Copolymerisationsdiagramm des Blockcopolymers aus Styrol und MMA erstellen.
+		Die Punkte werden über die jeweiligen Gleichungen bestimmt:
+
+			\begin{eqnarray}
+				\frac{n_\text{St}}{n_\text{St} + n_\text{MMA}}\\
+				\frac{m_\text{St}}{m_\text{St} + \m_\text{MMA}}
+			\end{eqnarray}
+		
+		Dabei wird Gleichung (27) auf Gleichung (28) aufgetragen. Die Ergebnisse der Proben sind in Tabelle \ref{} gelistet und in Abb. \ref{} geplottet.
+		
 \section{Fazit}
 
 	
