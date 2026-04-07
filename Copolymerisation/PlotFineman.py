@@ -4,8 +4,8 @@ import numpy as np
 # Daten aus der Tabelle (Python nutzt Punkte als Dezimaltrennzeichen)
 # x = n_St^2/n_MMA^2 * 1/(m_St/m_MMA)
 # y = n_St/n_MMA * (1 - 1/(m_St/m_MMA))
-x = np.array([0.1395, 0.3258, 0.5701, 1.5202, 5.0899])
-y = np.array([-0.5739, -0.2476, 0.3010, 1.0150, 3.4960])
+x = np.array([0.224, 0.601, 1.373, 2.060, 3.845])
+y = np.array([-0.728, -0.336, 0.467, 1.182, 3.039])
 
 # Lineare Regression (1. Grades)
 # m = Steigung, b = Achsenabschnitt
