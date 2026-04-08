@@ -20,6 +20,7 @@
 \usepackage{tikz}
 \usepackage{siunitx}
 \sisetup{locale = DE,per-mode = symbol}
+\sisetup{output-decimal-marker = {.}}
 \usepackage{esvect}
 \usepackage{geometry}
 \usepackage{pdfpages}
@@ -217,7 +218,7 @@
 			\label{transittimes}
 			\begin{tabular}{c|ccccc|c}
 				\toprule
-				Sampleconcentration [$10^{-3} \, \frac{\text{g}}{\text{ml}}$]& Transit time 1 [s] & Transit time 2 [s] & Transit time 3 [s] & Transit time 4 [s] & Transit time 5 [s] & Average transit time [s]\\ 
+				Concentration [$10^{-3} \, \frac{\text{g}}{\text{ml}}$]& $t_1$ [s] & $t_2$ [s] & $t_3$ [s] & $t_4$ [s] & $t_5$ [s] & Average transit time [s]\\ 
 				\midrule
 				0 & 23.40 & 23.36 & 23.37 & 23.37 & 23.37 & 23.374 \\
 				1.25 & 24.99 & 24.99 & 24.99 & 24.98 & 24.98 & 24.986 \\
@@ -265,13 +266,13 @@
 
 			\begin{figure}[H]
 				\centering
-				\includegraphics{Bilder/reducedaufconc.png}
-				\caption{Reduced viscosity $\eta_\text{red}$ plotted against concentration $c$ using a regression line $\eta_\text{red} = \SI{2.0338}{\frac{ml^2}{g^2}} \cdot c + \SI{0.0557}{\frac{ml}{g}}$.}
+				\includegraphics[scale = 0.9]{Bilder/reducedaufconc.png}
+				\caption{Reduced viscosity $\eta_\text{red}$ plotted against concentration $c$ using a regression line $\eta_\text{red} = \SI{2033.8}{\frac{ml^2}{g^2}} \cdot c + \SI{55.684}{\frac{ml}{g}}$.}
 				\label{reducedaufconcplot}
 			\end{figure}
 
 		If a concentration of 0 is substituted into the linear equation, only the y-intercept remains, which in itself yields a viscosity 
-		number of $[\eta] = \SI{0.0557}{\frac{ml}{g}}$.\\
+		number of $[\eta] = \SI{55.684}{\frac{ml}{g}}$.\\
 
 		This quantity is proportional to the viscosity-weighted molecular weight according to Equation \eqref{ViskosiätsnummerundMolekulargewicht}, 
 		which, when rearranged in terms of the viscosity-weighted molecular weight, yields 
@@ -284,9 +285,12 @@
 		molecular weight of 
 		
 		\begin{equation*}
-			M_\eta = \sqrt[0.71]{\frac{\SI{0.0557}{\frac{ml}{g}}}{\SI{0.012}{\frac{ml}{g}}}} = 8.689 \text{.}
+			M_\eta = \sqrt[0.71]{\frac{\SI{55.684}{\frac{ml}{g}}}{\SI{0.012}{\frac{ml}{g}}}} = 145933.088 \text{.}
 		\end{equation*}
 
+		Therefore the viscosity-weighted molecular weight is $\SI{145933.088}{\frac{g}{mol}}$.\\
+
+		
 \section{Questions}
 
 		\subsection{Question 1}
