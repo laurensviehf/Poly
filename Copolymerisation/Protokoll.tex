@@ -28,7 +28,7 @@
 \usepackage[font=small]{caption}
 %\usepackage[version=4]{mhchem}
 \usepackage[backend=biber, style=chem-angew]{biblatex}
-\addbibresource{Polyaddition_Polykond.bib}
+\addbibresource{CoPo.bib}
 \usepackage{tabularx, booktabs, multirow}
 \usepackage[pdfborder={0 0 0}]{hyperref}
 \usepackage{scrlayer-scrpage}%Header für die KOMA-script -Klasse
@@ -103,14 +103,14 @@
 
 \section{Theorie}
 
-	Im allgemeinen lässt sich die radikalische Polymerisation in drei Teilschritte einteilen.
-	Der erste Schritt ist der Kettenstart, hierbei wird mittels eines radikalstarters (im falle des Versuchs AIBN), thermisch ein Radikal gebildet (\ref{Kettenstart}).
+	Im Allgemeinen lässt sich die radikalische Polymerisation in drei Teilschritte unterteilen.
+	Der erste Schritt ist der Kettenstart, hierbei wird mittels eines Radikalstarters (im falle des Versuchs AIBN), thermisch ein Radikal gebildet (\ref{Kettenstart}).
 
 	
 		\begin{figure}[H]
 			\centering
 			\includegraphics[scale = 0.25]{Bilder/Initiierung.png}
-			\caption{Die Abbildung zeigt den thermischen zerfall von AIBN.}
+			\caption{Die Abbildung zeigt den thermischen Zerfall von AIBN. }
 			\label{Kettenstart}
 		\end{figure}
 
@@ -129,28 +129,29 @@
 		\begin{figure}[H]
 			\centering
 			\includegraphics[scale = 0.4]{Bilder/RadikalKomplett.png}
-			\caption{Die Abbildung zeigt die Radikalische Polymerisation mit Start, Wachstum und Abbruch. 
+			\caption{Die Abbildung zeigt die radikalische Polymerisation mit Start, Wachstum und Abbruch. 
 			Als Abbruch wurde hier eine Rekombination als Beispiel gewählt.}
 			\label{Radikalisch_Komplett}
 		\end{figure}
-	Für diesen Schritt lässt sich ein Zeitgesetzt aufstellen welches die wachstums Geschwindigkeit $v_w$ und die Geschwindigkeitskonstante $k_w$ berücksichtigen.
+
+	Für diesen Schritt lässt sich ein Geschwindigkeitsgesetzt aufstellen, welches die Wachstumsgeschwindigkeit $v_w$ und die Geschwindigkeitskonstante $k_w$ berücksichtigen.
 	
 		\begin{equation}
 			v_w = k_w [p^*][M]
 			\label{Zeitgesetzt}
 		\end{equation}
 
-	Der letzte und dritte Schritt ist der Abbruchsschritt. Bei diesem gibt es zwei möglichkeiten eines Abbruchs.
-	Der erste wäre die Rekombination auch in Abb. xxx gezeigt. Hierbei reagieren zwei Radikale miteinander und bilden eine Bindung aus. 
+	Der letzte und dritte Schritt ist der Abbruchsschritt. Bei diesem gibt es zwei Möglichkeiten eines Abbruchs.
+	Der erste wäre die Rekombination auch in Abb. \ref{Radikalisch_Komplett} gezeigt. Hierbei reagieren zwei Radikale miteinander und bilden eine Bindung aus. 
 	Das reaktive Radikal geht somit verloren.\\ 
-	Die andere Variante wäre eine Disproportionierung hierbei findet wie in Abb. [xxx] gezeigt eine Radikalische bindung zwischen einem Monomer und dem $\alpha$-Wasserstoff statt. 
+	Die andere Variante wäre eine Disproportionierung hierbei findet eine radikalische Bindung zwischen einem Monomer und dem $\alpha$-Wasserstoff statt. 
 	Dabei findet zusätzlich eine Rekombination zu einer Doppelbindung statt. 
 	
 	
 	%Vielleicht Gleichung
 
 
-	Desweiteren kann der Umsatz in abhängigkeit zu dem Polymerisationsgrad aufgetragen werden, wordurch folgender Graph entsteht.
+	Desweiteren kann der Umsatz in abhängigkeit zu dem Polymerisationsgrad aufgetragen werden, wordurch folgender Graph entsteht. \cite{polyskript}
 
 		\begin{figure}[H]
 			\centering
@@ -161,14 +162,14 @@
 
 
 \subsection{Kinetik der radikalischen Polymerisation}
-	Für diese Kinetik spielt auch das sogenannte "Wurzel-I-Gesetz" eine große Rolle. 
+	Für diese Kinetik spielt auch das sogenannte Wurzel-I-Gesetz eine große Rolle. 
 		
 	Um dieses Aufstellen zu können wird unteranderem von sechs Annahmen ausgegangen.\\
 	
 	Die erste ist, dass vorhandensein einer irreversieblen Reaktion.\\
 	
 	Die zweite ist, dass die Initiatorradikal-konzentration stationär ist. 
-	Was soviel bedeutet wie, gleich viele Radikale werden durch zerfall des Initiators gebildet wie verbraucht werden.\\
+	Was soviel bedeutet wie, gleich viele Radikale werden durch Zerfall des Initiators gebildet wie verbraucht werden.\\
 
 	Die dritte Beschreibt, dass die Initiatorkonzentration während der Polymerisation konstant bleibt.\\
 
@@ -180,7 +181,7 @@
 
 	Die fünfte, ist das ausgehen von einem Abbruch welcher lediglich durch gegenseitige Desaktivierung der Polymere erfolgt.\\
 
-	Die sechste und letzte ist ähnlich wie die zweite nur das davon ausgegangen wird, dass die Polymerradikal-konzentration stationer ist.\\
+	Die sechste und letzte ist ähnlich wie die zweite nur das davon ausgegangen wird, dass die Polymerradikal-konzentration stationär ist.\\
 
 	Das Wurzel-I-Gesetz definiert die Bruttoreaktionsgeschwindigkeit und ist in Gleichung \ref{WurzelI} beschrieben
 
@@ -194,8 +195,8 @@
 	Desweiteren ist die Bruttogeschwindigkeit abhängig von der Konzentration der Edukte.\\
 
 	Allgemein wird um die güte einer Polymerisation zu bestimmen der zahlenmittlere Polymerisationsgrad bestimmt. 
-	Dieser wird in zwei unterschiedlichen Formeln beschrieben wobei Formel(\ref{Pn1}) den Polymerisationsgrad bei abbruch durch Kombination beschreibt, 
-	und Formel(\ref{Pn2}) den Polymerisationsgrad bei Kettenabruch durch Disproportionierung beschreibt.
+	Dieser wird in zwei unterschiedlichen Formeln beschrieben wobei Formel (\ref{Pn1}) den Polymerisationsgrad bei abbruch durch Kombination beschreibt, 
+	und Formel (\ref{Pn2}) den Polymerisationsgrad bei Kettenabruch durch Disproportionierung beschreibt.
 
 		\begin{equation}
 			\bar{P_n} = 2v\\
@@ -208,9 +209,9 @@
 		\end{equation}
 		
 	Dies lässt sich auch für Kettenübertragungen betrachten wobei hier die Kettenlänge $v$ durch $v'$ ausgetauscht wird. 
-	Dieser wird auch als Polymerkette bezeichnet und beschreibt alle Monomere die im wachstum "zusammengesetzt" wurden. 
-	Wichtig dabei ist auch, dass die für die Disproportionierung sowie für die dur eine Übretragung abgebrochenen Reaktion die Formel(\ref{PnV'1}) gilt.
-	Aber für Reaktionen die durch Kombination abgebrochen wurden Formel(\ref{PnV'2})
+	Dieser wird auch als Polymerkette bezeichnet und beschreibt alle Monomere die im Wachstum polymerisiert wurden. 
+	Wichtig dabei ist auch, dass die für die Disproportionierung sowie für die dur eine Übretragung abgebrochenen Reaktion die Formel (\ref{PnV'1}) gilt.
+	Aber für Reaktionen die durch Kombination abgebrochen wurden Formel (\ref{PnV'2})
 
 		\begin{equation}
 			\bar{P_n} = v'
@@ -221,12 +222,11 @@
 			\label{PnV'2}
 		\end{equation}
 
-	E. Trommsdorff entdeckte den nach ihm benannten Norrish-Trommsdorff-Effekt welcher einen abfall der Geschwindigkeit kurz vor einem Umsatz von 100\% auf Null. 
-	Er erklärte dies durch ansteigen der Viskosität bei kontinuierlicher Polymerisation. 
-	Da die Ketten immer länger werden und ihre bewegung eingeschränkt wird.
-	Nicht nur ihere eigene beweglichkeit wird beeinflusst sondern auch die der Monomere.
-	Da jedoch immer noch Initiator vorliegt reagiert dieser immer weiter bis zu dem Punkt wo selbst die Monomere sich nicht mehr bewegen können. 
-	Somit sinkt die Geschwindigkeit der Reaktion auf Null.
+	E. Trommsdorff entdeckte den nach ihm benannten Norrish-Trommsdorff-Effekt, welcher einen starken Anstieg der Geschwindigkeit bei hohen Umsätzen beschreibt. 
+	Er erklärte dies durch einen Anstieg der Viskosität bei kontinuierlicher Polymerisation, 
+	da die Ketten immer länger werden und ihre Bewegung eingeschränkt wird. Durch die einschränkung der Bewegung können die Kettenradikale nur schwer rekombinieren 
+	und die radikale bleiben erhalten. Da das Monomer aber noch eine hohe Beweglichkeit besitzt, diffundiert dieses durch die Lösung und wird durch eine hohe 
+	Radikalkonzentration leicht polymerisiert. Bei fast 100 \% Umsatz lässt dann die Geschwindigkeit nach, da die Monomerkonzentration stark gegen null geht. \cite{polyskript}
 
 		\begin{figure}[H]
 			\centering
@@ -242,11 +242,11 @@
 
 	Die erste ist identisch zu der zuvor genannten ersten Annahme, dass alle Reaktionen irreversiebel sind.\\
 
-	Die zweite beschreibt, dass die Bruttokonzentrationen der Monomere gleich der Konzentratonen am Reaktionsort sein muss.\\
+	Die zweite beschreibt, dass die Bruttokonzentrationen der Monomere gleich der Konzentrationen am Reaktionsort sein muss.\\
 
-	Die dritte ist das vernachlässigen des Monomerverbrauchs an Start, Abbruch und Übertragung da ein sehr hoher Polymerisationsgrad vorhanden ist.\\
+	Die dritte ist das Vernachlässigen des Monomerverbrauchs am Start, Abbruch und Übertragung da ein sehr hoher Polymerisationsgrad vorhanden ist.\\
 
-	Die vierte ist das vernachlässigen der Reaktivität des zuvor eingebauten Monomers.\\
+	Die vierte ist das Vernachlässigen der Reaktivität des zuvor eingebauten Monomers.\\
 
 	Die letzte ist die Annahme, das für die kinetik das Bodenstein'sche Quasistationaritätsprinzip gilt.\\
 
@@ -256,7 +256,7 @@
 		\begin{figure}[H]
 			\centering
 			\includegraphics[scale = 0.75]{Bilder/RGL.png}
-			\caption{Die Abbildung zeigt die Reaktionsgleichungen und ihre zugehörigen kettenlängen. \cite{polyskript}}
+			\caption{Die Abbildung zeigt die Reaktionsgleichungen aller möglichen Wachstumsreaktionen. \cite{polyskript}}
 			\label{RGL_wachstum}
 		\end{figure}
 
@@ -266,20 +266,20 @@
 			\frac{m_1}{m_2} = \frac{[M_1]}{[M_2]}\cdot \frac{r_1[M_1]+[M_2]}{r_2[M_2]+[M_1]}
 		\end{equation}
 
-	Darin ist $r$ die Copolymerisationskonstanten welche als $\frac{k_{11}}{k_{12}}=r1$ definiert sind.
-	Unteranderem besdchreibt $m$ den jeweiligen anteil des Monomers im Copolymer.
-	Experimentell werden diese Parameter über Spektroskopie wie NMR oder IR bestimmt, können aber auch durch Elementaranalyse bestimmt werden.
+	Darin sind $r_i$ die Copolymerisationskonstanten, welche als $\frac{k_{ii}}{k_{ij}}=r_i$ definiert sind.
+	Unteranderem besdchreibt $m$ den jeweiligen Anteil des Monomers im Copolymer.\\
+	Experimentell werden diese Parameter über Spektroskopie wie NMR oder IR bestimmt, können aber auch durch Elementaranalyse bestimmt werden.\\
 
-	Durch Umformen der zuvor genannten Gleichung kann eine lineare Beziehung gezeigt werden und folgende funktion aufgestellt werden:
+	Durch Umformen der zuvor genannten Gleichung kann eine lineare Beziehung gezeigt werden und folgende Funktion aufgestellt werden:
 
 		\begin{equation}
 			r_1 = r_2 \frac{m_1[M_2]^2}{m_2[M_1]^2} + \frac{[M_2]}{[M_1]}\cdot \left(\frac{m_1}{m_2}-1\right)
 			\label{CoPO-r1r2}
 		\end{equation}
 
-	Daraus gehen Steigung sowie der Koordinatenabschnitt heraus und es lässt sich eine Gerade zeichnen. 
-	So lässt sich die Copolymerisationsparameter durch den schnittpunkt der unterschiedlichen Geraden ermitteln.
-	Da dies jedoch nicht immer der fall ist, wird ein arithmetisches Mittel gebildet (auch in Abb. \ref{GraphMittel} zu sehen) gebildet.
+	Daraus gehen Steigung sowie der Ordinatenabschnitt heraus und es lässt sich eine Gerade zeichnen. 
+	So lässt sich die Copolymerisationsparameter durch den Schnittpunkt der unterschiedlichen Geraden ermitteln.
+	Da dies jedoch nicht immer der Fall ist, wird ein arithmetisches Mittel gebildet (auch in Abb. \ref{GraphMittel} zu sehen).
 
 		\begin{figure}[H]
 			\centering
@@ -288,8 +288,8 @@
 			\label{GraphMittel}
 		\end{figure}
 
-	Dies ist die Methode nach Mayo und Lewis. Eine Andere Methode, welche auch eine Graphische Bestimmung verwendet, ist die nach Fineman und Ross.
-	Dabei die Copolymerisationsgleichung so umgeformt, das beide $r$ die Steigung und den Koordinatenabschnitt angeben.
+	Dies ist die Methode nach Mayo und Lewis. Eine Andere Methode, welche auch eine graphische Bestimmung verwendet, ist die nach Fineman und Ross.
+	Dabei die Copolymerisationsgleichung so umgeformt, das beide $r$ die Steigung und den Ordinatenabschnitt angeben.
 
 		\begin{equation}
 			\frac{[M_1]}{[M_2]}\cdot \left( 1- \frac{m_2}{m_1}\right) = r_1 \cdot \frac{[M_1]^2\cdot m_2}{[M_2]^2 \cdot m_1} - r_2
@@ -299,28 +299,27 @@
 	Dabei werden die ergebenen Punkte geplottet und anschließend über eine Ausgleichsgerade der Achsenabschnitt und die Steigung bestimmt.\\
 
 
-	Diese Copolymerisationsparameter können generell durch unterschiedliche dinge beeinflusst werden. 
-	So kann die Generelle Konstitution der Monomere, Resonanzstabilisierung der Monomers sowie des Polymerradikals, 
-	das Lösemittel, die Sterik und die Doppelbindungspolarität eine Rolle spielen.
+	Diese Copolymerisationsparameter können generell durch unterschiedliche Dinge beeinflusst werden. 
+	So kann die generelle Konstitution der Monomere, Resonanzstabilisierung der Monomers sowie des Polymerradikals, 
+	das Lösemittel, die Sterik und die Doppelbindungspolarität eine Rolle spielen. \cite{polyskript}
 
 
 \section{Durchführung}
 
-		Alle Versuche wurden unter Schlenk-Bedingungen durchgeführt, und es wurde auf eine suabere luft und wasserfreie umgebung geachtet.\\
+		Alle Versuche wurden unter Schlenk-Bedingungen durchgeführt, und es wurde auf eine Argon-Athmosphäre und wasserfreie Umgebung geachtet.\\
 
 	\subsection{Versuch 1}
 
 		In kleinen Schraub-Septum-Gläschen wurden drei unterschiedliche AIBN-Lösungen vorgelegt. 
-		In das erste wird eine $0.15\cdot 10^{-2}\text{M}$, in das zweite eine $0.6\cdot 10^{-2}\text{M}$ und in das letzte eine $1.5\cdot 10^{-2}\text{M}$ Lösung. 
-		Hierzu wird jeweils 10 mL Styrol zugegeben, und für 15 min mit Stickstoff entgast. 
-		Es wird ein Heitzblock auf 60°C vorgeheitzt und es die lösungen werden für 2 Stunden gerührt.
+		In das erste wird eine $0,15\cdot 10^{-2}\text{M}$, in das zweite eine $0,6\cdot 10^{-2}\text{M}$ und in das letzte eine $1,5\cdot 10^{-2}\text{M}$ Lösung gegeben. 
+		Hierzu wird jeweils Styrol $\SI{10}{ml}$ zugegeben, und für 15 min mit Stickstoff entgast. 
+		Es wird ein Heitzblock auf 60°C vorgeheitzt und es die Lösungen werden für 2 Stunden gerührt.
 		Die Lösungen werden anschließend langsam in kaltes Methanol gegeben und das Polymer wird abfiltriert.
-		Das Produkt musste nicht in Chloroform gelöst werden und erneut gefällt werden.
-		Das abflitriere Produkt wurde im Vakuumtrockenschrank bei 60°C getrocknet
+		Das abflitriere Produkt wurde im Vakuumtrockenschrank bei 60°C getrocknet.
 
 	\subsection{Versuch 2}
 
-		In 5 Schraub-Septum-Gläschen werden ansätze mit einer 0.5 mol\%-AIBN lösung präpariert:
+		In 5 Schraub-Septum-Gläschen werden Ansätze mit einer 0,5 mol\%-AIBN Lösung präpariert:
 
 		\begin{table}[htbp]
 			\centering
@@ -344,15 +343,15 @@
 \section{Auswertung}
 
 	\subsection{Versuch 1}
-		Der Umsatz U kann über Folgende Gleichung berechnet werden.
+		Der Umsatz $U$ kann über folgende Gleichung berechnet werden.
 
 			\begin{equation}
 				U = \frac{m_\text{ps}}{m_\text{st,0}} \cdot 100\%
 			\end{equation}
 
-		Nach ausrechnen des Umsatzes kann anschließend die masse an übrigen styrol berechnet werden.
-		Und daraus wiederum die Stoffmenge welche dann verwendet werden kann um $v_\text{Br}$ zu bestimmen.
-		Dieser Vorgang ist in den Folgenden Gleichungen für die erste PRobe als Beispiel durchgerechnent.
+		Nach ausrechnen des Umsatzes kann anschließend die Masse an übrigen Styrol berechnet werden.
+		Und daraus wiederum die Stoffmenge, welche dann verwendet werden kann um $v_\text{Br}$ zu bestimmen.
+		Dieser Vorgang ist in den folgenden Gleichungen für die erste Probe als Beispiel durchgerechnent.
 
 			\begin{eqnarray}
 				U_1 =& \frac{\SI{0.32}{g}}{\SI{9.1}{g}} \cdot 100\% =&  \SI{3.4}{\%}\\
@@ -360,11 +359,12 @@
 				n_\text{St} =& \frac{\SI{8.791}{g}}{\SI{104.15}{\frac{g}{mol}}} =& \SI{0.0844}{mol}\\
 			\end{eqnarray}
 
-		Diese Werte sowie die der anderen zwei Proben sind in Tabelle \ref{Tabelle1} gelistet.
+		Diese Werte, sowie die der anderen zwei Proben, sind in Tabelle \ref{Tabelle1} gelistet.
 
 			\begin{table}[ht]
 				\centering
 				\caption{Übersicht der Probenparameter und Messergebnisse}
+				\label{Tabelle1}
 				\resizebox{\textwidth}{!}
 				{%
 				\begin{tabular}{ccccccccc}
@@ -379,24 +379,24 @@
 				}
 		\end{table}
 
-		Diese werte können in ein doppelt logarithmisch skaliertes Koordinatensystem eingetragen werden wie in Abb. \ref{PlotsVersuch1}.
+		Diese Werte können in ein doppelt logarithmisch skaliertes Koordinatensystem eingetragen werden. Visualisiert ist dies in Abbildung \ref{PlotsVersuch1}.
 
 			\begin{figure}[H]
 				\centering
-				\includegraphics[scale = 0.5]{Bilder/PlotsVersuch1.png}
-				\caption{}
+				\includegraphics[scale = 0.7]{Bilder/PlotsVersuch1.png}
+				\caption{Doppellogarithmische Auftragung der Bruttogeschwindigkeit $v_\text{br}$ auf die Initiatorkonzentration $[I]$.}
 				\label{PlotsVersuch1}
 			\end{figure}
 
-		Die Fitgerade wird über folgende Gleichung aufgestellt:
+		Die Fitgerade wird über folgende Gleichung beschrieben:
 
 			\begin{equation}
 				\log(v_\text{Br}) = 0.4763 \cdot \log([I]) - 3.0318
 			\end{equation}
 
-		Nach ermitteln der Steigung dieser gerade konnte die Reaktionsordnung bestimmt werden, welche 0,4763 beträgt.
-		Dies ist ziemlich gut wenn man diesen mit dem theoretischen Wert von 0,5 vergleicht.
-		Durch extrapolieren der Fitgerade kann die Geschwindigkeitskonstante  $k$ ermittelt werden. 
+		Nach ermitteln der Steigung dieser Gerade konnte die Reaktionsordnung bestimmt werden, welche 0,4763 beträgt.
+		Dies ist ziemlich gut, da diese den theoretischen Wert von 0,5 fast erreicht.
+		Durch extrapolieren der Fitgerade kann die Geschwindigkeitskonstante $k$ ermittelt werden. 
 		Dies wird über folgende Gleichung erreicht:
 
 			\begin{equation}
@@ -432,11 +432,11 @@
 
 		Die Verhältnisse entsprechen dabei den Stoffmengenverhältnissen an Styrol zu MMA in den Polymerketten. Allerdings sind die Integrale noch für unterschiedlich viele 
 		Protonen geltend. Die Integrale der Styrol-Signale beinhalten fünf Protonen und die Integrale der MMA-Signale entsprechen drei Protonen. Für die Umrechnung in ein 
-		Massenverhältnis werden die Verhältnisse noch dem Signalverhältnis und mit dem Molekulargewichtsverhältnis von Styrol zu MMA multipliziert. Demnach entspricht 
+		Massenverhältnis werden die Verhältnisse noch mit dem Signalverhältnis und dem Molekulargewichtsverhältnis von Styrol zu MMA multipliziert. Demnach entspricht 
 		das Massenverhältnis der ersten Probe 
 
 		\begin{equation*}
-			\frac{m_\text{Styrol}}{m_\text{MMA}} = \frac{1}{2,57} \cdot \frac{\SI{104,15}{\frac{g}{mol}}}{\SI{100,12}{\frac{g}{mol}}} \cdot \frac{3}{5} = 0,243
+			\frac{m_\text{Styrol}}{m_\text{MMA}} = \frac{1}{2,57} \cdot \frac{\SI{104,15}{\frac{g}{mol}}}{\SI{100,12}{\frac{g}{mol}}} \cdot \frac{3}{5} = 0,243 \text{.}
 		\end{equation*}
 
 		Die restlichen Massenverhältnisse der Proben sind in Tabelle \ref{Tabelle-Versuch2} aufgelistet.
@@ -444,8 +444,8 @@
 	 \subsubsection{Copolymerisationsparameter nach Mayo und Lewis}
 
 		
-		Wie in Gleichung \ref{CoPO-r1r2} beschrieben können die Funktionen für $r_\text{St}$ und $r_\text{MMA}$ bestimmt werden. 
-		Daraus folgen dann folgende Geradengleichungen.
+		Wie in Gleichung \ref{CoPO-r1r2} beschrieben, können die Funktionen für $r_\text{St}$ und $r_\text{MMA}$ bestimmt werden. 
+		Daraus Folgen dann folgende Geradengleichungen.
 
 			\begin{eqnarray}
 				r_{\text{St},1} =& r_{\text{MMA},1} \cdot 7,167 - 0,139\\
@@ -455,7 +455,7 @@
 				r_{\text{St},5} =& r_{\text{MMA},5} \cdot 0,196 + 14,547
 			\end{eqnarray}
 
-		Diese Aufgestellten Geradenfunktionen können graphisch Aufgetragen werden, und es kann Graph \ref{VoodooShit} erhalten werden.
+		Diese aufgestellten Geradenfunktionen können graphisch Aufgetragen werden, womit der Graph \ref{VoodooShit} erhalten wird.
 
 			\begin{figure}[H]
 				\centering
@@ -483,16 +483,17 @@
 					6,2297  & 14,2941 \\
 					8,0838  & 12,2002 \\
 					11,1200 & 13,4403 \\
+					\bottomrule
 				\end{tabular}
 			\end{table}
 		
-		Darüber lassen sich nun die Durchschnitte berechnen welche \O $r_\text{St} = 4.1493$ und \O $r_\text{MMA} = 8,6154$ betragen. 
+		Darüber lassen sich nun die Durchschnitte berechnen, welche \O $r_\text{St} = 4.1493$ und \O $r_\text{MMA} = 8,6154$ betragen. 
 
 
 	\subsubsection{Copolymerisationsparameter nach Fineman und Ross}
 
 		Bei der Methode nach Fineman und Ross wird etwas anders vorgegangen.
-		Dabei wird Gleichung \ref{FinemanRoss} können mit den Werten aus Tabelle \ref{Tabelle-Versuch2} die Punkte erhalten und aufgetragen werden.
+		Dabei wird Gleichung \ref{FinemanRoss} mit den Werten aus Tabelle \ref{Tabelle-Versuch2} für jede Rechnung berechnet, wodurch die Punkte erhalten der Geraden erhalten wird. Diese kann dann aufgetragen werden.
 		Zusätzlich gilt hier $[M] = n$ da das Volumen konstant ist, daraus folgt als Beispiel für Probe 1.
 
 			\begin{eqnarray}
@@ -520,16 +521,16 @@
 				\end{tabular}
 			\end{table}
 
-		Diese Werte können geplottet werden und es kann eine Ausgleichsgerade sowie der Achsenabschnitt bestimmt werden.
+		Diese Werte werden geplottet und es wird eine Ausgleichsgerade sowie der Achsenabschnitt bestimmt.
 		Welche den Werten $r_1$ und $r_2$ entsprechen.
 
 			\begin{figure}[H]
 				\centering
 				\includegraphics[scale = 0.5]{Bilder/GraphFineman.png}
-				\caption{Der Glaph zeigt die Graphische bestimmung der Copolymerisationskonstanten über die Fineman Methode.}
+				\caption{Der Graph zeigt die graphische Bestimmung der Copolymerisationskonstanten über die Fineman-Ross-Methode.}
 			\end{figure}
 
-		Daraus ergeben sich die jeweiligen werte for $r_1 = 1,040$ aus der Steigung und $r_2 = 0,9612$ aus dem Achsenabschnitt.\\
+		Daraus ergeben sich die jeweiligen Werte für $r_1 = 1,040$ aus der Steigung und $r_2 = 0,9612$ aus dem Achsenabschnitt.\\
 
 		Beim Vergleich der r-Werte nach Mayo und Lewis mit Fineman und Ross, sind sehr starke Abweichungen zu erkennen. 
 		So betragen die r-Werte bei Mayo und Lewis vier- und acht-Mal größer als die nach Fineman und Ross. Abweichungen sind 
@@ -580,17 +581,17 @@
 
 	\subsection{Frage 1}
 
-		Es Sollte weitestgehend luftfrei gearbeitet werden da Sauerstoff als Diradikal vorliegt und ein Kettenabbruch stattfinden kann. 
+		Es sollte weitestgehend Sauerstofffrei gearbeitet werden, da Sauerstoff als Diradikal vorliegt und ein Kettenabbruch stattfinden kann. 
 		Dies gilt auch für die Initiierung der Reaktion. 
 
 		
 	\subsection{Frage 2}
 
-		Im allgemeinen beschreibt die Celling-Temperature die Temperatur einer Reaktion,
-		bei welcher eine Depolymerisierung. 
+		Im Allgemeinen beschreibt die ceiling-Temperature die Temperatur einer Reaktion,
+		ab welcher eine Depolymerisierung stattfindet. 
 		So scheint es als würde keine Reaktion stattfinden.
-		Die Floor-Temperatur beschreibt die Temperatur ab welcher eine Polymerisation begünstigt ist. 
-		Sprich ab welcher Temperatur das gleichgewicht auf die Polymerseite verschoben wird.
+		Die Floor-Temperatur beschreibt die Temperatur, ab welcher eine Polymerisation begünstigt ist. 
+		Sprich ab welcher Temperatur das Gleichgewicht auf die Polymerseite verschoben wird.
 		Hierfür spielt die Gibbs-Helmholtz-Gleichung eine große Rolle:
 
 			\begin{equation}
@@ -602,19 +603,31 @@
 		
 	\subsection{Frage 3}
 
-		Wie bereits angesprochen müssen gewisse annahmen zutreffen damit $v_i \sim \sqrt{[I]}$ gilt. 
-		Sobald eine dieser Annahmen nicht mehr erfüllt ist gilt dieser zusammenhang auch nicht mehr.
+		Wie bereits angesprochen müssen gewisse Annahmen zutreffen, damit $v_i \sim \sqrt{[I]}$ gilt. 
+		Sobald eine dieser Annahmen nicht mehr erfüllt ist, gilt dieser Zusammenhang auch nicht mehr.
 		
 	\subsection{Frage 4}
 
+		Der Norish-Trommsdorff-Effekt ist in Abbildung \ref{Norish-Trommsdorff} visualisiert.
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.5]{Bilder/Block_copolymer.png}
+			\caption{Visualisierung des Norish-Trommsdorff-Effekts.}
+			\label{Norish-Trommsdorff}
+		\end{figure}
 		
-		
+		Zu erkennen ist ein plötzlicher Anstieg der Reaktionsgeschwindigkeit. Das liegt daran, dass mit voranschreitendem Umsatz, ebenfalls die 
+		Viskosität steigt und dadurch die Ketten sich weniger bewegen. Dadurch können die Radikale der Ketten nur schwer rekombinieren und die 
+		Abbruchgeschwindigkeit wird stark herabgesenkt. Da die Monomere allerdings sehr kleine sind, können diese durch die Ketten diffundieren und 
+		leicht mit den freien Radikalen Polymerisieren.
+
 	\subsection{Frage 5}
 
-		Ein Blockcopolymer ist wie der Name schon sagt ein Blockweise aufgebautes Polymer auch zu sehen in Abb. [\ref{Block}].
-		Anders wie bei dem Blockcopolymer hat das Pfropfcopolymer einen "Hauptstrang" welcher aus einem Monomer (A) besteht.
+		Ein Blockcopolymer ist, wie der Name schon sagt, ein Blockweise aufgebautes Polymer. Auch zu sehen in Abb. [\ref{Block}].
+		Anders als bei dem Blockcopolymer hat das Pfropfcopolymer einen Hauptstrang welcher aus einem Monomer (A) besteht.
 		An diesem Hauptstrang sind weitere Polymere (B) quer verbaut.
-		Somit gibt es ein Pfropfende und die querketten [\ref{Propf}]
+		Somit gibt es ein Pfropfende und die Querketten [\ref{Propf}]
 			\begin{figure}[htbp]
 				\centering
 				% Erstes Bild
@@ -639,19 +652,26 @@
 		
 	\subsection{Frage 6}
 
-		Bei a) wird bevorzugt Monomer 2 eingebaut und bei b) wird bevorzugt Monomer A eingebaut.
-		Bei c) wollen beide monomere nicht mit sich selbst reagieren somit entsteht ein alternierendes copolymer.
+		Bei a) wird bevorzugt Monomer B eingebaut und bei b) wird bevorzugt Monomer A eingebaut.
+		Bei c) wollen beide Monomere nicht mit sich selbst reagieren somit entsteht ein alternierendes Copolymer.
 		Polymer d) ist das gegenteil von Polymer c) sprich die Monomere wollen ausschließlich mit sich selbst reagieren, es wird somit ein
 		Blockcopolymer gebildet.
 		
 	\subsection{Frage 7}
 	
-		%diagramm
+		Die nachfolgende Abbildung zeigt das Copolymerisationsdiagramm für unterschiedliche Werte, aber auch das für r-Werte von $r_1 = r_2 > 1$.
+
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale = 0.5]{Bilder/Copolymerisationsdiagramm.png}
+				\caption{Verläufe der Copolymerisationskurve für unterschiedliche r-Werte. \cite{noauthor_copolymerisation_2025}}
+				\label{Norish-Trommsdorff}
+			\end{figure}
 
 	\subsection{Frage 8}
 		
-			Wie bereits oben genannt können Methoden wie NMR- IR oder UV/Vis-Spektroskopie verwendet werden. 
-			Meist werden sich hierbei Eigenschaften des eingebauten Monomers zu Nutze gemacht. 
+		Wie bereits oben genannt, können Methoden wie NMR- IR oder UV/Vis-Spektroskopie verwendet werden. 
+		Meist werden sich hierbei Eigenschaften des eingebauten Monomers zu Nutze gemacht. 
 		
 	\subsection{Frage 9}
 		
@@ -664,12 +684,12 @@
 		
 	\subsection{Frage 10}
 		
-		Nein es bestehen keine Strukturellen unterschiede. Der einzige Unterschied liegt in der Kontrolle der Reaktion.
+		Nein, es bestehen keine Strukturellen unterschiede. Der einzige Unterschied liegt in der Kontrolle der Reaktion.
 		So läuft die Radikalische um einiges unkontrolierter ab.
 		
 	\subsection{Frage 11}
 		
-		Der Grund für unterschiedliche verschiebungen liegt in der Umgebung der Methoxygruppe.
+		Der Grund für unterschiedliche Verschiebungen liegt in der Umgebung der Methoxygruppe.
 		Da das MMA-Monomer zufällig in die Kette eingebaut wird und dementsprechend unterschiedliche Umgebungen aufweist.
 		Daraus folgen unterschiedliche signale welche an unterschiedlichen Verschiebungen zu sehen sind.
 
@@ -681,7 +701,7 @@
 				\bar{I_\text{St}} = r_1 \cdot \frac{[M_1]}{[M_2]} + 1
 			\end{equation}
 				
-		Durch einsetzten beider werte ergibt sich dabei für Styrol ein Wert von $\bar{I_\text{St}} = 1,67$ 
+		Durch einsetzten beider Werte ergibt sich dabei für Styrol ein Wert von $\bar{I_\text{St}} = 1,67$ 
 		und für Vinylidenchlorid ein Wert von $\bar{I_\text{VC}} = 1,42$
 		Daraus lässt sich sagen, dass die Blöcke im Durchschnitt aus 1,67 Einheiten bestehen.
 		Die Blockzahl wird anschließend nach folgender Gleichung berechnet:
@@ -690,7 +710,7 @@
 				R = \frac{200}{2 + r_1 \frac{[M_1]}{M_2} + r_2 \frac{[M2]}{[M_1]}} + 1
 			 \end{equation}
 		
-		Dies Resultiert in diesem Fall in einer Blockzahl von $R = 64,8$. Dies bedeutet, dass es in 100 Einheiten 64,8 Blöcke hat.
+		Dies Resultiert in diesem Fall in einer Blockzahl von $R = 64,8$. Dies bedeutet, dass es in 100 Einheiten 64,8 Blöcke sind.
 \printbibliography
 
 \end{document}
