@@ -7,21 +7,21 @@
 \contentsline {subsection}{\numberline {2.2}Versuch 2}{7}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Auswertung}{7}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Versuch 1}{7}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Versuch 2}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Versuch 2}{9}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Copolymerisationsparameter nach Mayo und Lewis}{9}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}Copolymerisationsparameter nach Fineman und Ross}{10}{subsubsection.3.2.2}%
-\contentsline {section}{\numberline {4}Fazit}{12}{section.4}%
-\contentsline {section}{\numberline {5}Fragen}{12}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Frage 1}{12}{subsection.5.1}%
+\contentsline {section}{\numberline {4}Fazit}{13}{section.4}%
+\contentsline {section}{\numberline {5}Fragen}{13}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Frage 1}{13}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Frage 2}{13}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Frage 3}{13}{subsection.5.3}%
 \contentsline {subsection}{\numberline {5.4}Frage 4}{13}{subsection.5.4}%
 \contentsline {subsection}{\numberline {5.5}Frage 5}{13}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}Frage 6}{13}{subsection.5.6}%
-\contentsline {subsection}{\numberline {5.7}Frage 7}{13}{subsection.5.7}%
-\contentsline {subsection}{\numberline {5.8}Frage 8}{13}{subsection.5.8}%
+\contentsline {subsection}{\numberline {5.6}Frage 6}{14}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Frage 7}{14}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}Frage 8}{14}{subsection.5.8}%
 \contentsline {subsection}{\numberline {5.9}Frage 9}{14}{subsection.5.9}%
-\contentsline {subsection}{\numberline {5.10}Frage 10}{14}{subsection.5.10}%
-\contentsline {subsection}{\numberline {5.11}Frage 11}{14}{subsection.5.11}%
-\contentsline {subsection}{\numberline {5.12}Frage 12}{14}{subsection.5.12}%
+\contentsline {subsection}{\numberline {5.10}Frage 10}{15}{subsection.5.10}%
+\contentsline {subsection}{\numberline {5.11}Frage 11}{15}{subsection.5.11}%
+\contentsline {subsection}{\numberline {5.12}Frage 12}{15}{subsection.5.12}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
