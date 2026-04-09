@@ -26,7 +26,7 @@
 \usepackage[font=small]{caption}
 %\usepackage[version=4]{mhchem}
 \usepackage[backend=biber, style=chem-angew]{biblatex}
-\addbibresource{Elektropolymeri.bib}
+\addbibresource{Elektro.bib}
 \usepackage{tabularx, booktabs, multirow}
 \usepackage[pdfborder={0 0 0}]{hyperref}
 \usepackage{scrlayer-scrpage}%Header für die KOMA-script -Klasse
@@ -101,70 +101,87 @@
 \section{Theorie}
 
 	Damit ein Polymer leitfähig ist, muss eine alternierung zwischen $\pi$ und $\sigma$ Bindung am Polymerrückgrad vorliegen.
-	Dies ist vorallem wichtig da durch das konjugierte system der Kohlenstoff in einer sp$^2$ konfiguration vorliegt, 
-	und somit ein vollständig besetztes $\pi$-Orbital und ein unbesetztes $\pi*$-Orbital. 
-	erweitert man nun das System um mehrere Kohlenstoffe bilden sich wie in Abb. \ref{VB_CB} zwei bereiche diese werden auch Valenzband (unten) 
+	Dies ist vorallem wichtig da durch das konjugierte System der Kohlenstoff in einer sp$^2$ konfiguration vorliegt 
+	und somit ein vollständig besetztes $\pi$-Orbital und ein unbesetztes $\pi*$-Orbital aufweist. 
+	Wird das System nun um mehrere Kohlenstoffe erweitert, bilden sich wie in Abbildung \ref{VB_CB} zwei Bereiche, diese werden auch Valenzband (unten) 
 	und Leitungsband (oben) genannt.
 	
 		\begin{figure}[H]
 			\centering
 			\includegraphics[scale = 0.75]{Bilder/VB-CB.png}
-			\caption{}
+			\caption{Molekül-Orbital-Schema zur Bildung des Valenz- und Leitungsband. \cite{polyskript}}
 			\label{VB_CB}
 		\end{figure}
 
-	Die Bandlücke E$_\text{g}$ ist dabei der bereich zwischen den beiden Bändern.
-	Je größer diese ist desto schlechter leitet der Stoff.
-	Da im falle von Leitung ein Elektron vom Valenzband in das Leitungsband übergehen muss.
+	Die Bandlücke E$_\text{g}$ ist dabei der Bereich zwischen den beiden Bändern.
+	Je größer diese ist desto schlechter leitet der Stoff, da im Falle von Leitung ein Elektron vom Valenzband in das Leitungsband übergehen muss.
 	Dieser Abstand kann durch Oxidation oder Reduktion verkleinert werden. 
-	In Abb. \ref{thiophen} ist dies am Beispiel von thiophen gezeigt dabei sind die beiden dotierten Strukturen gezeigt.
-	Im laufe der Oxidation werden elektronen aus dem HOMO entnommen, im falle der Reduktion wird ein elektron in das LUMO aufgenommen.
-	Dabei entstehen Ladungen daher ist dieser voregang auch als charging bekannt.
+	In Abbildung \ref{thiophen} ist dies am Beispiel von Thiophen gezeigt, dabei sind die beiden dotierten Strukturen gezeigt.
+	Im laufe der Oxidation werden Elektronen aus dem HOMO entnommen, im falle der Reduktion wird ein elektron in das LUMO aufgenommen.
+	Dabei entstehen Ladungen, weshalb dieser Vorgang auch als charging bekannt ist.
 	
 		\begin{figure}[H]
 			\centering
 			\includegraphics[scale = 0.75]{Bilder/thiophen.png}
-			\caption{}
-			\label{}
+			\caption{Oxidation und Reduktion von Thiophen mit Änderung der Elektronischen Struktur. \cite{polyskript}}
+			\label{thiophen}
 		\end{figure}
 
-	Diese Elektronenabgabe bzw aufnahme kann auch einfluss auf die physischen eigenschaften nehmen wie zB. die Farbe.
-	Diese Materialien werden auch elektrochrom genannt. So ist Beispielsweise PDOT im oxidierten Zustand hellblau und wird nach reduktion dunkelblau. 
-	Dies lässt sich durch verkleinerung der Bandlücke erklären. Da jeweils immer die Komplementäre Wellenlänge aufgenommen wird ist die aufgenommene energie bei 
-	dunkelblau niedriger. Dementsprächend lässt sich eine verkleinereung der Bandlücke erklären. \\
+	Diese Elektronenabgabe bzw Aufnahme kann auch Einfluss auf die physischen Eigenschaften nehmen, wie zB. die Farbe.
+	Diese Materialien werden auch Elektrochrom genannt. So ist Beispielsweise PEDOT im oxidierten Zustand hellblau und wird nach reduktion dunkelblau. 
+	Dies lässt sich durch verkleinerung der Bandlücke erklären. Da jeweils immer die komplementärefarbe der absorbierten Wellenlänge zu erkennen ist, ist die aufgenommene Energie bei 
+	dunkelblau niedriger. Dementsprächend lässt sich eine Verkleinereung der Bandlücke erklären. \\
 
-	Das redoxverhalten der Stoffe wird bei der cyclovoltametrie ausgenutzt.
-	Hierbei wird im laufe des Experiments wird ein linearer Potentialdurchlauf mit konstanter Scanrate
-	(v) in einem bestimmten Potentialfenster durchgeführt. Am Ende des Potentialfensters (Eλ)
+	Das Redoxverhalten der Stoffe wird bei der Cyclovoltametrie ausgenutzt.
+	Hierbei wird im laufe des Experiments ein linearer Potentialdurchlauf mit konstanter Scanrate
+	($V$) in einem bestimmten Potentialfenster durchgeführt. Am Ende des Potentialfensters ($E\lambda$)
 	wird die Richtung des Durchlaufs umgekehrt und das Potential linear verringert (mit
-	derselben v), bis das Startpotential wieder erreicht ist. 
+	derselben Spannung $V$), bis das Startpotential wieder erreicht ist. 
 	Während dieses Potentialdurchlaufs wird der Strom aufgezeichnet und gegen das
 	angelegte Potential aufgetragen.
-	Die Messung selbst wird über ein drei Elektroden Aufbau ermitteltl. 
+	Die Messung selbst wird über ein drei Elektroden Aufbau ermittelt. 
 	Dabei ist eine der drei Elektroden die Arbeitselektrode, eine die Gegenelektrode und die dritte die Referenzelektrode.
-	Zu diesen Elektroden wird die redoxaktive Probe gegeben. 
-	Die Referenzelektrode dient hierbei um das Potential zu kontrollieren und um den Start des Potentials festzulegen.
+	Diese Elektroden werden dabei in eine Lösung mit der zu Untersuchen Substanz gegeben.
+	Die Referenzelektrode hat dabei den Nutzen das Potential zu kontrollieren und um den Start des Potentials festzulegen.
 	Dabei werden meist Standard Wasserstoff Elektroden (SHE) oder Silber/Silberchlord Elektroden verwendet.
-	In unserem Fall wurde eine Ferrocen/Ferrocenium Elektrode verwendet. 
+	Im Falle von organische Lösungsmitteln wird eine Ferrocen/Ferrocenium Elektrode verwendet, da die vorher genannten Elektroden nur in Wasser ein 
+	gleichbleibendes Potenzial besitzen. Ebenfalls muss das Potenzial der Ferrocen/Ferrocenium Elektrode vorerst gemessen werden, da diese je nach 
+	erhalt der Elektrode ein anderes Potential aufweist.
 	%Frage 5 fertig beantworten
 	Ein Potentiometer stellt dabei das Potential zwische Arbeits- und Gegenelektrode ein, sodass der Potentialunterschied $\Delta E$ dem eingestellten Wert entspricht.
 
 		\begin{figure}[H]
 			\centering
 			\includegraphics[scale = 0.75]{Bilder/DiagrammeCV.png}
-			\caption{}
+			\caption{Die Abbildung zeigt einmal die Spannungskurve (links) und die dazugehörige Stromstärke (rechts), die bei der angelegten Spannung $V$ detektiert wird. \cite{polyskript}}
 			\label{CV-Diagramme}
 		\end{figure}
 
 	
 \section{Durchführung}
 
-	Der Versuch wurde unter Stickstofatmosphäre durchgeführt. Und es wurde eine Pt Platte als Gegenelektrode verwendet.
-	Als Referenzelektrode wurde ein mit \ch{AgCl} überzogener Silberdraht verwendet. 
-	Als Arbeitselektrode wurde eine Glas überzogene ITO (Indium Tin Oxide) Elektrode verwendet.
-	Als Elektrolytlösung wurden \SI{5}{ml} einer 0.1 M \ch{NBu4PF6/MeCN} ( \ch{NBu4PF6}: M = \SI{387.43}{g/mol})-Losung verwendet.
+	Der Versuch wurde unter Stickstofatmosphäre durchgeführt. Als Elektroden wurde eine Platin-Platte als Gegenelektrode verwendet, 
+	eine Ferrocen/Ferrocenium Elektrode wurde als Referenzelektrode verwendet und 
+	als Arbeitselektrode wurde eine mit Glas überzogene ITO (Indium-Zinn-Oxid) Elektrode verwendet.
+	Als Elektrolytlösung wurden \SI{6}{ml} einer 0.1 M \ch{NBu4PF6/MeCN}-Losung verwendet. 
+	Für die Polymerisierung wurde zu der Elektrolytlösung EDOT hinzugegeben, sodass dessen Konzentration $c = \SI{0,2}{M}$ war.
+	Dann wurde eine Spannung von $\SI{-0,4}{V}$ angelegt und mit einer Potentialvorschubsgeschwindigkeit von $\SI{20}{\frac{mV}{s}}$ auf 
+	$\SI{1,5}{V}$ erhöht, bevor es dann wieder mit der selben Potentialvorschubsgeschwindigkeit auf $\SI{-1,0}{V}$ herabgesenkt wurde. Dieses 
+	Vorgehen wurde dreimal durchgeführt. \\
+	Für die Lage des HOMOs von P3HT wurde von keiner Spannung und einer Potentialvorschubsgeschwindigkeit von $\SI{20}{\frac{mV}{s}}$ auf 
+	$\SI{1,2}{V}$ erhöht und anschließend auf $\SI{-0,3}{V}$ herabgesenkt. Das wurde erneut dreimal durchgeführt. Für die Lage des LUMOs von 
+	P3HT wurde das gleiche Vorgehen verwendet, aber die maximale Spannung lag bei $\SI{0,4}{V}$ und die minimale bei $\SI{-2,1}{V}$.\\
+	Die Untersuchung der Elektrochromie von PEDOT wurde über alternierung der Potentiale $\SI{1,0}{V}$ und $\SI{-1,0}{V}$ durchgeführt. Die 
+	Die Zeit für die die Potentiale jeweils angelegt waren, waren $\SI{3}{s}$, $\SI{0,5}{s}$ und $\SI{0,3}{s}$.\\
+	Zum Schluss wurde zur Skallierung noch das Potential der Ferrocen/Ferrocenium Elektrode bestimmt, bei welcher die Potentialvorschubsgeschwindigkeit 
+	gleich blieb, aber die maximale Spannung bei $\SI{0,7}{V}$, die minimale Spannung bei $\SI{-0,2}{V}$ lag und die Zyklen fünfmal wiederholt 
+	wurden. Bei diesem Versuchsteil wurde ebenfalls die \ch{Ag/Ag^+}-Elektrode als Referenzelektrode gewählt und als Arbeitselektrode wurde eine 
+	Gold-Elektrode verwendet.
 	
 \section{Auswertug}
+
+	\subsection{Standardmessung der Ferrocen/Ferrocenium Elektrode}
+
 
 		
 
