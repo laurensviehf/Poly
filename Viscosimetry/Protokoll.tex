@@ -27,7 +27,7 @@
 \usepackage[font=small]{caption}
 %\usepackage[version=4]{mhchem}
 \usepackage[backend=biber, style=chem-angew]{biblatex}
-\addbibresource{Polyaddition_Polykond.bib}
+\addbibresource{Visc.bib}
 \usepackage{tabularx, booktabs, multirow}
 \usepackage[pdfborder={0 0 0}]{hyperref}
 \usepackage{scrlayer-scrpage}%Header für die KOMA-script -Klasse
@@ -107,12 +107,12 @@
 
 		In a flowing liquid the brutto-fluid-flowing-peed is reversed proporional to the viscosity. 
 		This is because at the wall of the pipe or flask there is a flowgradient. 
-		This gradient can be described by many different fast flowing layers also shown in Scheme \ref{rohr}.
+		This gradient can be described by many different fast flowing layers also shown in scheme \ref{rohr}.
 
 			\begin{figure}[H]
 				\centering
 				\includegraphics{Bilder/Rohr.png}
-				\caption{The picture shows a liquid flöowing through a pipe with the simplyfication of the fluid layers. $r$- is the capillaryradius and v is the flowspeed \cite{polyskript}}
+				\caption{The picture shows a liquid flöowing through a pipe with the simplyfication of the fluid layers. $r$- is the capillaryradius and v is the flowspeed. \cite{polyskript}}
 				\label{rohr}
 			\end{figure}
 
@@ -120,11 +120,11 @@
 		
 
 		Viscosity in polymers is influenced by 5 key factors.
-		The first being the chain lenght of the Polymer, the longer the chains the more viscouse the fluid gets.
-		This is due to the Intramolecular forces.\\
+		The first being the chain lenght of the polymer, the longer the chains the more viscouse the fluid gets.
+		This is due to the intramolecular forces.\\
 		The second influence is the chemical structure of the polymer, different functional groups mean different intermolecular forces.
-		For example if the side chain has a substituent which can make H-Bonds the viscosity gets higher.
-		In total it can be stated, the stronger the intramolecular forces the higher the viscosity.\\
+		For example if the side chain has a substituent which can make H-Bonds the viscosity gets lower.
+		In total it can be stated, the stronger the intramolecular forces the lower the viscosity.\\
 
 		The third one is the influence of the solvent. Because different solvents have different properties.
 		If the solvent is better the tangle gets more swallen and the viscosity gets higher.\\
@@ -132,9 +132,9 @@
 		The fourth is the influence of the concentration. This means with different concentration the viscosity changes.
 		This is due to higher concentration leads to more intermolecular forces which raises the viscosity.\\
 
-		The last but not least influence is the temperature. Because the viscosity changes with different temperatures because the movement of the molecules changes.
+		The last but not least influence is the temperature. The viscosity changes with different temperatures, because the movement of the molecules changes.
 		The temperature also destroys the intermolecular forces which leads to a less tangeled structure wich also leads to a less rigid polymer.
-		This results in a lower viscosity.\\
+		This results in a lower viscosity. \cite{polyskript}\\
 
 	\subsection{From viscosity to $M_\eta$}
 
@@ -165,7 +165,7 @@
 			\end{eqnarray}
 		
 		 
-		If equation \ref{viscosity} is taken into account $\eta_\text{sp}$ is changed to:
+		If equation \eqref{viscosity} is taken into account $\eta_\text{sp}$ is changed to:
 		
 			\begin{equation}
 				\eta_\text{sp} = \frac{t\rho - t_0\rho_0}{t_0\rho_0}
@@ -181,8 +181,8 @@
 
 	\newpage
 
-		To get the viscousmiddeled molecular Volume the Staudinger-index is used, and it is connected via the 
-		Marc-Howink-Equation.
+		To get the viscousmiddeled molecular volume the Staudinger-index is used, and it is connected via the 
+		Marc-Houwink-Equation.
 		
 			\begin{equation}
 				\label{ViskosiätsnummerundMolekulargewicht}
@@ -196,14 +196,14 @@
 			\end{equation}
 		
 
-		So by extrapolating the results $\eta_\text{red}$ can be determined and via this $[\eta]$ and from that $\bar{M_\eta}$ can be determined.
-		This is also used in our case in the experiment.
+		So by extrapolating $\eta_\text{red}$, $[\eta]$ can be determined and from that $\bar{M_\eta}$ can be determined. \cite{polyskript}
 
 
 \section{Experimental}
 
 		The five different polymer solutions were already prepared and ready to use. 
-		One pure Toluene solution and four polymer solutions with different concentrations.
+		One pure Toluene solution and four polymer solutions with different concentrations. 
+		The concentrations being \SI{1.25}{\frac{g}{l}}, \SI{2.5}{\frac{g}{l}}, \SI{5}{\frac{g}{l}} and \SI{10}{\frac{g}{l}}.
 		All of these five solutions were analyzed with a Viscosimeter.
 
 \section{Results}
@@ -229,25 +229,25 @@
 			\end{tabular}
 		\end{table}
 		
-		The transit time for the sample with a concentration of 0 is used as the standard time $t_0$. This results in a specific viscosity 
+		The transit time for the sample with a concentration of \SI{0}{\frac{g}{ml}} is used as the standard time $t_0$. This results in a specific viscosity 
 		of 
 		
 		\begin{equation*}
 			\eta_\text{sp} = \frac{\SI{24.986}{s} - \SI{23.374}{s}}{\SI{23.374}{s}} = 68.966 \cdot 10^{-3}
 		\end{equation*}
 		
-		for the sample with a concentration of $1.25 \cdot 10^{-3}$. The specific viscosity is then divided by the concentration $c$, yielding the 
+		for the sample with a concentration of $1.25 \cdot 10^{-3} \, \frac{g}{ml}$. The specific viscosity is then divided by the concentration $c$, yielding the 
 		reduced viscosity $\eta_\text{red}$. For the first sample, this results in a reduced viscosity of 
 		
 		\begin{equation*}
 			\eta_\text{red} = \frac{68.966 \cdot 10^{-3}}{1.25 \cdot 10^{-3} \, \frac{\text{g}}{\text{ml}}} = \SI{55.172}{\frac{ml}{g}} \text{.}
 		\end{equation*}
 
-		The specific and reduced viscosities for the other samples are listed in Table \ref{specificreduced}.
+		The specific and reduced viscosities for the other samples are listed in table \ref{specificreduced}.
 
 		\begin{table}[H]
 			\centering
-			\caption{Specific and reduced viscosity at different polymer concentrations.}
+			\caption{Specific and reduced viscosity at different polymer concentrations of polystyrene.}
 			\label{specificreduced}
 			\begin{tabular}{c|c|c}
 				\toprule
@@ -271,7 +271,7 @@
 				\label{reducedaufconcplot}
 			\end{figure}
 
-		If a concentration of 0 is substituted into the linear equation, only the y-intercept remains, which in itself yields a viscosity 
+		If a concentration of $\SI{0}{\frac{g}{ml}}$ is substituted into the linear equation, only the y-intercept remains, which in itself yields a viscosity 
 		number of $[\eta] = \SI{55.684}{\frac{ml}{g}}$.\\
 
 		This quantity is proportional to the viscosity-weighted molecular weight according to Equation \eqref{ViskosiätsnummerundMolekulargewicht}, 
@@ -297,34 +297,34 @@
 
 			In total it can be stated, all three of the given polymers have different properties.
 			Polystyrene is a neutral polymer and behaves like a statisticall tangle in a good solvent, the Staudinger-index
-			only is a referencevalue. The Polystyrene-lithium is a "living" anionic polymer with Lithium as a counter ion.
-			This Lithium-ion forms a polar Li-C-Bond in polar solvents, these are also called Units.
-			These Units have a direct influence on the Staudinger-Index, so the Index gets higher.
-			In the last case of the sulfonated Polystyrene is a bit mor komplex. 
-			PSS-Na is a Polyelectrolyte, therefore the \ch{SO3-} is distributed over the chain. 
-			A Uniqueness is if this Polymer is put in demineralized water the negative charges repel each other.
-			Therefore the polymer swells and the tangle gets bigger, the Staudinger index gets very high and is the highest from these three examples.
+			only is a referencevalue. The polystyrene-lithium is a living anionic polymer with lithium as a counter ion.
+			This lithium-ion forms a polar Li-C-bond in polar solvents, these are also called units.
+			These units have a direct influence on the Staudinger-Index, so the index gets higher.
+			In the last case of the sulfonated polystyrene is a bit more complex. 
+			PSS-Na is a polyelectrolyte, therefore the \ch{SO3-} is distributed over the chain. 
+			A uniqueness is if this polymer is put in demineralized water the negative charges repel each other.
+			Therefore the polymer swells and the tangle gets bigger, the Staudinger-Index gets very high and is the highest from these three examples.
 
 
 		\subsection{Question 2}
 
-			At a certain concentration point things like the intramolecular forces, the hydrodynamic interactions and the entanglements cannot longer be ignored.
-			This is because at low concentrations the dilution is assumed to be infinite, therefore the polymer molecule is "alone" and has no ineractions with other molecules.
+			At a certain concentration point, things like the intramolecular forces, the hydrodynamic interactions and the entanglements cannot longer be ignored.
+			This is because at low concentrations the dilution is assumed to be infinite, therefore the polymer molecule is alone and has no ineractions with other molecules.
 
 
 		\subsection{Question 3}
 
-			The biggest difference between these two viscometers is the third vent pipe at the Ubeholde viscosimeters.
+			The biggest difference between these two viscometers is the third vent pipe at the Ubeholde-viscosimeters.
 			This has the effect, that for the Ubeholde-viscometer the  of the sample is almost irrelevant.
 			It also helps to get a constant hydrostatic pressure. 
-			Therefore the use cases vary alot between those two. The Ostwald-voscometer is used for individual measurements and the Ubeholde-viscometer is used for dialation measurements.
+			Therefore the use cases vary alot between those two. The Ostwald-viscometer is used for individual measurements and the Ubeholde-viscometer is used for dialation measurements.
 
 
 		\subsection{Question 4}
 
-			The Staudinger-Index of the it-PMMA is higher because of the regulary orderd groups the molecule is sterically hindered. 
-			The at-PMMA has a random order therefore there is less sterically hindrence.
-			Another factor is the solvent because the it-PMMA is already more "swallen" the effect of the solvant is even stronger. 
+			The Staudinger-Index of the $it$-PMMA is higher because of the regulary ordered groups the molecule is sterically hindered. 
+			The $at$-PMMA has a random order, therefore there is less sterically hindrence.
+			Another factor is the solvent, because the $it$-PMMA is already more swallen, the effect of the solvant is even stronger. 
 
 
 		
