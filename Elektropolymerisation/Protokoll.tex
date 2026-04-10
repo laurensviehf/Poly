@@ -84,7 +84,7 @@
             E-Mail 2:      &st188157@stud.uni-stuttgart.de  \\
 			Student-ID 1: & 3676761   \\ 
             Student-ID 2: & 3711192 \\ \\
-			Assistentin:  &   \\ \\ 
+			Assistentin:  & Xiuming Sun  \\ \\ 
 		\end{tabular}
 	\end{center}
 
@@ -182,8 +182,8 @@
 
 	\subsection{Standardmessung der Ferrocen/Ferrocenium Elektrode}
 
-		Das Elektrische Potential kann nicht vollständig abgegeben werden, weswegen innerhalb des ersten Versuchsteil ein Standardpotential festgelegt wurde.
-		Dabei wurde eine Ferrocen/Ferrocenium (Fe/Fef$^+$) elektrode verwendet mit einer Ag-Elektrode als Gegenelektrode.
+		Das elektrische Potential kann nicht vollständig abgegeben werden, weswegen innerhalb des ersten Versuchsteil ein Standardpotential festgelegt wurde.
+		Dabei wurde eine Ferrocen/Ferrocenium (Fc/Fc$^+$) Elektrode verwendet mit einer Ag-Elektrode als Gegenelektrode.
 		Das aufgenommene CV ist in Abbildung \ref{CV-Fe} aufgezeigt.
 			\begin{figure}[H]
 				\centering
@@ -194,72 +194,89 @@
 			\end{figure}
 
 		Die gestrichelten Linien markieren dabei das Minimum sowie das Maximum welche das Ox.- bzw Red.-Potential darstellen.
-		werden diese beiden subtrahiert erhält man den $E_{1/2}$ Wert. Welcher in den Folgenden Versuchen als Standardpotential verwendet werden kann.
-		Dabe wird nach folgender Gleichung vorgegangen.
+		werden diese beiden Werte gemittelt, erhält man den $E_{1/2}$ Wert. Welcher das Standardpotential der Elektrode darstellt und in den 
+		folgenden Versuchen benötigt wird.
+		Der Mittelwert der sich bei diesen Werten bildete, lag bei
 
 			\begin{eqnarray*}
 				E_{1/2} =& \frac{E_\text{max} + E_\text{min}}{2}\\
 				=& \frac{\SI{0,483}{V} + \SI{0,393}{V}}{2} \\
-				=& \SI{0,438}{V}
+				=& \SI{0,438}{V} \text{.}
 			\end{eqnarray*}
 
 			
 	\subsection{Elektropolymerisation von EDOT}	
 
-		Der folgende Graph \ref{EDOT} zeigt das CV einer Polymerisation von EDOT zu PEDOT.
-		Durch analysieren des Graphen werden nicht nur die drei Oxidationspeaks rechts erkennbar sonder auch ein kleiner Peak im Bereich von $\SI{0,7}{V}$ zu erkennen.
-		Welche vorallem im dritten zyklus deutlich wird.
+		Der folgende Graph \ref{EDOT} zeigt das CV-Diagramm der Polymerisation von EDOT.
+		Durch analysieren des Graphen werden nicht nur die drei Oxidationspeaks rechts erkennbar, sondern auch ein kleiner Peak im Bereich von $\SI{-0,7}{V}$ zu erkennen.
+		Welcher vorallem im dritten zyklus deutlich wird.
 		Dieser lässt sich durch bereits vorhandenes PEDOT erklären welches oxidiert wird. 
-		Dabei ist wichtig, dass PEDOT ein geringeres Oxidationspotential hat und daher weiter links kommt.  
+		Dabei ist wichtig, dass PEDOT ein geringeres Oxidationspotential hat und daher leicht oxidiert werden kann.  
 			
 			\begin{figure}[H]
 				\centering
 				\includegraphics[scale = 0.5]{Bilder/EDOT.png}
-				\caption{}
+				\caption{Zu erkennen ist das CV-Diagramm, welches das Oxidationsverhalten während der Elektropolymerisation von EDOT zeigt.}
 				\label{EDOT}
 			\end{figure}
 \newpage
-		In folgender Abbildung \ref{EDOT-Mechanismus} ist der Mechanismus dieser PEDOT Polymerisation aufgezeigt. 
+		In der folgenden Abbildung \ref{EDOT-Mechanismus} ist der Mechanismus dieser PEDOT Polymerisation aufgezeigt. 
 		Bei diesem findet eine Bildung eines Radikals statt welches, in diesem Fall, mit einer identischen spezies Rekombiniert.
-		Anschlißend findet eine Abgabe von Protonen statt welche eine rearomatisierung zufolge hat.
+		Anschließend findet eine Abgabe von Protonen statt, welche eine rearomatisierung zufolge hat.
 
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width = \textwidth]{chemDraw/EDOT.png}
-				\caption{DIe Abbildung zeigt den Mechanismus der Polymerisation von EDOT zu PEDOT.}
+				\caption{Die Abbildung zeigt den Mechanismus der Polymerisation von EDOT zu PEDOT.}
 				\label{EDOT-Mechanismus}
 			\end{figure}
 		
 
 	\subsection{Bestimmung der HOMO- und LUMO-Niveaus}
 
-		Ziel war es hier die elektrochemische Bandlücke zwischen HOMO und LUMO zu bestimmen.
-		Dafür musste zunächst die jeweiligen Energien benötigt. Diese wurden über Cyclovoltametrie bestimmt.
-		Diese CV sind in Abb. \ref{CV-P3HT} zu sehen, dabei ist die Oxidation oben und die Reduktion unten.
-		Jeweils darüber lässt sich die Energie des HOMO (Oxidation) und die des LUMO (Reduktion) bestimmen.
+		Ziel war es hier die energetische Bandlücke zwischen dem HOMO und LUMO zu bestimmen.
+		Dafür wurden zunächst die jeweiligen Onset-Potentiale benötigt, welche über die Cyclovoltametrie bestimmt wurden.
+		Diese CV-Diagramme sind in Abbildung \ref{CV-P3HT} zu sehen, dabei ist die Oxidation oben und die Reduktion unten.
+		Jeweils darüber lässt sich die Energie des HOMO (Oxidation) und die des LUMO (Reduktion) bestimmen. 
+		Wichtig anzumerken ist, dass bei Polymere kein Halbwertspotential bestimmt werden kann, da diese keine expliziten Kettenlängen besitzen. 
+		Denn bei längeren koordinierten $\pi$-Systemen ist der HOMO-LUMO-Abstand kleiner und kann leichter oxidiert werden. Daher wird das 
+		Onset-Potential bestimmt, welches die mindest Spannung beschreibt, die aufzuwenden ist um das Polymer zu oxidieren/reduzieren.
+
 		
 			\begin{figure}[H]
 				\centering
 				\includegraphics[scale = 0.5]{Bilder/P3HT_HOMO_LUMO_Separate.png}
-				\caption{}
-				\label{}
+				\caption{Zu erkennen sind CV-Diagramme von P3HT, der Reduktion (unten) und Oxidation (oben) für jeweils drei Zyklen.}
+				\label{CV-P3HT}
 			\end{figure}
 
-		
+		Zur Bestimmung der Onset-Potentiale wird einmal die Baseline verlängert und eine Tangente an den Wendepunkt des ersten Signals gelegt. Dieses 
+		Vorgehen ist in Abbildung \ref{CV-P3HT-HOMOLUMO} zu erkennen.
 
 			\begin{figure}[H]
 				\centering
-				\includegraphics[scale = 0.5]{Bilder/P3HT_Full_Onsets.png}
-				\caption{}
-				\label{}
+				\includegraphics[scale = 0.5]{Bilder/P3HT_Tangents.png}
+				\caption{Zu erkennen sind die Tangenten zur ermittlung des HOMO und LUMO niveaus von P3HT. Ermittelt wurde diese aus dem dritten Oxidations- und Reduktionszyklus.}
+				\label{CV-P3HT-HOMOLUMO}
 			\end{figure}
 
+		Nach dieser Methode ergab sich ein Oxidations-Onset-Potential von P3HT von $\SI{0,12}{V}$ und ein Reduktions-Onset-Potential von $\SI{-1,63}{V}$. 
+		Da das Potential der Fc/Fc$^+$ Elektrode schon in der Achse verrechnet wurde, beschreibt das Onset-Potential der Oxidation die energetische 
+		Lage des HOMOs mit $\SI{-0,12}{eV}$ und das Onset-Potential der Reduktion die energetische Lage des LUMOs mit $\SI{1,63}{eV}$. Die 
+		Energiedifferenz dieser beiden Werte liegt dabei bei 
+
+		\begin{equation*}
+			band \, gap = |\SI{-0,12}{eV} - \SI{1,63}{eV}| = \SI{1,75}{eV}
+		\end{equation*}
+
+		und beschreibt den HOMO-LUMO-Abstand.
 
 	\subsection{Elektrochrome Eigenschaften von PEDOT}
 
-		Die foilgenden drei Abbildungen zeigen die Stromstäke aufgetragen auf die Zeit für die unterschiedlichen Umkehrintervalle bei der Elektrochromie des PEDOTS.
+		Die folgenden drei Abbildungen zeigen die Stromstäke aufgetragen auf die Zeit für die unterschiedlichen Umkehrzeitintervalle der Untersuchung der
+		Elektrochromie des PEDOTS.
 		Es konnte bei allen drei ein Farbwechsel festgestellt werden.
-		Die spanne der unterschiedlichen verfärbungen wären immer ähnlich lang wie die des Intervalls.
+		Die Spanne der unterschiedlichen Verfärbungen waren immer ähnlich lang wie die des Intervalls.
 		Es wird unteranderem deutlich, dass bei verlängern des Intervalls die Stromstärke eher wieder auf die $\SI{0}{A}$ absinkt. 
 		Was durch eine vollständigere Reduktion des PEDOT erklären lässt.
 		So wird bei der Messung von \SI{0.3}{s} und \SI{0.5}{s} (Abbildung \ref{0.3} und Abbildung \ref{0.5}) schon vor dem erreichen von $\SI{0}{A}$ Umgepolt.
@@ -268,21 +285,21 @@
 			\begin{figure}[H]
 				\centering
 				\includegraphics[scale = 0.5]{Bilder/Electrochromism_0_3s.png}
-				\caption{}
+				\caption{Die Abbildung zeigt die zeitlich veränderliche Stromstärke von PEDOT mit einer Spannungsänderungsfrequenz von \SI{0,3}{s}.}
 				\label{0.3}
 			\end{figure}
 
 			\begin{figure}[H]
 				\centering
 				\includegraphics[scale = 0.5]{Bilder/Electrochromism_0_5s.png}
-				\caption{}
+				\caption{Die Abbildung zeigt die zeitlich veränderliche Stromstärke von PEDOT mit einer Spannungsänderungsfrequenz von \SI{0,5}{s}.}
 				\label{0.5}
 			\end{figure}
 
 			\begin{figure}[H]
 				\centering
 				\includegraphics[scale = 0.5]{Bilder/Electrochromism_3s.png}
-				\caption{}
+				\caption{Die Abbildung zeigt die zeitlich veränderliche Stromstärke von PEDOT mit einer Spannungsänderungsfrequenz von \SI{3}{s}.}
 				\label{3}
 			\end{figure}
 
