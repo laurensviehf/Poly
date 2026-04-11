@@ -214,11 +214,11 @@
 		über
 
 		\begin{equation}
-			X = 1 - I_{\text{olefin}}
+			X = \frac{\frac{I_\text{Poly}}{H}}{\frac{I_\text{Poly}}{H} + \frac{I_\text{Mono}}{H}}
 		\end{equation}
 
 		berechnen lässt. Mit den Integralen der Signale bei ungefähr $\delta = \SI{5,1}{ppm}$ und $\delta = \SI{5,7}{ppm}$ ermittelt sich für 
-		diese Probe ein Umsatz von $X = 0,6$. \\\\
+		diese Probe ein Umsatz von $X = 0,79$. \\\\
 
 		Das theoretische Molekulargewicht der Probe lässt sich über die Gleichung \eqref{Molekulargewicht} berechnen. Mit einem Umsatz von $X = 0,6$, 
 		einer Monomer Anfangskonzentration von $[\text{M}]_0 = \SI{30,437}{mmol}$, einer CTA Anfangskonzentration von $[\text{CTA}]_0 = \SI{0,125}{mmol}$ 
@@ -226,7 +226,7 @@
 		theoretisches Molekulargewicht von
 
 		\begin{equation*}
-			M_\text{n,Calc} = \bigl(0,6 \cdot \frac{\SI{30,437}{mmol}}{\SI{0,125}{mmol}} \cdot \SI{104,15}{\frac{g}{mol}}\bigr) + \SI{364,63}{\frac{g}{mol}} = \SI{15580,70}{\frac{g}{mol}} \text{.}
+			M_\text{n,Calc} = \bigl(0,79 \cdot \frac{\SI{30,437}{mmol}}{\SI{0,125}{mmol}} \cdot \SI{104,15}{\frac{g}{mol}}\bigr) + \SI{364,63}{\frac{g}{mol}} = \SI{20452,37}{\frac{g}{mol}} \text{.}
 		\end{equation*}
 
 		Nach der Fällung in Methanol wurde das Polymer erneut über NMR-Spektroskopie analysiert. Dieses Spektrum ist in Abbildung \ref{PSRAFTNMR2} aufgeführt.
@@ -266,7 +266,7 @@
 		\end{figure}
 		
 		Hierbei wurden ebenfalls die Integrale bestimmt und mit den Integralen der olefinischen Signalen aus der Abbildung \ref{PSNMR} verglichen. Mit den Integralen der 
-		Signale bei ungefähr $\delta = \SI{5,1}{ppm}$ und $\delta = \SI{5,7}{ppm}$ ermittelt sich für diese Probe ein Umsatz von $X = 0,74$. \\\\
+		Signale bei ungefähr $\delta = \SI{5,1}{ppm}$ und $\delta = \SI{5,7}{ppm}$ ermittelt sich für diese Probe ein Umsatz von $X = 0,86$. \\\\
 
 		Nach der Fällung in Methanol wurde das Polymer erneut über NMR-Spektroskopie analysiert. Dieses Spektrum ist in Abbildung \ref{PSFRNMR2} aufgeführt.
 
@@ -324,9 +324,10 @@
 		Mit Integralen von eins sind Signale bei $\SI{5,5}{ppm}$ und $\SI{6,1}{ppm}$ den olefinischen Protonen am Methylmethacrylat zuzuordnen. Das Signal bei $\SI{3,75}{ppm}$
 		und einem Integral von drei ist der Methoxygruppe zuzuorden und das letzte Integral der Methylgruppe. Die beiden Signale im Hochfeld bleiben dabei konstant, 
 		womit die Signale im olefinischen für die Umsatzrechnung benutzt werden.\\
-		Im Spektrum der Probe sind die Signale im olefinischen mit ähnlicher Verschiebung zu erkennen. Hinzu kommen allerdings die Signale des Styrols und das Signal bei 
-		$\SI{2,5}{ppm}$ mit einem Integral von $I_\text{poly} = 2,27$, welches die Methylengruppen der Polymerkette darstellen. Mit diesen Informationen erfolgt ein Umsatz 
-		von 
+		Im Spektrum der Probe sind die Signale im olefinischen mit ähnlicher Verschiebung zu erkennen. 
+		Hinzu kommen allerdings die Signale des Styrols und das Signal bei 
+		$\SI{2,5}{ppm}$ mit einem Integral von $I_\text{poly} = 2,27$, welches der Methylengruppe des Toluols darstellen. 
+		Mit diesen Informationen erfolgt ein Umsatz von 
 
 		\begin{equation*}
 			X = \frac{\frac{0,35}{3}}{\frac{0,35}{3} + \frac{0,21}{1} + \frac{0,22}{1}} = 0,21 \text{,}
@@ -384,11 +385,14 @@
 			\label{PScoMMAFRNMR1}
 		\end{figure}
 
-		Hier werden für die Umsatzrechnung die Signale bei $\SI{5,6}{ppm}$, $\SI{5,8}{ppm}$ und $\SI{3,2}{ppm}$ verwendet. Die Integrale sind dabei $I_\text{poly} = 0,35$,
-		$I_\text{Mono,1} = 0,14$ und $I_\text{Mono,2} = 0,14$. Damit ergibt sich ein Umsatz von 
+		Hier werden für die Umsatzrechnung die Signale bei $\SI{5,6}{ppm}$, $\SI{5,8}{ppm}$ und $\SI{3,2}{ppm}$ verwendet. 
+		Die Integrale sind dabei $I_\text{poly} = 3,30$,
+		$I_\text{Mono,1} = 1,37$ und $I_\text{Mono,2} = 1,26$. 
+		Hierbei wurde für das MMA die Protonen der Methylguppe am Backbone genommen und für das Styrol wieder das einzelen Proton am Backbone.	
+		Damit ergibt sich ein Umsatz von 
 
 		\begin{equation*}
-			X = \frac{\frac{0,35}{3}}{\frac{0,35}{3} + \frac{0,14}{1} + \frac{0,14}{1}} = 0,29 \text{.}
+			X = \frac{\frac{3,30}{3}}{\frac{3,30}{3} + \frac{1,37}{1} + \frac{1,26}{1}} = 0,29 \text{.}
 		\end{equation*}
 
 		Das nachfolgende Spektrum zeigt das NMR-Spektrum von der Polystyrol-$co$-Polymethylmethacrylatprobe nach der Fällung.
@@ -408,7 +412,19 @@
 \subsection{Vergleich RAFT und freie radikalische Polymerisation}
 
 		Der offensichtlichste Unterschied zwischen freier radikalischer Polymerisation und RAFT befindet sich im Umsatz. Denn bei sowohl dem Polystyrol und dem Copolymer 
-		sind die Umsätze bei gleicher Zeit für die freie radikalische Polymerisation größer. 
+		sind die Umsätze bei gleicher Zeit für die freie radikalische Polymerisation größer.
+
+		Die Ausbeuten konnten durch die oben genannten eingesetzten Mengen und die Auswagen berechnetr werden.
+
+			\begin{eqnarray}
+				A =& \frac{m_\text{P}}{m_\text{E}}\cdot 100\%\\
+				A_\text{RAFT,PS} =& 4,86\%\\
+				A_\text{Freie,PS} =& 35,13\%\\
+				A_\text{RAFT,CoPo} =& 2,60\%\\
+				A_\text{Freie,CoPo} =& 28,92\%			
+			\end{eqnarray}
+
+		Diese großen unterschiede in der Ausbeute werden auch in den jeweiligen molaren Massen deutlich. 
 
 
 \section{Durchführung}
@@ -419,27 +435,27 @@
 
 		In ein $\SI{20}{ml}$ Probengläschen wurden Styrol ($\SI{3,5}{mL}$, $\SI{30,437}{mmol}$), Azobis-isobutyronitril (AIBN) ($\SI{5,4}{mg}$, $\SI{0,033}{mmol}$), 
 		2-(Dodecylthiocarbonothioylthio)-2-methylpropionsäure (CTA) ($\SI{45,5}{mg}$, $\SI{0,125}{mmol}$) und Toluol ($\SI{5}{mL}$) vorgelegt. Das Probengläschen wurde 
-		anschließend 20 Minuten mit Stickstoff gespült und für 4,5 Stunden bei 70 $\celsius$ gerührt. Dann wurde die Reaktionslösung abgekühlt, in Methanol gefällt, 
-		woraufhin der Feststoff abzentrifugiert wurde und im Vakuumtrockenschrank getrocknet wurde.
+		anschließend 20 Minuten mit Argon gespült und für 4,5 Stunden bei 70 $\celsius$ gerührt. Dann wurde die Reaktionslösung abgekühlt, in Methanol gefällt, 
+		woraufhin der Feststoff  wurde und im Vakuumtrockenschrank getrocknet wurde.
 
 	\subsection{Polystyrol über freie radikalische Polymerisation}
 
 		In ein $\SI{20}{ml}$ Probengläschen wurden Styrol ($\SI{3,5}{mL}$, $\SI{30,437}{mmol}$), AIBN ($\SI{62,2}{mg}$, $\SI{0,379}{mmol}$) und Toluol ($\SI{5}{mL}$) 
-		vorgelegt. Das Probengläschen wurde anschließend 20 Minuten mit Stickstoff gespült und für 4,5 Stunden bei 70 $\celsius$ gerührt. Dann wurde die Reaktionslösung 
-		abgekühlt, in Methanol gefällt, woraufhin der Feststoff abzentrifugiert wurde und im Vakuumtrockenschrank getrocknet wurde.
+		vorgelegt. Das Probengläschen wurde anschließend 20 Minuten mit Argon gespült und für 4,5 Stunden bei 70 $\celsius$ gerührt. Dann wurde die Reaktionslösung 
+		abgekühlt, in Methanol gefällt, woraufhin der Feststoff abfiltriert wurde wurde und im Vakuumtrockenschrank getrocknet wurde.
 	
 	\subsection{Polystyrol-$co$-Polymethylmethacrylat über RAFT}
 
 		In ein $\SI{20}{ml}$ Probengläschen wurden Styrol ($\SI{1,75}{mL}$, $\SI{15,266}{mmol}$), Methylmethacrylat ($\SI{1,6}{mL}$, $\SI{15,09}{mmol}$) AIBN ($\SI{7,0}{mg}$, $\SI{0,043}{mmol}$), 
 		CTA ($\SI{44,2}{mg}$, $\SI{0,121}{mmol}$) und Toluol ($\SI{5}{mL}$) vorgelegt. Das Probengläschen wurde 
-		anschließend 20 Minuten mit Stickstoff gespült und für 4,5 Stunden bei 70 $\celsius$ gerührt. Dann wurde die Reaktionslösung abgekühlt, in Methanol gefällt, 
+		anschließend 20 Minuten mit Argon gespült und für 4,5 Stunden bei 70 $\celsius$ gerührt. Dann wurde die Reaktionslösung abgekühlt, in Methanol gefällt, 
 		woraufhin der Feststoff abzentrifugiert wurde und im Vakuumtrockenschrank getrocknet wurde.
 
 	\subsection{Polystyrol-$co$-Polymethylmethacrylat über freie radikalische Polymerisation}
 
 		In ein $\SI{20}{ml}$ Probengläschen wurden Styrol ($\SI{1,75}{mL}$, $\SI{15,266}{mmol}$), Methylmethacrylat ($\SI{1,6}{mL}$, $\SI{15,09}{mmol}$) AIBN ($\SI{64,6}{mg}$, $\SI{0,393}{mmol}$) 
 		und Toluol ($\SI{5}{mL}$) vorgelegt. Das Probengläschen wurde 
-		anschließend 20 Minuten mit Stickstoff gespült und für 4,5 Stunden bei 70 $\celsius$ gerührt. Dann wurde die Reaktionslösung abgekühlt, in Methanol gefällt, 
+		anschließend 20 Minuten mit Argon gespült und für 4,5 Stunden bei 70 $\celsius$ gerührt. Dann wurde die Reaktionslösung abgekühlt, in Methanol gefällt, 
 		woraufhin der Feststoff abzentrifugiert wurde und im Vakuumtrockenschrank getrocknet wurde.
 	
 \section{Fragen}
