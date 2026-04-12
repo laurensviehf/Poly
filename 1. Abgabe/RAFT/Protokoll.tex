@@ -201,7 +201,7 @@
 		\begin{figure}[H]
 			\centering
 			\includegraphics[scale = 0.5]{NMR/hStyrol_CDCl3.1.fid.pdf}
-			\caption{NMR-Spektrum der Polystyrolprobe nach der Fällung.}
+			\caption{NMR-Spektrum von Styrol.}
 			\label{PSNMR}
 		\end{figure}
 		
@@ -217,7 +217,7 @@
 			X = \frac{\frac{I_\text{Poly}}{H}}{\frac{I_\text{Poly}}{H} + \frac{I_\text{Mono}}{H}}
 		\end{equation}
 
-		berechnen lässt. Mit den Integralen der Signale bei ungefähr $\delta = \SI{5,1}{ppm}$ und $\delta = \SI{5,7}{ppm}$ ermittelt sich für 
+		berechnen lässt. Mit den Integralen der Signale bei ungefähr $\delta = \SI{2,7}{ppm}$ und $\delta = \SI{5,7}{ppm}$ ermittelt sich für 
 		diese Probe ein Umsatz von $X = 0,79$. \\\\
 
 		Das theoretische Molekulargewicht der Probe lässt sich über die Gleichung \eqref{Molekulargewicht} berechnen. Mit einem Umsatz von $X = 0,6$, 
@@ -234,13 +234,17 @@
 		\begin{figure}[H]
 			\centering
 			\includegraphics[scale = 0.5]{NMR/hGR2_1.1.1.fid(clean).pdf}
-			\caption{NMR-Spektrum der Polystyrolprobe vor der Fällung.}
+			\caption{NMR-Spektrum der Polystyrolprobe nach der Fällung.}
 			\label{PSRAFTNMR2}
 		\end{figure}
 
-		Zu erkennen sind einige Signale, manche Schärfer, manche mit hoher Halbwertsbreite. Die definierten Signale sind dabei den Monomeren zuzuorden und die breiten dem Polymer.
-		So sind im bereich von ungefähr $6,5 - \SI{7,2}{ppm}$ die Signale der aromatischen Protonen. Bei $\SI{1,85}{ppm}$ befindet sich das Proton am terziären Kohlenstoff mit dem 
-		Phenylliganden und bei $\SI{1,43}{ppm}$ ist das Signal der Methylengruppe des Polymers.
+		Zu erkennen sind einige Signale, manche Schärfer, manche mit hoher Halbwertsbreite. Die definierten Signale sind dabei kleinen Oligomeren zuzuorden und die breiten dem Polymer.
+		So sind im Bereich von ungefähr $6,5 - \SI{7,2}{ppm}$ die Signale der aromatischen Protonen. Bei $\SI{1,85}{ppm}$ befindet sich das Proton am terziären Kohlenstoff mit dem 
+		Phenylliganden und bei $\SI{1,43}{ppm}$ ist das Signal der Methylengruppe des Polymers. \\
+		In dem Spektrum sind keine olefinischen Signale des Styrols zu erkennen, welche zwischen 5 und $\SI{6}{ppm}$ erscheinen würden. Dazu ist ebenfalls nicht 
+		die Methylgruppe des Lösungsmittel Toluol zu erkennen, welcher bei ungefähr $\SI{2,36}{ppm}$ erscheinen sollte. Somit ist das vorliegende 
+		Polymer trocken und nur kleinere Oligomere sind in dem Polymer vorhanden. 
+
 
 
 
@@ -277,8 +281,11 @@
 			\label{PSFRNMR2}
 		\end{figure}
 
-		Dieses Spektrum zeigt ähnliche Verschiebungen und Integrale wie das Spektrum zum Polystyrol über RAFT in Abbildung \ref{PSRAFTNMR2}. Allerdings sind noch Signale 
-		vom reinen Styrol zu erkennen, welche im Spektrum des Polystyrols über RAFT nicht zu erkennen sind. 
+		Dieses Spektrum zeigt ähnliche Verschiebungen und Integrale wie das Spektrum zum Polystyrol über RAFT in Abbildung \ref{PSRAFTNMR2}. 
+		Allerdings sind noch Signale vom reinen Styrol zu erkennen, welche im Spektrum des Polystyrols über RAFT nicht zu erkennen sind. Das kann 
+		daran liegen, dass die freie radikalische Polymerisierung einen niedrigeren Umsatz besitzt und ebenfalls einen höheren PDI aufweist. Dazu können 
+		die Ketten mit dem Monomer Wechselwirken und dieses hindern zu verdampfen. Des weiteren ist das Produktgemisch nicht trocken, da bei ungefähr 
+		$\SI{2,4}{ppm}$ ein Singulett liegt, welches der Methylgruppe von Toluol zugeordnet werden kann.
 
 
 
@@ -335,9 +342,10 @@
 
 		welcher zu einem Molekulargewicht von 
 
-		\begin{equation*}
-			M_\text{n,Calc} = \left( 0,21 \cdot \frac{\SI{30,437}{mmol} + \SI{15,089}{mmol}}{\SI{0,121}{mmol}} \cdot (\SI{104,15}{\frac{g}{mol}} + \SI{100,11}{\frac{g}{mol}})\right) + \SI{364,63}{\frac{g}{mol}} = \SI{16503,63}{\frac{g}{mol}}
-		\end{equation*}
+		\begin{align*}
+			M_\text{n,Calc} &= \left( 0,21 \cdot \frac{\SI{30,437}{mmol} + \SI{15,089}{mmol}}{\SI{0,121}{mmol}} \cdot (\SI{104,15}{\frac{g}{mol}} + \SI{100,11}{\frac{g}{mol}})\right) + \SI{364,63}{\frac{g}{mol}} \\
+			&= \SI{16503,63}{\frac{g}{mol}}
+		\end{align*}
 
 		führt. \\\\
 		%Das Integral bei einer Verschiebung von $\SI{3,75}{ppm}$ aus der Abbildung \ref{PSFRNMR1} wird zu 3,1 normiert, wodurch sich ein Umrechenfaktor von 
@@ -364,7 +372,9 @@
 		Die restlichen Signale weisen eine geringere Intensität aber hohe Halbwertsbreite auf, womit sie den Polymeren zuzuordnen sind. 
 		Bei ungefähr $\SI{7}{ppm}$ befinden sich die Signale der aromatischen Protonen mit einem Integral von fünf. Bei einer Verschiebung von 3 bis $\SI{3,5}{ppm}$ befindet sich die 
 		Methoxygruppe des Methylmethacrylats mit einem Integral von drei. Die restlichen Methylgruppen, Methylengruppen und benzylischen Protonen befinden sich im Signal von 1,4 bis $\SI{2}{ppm}$ mit dem Integral von acht.
-
+		Wie bei der Synthese von Polystyrol über RAFT sind hier ebenfalls keine Lösungsmittel oder Monomer Signale zu erkennen, wodurch dieses Produkt 
+		einigermaßen Sauber sein sollte.
+		
 	\subsection{Polystyrol-$co$-Polymethylmethacrylat über freie radikalische Polymerisation}
 
 		Die Synthese von Polystyrol-$co$-Polymethylmethacrylat über RAFT erfolgte über die Reaktionsgleichung in Abbildung \ref{PolystyrolRKT-FR}.
