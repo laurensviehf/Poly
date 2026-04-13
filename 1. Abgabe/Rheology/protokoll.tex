@@ -152,8 +152,8 @@
 	\subsection{Behaviour of matter}
 		
 		\subsubsection{Elastic}
-			The elastic behaviour of a polymer can be compared to that of a rubber band or a spring. When a force is applied, causing deformation or shear stress, 
-			the polymer responds by undergoing shear or deformation, and returns to it's original state once the force is removed. \cite{polyskript}
+			The elastic behaviour of a material can be compared to that of a rubber band or a spring. When a force is applied, causing deformation or shear stress, 
+			the material responds by undergoing shear or deformation, and returns to its original state once the force is removed. \cite{polyskript}
 		\subsubsection{Viscous}
 			In the case of viscous behaviour, the material deforms continuously when a force is applied and retains its deformation once the force is removed. \cite{polyskript}
 		\subsubsection{Plastic}
@@ -163,9 +163,9 @@
 			Most materials exhibit viscoelastic behaviour, which describes a combination of elastic and viscous behaviour. When a stress is applied, the material will 
 			deform elastically and then continue to deform under further shear stress. If this stress is removed, the deformation is partially reversed, but a slight 
 			deformation remains. This residual deformation depends on whether the material exhibits more elastic or viscous behaviour. \\
-		\subsubsection{Thixotropy and Rheopecty}
+		\subsubsection{Thixotropy and Rheopexy}
 			If the rate of deformation is specified and the viscosity is measured over time, the material may behave differently. In this case, the material may exhibit 
-			time-dependent viscosity. If the viscosity of the material decreases under load and returns to its initial viscosity once the load is removed, this is referred 
+			time-dependent viscosity. If the viscosity of the material decreases under load, it takes time to return to its initial viscosity once the load is removed, this is referred 
 			to as thixotropy. If the initial viscosity is never reached, this is referred to as non-thixotropic behaviour. The viscosity may also increase under load, 
 			in which case the term rheopexy is generally used.
 	
@@ -174,12 +174,12 @@
 		geometry, the rate of deformation of the material depends on the radius. For this reason, the upper plate is often replaced by a slightly conical plate. This 
 		conical plate can then be rotated or oscillated. During rotation, the conical plate can be rotated at different speeds, with either the strain rate or the 
 		stress being applied. This allows the viscosity, strain rate and shear stress to be determined. During oscillation, the stress or strain is again applied, and the 
-		other quantity is thereby determined Furthermore, the cone plate is oscillated only up to a certain deflection and at a specific frequency. This is used to 
+		other quantity (strain or stress) is thereby determined. Furthermore, the cone plate is oscillated only up to a certain deflection and at a specific frequency. This is used to 
 		measure the complex viscosity η, the viscoelasticity and, at the same time, the extent to which the material is more viscous or elastic. The entire process is 
 		determined by varying the deflection and subsequently selecting the frequency, and follows the equations below.\\
 	
 	\subsection{Complex parameters of oscillation}
-		When determining the behaviour of the material, a stress or a strain is first specified. In oscillation measurements, the complex strain is given as a+b
+		When determining the behaviour of the material, a stress or a strain is first specified. In oscillation measurements, the complex strain is given as 
 		\begin{equation}
 			\gamma^* = \gamma_0 \cdot \exp(\text{i} \cdot \omega \cdot t) \text{.}
 		\end{equation}
@@ -187,9 +187,10 @@
 		\begin{equation}
 			\tau^* = \tau_0 \cdot \exp(\text{i} \cdot \omega \cdot t + \delta) \text{.}
 		\end{equation}
-		Here, $\gamma_0$ and $\tau_0$ describe the amplitude of the oscillation, $\omega$ the frequency, and $\delta$ the behaviour of the material. If $\delta$ takes the 
-		value 0, the material behaves elastically; a value of $\frac{\pi}{2}$ corresponds to viscous behaviour, and anything in between corresponds to viscoelastic 
-		behaviour.\\
+		Here, $\gamma_0$ and $\tau_0$ describe the amplitude of the oscillation for the strain and stress, $\omega$ the frequency, and $\delta$ 
+		describes the phase shift between the two quantities in the time domain and, at certain values, characterizes the material. If $\delta$ 
+		takes the value 0, the material behaves elastically; a value of $\frac{\pi}{2}$ corresponds to viscous behaviour, and anything in between 
+		corresponds to viscoelastic behaviour.\\
 		The quotient of shear stress and strain describes the complex modulus, which is expressed as a complex number
 		\begin{equation}
 			G^* = \frac{\tau^*}{\gamma^*} = G^{'} + \text{i} \cdot G^{''}
@@ -209,18 +210,22 @@
 		If the calculation yields a number less than 1, the elastic behaviour dominates; conversely, the viscous behaviour dominates.\\
 		In addition, the complex viscosity, which is given as
 		\begin{equation}
-			|\eta^*| = \frac{\sqrt{G^{'2} + G^{''2}}}{\omega} = \frac{\sqrt{\tau_0}}{\gamma_0 \cdot \omega} \text{,}
+			|\eta^*| = \frac{\sqrt{G^{'2} + G^{''2}}}{\omega} = \frac{\tau_0}{\gamma_0 \cdot \omega} \text{,}
 		\end{equation}
 		is measured. \cite{polyskript}
 
 \newpage
 
+\section{Experimental part}
+
+	
+
 \section{Results}
 
 	\subsection{Rotational measurements}
 
-		After analyzing the different graphs it can be stated that honey has the typicall linear progression wich speaks for a newtonian fluid.
-		By analyzing Graph \ref{honey} in the area from $10^{-1}$- $10^{0}$ of the deformation velocity a non linear part can be observed.
+		After analyzing the different graphs it can be stated that honey has the typical linear progression which speaks for a newtonian fluid.
+		By analyzing Figure \ref{honey} in the area from $10^{-1}$- $10^{0}$ of the deformation velocity a non linear part can be observed.
 		However, this does not mean that honey is a non-Newtonian fluid, but rather that it takes a certain amount of time before measurement accuracy can be guaranteed.
 		This comes from the first "loosening" of the molecules, because these can be intertwinded or stuck in each other.
 		This can also be applied on the other measurements.
@@ -231,13 +236,13 @@
 			\centering
 			\includegraphics[scale = 0.5]{Bilder/Honey.png}
 			\caption{The graph shows the measurements of honey. 
-			On the left y-axis the shear stress and on the right y-axis the velocity is plotted, both of these are plotted against the deformation velocity.}
+			On the left y-axis the shear stress and on the right y-axis the viscosity is plotted, both of these are plotted against the deformation velocity.}
 			\label{honey}
 		\end{figure}
 
 		By applying the same procedure from the honey a clear trend for the 14\%-PVP solution can be observed. 
-		Graph \ref{14PVP} shows a tiny decline in the end wich implies a share thinning non newtonian fluid. 
-		Meaning it has a viscosity decrease with increasing deformation velocity.
+		Figure \ref{14PVP} shows a tiny decline in the end which implies a shear thinning non newtonian fluid. 
+		Meaning it has a viscosity and shear stress decrease with increasing deformation velocity.
 		This is also confirmed after research \cite{martin-alfonso_development_2019}. 
 
 
@@ -245,12 +250,12 @@
 			\centering
 			\includegraphics[scale = 0.5]{Bilder/14_PVP.png}
 			\caption{The graph shows the measurements of 14\%-PVP solution. 
-			On the left y-axis the shear stress and on the right y-axis the velocity is plotted, both of these are plotted against the deformation velocity.}
+			On the left y-axis the shear stress and on the right y-axis the viscosity is plotted, both of these are plotted against the deformation velocity.}
 			\label{14PVP}
 		\end{figure}
 
-		The final measurement of this exercise was the measurement of a 50\% starch solution. Graph \ref{starch} shows a clear exponential funktion wich points to a non newtonian shear thickening fluid.
-		Meaning the viscosity is increasing when increasing the deformation velocity.
+		The next measurement of this exercise was the measurement of a 50\% starch solution. Figure \ref{starch} shows a clear exponential function which points to a non newtonian shear thickening fluid.
+		Meaning the viscosity and shear stress is increasing when increasing the deformation velocity.
 		This is not that surprising because starch is also the main ingredient of oobleck and the properties are pretty known.
 
 
@@ -258,7 +263,7 @@
 			\centering
 			\includegraphics[scale = 0.5]{Bilder/Speisestärke.png}
 			\caption{The graph shows the measurements of a starch solution. 
-			On the left y-axis the shear stress and on the right y-axis the velocity is plotted, both of these are plotted against the deformation velocity.}
+			On the left y-axis the shear stress and on the right y-axis the viscosity is plotted, both of these are plotted against the deformation velocity.}
 			\label{starch}
 		\end{figure}
 	
@@ -269,7 +274,7 @@
 
 		The next task was to determine the viscosity of ketchup in the dependency over time. 
 		This measurement was repeated for three times under the same conditions.
-		After examination of Graph [\ref{20_PVP_amp_eta}], a difference between the viscosity before and after applying the deformation velocity is visible.
+		After examination of Figure \ref{ketchup}, a difference between the viscosity before and after applying the high deformation velocity is visible.
 		This behaviour is typicall for thixotropic liquids. Because these have shear thinning properties after deformation velocity is applied. 
 
 

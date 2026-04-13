@@ -7,7 +7,7 @@ allDataPath = r"D:\Dokumente\Uni laptop\Chemie\Poly\Rheology\Messwerte"
 
 data = ["ketchup1", "ketchup2", "ketchup3"]
 
-plt.xlabel("Time in $s^{-1}$")
+plt.xlabel("Time in $s$")
 plt.ylabel("shear viscosity $\eta$ [Pa$\cdot$ s]")
 plt.yscale("log")
 
