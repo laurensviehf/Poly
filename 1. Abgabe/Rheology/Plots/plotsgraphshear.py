@@ -17,8 +17,8 @@ plt.plot(x, y_parabel, label='shear-thickenning', color='red')
 plt.plot(x, y_wurzel, label='shear-thinning', color='green')
 
 # 4. Design-Elemente hinzufügen
-plt.xlabel(r'shear rate [$\dot\gamma_0$]')
-plt.ylabel(r'shear stress [$\tau$]')
+plt.xlabel(r'shear rate $\dot\gamma_0$ [s$^{-1}$]')
+plt.ylabel(r'shear stress $\tau$ [Pa]')
 #plt.axhline(0, color='black', linewidth=0.5) # x-Achse
 #plt.axvline(0, color='black', linewidth=0.5) # y-Achse
 plt.legend() # Zeigt die Beschriftungen an
