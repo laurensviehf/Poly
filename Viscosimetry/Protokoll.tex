@@ -20,6 +20,7 @@
 \usepackage{tikz}
 \usepackage{siunitx}
 \sisetup{locale = DE,per-mode = symbol}
+\sisetup{output-decimal-marker = {.}}
 \usepackage{esvect}
 \usepackage{geometry}
 \usepackage{pdfpages}
@@ -174,6 +175,7 @@
 		Therefore the equation can be simplyfied.
 			
 			\begin{equation}
+				\label{spezifischeViskosität}
 				\eta_\text{sp} \approx \frac{t-t_0}{t_0}
 			\end{equation}
 
@@ -183,6 +185,7 @@
 		Marc-Howink-Equation.
 		
 			\begin{equation}
+				\label{ViskosiätsnummerundMolekulargewicht}
 				[\eta] = K \cdot \bar{M_\eta^a}
 			\end{equation}
 
@@ -199,15 +202,95 @@
 
 \section{Experimental}
 
-		The three different polymer solutions were already prepared and ready to use. 
-		One pure Toluene solution and thre polymer solutions with different concentrations.
-		all of these four solutions were analyzed with a Viscosimeter.
+		The five different polymer solutions were already prepared and ready to use. 
+		One pure Toluene solution and four polymer solutions with different concentrations.
+		All of these five solutions were analyzed with a Viscosimeter.
 
 \section{Results}
 
+		In order to determine the viscosity-weighted molecular weight $M_\eta$, the specific viscosity $\eta_\text{sp}$ is first calculated. 
+		According to Equation \eqref{spezifischeViskosität}, this depends on the transit time $t$. The transit times and the respective mean 
+		values for all samples are listed in Table \ref{transittimes}. 
 		
+		\begin{table}[H]
+			\centering
+			\caption{Stoffmengenanteile und Massenanteile der Copolymerisation}
+			\label{transittimes}
+			\begin{tabular}{c|ccccc|c}
+				\toprule
+				Concentration [$10^{-3} \, \frac{\text{g}}{\text{ml}}$]& $t_1$ [s] & $t_2$ [s] & $t_3$ [s] & $t_4$ [s] & $t_5$ [s] & Average transit time [s]\\ 
+				\midrule
+				0 & 23.40 & 23.36 & 23.37 & 23.37 & 23.37 & 23.374 \\
+				1.25 & 24.99 & 24.99 & 24.99 & 24.98 & 24.98 & 24.986 \\
+				2.5 & 26.86 & 26.81 & 26.79 & 26.79 & 26.78 & 26.806 \\
+				5 & 32.06 & 32.01 & 32.03 & 32.10 & 32.06 & 32.052 \\
+				10 & 40.42 & 40.37 & 40.35 & 40.35 & 40.36 & 40,370 \\
+				\bottomrule
+			\end{tabular}
+		\end{table}
+		
+		The transit time for the sample with a concentration of 0 is used as the standard time $t_0$. This results in a specific viscosity 
+		of 
+		
+		\begin{equation*}
+			\eta_\text{sp} = \frac{\SI{24.986}{s} - \SI{23.374}{s}}{\SI{23.374}{s}} = 68.966 \cdot 10^{-3}
+		\end{equation*}
+		
+		for the sample with a concentration of $1.25 \cdot 10^{-3}$. The specific viscosity is then divided by the concentration $c$, yielding the 
+		reduced viscosity $\eta_\text{red}$. For the first sample, this results in a reduced viscosity of 
+		
+		\begin{equation*}
+			\eta_\text{red} = \frac{68.966 \cdot 10^{-3}}{1.25 \cdot 10^{-3} \, \frac{\text{g}}{\text{ml}}} = \SI{55.172}{\frac{ml}{g}} \text{.}
+		\end{equation*}
 
+		The specific and reduced viscosities for the other samples are listed in Table \ref{specificreduced}.
 
+		\begin{table}[H]
+			\centering
+			\caption{Specific and reduced viscosity at different polymer concentrations.}
+			\label{specificreduced}
+			\begin{tabular}{c|c|c}
+				\toprule
+				Sampleconcentration [$10^{-3} \, \frac{\text{g}}{\text{ml}}$]& Specific viscosity [$10^{-3}$] & Reduced viscosity [$\frac{\text{ml}}{\text{g}}$]\\ 
+				\midrule
+				1.25 & 68.966 & 55.172 \\
+				2.5 & 146.830 & 58.732 \\
+				5 & 371.267 & 74.253 \\
+				10 & 727.133 & 72.713 \\
+				\bottomrule
+			\end{tabular}
+		\end{table}
+
+		Next, the reduced viscosity is plotted against concentration, a linear regression is performed and the results are extrapolated to 
+		$c = \SI{0}{\frac{g}{ml}}$. The graph is shown in Figure \ref{reducedaufconcplot}.
+
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale = 0.9]{Bilder/reducedaufconc.png}
+				\caption{Reduced viscosity $\eta_\text{red}$ plotted against concentration $c$ using a regression line $\eta_\text{red} = \SI{2033.8}{\frac{ml^2}{g^2}} \cdot c + \SI{55.684}{\frac{ml}{g}}$.}
+				\label{reducedaufconcplot}
+			\end{figure}
+
+		If a concentration of 0 is substituted into the linear equation, only the y-intercept remains, which in itself yields a viscosity 
+		number of $[\eta] = \SI{55.684}{\frac{ml}{g}}$.\\
+
+		This quantity is proportional to the viscosity-weighted molecular weight according to Equation \eqref{ViskosiätsnummerundMolekulargewicht}, 
+		which, when rearranged in terms of the viscosity-weighted molecular weight, yields 
+		
+		\begin{equation}
+			M_\eta = \sqrt[a]{\frac{[\eta]}{K}} \text{.}
+		\end{equation}
+		
+		Using the literature values of $K = \SI{0.012}{\frac{ml}{g}}$ and $a = 0.71$, this results in a viscosity-weighted 
+		molecular weight of 
+		
+		\begin{equation*}
+			M_\eta = \sqrt[0.71]{\frac{\SI{55.684}{\frac{ml}{g}}}{\SI{0.012}{\frac{ml}{g}}}} = 145933.088 \text{.}
+		\end{equation*}
+
+		Therefore the viscosity-weighted molecular weight is $\SI{145933.088}{\frac{g}{mol}}$.\\
+
+		
 \section{Questions}
 
 		\subsection{Question 1}
