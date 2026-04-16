@@ -30,6 +30,7 @@ plt.show()
 # --- Plot 2: G'' ---
 plt.figure() # Erstellt ein frisches Fenster
 plt.xscale("log")
+plt.yscale("log")
 plt.plot(amplitude * 1000, g2, marker = "o")
 
 # plt.ylim() wurde entfernt, da es ohne Argumente die Achsen stören kann
@@ -42,6 +43,7 @@ plt.show()
 # --- Plot 3: Viskosität ---
 plt.figure()
 plt.xscale("log")
+plt.yscale("log")
 plt.plot(amplitude *1000, eta, marker = "o")
 
 plt.xlabel("deformation [%]")

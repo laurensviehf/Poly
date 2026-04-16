@@ -10,6 +10,7 @@ data = ["20_PVP_amp", "20_PVP_frq"]
 plt.xlabel("$\omega$ [$s^{-1}$]")
 plt.ylabel("|$\eta$*| [Pa $\cdot$ s]")
 plt.xscale("log")
+plt.yscale("log")
 
 
 dataFRQ = pd.read_csv(allDataPath + "\\" + data[1] + ".csv", sep = ";", decimal = ",")
