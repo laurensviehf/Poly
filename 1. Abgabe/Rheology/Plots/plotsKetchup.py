@@ -3,11 +3,11 @@ import numpy as np
 import pandas as pd
 from matplotlib.ticker import LogLocator, LogFormatterExponent, ScalarFormatter
 
-allDataPath = r"D:\Dokumente\Uni laptop\Chemie\Poly\Rheology\Messwerte"
+allDataPath = r"D:\Dokumente\Uni laptop\Chemie\Poly\1. Abgabe\Rheology\Messwerte"
 
 data = ["ketchup1", "ketchup2", "ketchup3"]
 
-plt.xlabel("Time in $s^{-1}$")
+plt.xlabel("Time in $s$")
 plt.ylabel("shear viscosity $\eta$ [Pa$\cdot$ s]")
 plt.yscale("log")
 
@@ -25,7 +25,7 @@ plt.legend()
 
 
 
-plt.savefig(r"D:\Dokumente\Uni laptop\Chemie\Poly\Rheology\Bilder" + "\\" + "ketchup")
+plt.savefig(r"D:\Dokumente\Uni laptop\Chemie\Poly\1. Abgabe\Rheology\Bilder" + "\\" + "ketchup.png")
 
 
 

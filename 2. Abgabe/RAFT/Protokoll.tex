@@ -1,0 +1,498 @@
+\documentclass[10pt,a4paper,ngerman]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage[onehalfspacing]{setspace}
+\usepackage{array}
+\usepackage{upgreek}
+\usepackage{float}
+\usepackage{csquotes}
+\usepackage{chemformula}
+\usepackage{chemgreek}
+\usepackage{chemmacros}
+\chemsetup{modules=all}
+\usepackage{tikz}
+\usepackage{siunitx}
+\sisetup{locale = DE,per-mode = symbol}
+\usepackage{esvect}
+\usepackage{geometry}
+\usepackage{pdfpages}
+\usepackage[font=small]{caption}
+%\usepackage[version=4]{mhchem}
+\usepackage[backend=biber, style=chem-angew]{biblatex}
+\addbibresource{Raft.bib}
+\usepackage{tabularx, booktabs, multirow}
+\usepackage[pdfborder={0 0 0}]{hyperref}
+\usepackage{scrlayer-scrpage}%Header für die KOMA-script -Klasse
+%\usepackage{hyperref}
+\usepackage{pgfplots}
+\usepackage{textgreek}
+
+
+\newcommand{\tildenu}{{\fontencoding{LGR}\selectfont\accperispomeni\textnu}}
+\captionsetup{format=plain}
+\chemsetup[phases]{pos=sub}
+\chemsetup[redox]{pos=top}
+\chemsetup[redox]{align=center}
+%\chemsetup[redox]{explicit-sign=true}
+%\chemsetup[redox]{roman=false}
+\newcommand{\celsius}{^{\circ}\mathrm{C}}
+\parindent0pt
+\sloppy
+\DeclareChemPhase{\s}{s}
+\DeclareChemPhase{\l}{l}
+\DeclareChemPhase{\g}{g}
+\renewcaptionname{ngerman}{\figurename}{Abb.}
+\renewcaptionname{ngerman}{\tablename}{Tab.}
+\geometry{bottom=100pt} \geometry{top=80pt}
+\newcommand{\m}{\mathrm{m}}
+\newcommand{\K}{\mathrm{K}}
+\newcommand{\J}{\mathrm{J}}
+\newcommand{\gr}{\mathrm{g}}
+\newcommand{\kg}{\mathrm{kg}}
+\newcommand{\mol}{\mathrm{mol}}
+\newcommand{\Pa}{\mathrm{Pa}}
+\newcommand{\ad}{\mathrm{ad}}
+\newcommand{\de}{\mathrm{de}}
+\newcommand{\gmol}{\mathrm{\frac{g}{mol}}}
+\newcommand{\JKmol}{\mathrm{\frac{J}{K \cdot mol}}}
+\newcommand{\kgmss}{\mathrm{\frac{kg}{m \cdot s^2}}}
+\newcommand{\loge}{\mathrm{ln}}
+
+
+\begin{document}
+\begin{titlepage}
+	\vspace*{2,5cm}
+	\begin{center}
+		\begin{LARGE}
+			\textbf{Polymer Chemie}\\
+			\textbf{Kontrollierte radikalische Polymerisation via RAFT}\\
+		\end{LARGE}
+		\vspace{1cm}
+		\textbf{Universität Stuttgart}\\
+		\vspace*{1,5cm}
+		\begin{tabular}{lp{7,5cm}l}
+			Author 1:     &Laurens Viehoff\\
+            Author 2:     &Felix Roth\\   
+			E-Mail 1:      &st183688@stud.uni-stuttgart.de\\
+            E-Mail 2:      &st188157@stud.uni-stuttgart.de  \\
+			Student-ID 1: & 3676761   \\ 
+            Student-ID 2: & 3711192 \\ \\
+			Assistentin:  & Alina Tengler \\ \\ 
+		\end{tabular}
+	\end{center}
+
+    
+\end{titlepage}
+\thispagestyle{empty}
+\renewcommand{\thepage}{\arabic{page}}
+\newpage
+\tableofcontents
+\setcounter{page}{1}
+\renewcommand{\thepage}{\arabic{page}}
+\newpage
+
+\section{Theorie}
+
+	\subsection{Kontrollierte radikalische Polymerisation}
+
+		Die freie radikalische Polymerisation ist eine leichte und breit anwendbare Polymerisation, welche allerdings nur bedingt lange Polymere und eine breite 
+		Molmassenverteilung aufweist. Daher wurden kontrollierte radikalische Polymerisationen entwickelt, bei welchen längere Ketten und definiertere Molmassenverteilungen 
+		möglich sind. Das Problem an der radikalische Polymerisation sind die Abbruchreaktion, welche sehr häufig und schnell auftreten. Um dieses Problem zu umgehen, 
+		kann beispielsweise die Radikalkonzentration herabgesenkt werden, da somit die Häufigkeit an Terminierungsreaktion quadratisch abfällt. Um dies zu bewirken wird die 
+		aktive Radikalspezies in ein Gleichgewicht eingebunden, bei welchem das Radikal wahrscheinlicher im \textquotedblleft schlafenden\textquotedblright $\,$ Zustand vorliegt. Dies kann beispielsweise mit 
+		stabilen Radikalen, wie Nitroxide oder Übergangsmetalle geschehen. Die Methoden dazu wären einmal die Nitroxid-vermittelte-Polymerisation (NMP) und die 
+		$Atom$ $Transfer$ $Radical$ $Polymerization$ (ATRP). Eine weitere Methode der kontrollierten radikalischen Polymerisation ist die 
+		$Reversible$ $Addition/Fragmentation$ $Chain$ $Transfer$ $Polymerization$ (RAFT). \cite{polyskript}
+
+		\subsubsection{RAFT}
+
+			Bei der RAFT-Polymerisation wird die Radikalkonzentration nicht herabgesenkt, sondern die Kettenlänge kontrolliert. Das geschieht dadurch, dass bei 
+			desaktivierung einer Kette, eine andere Kette aktiviert wird und Polymerisieren kann. Die desaktivierten Ketten werden dann durch eine aktivierte 
+			Polymerkette aktiviert, wodurch diese Polymerisieren kann. Das ganze führt dann dazu, dass die Ketten ein ähnliches Molekulargewicht besitzen.
+			Die Addition einer aktiven Kette und fragmentierung einer desaktivierten Kette erfolgt über eine Thiocarbonylthiogruppe wie sie in Abbildung \ref{RAFTGruppe}
+			gezeigt ist. 
+
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale = 0.35]{Bilder/RAFT-Gruppe.png}
+				\caption{Allgemeiner Aufbau einer Thiocarbonylthiogruppe.}
+				\label{RAFTGruppe}
+			\end{figure}
+
+			Dabei ist wichtig, dass die C=S-Bindung gegenüber Radikalen eine gewisse Reaktivität aufweist. Das wird über den Substituenten $Z$ erreicht, welcher das 
+			Radikal-Intermediat stabilisiert. Des weiteren muss es möglich sein die R-S-Bindung homolytisch zu spalten sein und $R$ muss ein Radikal sein, welches ebenfalls eine Polymerisierung 
+			initiieren können. Für diese Anforderungen gibt es verschiedene Substituenten, die ebenfalls in vier Untergruppen eingeteilt werden können. Die möglichen 
+			RAFT-Reagenzien sind in Tabelle \ref{RAFTReagenzien} aufgeführt.
+
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale = 0.8]{Bilder/RaftGruppentabular.png}
+				\caption{RAFT-Ragenzien mit Struktur und einem Beispiel. \cite{polyskript}}
+				\label{RAFTReagenzien}
+			\end{figure}
+
+			Diese RAFT-Ragenzien sind für unterschiedliche Monomere unterschiedlich gut geeignet und sind somit Monomer spezifisch. So gibt es zum Beispiel stark aktivierte
+			Monomere (MAMs) und weniger stark aktivierte Monomere (LAMs). Bei MAMs werden die entstehenden Radikale durch Substituenten stabilisiert. Dafür sind 
+			beispielsweise konjugierte Doppelbindungen, konjugierte Aromaten oder Kohlenstoffketten substituiert. Da MAMs ihre Radikale gut stabilisieren, müssen die 
+			RAFT-Ragenzien ebenfalls das Radikal stabilisieren, wobei hierfür Dithioester oder Trithiocarbonate am besten geeignet sind. LAMs hingegen stabilisieren das 
+			entstehende Radikal nicht sonderlich gut und benötigen somit RAFT-Reagenzien, die das Radikal weniger gut stabilisieren. Die Polymerisierung wird dann über 
+			Dithiocarbamate oder Xanthanate gesteuert. \\
+			Für ein besseres Verständnis ist der Reaktionsmechanismus der RAFT-Polymerisation in Abbildung \ref{RAFTMechanismus} aufgeführt.
+
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale = 0.8]{Bilder/RAFT-Mechanismus.png}
+				\caption{Mechanismus der RAFT-Polymerisation unter Verwendung eines Dithioesters. \cite{polyskript}}
+				\label{RAFTMechanismus}
+			\end{figure}
+
+			Zu Beginn wird ein Radikal aus einer Radikalquelle freigesetzt (I), welches mit Monomer polymerisiert (II) und zu jeder Zeit an die RAFT-Ragenz koordinieren 
+			kann (III). Durch die Addition eines Radikals entsteht das Zwischenprodukt, welches zum einen durch $Z$ stabilisiert wird und zum anderen das $R$-Radikal 
+			freisetzen kann. Dieses Radikal kann erneut Polymerisieren (IV) und anschließend ebenso an das RAFT-Reagenz addieren, wodurch es die andere Kette freisetzt (V). 
+			Zum Schluss können Radikale, welche nicht koordiniert sind jeder Zeit rekombinieren und somit die Kette terminieren (VI). \\
+			Die Gleichgewichte (III) und (V) sind dabei essenziell, da darüber die Kettenlängen kontrolliert werden und so ein optimaler PDI und optimale Kettenlänge erziehlt 
+			werden kann. Des weiteren wird bei diesen Gleichgewichten noch deutig, warum die stabilisierung durch $Z$ so wichtig ist. Wird dieses Radikal beispielsweise
+			durch ein Phenyl-Substituenten stabilisiert, während das Monomer das Radikal nicht sonderlich gut stabilisiert, wird das Gleichgewicht in Richtung der 
+			Zwischenstufe gedrückt und die Reaktion (IV) verläuft nicht sehr oft. Bei umgekehrter stabilisierung würde das Gleichgewicht in Richtung der aktiven Radikale 
+			gedrückt werden, wodurch die Reaktion einer freien radikalischen Reaktion ähneln würde.\\
+			Um nun eine optimale RAFT-Reaktion zu bedingen, werden die Reagenzien häufig im Verhältnis [I]/[RAFT]/[M] = [1]/[4-10]/[2000-5000] vorgelegt. Des weiteren kann 
+			dann das Molekulargewicht der Reaktion über die Gleichung \eqref{Molekulargewicht} berechnet werden.
+
+			\begin{equation}
+				M_\text{n,Calc} = \left( X \cdot \frac{[\text{M}]_0}{[\text{RAFT}]_0} \cdot m\text{M}\right) + m\text{RAFT}
+				\label{Molekulargewicht}
+			\end{equation}
+
+			$M_\text{n,Calc}$ ist dabei das berechnete Molekulargewicht, $X$ der Monomerumsatz, $m\text{M}$ und $m\text{RAFT}$ beschreiben das Molekulargewicht des Monomers
+			und das RAFT-Reagenz und $[\text{M}]_0$ und $[\text{RAFT}]_0$ beziehen sich auf die Anfangskonzentration von Monomer und RAFT-Reagenz. \cite{polyskript}
+
+
+
+\section{Auswertung}
+
+	\subsection{Polystyrol über RAFT}
+
+		Die Synthese von Polystyrol über RAFT erfolgte über die Reaktionsgleichung in Abbildung \ref{PolystyrolRKT-RAFT}.
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.2]{Bilder/RKTGleichung_PS_CTA.png}
+			\caption{Reaktionsgleichung zur Synthese von Polystyrol über RAFT.}
+			\label{PolystyrolRKT-RAFT}
+		\end{figure}
+
+		Für die Berechnung des Umsatzes wurde die Probe vor Fällung des Polymers mittels NMR-Spektroskopie untersucht. Dabei zeigt die 
+		Abbildung \ref{PSRAFTNMR1} das Spektrum der Probe und die Abbildung \ref{PSNMR} das Spektrum von reinem Styrol.
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.5]{NMR/hGR2_1.1_U.1.fid.pdf}
+			\caption{NMR-Spektrum der Polystyrolprobe vor der Fällung.}
+			\label{PSRAFTNMR1}
+		\end{figure}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.5]{NMR/hStyrol_CDCl3.1.fid.pdf}
+			\caption{NMR-Spektrum von Styrol.}
+			\label{PSNMR}
+		\end{figure}
+		
+		Für die Berechung wurden die Integrale aller Signale bestimmt, aber die der Aromaten zusammengefasst. Aus dem Spektrum des reinen Styrols wurden die Signale den 
+		olefinischen Protonen zugeordnet, woraufhin die Signale aus dem Spektrum der Probe mit ähnlicher Verschiebung ebenfalls den olefinischen Protonen zugeordent werden. 
+		Diese werden dann integriert, auf eins normiert und für die Umsatzrechnung herangezogen.
+		Mit den Integralen der Styrolsignale und der Polymersignale, lässt sich über der Umsatz nach
+
+		\begin{equation}
+			X = \frac{\frac{I_\text{Poly}}{H}}{\frac{I_\text{Poly}}{H} + \frac{I_\text{Mono}}{H}}
+		\end{equation}
+
+		berechnen. Mit den Integralen der Signale bei ungefähr $\delta = \SI{1,2}{ppm} - \SI{2,2}{ppm}$ und $\delta = \SI{5,7}{ppm}$ ermittelt sich für 
+		diese Probe ein Umsatz von $X = 0,1$. \\\\
+
+		Das theoretische Molekulargewicht der Probe lässt sich über die Gleichung \eqref{Molekulargewicht} berechnen. Mit einem Umsatz von $X = 0,1$, 
+		einer Monomer Anfangskonzentration von $[\text{M}]_0 = \SI{30,437}{mmol}$, einer CTA Anfangskonzentration von $[\text{CTA}]_0 = \SI{0,125}{mmol}$ 
+		und den Molekulargewichten von $m\text{M} = \SI{104,15}{\frac{g}{mol}}$ und $m\text{CTA} = \SI{364,63}{\frac{g}{mol}}$ ergibt sich ein 
+		theoretisches Molekulargewicht von
+
+		\begin{equation*}
+			M_\text{n,Calc} = \bigl(0,1 \cdot \frac{\SI{30,437}{mmol}}{\SI{0,125}{mmol}} \cdot \SI{104,15}{\frac{g}{mol}}\bigr) + \SI{364,63}{\frac{g}{mol}} = \SI{2900,64}{\frac{g}{mol}} \text{.}
+		\end{equation*}
+
+		Nach der Fällung in Methanol wurde das Polymer erneut über NMR-Spektroskopie analysiert. Dieses Spektrum ist in Abbildung \ref{PSRAFTNMR2} aufgeführt.
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.5]{NMR/hGR2_1.1.1.fid(clean).pdf}
+			\caption{NMR-Spektrum der Polystyrolprobe nach der Fällung.}
+			\label{PSRAFTNMR2}
+		\end{figure}
+
+		Zu erkennen sind einige Signale, manche Schärfer, manche mit hoher Halbwertsbreite. Die definierten Signale sind dabei kleinen Oligomeren zuzuorden und die breiten dem Polymer.
+		So sind im Bereich von ungefähr $6,5 - \SI{7,2}{ppm}$ die Signale der aromatischen Protonen. Bei $\SI{1,85}{ppm}$ befindet sich das Proton am terziären Kohlenstoff mit dem 
+		Phenylliganden und bei $\SI{1,43}{ppm}$ ist das Signal der Methylengruppe des Polymers. \\
+		In dem Spektrum sind keine olefinischen Signale des Styrols zu erkennen, welche zwischen 5 und $\SI{6}{ppm}$ erscheinen würden. Dazu ist ebenfalls nicht 
+		die Methylgruppe des Lösungsmittel Toluol zu erkennen, welcher bei ungefähr $\SI{2,36}{ppm}$ erscheinen sollte. Somit ist das vorliegende 
+		Polymer trocken und nur kleinere Oligomere sind in dem Polymer vorhanden. 
+
+
+
+
+	\subsection{Polystyrol über freie radikalische Polymerisation}
+
+		Die Synthese von Polystyrol über freie radikalische Polymerisation erfolgte über die Reaktionsgleichung in Abbildung \ref{PolystyrolRKT-FR}.
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.2]{Bilder/RKTGleichung_PS-FR.png}
+			\caption{Reaktionsgleichung zur Synthese von Polystyrol über freie radikalische Polymerisation.}
+			\label{PolystyrolRKT-FR}
+		\end{figure}
+
+		Für die Berechnung des Umsatzes wurde die Probe vor Fällung des Polymers mittels NMR-Spektroskopie untersucht. Dabei zeigt die 
+		Abbildung \ref{PSFRNMR1} das Spektrum der Probe.
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.5]{NMR/hGR2_1.2_U.1.fid.pdf}
+			\caption{NMR-Spektrum der Polystyrolprobe vor der Fällung.}
+			\label{PSFRNMR1}
+		\end{figure}
+		
+		Hierbei wurden ebenfalls die Integrale bestimmt und mit den Integralen der olefinischen Signalen aus der Abbildung \ref{PSNMR} verglichen. Mit den Integralen der 
+		Signale bei ungefähr $\delta = \SI{5,3}{ppm}$ und $\delta = \SI{1,5}{ppm}$ ermittelt sich für diese Probe ein Umsatz von $X = 0,37$. \\\\
+
+		Nach der Fällung in Methanol wurde das Polymer erneut über NMR-Spektroskopie analysiert. Dieses Spektrum ist in Abbildung \ref{PSFRNMR2} aufgeführt.
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.5]{NMR/hGR2_1.2.1.fid(clean).pdf}
+			\caption{NMR-Spektrum der Polystyrolprobe nach der Fällung.}
+			\label{PSFRNMR2}
+		\end{figure}
+
+		Dieses Spektrum zeigt ähnliche Verschiebungen und Integrale wie das Spektrum zum Polystyrol über RAFT in Abbildung \ref{PSRAFTNMR2}. 
+		Allerdings sind noch Signale vom reinen Styrol zu erkennen, welche im Spektrum des Polystyrols über RAFT nicht zu erkennen sind. Das kann 
+		daran liegen, dass die freie radikalische Polymerisierung einen niedrigeren Umsatz besitzt und ebenfalls einen höheren PDI aufweist. Dazu können 
+		die Ketten mit dem Monomer Wechselwirken und dieses hindern zu verdampfen. Des weiteren ist das Produktgemisch nicht trocken, da bei ungefähr 
+		$\SI{2,4}{ppm}$ ein Singulett liegt, welches der Methylgruppe von Toluol zugeordnet werden kann.
+
+
+
+	\subsection{Polystyrol-$co$-Polymethylmethacrylat über RAFT}
+
+		Die Synthese von Polystyrol-$co$-Polymethylmethacrylat über RAFT erfolgte über die Reaktionsgleichung in Abbildung \ref{PScoMMARKT-Raft}.
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.2]{Bilder/RKTGleichung_PScpMMA_CTA.png}
+			\caption{Reaktionsgleichung zur Synthese von Polystyrol-$co$-Polymethylmethacrylat über RAFT.}
+			\label{PScoMMARKT-Raft}
+		\end{figure}
+
+		Für die Berechnung des Umsatzes wurde die Probe ebenfalls vor Fällung des Polymers mittels NMR-Spektroskopie untersucht. Dabei zeigt die 
+		Abbildung \ref{PScoMMANMR1} das Spektrum der Probe.
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.5]{NMR/hGR2_2.1_U.1.fid.pdf}
+			\caption{NMR-Spektrum der Polystyrol-$co$-Polymethylmethacrylat vor der Fällung.}
+			\label{PScoMMANMR1}
+		\end{figure}
+		
+		Für die Berechnung des Umsatzes bei Copolymeren wird das Verhältnis der Integrale des Polymeren $I_\text{Poly}$ zum Gesamtintegral von Polymer und Monomer genommen. 
+
+		\begin{equation}
+			X = \frac{\frac{I_\text{Poly1}}{H} + \frac{I_\text{Poly2}}{H}}{\frac{I_\text{Poly1}}{H} + \frac{I_\text{Poly2}}{H} + \frac{I_\text{Mono,1}}{H} + \frac{I_\text{Mono,2}}{H}}
+		\end{equation}
+
+		Die Integrale $I_\text{Mono,1}$ und $I_\text{Mono,2}$ beziehen sich auf die Integrale der Monomer Protonen. Durch die Division der Integrale mit dem Faktor $H$ 
+		werden diese auf Proton genormt. $H$ steht dementsprechend für die Anzahl an Protonen für dieses Integral.\\
+		Für die Bestimmung der Integrale welche sich während der Reaktion ändern, ist das reine Spektrum vom Methylmethacrylat in Abbildung \ref{MMANMR} aufgeführt.
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.5]{NMR/hMMA_CDCl3.1.fid.pdf}
+			\caption{NMR-Spektrum von Methylmethacrylat.}
+			\label{MMANMR}
+		\end{figure}
+
+		Zu erkennen sind vier Signale, wovon zwei im olefinischen Bereich sind, eins im aliphatischen und eins im tieffeld verschobenen aliphatischen Bereich.
+		Mit Integralen von eins sind Signale bei $\SI{5,5}{ppm}$ und $\SI{6,1}{ppm}$ den olefinischen Protonen am Methylmethacrylat zuzuordnen. Das Signal bei $\SI{3,75}{ppm}$
+		und einem Integral von drei ist der Methoxygruppe zuzuorden und das letzte Integral der Methylgruppe. \\
+		Im Spektrum der Probe sind die Signale im olefinischen mit ähnlicher Verschiebung zu erkennen. 
+		Hinzu kommen allerdings die Signale des Styrols und das Signal bei 
+		$\SI{2,5}{ppm}$ mit einem Integral von $I_\text{poly} = 10,74$, welches der Methylengruppe des Toluols entspricht. 
+		Mit diesen Informationen erfolgt ein Umsatz von 
+
+		\begin{equation*}
+			X = \frac{\frac{0,11}{3} + \frac{0,2}{3}}{\frac{0,11}{3} + \frac{2,46}{1} + \frac{1}{1} + \frac{0,2}{3}} = 0,03 \text{,}
+		\end{equation*}
+
+		welcher zu einem Molekulargewicht von 
+
+		\begin{align*}
+			M_\text{n,Calc} &= \left( 0,03 \cdot \frac{\SI{30,437}{mmol} + \SI{15,089}{mmol}}{\SI{0,121}{mmol}} \cdot (\SI{104,15}{\frac{g}{mol}} + \SI{100,11}{\frac{g}{mol}})\right) + \SI{364,63}{\frac{g}{mol}} \\
+			&= \SI{2670,20}{\frac{g}{mol}}
+		\end{align*}
+
+		führt. \\\\
+		%Das Integral bei einer Verschiebung von $\SI{3,75}{ppm}$ aus der Abbildung \ref{PSFRNMR1} wird zu 3,1 normiert, wodurch sich ein Umrechenfaktor von 
+		
+		%\begin{equation*}
+		%	a = \frac{3,1}{0,67} = 4,627
+		%\end{equation*}
+		%ergibt. Dieser Faktor wird mit den Integralen der Singuletts im olephinischen Bereich multipliziert und von 1 abgezogen um den Umsatz zu berechnen.
+		
+		%\begin{equation*}
+		%	X = 1 - 4,627 \cdot 0,21 = 0,028
+		%\end{equation*}
+		
+		Nach der Fällung in Methanol wurde das Polymer erneut über NMR-Spektroskopie analysiert. Dieses Spektrum ist in Abbildung \ref{PSFRNMR2} aufgeführt.
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.5]{NMR/hGR2_2.1.1.fid(clean).pdf}
+			\caption{NMR-Spektrum der Polystyrolprobe nach der Fällung.}
+			\label{PScoMMARAFTNMR2}
+		\end{figure}
+
+		Zu erkennen ist ein sehr prominentes Signal bei $\SI{7,26}{ppm}$, welches das Lösungsmittel Chloroform darstellt. 
+		Die restlichen Signale weisen eine geringere Intensität aber hohe Halbwertsbreite auf, womit sie den Polymeren zuzuordnen sind. 
+		Bei ungefähr $\SI{7}{ppm}$ befinden sich die Signale der aromatischen Protonen mit einem Integral von fünf. Bei einer Verschiebung von 3 bis $\SI{3,5}{ppm}$ befindet sich die 
+		Methoxygruppe des Methylmethacrylats mit einem Integral von drei. Die restlichen Methylgruppen, Methylengruppen und benzylischen Protonen befinden sich im Signal von 1,4 bis $\SI{2}{ppm}$ mit dem Integral von acht.
+		Wie bei der Synthese von Polystyrol über RAFT sind hier ebenfalls keine Lösungsmittel oder Monomer Signale zu erkennen, wodurch dieses Produkt 
+		einigermaßen Sauber sein sollte.
+		
+	\subsection{Polystyrol-$co$-Polymethylmethacrylat über freie radikalische Polymerisation}
+
+		Die Synthese von Polystyrol-$co$-Polymethylmethacrylat über RAFT erfolgte über die Reaktionsgleichung in Abbildung \ref{PolystyrolRKT-FR}.
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.2]{Bilder/RKTGleichung_PScpMMA_FR.png}
+			\caption{Reaktionsgleichung zur Synthese von Polystyrol-$co$-Polymethylmethacrylat über freie radikalische Polymerisation.}
+			\label{PolystyrolRKT-FR}
+		\end{figure}
+
+		Die Abbildung \ref{PScoMMAFRNMR1} zeigt das NMR-Spektrum der Probe vor dem Fällen in Methanol.
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.5]{NMR/hGR2_2.2_U.1.fid.pdf}
+			\caption{NMR-Spektrum der Polystyrol-$co$-Polymethylmethacrylatprobe vor der Fällung.}
+			\label{PScoMMAFRNMR1}
+		\end{figure}
+
+		Hier werden für die Umsatzrechnung die Signale bei $\SI{5,6}{ppm}$, $\SI{5,3}{ppm}$ und $\SI{3,2}{ppm}$ verwendet. 
+		Die Integrale sind dabei $I_\text{poly} = 3,30$,
+		$I_\text{Mono,1} = 1,37$ und $I_\text{Mono,2} = 1,26$. 
+		Hierbei wurde für das MMA die Protonen der Methylguppe am Backbone genommen und für das Styrol wieder das einzelen Proton am Backbone.	
+		Damit ergibt sich ein Umsatz von 
+
+		\begin{equation*}
+			X = \frac{\frac{3,30}{3}+\frac{3,92}{3}}{\frac{3,30}{3} + \frac{1,37}{1} + \frac{1,26}{1} + \frac{3,92}{3}} = 0,48 \text{.}
+		\end{equation*}
+
+		Das nachfolgende Spektrum zeigt das NMR-Spektrum von der Polystyrol-$co$-Polymethylmethacrylatprobe nach der Fällung.
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.5]{NMR/hGR2_2.1.1.fid(clean).pdf}
+			\caption{NMR-Spektrum der Polystyrol-$co$-Polymethylmethacrylatprobe nach der Fällung.}
+			\label{PScoMMAFRNMR2}
+		\end{figure}
+
+		Zu erkennen sind Hauptsächlich drei verschiedene Bereiche für Signale. Einmal befinden sich im Bereich um $\SI{7}{ppm}$ ein verbreitertes Signal mit einem Integral 
+		von fünf, bei einer Verschiebung von $\SI{3,49}{ppm}$ und $\SI{3,29}{ppm}$ befindet sich ein Dublett mit Integral drei und bei einem Bereich von 1,42 bis $\SI{1,94}{ppm}$ 
+		überlagern sich einige Signale zu einem Integral von acht. 
+
+
+\subsection{Vergleich RAFT und freie radikalische Polymerisation}
+
+		Unterschiede beider techniken sind in den Ausbeuten ersichtlich. Bei den Polymerisierungen über RAFT wurde ein deutlich geringerer Umsatz 
+		erziehlt als bei den freien radikalischen Polymerisationen. Ein Grund dafür kann die kontrolle bei RAFT sein und sie reduktion der Zeit, 
+		die die Radikale reaktiv sind. Dazu ist der Umsatz bei der Copolymerisation auch beide male niedriger als bei dem Homopolymer. Dafür kann die 
+		stabilität von MMA-Radikalen sein, da diese weniger stabil sind und so nicht sehr breit Umgesetzt wurden.
+
+		Die Ausbeuten konnten durch die oben genannten eingesetzten Mengen und die Auswagen berechnet werden. Die Polymermassen die erreicht 
+		wurden waren $m_\text{P, RAFT, PS} = \SI{0,154}{g}$, $m_\text{P, Freie, PS} = \SI{1,114}{g}$, $m_\text{P, RAFT, CoPo} = \SI{0,081}{g}$ und $m_\text{P, Freie, CoPo} = \SI{0,154}{g}$.
+		Die Monomereinwagen lagen bei $m_\text{M, PS} = \SI{3,185}{g}$ und $m_\text{M, Freie, CoPo} = \SI{1,5925}{g}$. Damit ergeben sich die Ausbeuten von
+
+
+			\begin{eqnarray}
+				A =& \frac{m_\text{P}}{m_\text{M}}\cdot 100\%\\
+				A_\text{RAFT,PS} =& 4,84\% \text{,}\\
+				A_\text{Freie,PS} =& 34,98\% \text{,}\\
+				A_\text{RAFT,CoPo} =& 5,09\% \text{,}\\
+				\text{und} \\
+				A_\text{Freie,CoPo} =& 9,67\%	\text{.}		
+			\end{eqnarray}
+
+		Diese großen unterschiede in der Ausbeute werden auch in den jeweiligen molaren Massen deutlich. 
+
+
+\section{Durchführung}
+
+	Alle unten aufgeführten Versuche wurden unter Schlenkbedingungen durchgeführt.
+	
+	\subsection{Polystyrol über RAFT}
+
+		In ein $\SI{20}{ml}$ Probengläschen wurden Styrol ($\SI{3,5}{mL}$, $\SI{30,437}{mmol}$), Azobis-isobutyronitril (AIBN) ($\SI{5,4}{mg}$, $\SI{0,033}{mmol}$), 
+		2-(Dodecylthiocarbonothioylthio)-2-methylpropionsäure (CTA) ($\SI{45,5}{mg}$, $\SI{0,125}{mmol}$) und Toluol ($\SI{5}{mL}$) vorgelegt. Das Probengläschen wurde 
+		anschließend 20 Minuten mit Argon gespült und für 4,5 Stunden bei 70 $\celsius$ gerührt. Dann wurde die Reaktionslösung abgekühlt, in Methanol gefällt, 
+		woraufhin der Feststoff  wurde und im Vakuumtrockenschrank getrocknet wurde.
+
+	\subsection{Polystyrol über freie radikalische Polymerisation}
+
+		In ein $\SI{20}{ml}$ Probengläschen wurden Styrol ($\SI{3,5}{mL}$, $\SI{30,437}{mmol}$), AIBN ($\SI{62,2}{mg}$, $\SI{0,379}{mmol}$) und Toluol ($\SI{5}{mL}$) 
+		vorgelegt. Das Probengläschen wurde anschließend 20 Minuten mit Argon gespült und für 4,5 Stunden bei 70 $\celsius$ gerührt. Dann wurde die Reaktionslösung 
+		abgekühlt, in Methanol gefällt, woraufhin der Feststoff abfiltriert wurde wurde und im Vakuumtrockenschrank getrocknet wurde.
+	
+	\subsection{Polystyrol-$co$-Polymethylmethacrylat über RAFT}
+
+		In ein $\SI{20}{ml}$ Probengläschen wurden Styrol ($\SI{1,75}{mL}$, $\SI{15,266}{mmol}$), Methylmethacrylat ($\SI{1,6}{mL}$, $\SI{15,09}{mmol}$) AIBN ($\SI{7,0}{mg}$, $\SI{0,043}{mmol}$), 
+		CTA ($\SI{44,2}{mg}$, $\SI{0,121}{mmol}$) und Toluol ($\SI{5}{mL}$) vorgelegt. Das Probengläschen wurde 
+		anschließend 20 Minuten mit Argon gespült und für 4,5 Stunden bei 70 $\celsius$ gerührt. Dann wurde die Reaktionslösung abgekühlt, in Methanol gefällt, 
+		woraufhin der Feststoff abzentrifugiert wurde und im Vakuumtrockenschrank getrocknet wurde.
+
+	\subsection{Polystyrol-$co$-Polymethylmethacrylat über freie radikalische Polymerisation}
+
+		In ein $\SI{20}{ml}$ Probengläschen wurden Styrol ($\SI{1,75}{mL}$, $\SI{15,266}{mmol}$), Methylmethacrylat ($\SI{1,6}{mL}$, $\SI{15,09}{mmol}$) AIBN ($\SI{64,6}{mg}$, $\SI{0,393}{mmol}$) 
+		und Toluol ($\SI{5}{mL}$) vorgelegt. Das Probengläschen wurde 
+		anschließend 20 Minuten mit Argon gespült und für 4,5 Stunden bei 70 $\celsius$ gerührt. Dann wurde die Reaktionslösung abgekühlt, in Methanol gefällt, 
+		woraufhin der Feststoff abzentrifugiert wurde und im Vakuumtrockenschrank getrocknet wurde.
+	
+\section{Fragen}
+
+	\subsection{Frage 1}
+
+		Durch die Verwendung von Metallkatalysatoren sind die Reaktionen Luftempfindlich, da sie leicht oxidieren können. Dazu sind Metallionen Polar und das Lösemittel 
+		und Monomer nicht, weshalb Liganden benötigt werde, die das Metallion löslich machen. Als letzten Punkt muss das Metallzentrum in zwei Oxidationsstufen vorliegen 
+		können, das bedeutet, dass beide Oxidationsstufen stabile Ionen bilden müssen.
+	
+	\subsection{Frage 2}
+
+		Bei radikalischen Reaktionen kommt es immer zu Abbruchreaktionen, wie Rekombination oder Disproportionierung. Die Abbruchreaktionen können bei jeder kontrollierten 
+		radikalischen Polymerisation trotzdem ablaufen. Würden die kontrollierten Polymerisationen also lebend ablaufen, dürften die Abbruchreaktionen nicht ablaufen und 
+		das Radikal müsste bestehen bleiben.
+	
+	\subsection{Frage 3}
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.8]{Bilder/switchableAgent.png}
+			\caption{Beispiel einer schaltbaren RAFT-Reagenz zur Darstellung von Polystyrol-$b$-Polymethacrylat. \cite{benaglia_polystyrene-block-polyvinyl_2009}}
+			\label{RAFTswitchableAgent}
+		\end{figure}
+	
+\printbibliography
+
+\end{document}

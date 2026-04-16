@@ -152,8 +152,8 @@
 	\subsection{Behaviour of matter}
 		
 		\subsubsection{Elastic}
-			The elastic behaviour of a polymer can be compared to that of a rubber band or a spring. When a force is applied, causing deformation or shear stress, 
-			the polymer responds by undergoing shear or deformation, and returns to it's original state once the force is removed. \cite{polyskript}
+			The elastic behaviour of a material can be compared to that of a rubber band or a spring. When a force is applied, causing deformation or shear stress, 
+			the material responds by undergoing shear or deformation, and returns to its original state once the force is removed. \cite{polyskript}
 		\subsubsection{Viscous}
 			In the case of viscous behaviour, the material deforms continuously when a force is applied and retains its deformation once the force is removed. \cite{polyskript}
 		\subsubsection{Plastic}
@@ -163,9 +163,9 @@
 			Most materials exhibit viscoelastic behaviour, which describes a combination of elastic and viscous behaviour. When a stress is applied, the material will 
 			deform elastically and then continue to deform under further shear stress. If this stress is removed, the deformation is partially reversed, but a slight 
 			deformation remains. This residual deformation depends on whether the material exhibits more elastic or viscous behaviour. \\
-		\subsubsection{Thixotropy and Rheopecty}
+		\subsubsection{Thixotropy and Rheopexy}
 			If the rate of deformation is specified and the viscosity is measured over time, the material may behave differently. In this case, the material may exhibit 
-			time-dependent viscosity. If the viscosity of the material decreases under load and returns to its initial viscosity once the load is removed, this is referred 
+			time-dependent viscosity. If the viscosity of the material decreases under load, it takes time to return to its initial viscosity once the load is removed, this is referred 
 			to as thixotropy. If the initial viscosity is never reached, this is referred to as non-thixotropic behaviour. The viscosity may also increase under load, 
 			in which case the term rheopexy is generally used.
 	
@@ -174,12 +174,12 @@
 		geometry, the rate of deformation of the material depends on the radius. For this reason, the upper plate is often replaced by a slightly conical plate. This 
 		conical plate can then be rotated or oscillated. During rotation, the conical plate can be rotated at different speeds, with either the strain rate or the 
 		stress being applied. This allows the viscosity, strain rate and shear stress to be determined. During oscillation, the stress or strain is again applied, and the 
-		other quantity is thereby determined Furthermore, the cone plate is oscillated only up to a certain deflection and at a specific frequency. This is used to 
+		other quantity (strain or stress) is thereby determined. Furthermore, the cone plate is oscillated only up to a certain deflection and at a specific frequency. This is used to 
 		measure the complex viscosity η, the viscoelasticity and, at the same time, the extent to which the material is more viscous or elastic. The entire process is 
 		determined by varying the deflection and subsequently selecting the frequency, and follows the equations below.\\
 	
 	\subsection{Complex parameters of oscillation}
-		When determining the behaviour of the material, a stress or a strain is first specified. In oscillation measurements, the complex strain is given as a+b
+		When determining the behaviour of the material, a stress or a strain is first specified. In oscillation measurements, the complex strain is given as 
 		\begin{equation}
 			\gamma^* = \gamma_0 \cdot \exp(\text{i} \cdot \omega \cdot t) \text{.}
 		\end{equation}
@@ -187,9 +187,10 @@
 		\begin{equation}
 			\tau^* = \tau_0 \cdot \exp(\text{i} \cdot \omega \cdot t + \delta) \text{.}
 		\end{equation}
-		Here, $\gamma_0$ and $\tau_0$ describe the amplitude of the oscillation, $\omega$ the frequency, and $\delta$ the behaviour of the material. If $\delta$ takes the 
-		value 0, the material behaves elastically; a value of $\frac{\pi}{2}$ corresponds to viscous behaviour, and anything in between corresponds to viscoelastic 
-		behaviour.\\
+		Here, $\gamma_0$ and $\tau_0$ describe the amplitude of the oscillation for the strain and stress, $\omega$ the frequency, and $\delta$ 
+		describes the phase shift between the two quantities in the time domain and, at certain values, characterizes the material. If $\delta$ 
+		takes the value 0, the material behaves elastically; a value of $\frac{\pi}{2}$ corresponds to viscous behaviour, and anything in between 
+		corresponds to viscoelastic behaviour.\\
 		The quotient of shear stress and strain describes the complex modulus, which is expressed as a complex number
 		\begin{equation}
 			G^* = \frac{\tau^*}{\gamma^*} = G^{'} + \text{i} \cdot G^{''}
@@ -209,18 +210,33 @@
 		If the calculation yields a number less than 1, the elastic behaviour dominates; conversely, the viscous behaviour dominates.\\
 		In addition, the complex viscosity, which is given as
 		\begin{equation}
-			|\eta^*| = \frac{\sqrt{G^{'2} + G^{''2}}}{\omega} = \frac{\sqrt{\tau_0}}{\gamma_0 \cdot \omega} \text{,}
+			|\eta^*| = \frac{\sqrt{G^{'2} + G^{''2}}}{\omega} = \frac{\tau_0}{\gamma_0 \cdot \omega} \text{,}
 		\end{equation}
 		is measured. \cite{polyskript}
 
 \newpage
 
+\section{Experimental part}
+
+	The initial measurements involved rotational measurements. First, the flow behavior of honey, a 14 \% PVP solution 
+	($M_\text{w} = \SI{1300000}{\frac{g}{mol}}$), and a starch-water suspension was investigated. For the investigation, a varying shear rate of 
+	$\dot{\gamma} = 0,1$ to $\SI{500}{s^{-1}}$ was applied to the honey, a shear rate of $\dot{\gamma} = 5000$ to $\SI{1}{s^{-1}}$ to the PVP 
+	solution, and a shear rate of $\dot{\gamma} = 1$ to $\SI{100}{s^{-1}}$ to the starch-water suspension. 
+	The next set of rotational measurements was performed on ketchup. However, three measurements were taken, each with a shear rate of 0.25 s$^{-1}$ 
+	applied for the first 20 seconds. Subsequently, a shear rate of 0.1 s$^{-1}$ was applied for 10 seconds, followed by a shear rate of 500 s$^{-1}$ for 10 
+	seconds, after which the shear rate of 0.1 s$^{-1}$ was reapplied for the remaining 125 seconds.\\
+	Finally, an oscillation measurement was performed on a 20 \% PVP solution ($M_\text{w} = \SI{360000}{\frac{g}{mol}}$). To do this, the maximum 
+	possible oscillation amplitude was first determined using a sweep of $\gamma_0 = 5000$ to 1 \% at an angular frequency of 
+	$\omega = \SI{10}{\frac{rad}{s}}$. The maximum possible deformation amplitude of 70 \% was then applied during the angular frequency 
+	measurement, with the angular frequency varying from $\omega = 500$ to $\SI{1}{s^{-1}}$.
+
+
 \section{Results}
 
 	\subsection{Rotational measurements}
 
-		After analyzing the different graphs it can be stated that honey has the typicall linear progression wich speaks for a newtonian fluid.
-		By analyzing Graph \ref{honey} in the area from $10^{-1}$- $10^{0}$ of the deformation velocity a non linear part can be observed.
+		After analyzing the different graphs it can be stated that honey has the typical linear progression which speaks for a newtonian fluid.
+		By analyzing Figure \ref{honey} in the area from $10^{-1}$- $10^{0}$ of the deformation velocity a non linear part can be observed.
 		However, this does not mean that honey is a non-Newtonian fluid, but rather that it takes a certain amount of time before measurement accuracy can be guaranteed.
 		This comes from the first "loosening" of the molecules, because these can be intertwinded or stuck in each other.
 		This can also be applied on the other measurements.
@@ -231,13 +247,14 @@
 			\centering
 			\includegraphics[scale = 0.5]{Bilder/Honey.png}
 			\caption{The graph shows the measurements of honey. 
-			On the left y-axis the shear stress and on the right y-axis the velocity is plotted, both of these are plotted against the deformation velocity.}
+			On the left y-axis the shear stress and on the right y-axis the viscosity is plotted, both of these are plotted against the deformation velocity.}
 			\label{honey}
 		\end{figure}
 
 		By applying the same procedure from the honey a clear trend for the 14\%-PVP solution can be observed. 
-		Graph \ref{14PVP} shows a tiny decline in the end wich implies a share thinning non newtonian fluid. 
-		Meaning it has a viscosity decrease with increasing deformation velocity.
+		Figure \ref{14PVP} shows a tiny decline in the end, which implies a shear thinning non newtonian fluid. 
+		Meaning it has a viscosity and shear stress decrease with increasing deformation velocity. This is because, at higher deformation 
+		stresses, the polymer chains begin to align themselves along the direction of the stress, making them easier to move.
 		This is also confirmed after research \cite{martin-alfonso_development_2019}. 
 
 
@@ -245,20 +262,20 @@
 			\centering
 			\includegraphics[scale = 0.5]{Bilder/14_PVP.png}
 			\caption{The graph shows the measurements of 14\%-PVP solution. 
-			On the left y-axis the shear stress and on the right y-axis the velocity is plotted, both of these are plotted against the deformation velocity.}
+			On the left y-axis the shear stress and on the right y-axis the viscosity is plotted, both of these are plotted against the deformation velocity.}
 			\label{14PVP}
 		\end{figure}
 
-		The final measurement of this exercise was the measurement of a 50\% starch solution. Graph \ref{starch} shows a clear exponential funktion wich points to a non newtonian shear thickening fluid.
-		Meaning the viscosity is increasing when increasing the deformation velocity.
-		This is not that surprising because starch is also the main ingredient of oobleck and the properties are pretty known.
-
+		The next measurement of this exercise was the measurement of a 50\% starch solution. Figure \ref{starch} shows a clear exponential 
+		function which points to a non newtonian shear thickening fluid. Meaning the viscosity and shear stress is increasing when increasing the 
+		deformation velocity. This is because, at higher deformation rates, the particles are compressed, causing the starch molecules to interact 
+		more strongly with one another and thus increasing the viscosity.
 
 		\begin{figure}[H]
 			\centering
 			\includegraphics[scale = 0.5]{Bilder/Speisestärke.png}
 			\caption{The graph shows the measurements of a starch solution. 
-			On the left y-axis the shear stress and on the right y-axis the velocity is plotted, both of these are plotted against the deformation velocity.}
+			On the left y-axis the shear stress and on the right y-axis the viscosity is plotted, both of these are plotted against the deformation velocity.}
 			\label{starch}
 		\end{figure}
 	
@@ -269,9 +286,13 @@
 
 		The next task was to determine the viscosity of ketchup in the dependency over time. 
 		This measurement was repeated for three times under the same conditions.
-		After examination of Graph [\ref{20_PVP_amp_eta}], a difference between the viscosity before and after applying the deformation velocity is visible.
-		This behaviour is typicall for thixotropic liquids. Because these have shear thinning properties after deformation velocity is applied. 
-
+		After examination of Figure \ref{ketchup}, a difference between the viscosity before and after applying the high deformation velocity 
+		is visible. 
+		This is a sign of thixotropic behavior. This behavior is caused by the fact that the interactions within the material change when a higher 
+		stress is applied and subsequently require time to return to their original state. More specifically, this can be observed because the 
+		viscosity decreases sharply after a higher stress is applied. Furthermore, the initial viscosities of the subsequent measurements are 
+		approximately equal to the final viscosity of the previous measurement. Additionally, in measurement 3, a slight increase in viscosity 
+		can be observed starting at 40 seconds, which once again reflects the thixotropic behavior of ketchup.
 
 		\begin{figure}[H]
 			\centering
@@ -283,16 +304,23 @@
 
 	\subsection{Oszillational measurements to determine the viscoelastic properties}
 
-		This experiment was split into two different parts one Amplitude sweep where the frequency was constant and one frequency sweep where the amplitude was constant.
+		This experiment was split into two different parts: amplitude sweep where the frequency was constant and frequency sweep where the amplitude was constant.
 
 	\subsubsection{Strain sweep}
 
-		After conducting the experiment where 20\%-PVP solution was used, here the storage and the loss modules where observed and measured and were plotted against the amplitude [\ref{20_PVP_amp_G1}],[\ref{20_PVP_amp_G2}].
-		Also the complex viscosity was observed and plotted against the amplitude [\ref{20_PVP_amp_eta}].
-		By observing the Graphs [\ref{20_PVP_amp_G1}] and [\ref{20_PVP_amp_G2}] the linear viscoelastic range can be observed at the parts of the graph where the curves stay constant. 
-		After observation a deformation of 72\% could be concluded and an amplitude of 70\% was used in the next experiment.
-		This procedure can be explained with the analogy to DSC and TGA where TGA is done first to get info on the highest temperature before the polymer degrades and this tempereature is used for the DSC.
+		After conducting the experiment where 20\%-PVP solution was used, here the storage and the loss modules where observed and measured and 
+		were plotted against the amplitude (Figure \ref{20_PVP_amp_G1},\ref{20_PVP_amp_G2}).
+		Also the complex viscosity was observed and plotted against the amplitude (Figure \ref{20_PVP_amp_eta}).
+		By observing the Figures \ref{20_PVP_amp_G1} and \ref{20_PVP_amp_G2} the linear viscoelastic range can be observed at the parts of the 
+		graph where the moduli stay constant. 
+		After observation a deformation of 72\% could be concluded and an amplitude of 70\% was used in the next experiment. 
+		These values were determined by observing the point at which the material viscosity no longer 
+		depend on the amplitude. 
+		This procedure can be explained with the analogy to DSC and TGA where TGA is done first to get information on the highest temperature 
+		before the polymer degrades and this tempereature is used for the DSC.
 		In this case the Amplitude sweep is done to determine the highest amplitude possible, which then can be used in the frequency sweep.
+		This is done because, at this amplitude, the viscoelasticity changes, making it impossible to test the sample for its viscoelastic 
+		properties. In particular, this alters the material's interactions, which in turn changes its viscoelasticity.
 
 
 		\begin{figure}[H]
@@ -321,13 +349,14 @@
 	\subsubsection{Frequency sweep}
 
 	Like before briefly said in this part the amplitude was constant and the frequency was changed.
-	Same as in the stress sweep the storage and the loss module where observed [\ref{20_PVP_frq_G1_G2}]. 
-	And the value of $\eta*$ could be determined [\ref{20_PVP_frq_betragEta}]. 
-	In this case when the frequency is increased the storage and the loss moduel also increase, by closer examination a stronger increase can be observed at the storage curve.
+	Same as in the strain sweep the storage and the loss module where observed in Figure \ref{20_PVP_frq_G1_G2}. 
+	And the value of $\eta*$ could be determined from Figure \ref{20_PVP_frq_betragEta}. 
+	In this case when the frequency is increased the storage and the loss moduel also increase, by closer examination a stronger increase can be 
+	observed at the storage curve.
 	This results in a decreasing loss factor, which also results that the elastic properties get more present.
-	In diffrent to the beginning (low frequency), where the viscous properties are more present.\\
-	These observations conclude in the fact, that with increasing frequency the chains of the PVP get more organized. 
-	What leads to a decrease in the loss factor which also leads to a decrease of the viscosity [\ref{20_PVP_frq_betragEta}].
+	In diffrent to the beginning (low frequency), where the viscous properties are more present at higher frequencies.\\
+	With higher frequencies the polymer chains have less time to relax and therefore they are more likely to be in a stretched state.
+	Which leads to a decrease in the loss factor and also leads to a decrease of the viscosity (Figure \ref{20_PVP_frq_betragEta}).
 	
 		\begin{figure}[H]
 			\centering
