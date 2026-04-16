@@ -372,11 +372,11 @@
 				{%
 				\begin{tabular}{ccccccccc}
 					\toprule
-					\textbf{Probe} & \textbf{Initiator-Einwaage (mg)} & \textbf{[I] (mol/L)} & \textbf{$m_{ps}$ (g)} & \textbf{$m_{st}$ (g)} & \textbf{$n_{st}$ (mol)} & \textbf{$U$ (\%)} & \textbf{$\Delta M$} & \textbf{$v_{Br}$} \\
+					\textbf{Probe} & \textbf{Initiator-Einwaage (mg)} & \textbf{[I] (mmol/L)} & \textbf{$m_{ps}$ (g)} & \textbf{$m_{st}$ (g)} & \textbf{$n_{st}$ (mol)} & \textbf{$U$ (\%)} & \textbf{$\Delta M$} & \textbf{$v_{Br}$} \\
 					\midrule
-					1 & 2,60  & 0,00158 & 0,32 & 8,78 & 0,0843 & 0,0352 & 0,3072 & $4,267 \cdot 10^{-5}$ \\
-					2 & 10,10 & 0,00615 & 0,63 & 8,47 & 0,0813 & 0,0692 & 0,6049 & $8,401 \cdot 10^{-5}$ \\
-					3 & 24,60 & 0,01498 & 0,93 & 8,17 & 0,0784 & 0,1022 & 0,8929 & 0,000124 \\
+					1 & 2,60  & 1,58 & 0,32 & 8,78 & 0,08 & 0,04 & 0,31 & $0,043 \cdot 10^{-3}$ \\
+					2 & 10,10 & 6,15 & 0,63 & 8,47 & 0,08 & 0,07 & 0,60 & $0,084 \cdot 10^{-3}$ \\
+					3 & 24,60 & 14,98 & 0,93 & 8,17 & 0,08 & 0,10 & 0,89 & $1,24 \cdot 10^{-3}$ \\
 					\bottomrule
 				\end{tabular}%
 				}
@@ -394,16 +394,18 @@
 		Die Fitgerade wird über folgende Gleichung beschrieben:
 
 			\begin{equation}
-				\log(v_\text{Br}) = 0.4763 \cdot \log([I]) - 3.0318
+				\log(v_\text{Br}) = 0.48  \cdot \log([I]) - 3.03
 			\end{equation}
 
 		Nach Ermitteln der Steigung dieser Gerade konnte die Reaktionsordnung bestimmt werden, welche 0,4763 beträgt.
 		Dies ist ziemlich gut, da diese den theoretischen Wert von 0,5 fast erreicht.
+		Der idealwert von 0,5 beschreibt, die Reaktionsordnung in Bezug auf den Initiator.
+		Dieser sollte 0,5 sein da dies die Potenz der Initiatorkonzentration im Wurzel-I Gesetz beschreibt.
 		Durch extrapolieren der Fitgerade kann die Geschwindigkeitskonstante $k$ ermittelt werden. 
 		Dies wird über folgende Gleichung erreicht:
 
 			\begin{equation}
-				k = 10^{-3.0318- \log{[M]}} = 0,000106
+				k = 10^{-3.0318- \log{[M]}} = 0,106 \cdot 10^{-3}
 			\end{equation}
 
 		
@@ -424,11 +426,11 @@
 				\toprule
 				\textbf{Probe} & \textbf{$m_\text{St}$} & \textbf{$m_\text{MMA}$} & \textbf{$I_\text{St}$} & \textbf{$I_\text{MMA}$} & \textbf{$\frac{m_\text{St}}{m_\text{MMA}}$} & \textbf{$n_\text{St}$} & \textbf{$n_\text{MMA}$} & \textbf{$\frac{n_\text{St}}{n_\text{MMA}}$} \\
 				\midrule
-				1 & 20,83 & 85,77 & 1,00 & 2,57 & 0,243 & 0,2 & 0,857 & 0,233 \\
-				2 & 20,83 & 32,04 & 1,00 & 0,96 & 0,650 & 0,2 & 0,320 & 0,625 \\
-				3 & 20,83 & 14,02 & 1,00 & 0,42 & 1,486 & 0,2 & 0,140 & 1,429 \\
-				4 & 20,83 & 9,34  & 1,00 & 0,28 & 2,229 & 0,2 & 0,093 & 2,145 \\
-				5 & 20,83 & 5,01  & 1,00 & 0,15 & 4,161 & 0,2 & 0,050 & 4,000 \\ 
+				1 & 20,83 & 85,77 & 1,00 & 2,57 & 0,24 & 0,2 & 0,86 & 0,23 \\
+				2 & 20,83 & 32,04 & 1,00 & 0,96 & 0,65 & 0,2 & 0,32 & 0,63 \\
+				3 & 20,83 & 14,02 & 1,00 & 0,42 & 1,49 & 0,2 & 0,14  & 1,43 \\
+				4 & 20,83 & 9,34  & 1,00 & 0,28 & 2,23 & 0,2 & 0,09 & 2,15 \\
+				5 & 20,83 & 5,01  & 1,00 & 0,15 & 4,16 & 0,2 & 0,05 & 4,00 \\ 
 				\bottomrule
 			\end{tabularx}
 		\end{table}
@@ -476,21 +478,21 @@
 					\toprule
 					\textbf{$r_{MMA}$} & \textbf{$r_{St}$} \\
 					\midrule
-					0,1771  & 0,6134  \\
-					0,5826  & 2,3708  \\
-					3,2399  & 13,8874 \\
-					0,6784  & 2,3102  \\
-					4,2858  & 12,8973 \\
-					5,9452  & 11,3267 \\
-					1,1504  & 2,8133  \\
-					6,2297  & 14,2941 \\
-					8,0838  & 12,2002 \\
-					11,1200 & 13,4403 \\
+					0,177  & 0,613  \\
+					0,583  & 2,371  \\
+					3,240  & 13,887 \\
+					0,678  & 2,310  \\
+					4,286  & 12,897 \\
+					5,945  & 11,327 \\
+					1,150  & 2,813  \\
+					6,230  & 14,294 \\
+					8,084  & 12,200 \\
+					11,120 & 13,440 \\
 					\bottomrule
 				\end{tabular}
 			\end{table}
 		
-		Darüber lassen sich nun die Durchschnitte berechnen, welche \O $r_\text{St} = 4.1493$ und \O $r_\text{MMA} = 8,6154$ betragen. 
+		Darüber lassen sich nun die Durchschnitte berechnen, welche \O $r_\text{St} = 4.15$ und \O $r_\text{MMA} = 8,62$ betragen. 
 
 
 	\subsubsection{Copolymerisationsparameter nach Fineman und Ross}
@@ -575,10 +577,6 @@
 				\caption{Die Abbildung zeigt das Copolymerisationsdiagramm der Copolymerisation von Styrol und MMA}
 				\label{Copolymerisationsdiagramm-Graph}
 			\end{figure}
-		
-\section{Fazit}
-
-	
 
 \section{Fragen}
 
