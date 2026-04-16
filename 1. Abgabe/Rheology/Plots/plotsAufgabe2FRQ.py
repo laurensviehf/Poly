@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from matplotlib.ticker import LogLocator, LogFormatterExponent, ScalarFormatter
 
-allDataPath = r"D:\Dokumente\Uni laptop\Chemie\Poly\Rheology\Messwerte"
+allDataPath = r"D:\Dokumente\Uni laptop\Chemie\Poly\1. Abgabe\Rheology\Messwerte"
 
 data = ["20_PVP_amp", "20_PVP_frq"]
 
@@ -21,7 +21,7 @@ tanDelta = dataFRQ["Betrag(Viskosität) [Pa·s]"]
 frequenz = dataFRQ["Kreisfrequenz [1/s]"]
 
 plt.plot(frequenz, tanDelta)
-plt.savefig(r"D:\Dokumente\Uni laptop\Chemie\Poly\Rheology\Bilder" + "\\" + "20_PVP_frq_betragEta")
+plt.savefig(r"D:\Dokumente\Uni laptop\Chemie\Poly\1. Abgabe\Rheology\Bilder" + "\\" + "20_PVP_frq_betragEta.png")
 
 plt.clf()
 
@@ -34,4 +34,4 @@ plt.yscale("log")
 plt.plot(frequenz, g1, label = "G'")
 plt.plot(frequenz, g2, label = "G''")
 plt.legend()
-plt.savefig(r"D:\Dokumente\Uni laptop\Chemie\Poly\Rheology\Bilder" + "\\" + "20_PVP_frq_G1_G2")
+plt.savefig(r"D:\Dokumente\Uni laptop\Chemie\Poly\1. Abgabe\Rheology\Bilder" + "\\" + "20_PVP_frq_G1_G2.png")

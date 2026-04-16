@@ -29,4 +29,4 @@ plt.yticks([])
 plt.ylim(0, 50)
 plt.xlim(0, 50)
 
-plt.savefig(r"C:\Users\rothf\OneDrive\Dokumente\Chemie\Latex_Laurens\Poly\Rheology\Bilder" + "\\" + "schergraph")
+plt.savefig(r"D:\Dokumente\Uni laptop\Chemie\Poly\1. Abgabe\Rheology\Bilder" + "\\" + "schergraph.png")

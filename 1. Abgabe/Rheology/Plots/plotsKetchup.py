@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from matplotlib.ticker import LogLocator, LogFormatterExponent, ScalarFormatter
 
-allDataPath = r"D:\Dokumente\Uni laptop\Chemie\Poly\Rheology\Messwerte"
+allDataPath = r"D:\Dokumente\Uni laptop\Chemie\Poly\1. Abgabe\Rheology\Messwerte"
 
 data = ["ketchup1", "ketchup2", "ketchup3"]
 
@@ -25,7 +25,7 @@ plt.legend()
 
 
 
-plt.savefig(r"D:\Dokumente\Uni laptop\Chemie\Poly\Rheology\Bilder" + "\\" + "ketchup")
+plt.savefig(r"D:\Dokumente\Uni laptop\Chemie\Poly\1. Abgabe\Rheology\Bilder" + "\\" + "ketchup.png")
 
 
 
