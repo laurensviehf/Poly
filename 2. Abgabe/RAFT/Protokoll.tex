@@ -86,6 +86,9 @@
             Student-ID 2: & 3711192 \\ \\
 			Assistentin:  & Alina Tengler \\ \\ 
 		\end{tabular}
+		
+			\vspace{2cm}
+			Version 3\\
 	\end{center}
 
     
@@ -273,18 +276,19 @@
 		Das Molekulargewicht für Polymere über freie radikalische Polymerisation wird über die Formel 
 
 		\begin{equation}
-			M_\text{n} = \frac{X \cdot m_\text{Mono} \cdot 2}{n_\text{Ini}} + 2 \cdot M_\text{Ini}
+			M_\text{n} = \frac{X \cdot m_\text{Styrol}}{n_\text{AIBN}} + M_\text{AIBN} - M_{\ch{N2}}
 		\end{equation}
 
-		berechnet. Dabei wird die eingesetzte Monomereinwage $m_\text{Mono}$ mit dem Umsatz $X$ multipliziert und durch die halbe Initiatorstoffmenge 
-		$n_\text{Ini}$ dividiert. Anschließend wird noch das Molekulargewicht des Initiators $M_\text{Ini}$ addiert, um die Endgruppen zu beachten. Hier 
-		wird allerdings von einem vollkommenden Initiatorumsatz ausgegangen, wodurch der Wert eine niedrigere Stoffmenge erbringen sollte. \\
-		Mit einem Umsatz von $X = 0,37$, einer Styroleinwage von $m_\text{Mono} = \SI{3,185}{g}$, einer AIBN-Stoffmenge von 
-		$n_\text{Ini} = \SI{0,379}{mmol}$ und einem Molekulargewicht von AIBN von $M_\text{Ini} = \SI{164,2}{\frac{g}{mol}}$ ergibt sich ein 
-		theoretisches Molekulargewicht von 
+		berechnet. Dabei wird die eingesetzte Monomereinwage $m_\text{Styrol}$ mit dem Umsatz $X$ multipliziert und durch die Initiatorstoffmenge 
+		$n_\text{AIBN}$ dividiert. Anschließend wird noch das Molekulargewicht des Initiators $M_\text{AIBN}$ addiert und das Molekulargewicht von 
+		Stickstoff abgezogen, um die Endgruppen zu beachten. Hier wird allerdings von einem vollkommenden Initiatorumsatz ausgegangen, wodurch der Wert 
+		eine niedrigere Stoffmenge erbringen sollte. \\
+		Mit einem Umsatz von $X = 0,37$, einer Styroleinwage von $m_\text{Styrol} = \SI{3,185}{g}$, einer AIBN-Stoffmenge von 
+		$n_\text{AIBN} = \SI{0,379}{mmol}$, einem Molekulargewicht von AIBN von $M_\text{AIBN} = \SI{164,2}{\frac{g}{mol}}$ und einem Molekulargewicht von 
+		Stickstoff von $M_{\ch{N2}} = \SI{14,0067}{\frac{g}{mol}}$ ergibt sich ein theoretisches Molekulargewicht von 
 
 		\begin{equation*}
-			M_\text{n} = \frac{0,37 \cdot \SI{3,185}{g} \cdot 2}{\SI{0,379}{mmol}} + 2 \cdot \SI{164,2}{\frac{g}{mol}} = \SI{6547,13}{\frac{g}{mol}} \text{.}
+			M_\text{n} = \frac{0,37 \cdot \SI{3,185}{g}}{\SI{0,379}{mmol}} + \SI{164,2}{\frac{g}{mol}} - \SI{14,0067}{\frac{g}{mol}} = \SI{3259,56}{\frac{g}{mol}} \text{.}
 		\end{equation*}
 
 		Nach der Fällung in Methanol wurde das Polymer erneut über NMR-Spektroskopie analysiert. Dieses Spektrum ist in Abbildung \ref{PSFRNMR2} aufgeführt.
@@ -422,15 +426,16 @@
 		Das Molekulargewicht wird hier über eine leicht abgeänderte Formel berechnet.
 
 		\begin{equation}
-			M_\text{n} = \frac{X \cdot (m_\text{Mono,1} + m_\text{Mono,2}) \cdot 2}{n_\text{Ini}} + 2 \cdot M_\text{Ini}
+			M_\text{n} = \frac{X \cdot (m_\text{Styrol} + m_\text{MMA})}{n_\text{AIBN}} + M_\text{AIBN} - M_{\ch{N2}}
 		\end{equation}
 
-		Mit einem Umsatz von $X = 0,48$, einer Styroleinwage von $m_\text{Mono} = \SI{1,5925}{g}$, einer Methylmethacrylateinwage von 
-		$m_\text{Mono} = \SI{1,504}{g}$ einer AIBN-Stoffmenge von $n_\text{Ini} = \SI{0,393}{mmol}$ und einem Molekulargewicht von AIBN von 
-		$M_\text{Ini} = \SI{164,2}{\frac{g}{mol}}$ ergibt sich ein theoretisches Molekulargewicht von 
+		Mit einem Umsatz von $X = 0,48$, einer Styroleinwage von $m_\text{Styrol} = \SI{1,5925}{g}$, einer Methylmethacrylateinwage von 
+		$m_\text{MMA} = \SI{1,504}{g}$, einer AIBN-Stoffmenge von $n_\text{AIBN} = \SI{0,393}{mmol}$, dem Molekulargewicht von AIBN von 
+		$M_\text{AIBN} = \SI{164,2}{\frac{g}{mol}}$ und dem Molekulargewicht von Stickstoff mit $M_{\ch{N2}} = \SI{14,0067}{\frac{g}{mol}}$ ergibt sich ein 
+		theoretisches Molekulargewicht von 
 
 		\begin{equation*}
-			M_\text{n} = \frac{0,48 \cdot (\SI{1,5925}{g} + \SI{1,504}{g}) \cdot 2}{\SI{0,393}{mmol}} + 2 \cdot \SI{164,2}{\frac{g}{mol}} = \SI{7892,37}{\frac{g}{mol}} \text{.}
+			M_\text{n} = \frac{0,48 \cdot (\SI{1,5925}{g} + \SI{1,504}{g})}{\SI{0,393}{mmol}} + \SI{164,2}{\frac{g}{mol}} - \SI{14,0067}{\frac{g}{mol}} = \SI{3932,18}{\frac{g}{mol}} \text{.}
 		\end{equation*}
 
 		Das nachfolgende Spektrum zeigt das NMR-Spektrum von der Polystyrol-$co$-Polymethylmethacrylatprobe nach der Fällung.
@@ -452,11 +457,12 @@
 		Unterschiede beider Techniken sind in den Ausbeuten ersichtlich. Bei den Polymerisierungen über RAFT wurde ein deutlich geringerer Umsatz 
 		erziehlt als bei den freien radikalischen Polymerisationen. Ein Grund dafür kann die Kontrolle bei RAFT sein und sie Reduktion der Zeit, 
 		die die Radikale reaktiv sind. Dazu ist der Umsatz bei der Copolymerisation auch beide Male niedriger als bei dem Homopolymer. Dafür kann die 
-		stabilität von MMA-Radikalen sein, da diese weniger stabil sind und so nicht sehr breit Umgesetzt wurden. Aufbauend auf dem Umsatz unterscheidet 
-		sich dementsprechend auch das Molekulargewicht. Dabei sind die theoretischen Molekulargewichte der freien radikalischen Polymerisationen höher als 
-		die der Polymerisation über RAFT. Dabei ist aber anzumerken, dass die Molekulargewichte nur doppelt bis dreifach so hoch sind, obwohl die Umsätze 
-		sehr viel höher sind. Dies wird allerdings dadurch verursacht, dass die eingesetzte RAFT-Stoffmenge geringer ist als die eingesetzte 
-		AIBN-Stoffmenge, aber die Monomereinwage gleich bleibt. Dadurch werden weniger Ketten initiiert, die mehr Monomer einbauen können.\\
+		stabilität von MMA-Radikalen sein, da diese weniger stabil sind und so nicht sehr breit Umgesetzt wurden. 
+		Aufbauend auf dem Umsatz unterscheidet sich dementsprechend auch das Molekulargewicht. Dabei sind die theoretischen Molekulargewichte der freien 
+		radikalischen Polymerisationen höher als die der Polymerisation über RAFT. Dabei ist aber anzumerken, dass die Molekulargewichte nur leicht höher 
+		ist, obwohl die Umsätze sehr viel höher sind. Dies wird allerdings dadurch verursacht, dass die eingesetzte RAFT-Stoffmenge 
+		geringer ist als die eingesetzte AIBN-Stoffmenge, aber die Monomereinwage gleich bleibt. Dadurch werden weniger Ketten initiiert, die mehr Monomer 
+		einbauen können.\\
 
 
 		Die Ausbeuten konnten durch die oben genannten eingesetzten Mengen und die Auswagen berechnet werden. Die Polymermassen die erreicht 
