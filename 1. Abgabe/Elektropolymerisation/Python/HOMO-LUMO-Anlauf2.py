@@ -4,8 +4,8 @@ import numpy as np
 from scipy.signal import find_peaks
 
 # 1. Daten einlesen (skiprows=1 überspringt die Zeile mit "")
-df_homo = pd.read_csv(r'D:\Dokumente\Uni laptop\Chemie\Poly\Elektropolymerisation\Messwerte\HOMO_P3HT.txt', sep='\t', skiprows=1, names=['Potential applied (V)', 'WE(1).Current (A)'])
-df_lumo = pd.read_csv(r'D:\Dokumente\Uni laptop\Chemie\Poly\Elektropolymerisation\Messwerte\LUMO_P3HT.txt', sep='\t', skiprows=1, names=['Potential applied (V)', 'WE(1).Current (A)'])
+df_homo = pd.read_csv(r'D:\Dokumente\Uni laptop\Chemie\Poly\1. Abgabe\Elektropolymerisation\Messwerte\HOMO_P3HT.txt', sep='\t', skiprows=1, names=['Potential applied (V)', 'WE(1).Current (A)'])
+df_lumo = pd.read_csv(r'D:\Dokumente\Uni laptop\Chemie\Poly\1. Abgabe\Elektropolymerisation\Messwerte\LUMO_P3HT.txt', sep='\t', skiprows=1, names=['Potential applied (V)', 'WE(1).Current (A)'])
 
 def extract_third_cycle(df):
     """Teilt die CV-Messung in Zyklen auf und extrahiert den dritten Zyklus."""
@@ -127,7 +127,7 @@ ax2.legend(fontsize=10)
 plt.tight_layout()
 
 # Plot als Datei speichern und anzeigen
-plt.savefig(r'D:\Dokumente\Uni laptop\Chemie\Poly\Elektropolymerisation\Bilder\P3HT_Tangents.png')
+plt.savefig(r'D:\Dokumente\Uni laptop\Chemie\Poly\1. Abgabe\Elektropolymerisation\Bilder\P3HT_Tangents.png')
 plt.show()
 
 print(f"HOMO Onset ermittelt bei: {v_on_h:.2f} V")
