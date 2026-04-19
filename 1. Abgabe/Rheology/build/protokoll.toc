@@ -1,0 +1,23 @@
+\babel@toc {british}{}\relax 
+\contentsline {section}{\numberline {1}Theory}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Basic concepts}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Behaviour of matter}{3}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Elastic}{3}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Viscous}{4}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Plastic}{4}{subsubsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}Viscoelastic}{4}{subsubsection.1.2.4}%
+\contentsline {subsubsection}{\numberline {1.2.5}Thixotropy and Rheopexy}{4}{subsubsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.3}Measurement methods}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Complex parameters of oscillation}{5}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Experimental part}{6}{section.2}%
+\contentsline {section}{\numberline {3}Results}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Rotational measurements}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Time dependant measurement of the viscosity}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Oszillational measurements to determine the viscoelastic properties}{9}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Strain sweep}{9}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Frequency sweep}{12}{subsubsection.3.3.2}%
+\contentsline {section}{\numberline {4}Questions}{14}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Question 1}{14}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Question 2}{14}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Question 3}{14}{subsection.4.3}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
