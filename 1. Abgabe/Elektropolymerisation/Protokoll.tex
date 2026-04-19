@@ -148,10 +148,10 @@
 	Die Referenzelektrode hat dabei den Nutzen das Potential zu kontrollieren und um den Start des Potentials festzulegen.
 	Dabei werden meist Standard Wasserstoff Elektroden (SHE) oder Silber/Silberchlord Elektroden verwendet.
 	Im Falle von organischen Lösungsmitteln wird ein Ferrocen/Ferrocenium zusatz verwendet, da die vorher genannten Elektrode nur in Wasser ein 
-	gleichbleibendes Potenzial besitzt. Ebenfalls muss das Potenzial der Ferrocen/Ferrocenium Elektrode vorerst gemessen werden, da diese je nach 
+	gleichbleibendes Potenzial besitzt. Ebenfalls muss das Potenzial des Ferrocen/Ferrocenium Redoxpaars vorerst gemessen werden, da diese je nach 
 	erhalt der Elektrode ein anderes Potential aufweist.
 	%Frage 5 fertig beantworten
-	Ein Potentiometer stellt dabei das Potential zwische Arbeits- und Gegenelektrode ein, sodass der Potentialunterschied $\Delta E$ dem eingestellten Wert entspricht.
+	Ein Potentiometer stellt dabei das Potential zwische Referenzelektrode- und Gegenelektrode ein, sodass der Potentialunterschied $\Delta E$ dem eingestellten Wert entspricht.
 
 		\begin{figure}[H]
 			\centering
@@ -183,15 +183,15 @@
 	
 \section{Auswertung}
 
-	\subsection{Standardmessung der Ferrocen/Ferrocenium Elektrode}
+	\subsection{Standardmessung der Ferrocen/Ferrocenium Redoxpaar}
 
 		Das elektrische Potential kann nicht vollständig abgegeben werden, weswegen innerhalb des ersten Versuchsteil ein Standardpotential festgelegt wurde.
-		Dabei wurde ein Ferrocen/Ferrocenium (Fc/Fc$^+$) Zusatz verwendet mit einer Ag/AgCl-Elektrode als Gegenelektrode.
+		Dabei wurde ein Ferrocen/Ferrocenium (Fc/Fc$^+$) Redoxpaar verwendet mit einer Ag/AgCl-Elektrode als Gegenelektrode.
 		Das aufgenommene CV ist in Abbildung \ref{CV-Fe} aufgezeigt.
 			\begin{figure}[H]
 				\centering
 				\includegraphics[scale = 0.5]{Bilder/Ferrocen.png}
-				\caption{Die Abbildung zeigt das CV von einem Ferrocen/Ferrocenium Zusatz mit einer Ag/AgCl-Elektrode als Gegenelektrode.
+				\caption{Die Abbildung zeigt das CV von einem Ferrocen/Ferrocenium Redoxpaar mit einer Pt-Elektrode als Gegenelektrode.
 				Die gestrichelten Linien sind dabei $E_\text{max}, E_\text{min}$.}
 				\label{CV-Fe}
 			\end{figure}
@@ -211,7 +211,7 @@
 	\subsection{Elektropolymerisation von EDOT}	
 
 		Der folgende Graph \ref{EDOT} zeigt das CV-Diagramm der Polymerisation von EDOT.
-		Durch analysieren des Graphen werden nicht nur die drei Oxidationspeaks rechts erkennbar, sondern auch ein kleiner Peak im Bereich von $\SI{-0,7}{V}$ zu erkennen.
+		Durch analysieren des Graphen werden nicht nur die drei Oxidationspeaks rechts erkennbar, sondern auch ein kleiner Peak im Bereich von $\SI{-1,1}{V}$ - $\SI{0,6}{V}$ zu erkennen.
 		Welcher vorallem im dritten zyklus deutlich wird.
 		Dieser lässt sich durch bereits vorhandenes PEDOT erklären welches oxidiert wird. 
 		Dabei ist wichtig, dass PEDOT ein geringeres Oxidationspotential hat und daher leicht oxidiert werden kann. Das geringere Potential kommt 
@@ -246,7 +246,7 @@
 		Diese CV-Diagramme sind in Abbildung \ref{CV-P3HT} zu sehen, dabei ist die Oxidation oben und die Reduktion unten.
 		Jeweils darüber lässt sich die Energie des HOMO (Oxidation) und die des LUMO (Reduktion) bestimmen. 
 		Wichtig anzumerken ist, dass bei Polymeren keine Halbwertspotentiale bestimmt werden können, da diese keine expliziten Kettenlängen besitzen. 
-		Denn bei längeren koordinierten $\pi$-Systemen ist der HOMO-LUMO-Abstand kleiner und kann leichter oxidiert werden. Daher wird das 
+		Denn bei längeren koordinierten $\pi$-Systemen ist der HOMO-LUMO-Abstand kleiner und kann leichter oxidiert oder reduziert werden kann. Daher wird das 
 		Onset-Potential bestimmt, welches die mindest Spannung beschreibt, die aufzuwenden ist um das Polymer zu oxidieren/reduzieren.
 
 		
@@ -267,16 +267,22 @@
 				\label{CV-P3HT-HOMOLUMO}
 			\end{figure}
 
-		Nach dieser Methode ergab sich ein Oxidations-Onset-Potential von P3HT von $\SI{0,12}{V}$ und ein Reduktions-Onset-Potential von $\SI{-1,63}{V}$. 
-		Da das Potential der Fc/Fc$^+$ Elektrode schon in der Achse verrechnet wurde, beschreibt das Onset-Potential der Oxidation die energetische 
-		Lage des HOMOs mit $\SI{-0,12}{eV}$ und das Onset-Potential der Reduktion die energetische Lage des LUMOs mit $\SI{1,63}{eV}$. Die 
-		Energiedifferenz dieser beiden Werte liegt dabei bei 
+		Nach dieser Methode ergab sich ein Oxidations-Onset-Potential von P3HT von $\SI{0,31}{V}$ und ein Reduktions-Onset-Potential von $\SI{-2,26}{V}$. 
+		Diese werden anschließend noch mit dem Fermi-Skalar verrechnet, wobei
+		Die Energiedifferenz dieser beiden Werte liegt dabei bei
 
 		\begin{equation*}
-			band \, gap = |\SI{-0,12}{eV} - \SI{1,63}{eV}| = \SI{1,75}{eV}
+			band \, gap = |\SI{-0,31}{eV} - \SI{2,26}{eV}| = \SI{2,57}{eV}
 		\end{equation*}
 
-		und beschreibt den HOMO-LUMO-Abstand.
+		und beschreibt den HOMO-LUMO-Abstand. Und es Folgen die jeweiligen Energieniveaus für HOMO und LUMO:
+		
+			\begin{eqnarray}
+				E(\text{HOMO}) =& -(0,31 + 5,1)\\
+							   =& \SI{-5,41}{eV}\\
+				E(\text{LUMO}) =& -(2,26 + 5,1)\\
+							   =& \SI{-7,36}{eV} 
+			\end{eqnarray}
 
 	\subsection{Elektrochrome Eigenschaften von PEDOT}
 
