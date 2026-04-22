@@ -120,21 +120,25 @@
 		
 
 		Viscosity in polymers is influenced by 5 key factors.
-		The first being the chain lenght of the polymer, the longer the chains the more viscouse the fluid gets.
-		This is due to the intramolecular forces.\\
+		The first being the volume of the polymer coil, the bigger the coil the more viscouse the fluid gets.
+		This is due to the frictional forces.\\
 		The second influence is the chemical structure of the polymer, different functional groups mean different intermolecular forces.
 		For example if the side chain has a substituent which can make H-Bonds the viscosity gets lower.
 		In total it can be stated, the stronger the intramolecular forces the lower the viscosity.\\
 
-		The third one is the influence of the solvent. Because different solvents have different properties.
-		If the solvent is better the tangle gets more swallen and the viscosity gets higher.\\
+		The third one is the influence of the solvent. Different solvents interact with polymers to varying degrees. If, for example, the interaction is very strong, 
+		a large amount of solvent will condense onto the polymer and become solvated. However, this also increases the hydrodynamic volume, making the sample more 
+		viscous. The increase in viscosity is due to the fact that, with a higher volume, the particles occupy more surface area, thereby reducing the viscosity 
+		gradient of the solution. \\
 
 		The fourth is the influence of the concentration. This means with different concentration the viscosity changes.
-		This is due to higher concentration leads to more intermolecular forces which raises the viscosity.\\
+		This is because the proportion of small solvent particles decreases, thereby inhibiting diffusion. This occurs because the polymer coils are very large and, 
+		given limited space, have little freedom of movement and become rigid. In addition, the solution increasingly takes on the properties of the pure polymer, which 
+		are usually viscous to solid. \\
 
 		The last but not least influence is the temperature. The viscosity changes with different temperatures, because the movement of the molecules changes.
-		The temperature also destroys the intermolecular forces which leads to a less tangeled structure wich also leads to a less rigid polymer.
-		This results in a lower viscosity. \cite{polyskript}\\
+		If, for example, the temperature rises, the energy of the interactions may be exceeded, causing them to break. Once these interactions are broken, the polymer 
+		becomes more freely mobile and no longer resembles a rigid coil. Consequently, the viscosity decreases.\cite{polyskript}\\
 
 	\subsection{From viscosity to $M_\eta$}
 
@@ -182,14 +186,18 @@
 	\newpage
 
 		To get the viscousmiddeled molecular volume the Staudinger-index is used, and it is connected via the 
-		Marc-Houwink-Equation.
+		Marc-Houwink-Equation. 
 		
 			\begin{equation}
 				\label{ViskosiätsnummerundMolekulargewicht}
 				[\eta] = K \cdot \bar{M_\eta^a}
 			\end{equation}
 
-		This equation is used in combination with the equatoin for the viscositynumber.
+		This relationship between the Staudinger index and molecular weight is the subject of the investigation. This is because the Staudinger-index describes the 
+		viscosity of a solution at infinite dilution, i.e. a polymer chain. Depending on the volume, this chain has a varying degree of influence on viscosity. As this 
+		volume is related to chain length, solvent and temperature, there are also the parameters $K$ and $a$, which take the solvent and temperature into account. The 
+		molecular weight can therefore be determined using the Staudinger index.\\
+		The viscosity at infinite dilution, i.e. the Staudinger-index, is calculated by extrapolating the reduced viscosity to a concentration of $c = 0$.
 
 			\begin{equation}
 				[\eta] = \lim_{c\rightarrow0} (\eta_\text{red}) =\lim_{c\rightarrow0} \left( \frac{\eta_\text{sp}}{c}\right) 
