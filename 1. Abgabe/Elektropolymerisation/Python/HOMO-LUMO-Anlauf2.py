@@ -10,7 +10,7 @@ correction = -0.438
 # Pfade zu den Dateien (bitte hier deine Pfade eintragen)
 path_homo = r'C:\Users\laure\Documents\Uni\Chemie\Semester 5\PolyLab\Poly\1. Abgabe\Elektropolymerisation\Messwerte\HOMO_P3HT.txt'
 path_lumo = r'C:\Users\laure\Documents\Uni\Chemie\Semester 5\PolyLab\Poly\1. Abgabe\Elektropolymerisation\Messwerte\LUMO_P3HT.txt'
-path_save = r'C:\Users\laure\Documents\Uni\Chemie\Semester 5\PolyLab\Poly\1. Abgabe\Elektropolymerisation\Bilder'
+path_save = r'C:\Users\laure\Documents\Uni\Chemie\Semester 5\PolyLab\Poly\1. Abgabe\Elektropolymerisation\Bilder\P3HT_Tangents.png'
 
 # 1. Daten einlesen
 df_homo = pd.read_csv(path_homo, sep='\t', skiprows=1, names=['Potential applied (V)', 'WE(1).Current (A)'])
@@ -139,7 +139,7 @@ ax2.plot(v_line_l, (m_p_l * v_line_l + c_p_l) * 1e6, 'g--', label='Peak Tangente
 ax2.plot(v_on_l, i_on_l * 1e6, 'ro', ms=8, label=f'Onset: {v_on_l:.2f} V')
 
 ax2.set_xlim(-2.2 + correction, 0.2 + correction)
-ax2.set_ylim(-150, 0.1)
+ax2.set_ylim(-150, 5)
 ax2.set_title('Cyclovoltammetrie: LUMO (Korrigiert)', fontsize=14)
 ax2.set_xlabel('Potential (V) [vs. Ref]', fontsize=12)
 ax2.set_ylabel('Current (µA)', fontsize=12)
