@@ -1,0 +1,122 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{polyskript}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Vorlesungsskript, Universität Stuttgart}
+      \field{title}{Institut für Polymerchemie - Polymerpraktikum}
+      \field{urlday}{14}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{März 2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://ilias3.uni-stuttgart.de/ilias.php?baseClass=ilrepositorygui&cmdNode=z5:o1&cmdClass=ilObjFileGUI&cmd=sendfile&ref_id=4385586
+      \endverb
+      \verb{url}
+      \verb https://ilias3.uni-stuttgart.de/ilias.php?baseClass=ilrepositorygui&cmdNode=z5:o1&cmdClass=ilObjFileGUI&cmd=sendfile&ref_id=4385586
+      \endverb
+    \endentry
+    \entry{noauthor_dateipolymerisationsverlauf_2018}{misc}{}{}
+      \list{language}{1}{%
+        {de}%
+      }
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{shorttitle}
+      \field{month}{6}
+      \field{shorttitle}{Datei}
+      \field{title}{Datei:{Polymerisationsverlauf} {Methylmethacrylat}.svg – {Wikipedia}}
+      \field{urlday}{1}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\laure\\Zotero\\storage\\FXMPU3YF\\FilePolymerisationsverlauf_Methylmethacrylat.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://commons.wikimedia.org/wiki/File:Polymerisationsverlauf_Methylmethacrylat.svg
+      \endverb
+      \verb{url}
+      \verb https://commons.wikimedia.org/wiki/File:Polymerisationsverlauf_Methylmethacrylat.svg
+      \endverb
+    \endentry
+    \entry{noauthor_copolymer_2025}{misc}{}{}
+      \list{language}{1}{%
+        {de}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Copolymere sind Polymere (chemische Stoffe aus Makromolekülen), die aus zwei oder mehr verschiedenartigen Monomereinheiten zusammengesetzt sind. Damit unterscheiden sie sich von Homopolymeren. In der Herstellung lassen sich dadurch Produkteigenschaften gezielt steuern.}
+      \field{journaltitle}{Wikipedia}
+      \field{month}{4}
+      \field{note}{Page Version ID: 254820332}
+      \field{title}{Copolymer}
+      \field{urlday}{1}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\laure\\Zotero\\storage\\542Q6ZX9\\index.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/w/index.php?title=Copolymer&oldid=254820332
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/w/index.php?title=Copolymer&oldid=254820332
+      \endverb
+    \endentry
+    \entry{noauthor_copolymerisation_2025}{inreference}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Die Copolymerisation ist eine Sonderform einer Polyreaktion. Sie unterscheidet sich von der „einfachen“ Polyreaktion dadurch, dass statt eines Monomers (= Homopolymerisation) ein Gemisch von zwei oder mehreren chemisch unterschiedlichen Monomeren eingesetzt wird. Das Produkt der Copolymerisation ist ein Copolymer.}
+      \field{booktitle}{Wikipedia}
+      \field{day}{8}
+      \field{langid}{german}
+      \field{month}{8}
+      \field{note}{Page Version {ID}: 258690377}
+      \field{title}{Copolymerisation}
+      \field{urlday}{8}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\rothc\\Zotero\\storage\\EY6MMQTL\\index.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/w/index.php?title=Copolymerisation&oldid=258690377
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/w/index.php?title=Copolymerisation&oldid=258690377
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

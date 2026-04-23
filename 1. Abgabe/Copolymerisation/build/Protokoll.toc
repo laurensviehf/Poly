@@ -1,0 +1,26 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Theorie}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Kinetik der radikalischen Polymerisation}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Kinetik der radikalischen Copolymerisation}{5}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Durchführung}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Teil 1}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Teil 2}{7}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Auswertung}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Versuch 1}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Versuch 2}{9}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Copolymerisationsparameter nach Mayo und Lewis}{9}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Copolymerisationsparameter nach Fineman und Ross}{10}{subsubsection.3.2.2}%
+\contentsline {section}{\numberline {4}Fragen}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Frage 1}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Frage 2}{13}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Frage 3}{13}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Frage 4}{13}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Frage 5}{14}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Frage 6}{15}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Frage 7}{15}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Frage 8}{15}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Frage 9}{16}{subsection.4.9}%
+\contentsline {subsection}{\numberline {4.10}Frage 10}{16}{subsection.4.10}%
+\contentsline {subsection}{\numberline {4.11}Frage 11}{16}{subsection.4.11}%
+\contentsline {subsection}{\numberline {4.12}Frage 12}{16}{subsection.4.12}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
