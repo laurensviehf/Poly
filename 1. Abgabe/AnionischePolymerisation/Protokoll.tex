@@ -86,6 +86,9 @@
             Student-ID 2: & 3711192 \\ \\
 			Assistentin:  &   \\ \\ 
 		\end{tabular}
+		
+		\vspace{2cm}
+		Version 2\\
 	\end{center}
 
     
@@ -218,8 +221,11 @@
 
 \section{Auswertung}
  
-	Nach Auswiegen konnte eine Ausbeute von 63,9\% bestimmt werden. 
-
+	Bei der Synthese wurden $\SI{2,61}{g}$ des Copolymers erhalten. Dieses wurde aus \SI{2,73}{g} Styrol und \SI{1,36}{g} Isopren synthetisiert, womit sich eine Ausbeute von 
+	\begin{equation*}
+		\sigma = \frac{m_\text{Copo}}{m_\text{Styrol} + m_\text{Isopren}} = \frac{\SI{2,61}{g}}{\SI{2,73}{g} + \SI{1,36}{g}} = 0,639 = 63,9\%
+	\end{equation*}
+	ermittelt. \\
 	Nach Ermittlung der Massen durch GPC konnte folgende Kurve erhalten werden:
 
 		\begin{figure}[H]
@@ -229,7 +235,21 @@
 			\label{GPCKurve}
 		\end{figure}
 
-	So konnte über den RI-Detektor eine zahlenmittlere Molmasse von M$_\text{n} = \SI{21660}{g/mol}$ und eine gewichtsmittlere Molmasse von M$_\text{w} = \SI{27060}{g/mol}$ bestimmt werden.
+	Bei dem Chromatogramm sind einige Signale zu erkennen, die auf unterschiedliche Polymerkettenlängen, aber auch auf Monomer oder Lösungsmittel
+	zurückzuführen sind. Das erste Signal bei zwischen 15 und 20 min ist dabei den Polymeren zuzuorden und die Signale, die später auftreten, sind 
+	durch Monomer oder Lösungsmittel verursacht. Die verschiedenen Kurven sind dabei durch zwei Detektoren aufgenommen, wovon die grüne Kurve 
+	durch einen UV/Vis Detektor aufgenommen wurde und die blaue Kurve durch einen RI-Detektor aufgenommen wurde. Der RI Detektor misst dabei 
+	die Änderung des Brechungsindex der Lösung und bestimmt darüber das Molekulargewicht und die Konzentration der Polymerketten.\\
+
+	So konnte über den RI-Detektor eine zahlenmittlere Molmasse von M$_\text{n} = \SI{21660}{g/mol}$ und eine gewichtsmittlere Molmasse von 
+	M$_\text{w} = \SI{27060}{g/mol}$ bestimmt werden. Die ermittelten Molekulargewichte führen zu einem Polydispersitätsindex von \DH = 1,25. 
+	Der Polydispersitätsindex von 1,25 ist dabei ein erwartbarer Wert, da es sich bei der anionischen Polymerisation um eine lebende Polymerisation 
+	handelt und dabei das Molekulargewicht kontrollierbar ist. Allerdings bedeuten Werte größer als 1, dass es sich um eine Verteilung von 
+	Molekulargewichten handelt. Diese Verteilung kann auch in der GPC Kurve erkannt werden, da die Kurve zwischen 15 und 20 min nicht unendlich 
+	scharf ist, sondern eine gewisse Breite aufweist. Die Werte von M$_\text{n}$ und M$_\text{w}$ sind dabei verschieden voneinander, da diese 
+	anders berechnet werden. Bei der gewichtsmittleren Molmasse gehen die schweren Molmassen mehr in das Gewicht ein, da es quadratisch gewichtet wird. 
+	Bei der zahlenmittleren Molmasse werden alle Moleküle gleich gewichtet, wodurch ein kleineres Molekulargewicht herauskommt.
+
 	
 	Das zahlenmittlere Molekulargewicht kann auch theoretisch berechnet werden.
 	Dabei wird wie folgt vorgegangen:
@@ -239,8 +259,9 @@
 		\end{equation}
 
 	Die theoretische Molmasse ist um einiges geringer als die experimentell ermittelte Molmasse. 
-	Dies kann daran liegen, dass Initiator durch Wasserrückstände oder Sauerstoff abreagiert ist, wodurch die Konzentration des Initiators verringert wird. 
-	Dadurch werden die Kettenlängen der einzelnen Polymere länger, wodurch eine höhere Molmasse bewirkt wird. 
+	Das liegt daran, dass die theoretische Molmasse von einem kompletten Umsatz des Initiators ausgeht. Dieser kann aber durch Wasser- oder 
+	Sauerstoffverunreinigungen verringert werden, wodurch die Stoffmenge an Initiator abnimmt und somit die Molmasse steigt. Dadurch, dass 
+	die theoretische Molmasse um etwa die Hälfte niedriger ist, entspricht das einem Initiatorumsatz von ebenfalls etwa 50 \%.
 
 
 \section{Fragen}
